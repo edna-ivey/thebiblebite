@@ -1,17 +1,17 @@
 export function MissionSection() {
   return (
     <section
-      className="mx-auto my-8 grid w-[min(92rem,calc(100%_-_2rem))] items-center gap-6 rounded-[1.75rem] border-2 border-amber-100 bg-[var(--paper)]/80 p-5 shadow-[var(--shadow)] md:w-[min(92rem,calc(100%_-_6rem))] lg:grid-cols-[0.9fr_1.2fr_0.65fr] lg:p-8"
+      className="mx-auto my-8 grid w-[min(92rem,calc(100%_-_2rem))] items-center gap-6 rounded-[1.75rem] border-2 border-amber-100 bg-[var(--paper)]/80 p-5 shadow-[var(--shadow)] md:w-[min(92rem,calc(100%_-_6rem))] lg:grid-cols-[0.9fr_1.35fr_0.72fr] lg:p-8"
       id="mission"
     >
-      <div
-        className="flex min-h-36 items-end justify-center rounded-3xl bg-[#fff1dc] text-[clamp(2.8rem,8vw,4.7rem)]"
-        aria-hidden="true"
-      >
-        <span className="-mx-1 drop-shadow-lg">👧🏾</span>
-        <span className="-mx-1 drop-shadow-lg">👦🏽</span>
-        <span className="-mx-1 drop-shadow-lg">👧🏻</span>
-        <span className="-mx-1 drop-shadow-lg">👦🏻</span>
+      <div className="rounded-[2rem] border border-purple-100 bg-gradient-to-br from-purple-100 via-white to-amber-50 p-6">
+        <p className="text-sm font-black uppercase tracking-[0.16em] text-[var(--purple-dark)]">
+          Quiz. Learn. Grow.
+        </p>
+        <p className="mt-4 text-4xl font-black leading-none text-[var(--ink)]">
+          One small truth.
+          <span className="block text-[var(--purple)]">One day at a time.</span>
+        </p>
       </div>
       <div>
         <h2 className="text-3xl font-black leading-tight text-[var(--ink)]">

@@ -1,15 +1,12 @@
-import Link from "next/link";
 import { DailyBiteCard } from "@/components/DailyBiteCard";
 import { HeroSection } from "@/components/HeroSection";
-import { MissionSection } from "@/components/MissionSection";
 import { TopicPill } from "@/components/TopicPill";
-import { getPublishedBites, getTodayBite } from "@/lib/bites";
+import { getTodayBite } from "@/lib/bites";
 import { getTopics } from "@/lib/topics";
 
 export default function Home() {
   const todayBite = getTodayBite();
   const topics = getTopics();
-  const publishedBites = getPublishedBites();
 
   return (
     <main>
@@ -44,42 +41,6 @@ export default function Home() {
         <div className="mt-6 flex flex-wrap justify-center gap-3">
           {topics.map((topic) => (
             <TopicPill key={topic.slug} topic={topic} />
-          ))}
-        </div>
-      </section>
-
-      <MissionSection />
-
-      <section className="page-shell py-10">
-        <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
-          <div>
-            <p className="text-sm font-black uppercase tracking-[0.14em] text-[var(--purple-dark)]">
-              Archive
-            </p>
-            <h2 className="mt-2 text-3xl font-black">More bites coming soon</h2>
-          </div>
-          <Link
-            className="focus-ring w-max rounded-full bg-white/70 px-4 py-2 text-sm font-black text-[var(--purple-dark)]"
-            href="/archive"
-          >
-            View archive
-          </Link>
-        </div>
-        <div className="mt-6 grid gap-4 md:grid-cols-3">
-          {publishedBites.map((bite) => (
-            <Link
-              className="focus-ring rounded-3xl border border-[var(--line)] bg-white/70 p-5 no-underline shadow-sm hover:border-purple-200"
-              href={`/bites/${bite.slug}`}
-              key={bite.slug}
-            >
-              <p className="text-sm font-black text-[var(--muted)]">
-                {bite.scriptureReference}
-              </p>
-              <h3 className="mt-2 text-xl font-black leading-tight">{bite.title}</h3>
-              <p className="mt-3 text-sm font-bold text-[var(--muted)]">
-                {bite.bigTruth}
-              </p>
-            </Link>
           ))}
         </div>
       </section>

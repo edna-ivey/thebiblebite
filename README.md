@@ -44,6 +44,12 @@ Daily bite content lives outside page components:
 
 Only bites with `status: "published"` appear publicly. Draft and approved bites are excluded from archive, topic pages, homepage preview, static route generation, and individual bite routes.
 
+## Editorial Style
+
+Avoid em dashes in original site copy unless absolutely necessary. Prefer periods, commas, colons, semicolons, parentheses, or sentence breaks.
+
+This rule applies to Bible Bite content fields and original UI copy. Exact Scripture quotations and source attribution should remain faithful to their source text.
+
 ## Deployment
 
 This app is ready for Vercel:

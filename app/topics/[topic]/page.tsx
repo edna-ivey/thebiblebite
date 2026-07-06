@@ -64,7 +64,7 @@ export default async function TopicRoute({
               </p>
               <h2 className="mt-3 text-2xl font-black leading-tight">{bite.title}</h2>
               <p className="mt-3 text-base font-bold leading-relaxed text-[var(--muted)]">
-                {bite.bigTruth}
+                {bite.curiosityHook}
               </p>
             </Link>
           ))

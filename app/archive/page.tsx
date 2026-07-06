@@ -35,9 +35,15 @@ export default function ArchivePage() {
               {getTopicName(bite.topic)}
             </p>
             <h2 className="mt-3 text-2xl font-black leading-tight">{bite.title}</h2>
-            <p className="mt-3 text-base font-bold leading-relaxed text-[var(--muted)]">
-              {bite.bigTruth}
+            <p className="mt-2 text-sm font-black text-[var(--muted)]">
+              {bite.scriptureReference}
             </p>
+            <p className="mt-3 text-base font-bold leading-relaxed text-[var(--muted)]">
+              {bite.curiosityHook}
+            </p>
+            <span className="mt-5 inline-flex rounded-full bg-[var(--purple)] px-4 py-2 text-sm font-black text-white">
+              Open the Bite →
+            </span>
           </Link>
         ))}
       </div>

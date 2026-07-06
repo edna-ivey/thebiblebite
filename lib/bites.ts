@@ -1,9 +1,10 @@
 import { whyDidGodAskAdamWhereAreYou } from "@/content/bites/why-did-god-ask-adam-where-are-you";
 import type { AnswerChoice, BibleBite, BiteStatus } from "@/lib/types";
-import { hasBibleTranslation } from "@/lib/sources";
+import { getBibleReadingUrl, hasBibleBook, hasBibleTranslation } from "@/lib/sources";
 import { hasTopic } from "@/lib/topics";
 
 const VALID_STATUSES: BiteStatus[] = ["draft", "approved", "published"];
+const EM_DASH = "—";
 
 const allBites: BibleBite[] = [whyDidGodAskAdamWhereAreYou];
 
@@ -35,11 +36,56 @@ function validateAnswerChoices(bite: BibleBite) {
   assert(ids.has(bite.correctAnswer), `${bite.slug} correctAnswer must match one answer choice id.`);
 }
 
+function validateNoEmDash(value: string, field: string, slug: string) {
+  assert(!value.includes(EM_DASH), `${slug} uses an em dash in ${field}. Use periods, commas, colons, semicolons, parentheses, or sentence breaks instead.`);
+}
+
+function validateEditorialStyle(bite: BibleBite) {
+  [
+    ["title", bite.title],
+    ["curiosityHook", bite.curiosityHook],
+    ["question", bite.question],
+    ["explanation", bite.explanation],
+    ["bigTruth", bite.bigTruth],
+    ["takeTheBite", bite.takeTheBite],
+    ["prayer", bite.prayer],
+  ].forEach(([field, value]) => validateNoEmDash(value, field, bite.slug));
+
+  bite.answerChoices.forEach((choice) => {
+    validateNoEmDash(choice.text, `answerChoices.${choice.id}`, bite.slug);
+  });
+}
+
+function validateDeeperReading(bite: BibleBite) {
+  const reading = bite.deeperReading;
+
+  assert(typeof reading === "object" && reading !== null, `${bite.slug} is missing deeperReading.`);
+  assert(typeof reading.reference === "string" && reading.reference.trim().length > 0, `${bite.slug} is missing deeperReading.reference.`);
+  assert(typeof reading.book === "string" && reading.book.trim().length > 0, `${bite.slug} is missing deeperReading.book.`);
+  assert(hasBibleBook(reading.book), `${bite.slug} uses unknown deeperReading book ${reading.book}.`);
+  assert(Number.isInteger(reading.chapter) && reading.chapter > 0, `${bite.slug} has invalid deeperReading chapter.`);
+
+  if (reading.verseStart !== undefined) {
+    assert(Number.isInteger(reading.verseStart) && reading.verseStart > 0, `${bite.slug} has invalid deeperReading verseStart.`);
+  }
+
+  if (reading.verseEnd !== undefined) {
+    assert(Number.isInteger(reading.verseEnd) && reading.verseEnd > 0, `${bite.slug} has invalid deeperReading verseEnd.`);
+  }
+
+  if (reading.verseStart !== undefined && reading.verseEnd !== undefined) {
+    assert(reading.verseStart <= reading.verseEnd, `${bite.slug} deeperReading verseStart must be before verseEnd.`);
+  }
+
+  assert(Boolean(getBibleReadingUrl(bite.translation, reading)), `${bite.slug} deeperReading cannot produce a source URL.`);
+}
+
 function validateBite(bite: BibleBite) {
   [
     "date",
     "slug",
     "title",
+    "curiosityHook",
     "scriptureReference",
     "scriptureText",
     "translation",
@@ -50,7 +96,6 @@ function validateBite(bite: BibleBite) {
     "bigTruth",
     "takeTheBite",
     "prayer",
-    "deeperReading",
     "status",
   ].forEach((field) => validateRequiredString(bite, field as keyof BibleBite));
 
@@ -61,6 +106,8 @@ function validateBite(bite: BibleBite) {
   assert(!Number.isNaN(Date.parse(`${bite.date}T00:00:00`)), `${bite.slug} has invalid date ${bite.date}.`);
 
   validateAnswerChoices(bite);
+  validateEditorialStyle(bite);
+  validateDeeperReading(bite);
 }
 
 function validateBites(bites: BibleBite[]) {
