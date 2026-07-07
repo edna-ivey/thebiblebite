@@ -1,11 +1,9 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { BitePage } from "@/components/BitePage";
-import { getPublicBiteBySlug, getPublicBites } from "@/lib/bites";
+import { getPublicBiteBySlug } from "@/lib/bites";
 
-export function generateStaticParams() {
-  return getPublicBites().map((bite) => ({ slug: bite.slug }));
-}
+export const dynamic = "force-dynamic";
 
 export async function generateMetadata({
   params,

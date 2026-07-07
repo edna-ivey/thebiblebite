@@ -4,6 +4,8 @@ import { TopicPill } from "@/components/TopicPill";
 import { getTodayBite } from "@/lib/bites";
 import { getTopics } from "@/lib/topics";
 
+export const dynamic = "force-dynamic";
+
 export default function Home() {
   const todayBite = getTodayBite();
   const topics = getTopics();

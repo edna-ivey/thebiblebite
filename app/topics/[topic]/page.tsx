@@ -2,11 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getPublicBitesByTopic } from "@/lib/bites";
-import { getTopicBySlug, getTopics } from "@/lib/topics";
+import { getTopicBySlug } from "@/lib/topics";
 
-export function generateStaticParams() {
-  return getTopics().map((topic) => ({ topic: topic.slug }));
-}
+export const dynamic = "force-dynamic";
 
 export async function generateMetadata({
   params,

@@ -2,6 +2,8 @@ import { TopicPill } from "@/components/TopicPill";
 import { getPublicBitesByTopic } from "@/lib/bites";
 import { getTopics } from "@/lib/topics";
 
+export const dynamic = "force-dynamic";
+
 export const metadata = {
   title: "Topics",
   description: "Browse Bible Bite quizzes by topic.",

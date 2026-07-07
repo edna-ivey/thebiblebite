@@ -2,6 +2,8 @@ import Link from "next/link";
 import { getPublicBites } from "@/lib/bites";
 import { getTopicName } from "@/lib/topics";
 
+export const dynamic = "force-dynamic";
+
 export const metadata = {
   title: "Archive",
   description: "Browse Bible Bite quizzes and bite-sized lessons.",
