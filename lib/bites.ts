@@ -1,4 +1,12 @@
+import { didJacobReallyWrestleWithGod } from "@/content/bites/did-jacob-really-wrestle-with-god";
+import { didTheSerpentActuallyLieToEve } from "@/content/bites/did-the-serpent-actually-lie-to-eve";
 import { whyDidGodAskAdamWhereAreYou } from "@/content/bites/why-did-god-ask-adam-where-are-you";
+import { whyDidGodAskAbrahamToSacrificeIsaac } from "@/content/bites/why-did-god-ask-abraham-to-sacrifice-isaac";
+import { whyDidGodAcceptAbelsOffering } from "@/content/bites/why-did-god-accept-abels-offering";
+import { whyDidGodRestOnTheSeventhDay } from "@/content/bites/why-did-god-rest-on-the-seventh-day";
+import { whyDidJesusAskQuestionsHeKnewTheAnswersTo } from "@/content/bites/why-did-jesus-ask-questions-he-knew-the-answers-to";
+import { whyDidJesusCryIfLazarusWouldLive } from "@/content/bites/why-did-jesus-cry-if-lazarus-would-live";
+import { whyDidPeopleInGenesisLiveSoLong } from "@/content/bites/why-did-people-in-genesis-live-so-long";
 import { answerBases, questionTypes } from "@/lib/editorialMetadata";
 import { siteConfig } from "@/lib/siteConfig";
 import type { AnswerBasis, AnswerChoice, BibleBite, BiteStatus, QuestionType } from "@/lib/types";
@@ -8,7 +16,17 @@ import { hasTopic } from "@/lib/topics";
 const VALID_STATUSES: BiteStatus[] = ["draft", "approved", "published"];
 const EM_DASH = "—";
 
-const allBites: BibleBite[] = [whyDidGodAskAdamWhereAreYou];
+const allBites: BibleBite[] = [
+  whyDidGodAskAdamWhereAreYou,
+  whyDidGodRestOnTheSeventhDay,
+  didTheSerpentActuallyLieToEve,
+  whyDidGodAcceptAbelsOffering,
+  whyDidPeopleInGenesisLiveSoLong,
+  whyDidGodAskAbrahamToSacrificeIsaac,
+  didJacobReallyWrestleWithGod,
+  whyDidJesusAskQuestionsHeKnewTheAnswersTo,
+  whyDidJesusCryIfLazarusWouldLive,
+];
 
 function assert(condition: boolean, message: string): asserts condition {
   if (!condition) {
@@ -55,6 +73,7 @@ function validateEditorialStyle(bite: BibleBite) {
     ["bigTruth", bite.bigTruth],
     ["takeTheBite", bite.takeTheBite],
     ["prayer", bite.prayer],
+    ["deeperReading.prompt", bite.deeperReading.prompt],
   ].forEach(([field, value]) => validateNoEmDash(value, field, bite.slug));
 
   bite.answerChoices.forEach((choice) => {
@@ -81,6 +100,7 @@ function validateDeeperReading(bite: BibleBite) {
 
   assert(typeof reading === "object" && reading !== null, `${bite.slug} is missing deeperReading.`);
   assert(typeof reading.reference === "string" && reading.reference.trim().length > 0, `${bite.slug} is missing deeperReading.reference.`);
+  assert(typeof reading.prompt === "string" && reading.prompt.trim().length > 0, `${bite.slug} is missing deeperReading.prompt.`);
   assert(typeof reading.book === "string" && reading.book.trim().length > 0, `${bite.slug} is missing deeperReading.book.`);
   assert(hasBibleBook(reading.book), `${bite.slug} uses unknown deeperReading book ${reading.book}.`);
   assert(Number.isInteger(reading.chapter) && reading.chapter > 0, `${bite.slug} has invalid deeperReading chapter.`);

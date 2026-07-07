@@ -30,6 +30,8 @@ export const whyDidGodAskAdamWhereAreYou: BibleBite = {
     "Lord, sometimes I hide from You when I feel ashamed, afraid, or disappointed in myself. I try to cover things, avoid them, or pretend I'm fine when You already know exactly where I am. Thank You for still calling me closer. Help me answer You honestly. Show me where I have been hiding, and give me the courage to step back into Your presence and trust Your heart toward me. Amen.",
   deeperReading: {
     reference: "Genesis 3:8–13",
+    prompt:
+      "Watch the movement in the passage: hiding, calling, fear, honesty, and blame.",
     book: "genesis",
     chapter: 3,
     verseStart: 8,

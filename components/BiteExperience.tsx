@@ -75,8 +75,7 @@ export function BiteExperience({ bite, readingMinutes }: BiteExperienceProps) {
                   Read {deeperReadingReference}
                 </p>
                 <p className="mt-3 text-base font-bold leading-relaxed text-[var(--muted)]">
-                  Watch the movement in the passage: hiding, calling, fear,
-                  honesty, and blame.
+                  {bite.deeperReading.prompt}
                 </p>
                 {deeperReadingUrl ? (
                   <a

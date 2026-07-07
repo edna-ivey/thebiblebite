@@ -29,6 +29,7 @@ export type AnswerChoice = {
 
 export type DeeperReading = {
   reference: string;
+  prompt: string;
   book: BibleBookKey;
   chapter: number;
   verseStart?: number;

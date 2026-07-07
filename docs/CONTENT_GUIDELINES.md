@@ -114,6 +114,19 @@ Prefer:
 
 Do not alter exact Scripture quotations solely to conform to the em dash preference.
 
+## Emoji Use
+
+Emojis are seasoning, not the voice.
+
+- Do not use emojis in quiz questions.
+- Do not use emojis in answer choices.
+- Emojis may appear sparingly in original explanatory copy when they support a natural conversational beat.
+- Usually use no more than one emoji in an explanation.
+- One or two may be acceptable only when genuinely appropriate.
+- Emojis are optional.
+- Do not force an emoji into every Bite.
+- Avoid repetitive AI-style emoji patterns.
+
 ## Review Checklist
 
 ### Question
