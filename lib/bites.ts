@@ -6,6 +6,11 @@ import { whyDidGodAcceptAbelsOffering } from "@/content/bites/why-did-god-accept
 import { whyDidGodRestOnTheSeventhDay } from "@/content/bites/why-did-god-rest-on-the-seventh-day";
 import { whyDidJesusAskQuestionsHeKnewTheAnswersTo } from "@/content/bites/why-did-jesus-ask-questions-he-knew-the-answers-to";
 import { whyDidJesusCryIfLazarusWouldLive } from "@/content/bites/why-did-jesus-cry-if-lazarus-would-live";
+import { whyDidJesusPrayIfHeIsGod } from "@/content/bites/why-did-jesus-pray-if-he-is-god";
+import { whatDidJesusMeanByTurnTheOtherCheek } from "@/content/bites/what-did-jesus-mean-by-turn-the-other-cheek";
+import { doesGodWontGiveYouMoreThanYouCanHandleComeFromTheBible } from "@/content/bites/does-god-wont-give-you-more-than-you-can-handle-come-from-the-bible";
+import { whyWasRahabIncludedInJesusFamilyLine } from "@/content/bites/why-was-rahab-included-in-jesus-family-line";
+import { whyDoesGodSeemDifferentInTheOldTestament } from "@/content/bites/why-does-god-seem-different-in-the-old-testament";
 import { whyDidPeopleInGenesisLiveSoLong } from "@/content/bites/why-did-people-in-genesis-live-so-long";
 import { answerBases, questionTypes } from "@/lib/editorialMetadata";
 import { siteConfig } from "@/lib/siteConfig";
@@ -26,6 +31,11 @@ const allBites: BibleBite[] = [
   didJacobReallyWrestleWithGod,
   whyDidJesusAskQuestionsHeKnewTheAnswersTo,
   whyDidJesusCryIfLazarusWouldLive,
+  whatDidJesusMeanByTurnTheOtherCheek,
+  doesGodWontGiveYouMoreThanYouCanHandleComeFromTheBible,
+  whyDidJesusPrayIfHeIsGod,
+  whyWasRahabIncludedInJesusFamilyLine,
+  whyDoesGodSeemDifferentInTheOldTestament,
 ];
 
 function assert(condition: boolean, message: string): asserts condition {
