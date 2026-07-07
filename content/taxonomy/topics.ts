@@ -2,59 +2,67 @@ import type { Topic } from "@/lib/types";
 
 export const topics: Topic[] = [
   {
-    slug: "faith-foundations",
-    name: "Faith Foundations",
-    description: "Core truths about God, salvation, grace, and following Jesus.",
+    slug: "faith-and-god",
+    name: "Faith & God",
+    description:
+      "God's character, faith, grace, salvation, sin, obedience, covenant, spiritual growth, and relationship with God.",
     icon: "✝",
     accent: "purple",
   },
   {
-    slug: "genesis",
-    name: "Genesis",
-    description: "Beginnings, promises, family, failure, faith, and God’s pursuit.",
-    icon: "🌿",
-    accent: "green",
-  },
-  {
-    slug: "jesus",
-    name: "Jesus",
-    description: "The words, works, compassion, and kingdom of Jesus.",
+    slug: "jesus-and-the-gospel",
+    name: "Jesus & the Gospel",
+    description:
+      "Jesus, His teachings, miracles, parables, discipleship, death, resurrection, and the gospel.",
     icon: "♛",
     accent: "gold",
   },
   {
-    slug: "prayer",
-    name: "Prayer",
-    description: "Learning to talk with God honestly and faithfully.",
-    icon: "🙏",
-    accent: "blue",
-  },
-  {
-    slug: "women-of-the-bible",
-    name: "Women of the Bible",
-    description: "Stories of courage, wisdom, grief, leadership, and faith.",
+    slug: "people-and-stories",
+    name: "People & Stories",
+    description:
+      "Biblical people, relationships, choices, conflicts, and narrative moments involving people throughout Scripture.",
     icon: "♥",
     accent: "rose",
   },
   {
-    slug: "wisdom",
-    name: "Wisdom",
-    description: "Practical Scripture for everyday choices and spiritual maturity.",
+    slug: "bible-and-history",
+    name: "Bible & History",
+    description:
+      "Bible books, ancient context, customs, kingdoms, exile, timelines, geography, historical setting, and how the biblical story fits together.",
+    icon: "▦",
+    accent: "green",
+  },
+  {
+    slug: "prayer-and-worship",
+    name: "Prayer & Worship",
+    description:
+      "Prayer, praise, worship, lament, fasting, Psalms, and direct relationship or communication with God.",
+    icon: "🙏",
+    accent: "teal",
+  },
+  {
+    slug: "wisdom-and-life",
+    name: "Wisdom & Life",
+    description:
+      "Relationships, marriage, parenting, money, work, words, anger, forgiveness, choices, habits, and practical biblical wisdom.",
     icon: "✴",
     accent: "orange",
   },
   {
-    slug: "kids-family",
-    name: "Kids & Family",
-    description: "Approachable bites for families learning Scripture together.",
-    icon: "👥",
-    accent: "teal",
-  },
-  {
     slug: "hard-questions",
     name: "Hard Questions",
-    description: "Honest questions with gentle explanations that help faith grow.",
+    description:
+      "Suffering, judgment, violence, hell, slavery, difficult commands, apparent tensions, difficult theology, and sincere questions people struggle with.",
     icon: "?",
     accent: "purple",
+  },
+  {
+    slug: "weird-and-wonderful",
+    name: "Weird & Wonderful",
+    description:
+      "Strange, surprising, unusual, easily overlooked, or fascinating biblical details, events, creatures, visions, miracles, and mysteries.",
+    icon: "✨",
+    accent: "blue",
   },
 ];

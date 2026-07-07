@@ -1,5 +1,5 @@
 import { TopicPill } from "@/components/TopicPill";
-import { getPublishedBitesByTopic } from "@/lib/bites";
+import { getPublicBitesByTopic } from "@/lib/bites";
 import { getTopics } from "@/lib/topics";
 
 export const metadata = {
@@ -24,23 +24,27 @@ export default function TopicsPage() {
         ))}
       </div>
       <div className="mt-10 grid gap-4 md:grid-cols-2">
-        {topics.map((topic) => (
-          <section
-            className="rounded-3xl border border-[var(--line)] bg-white/70 p-5 shadow-sm"
-            key={topic.slug}
-          >
-            <p className="text-3xl" aria-hidden="true">
-              {topic.icon}
-            </p>
-            <h2 className="mt-3 text-2xl font-black">{topic.name}</h2>
-            <p className="mt-2 text-base font-bold leading-relaxed text-[var(--muted)]">
-              {topic.description}
-            </p>
-            <p className="mt-4 text-sm font-black text-[var(--purple-dark)]">
-              {getPublishedBitesByTopic(topic.slug).length} published bites
-            </p>
-          </section>
-        ))}
+        {topics.map((topic) => {
+          const biteCount = getPublicBitesByTopic(topic.slug).length;
+
+          return (
+            <section
+              className="rounded-3xl border border-[var(--line)] bg-white/70 p-5 shadow-sm"
+              key={topic.slug}
+            >
+              <p className="text-3xl" aria-hidden="true">
+                {topic.icon}
+              </p>
+              <h2 className="mt-3 text-2xl font-black">{topic.name}</h2>
+              <p className="mt-2 text-base font-bold leading-relaxed text-[var(--muted)]">
+                {topic.description}
+              </p>
+              <p className="mt-4 text-sm font-black text-[var(--purple-dark)]">
+                {biteCount} {biteCount === 1 ? "Bite" : "Bites"}
+              </p>
+            </section>
+          );
+        })}
       </div>
     </main>
   );

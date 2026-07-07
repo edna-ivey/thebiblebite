@@ -1,7 +1,7 @@
 import type { BibleBite } from "@/lib/types";
 
 export const whyDidGodAskAdamWhereAreYou: BibleBite = {
-  date: "2026-07-11",
+  date: "2026-07-01",
   slug: "why-did-god-ask-adam-where-are-you",
   title: "Why did God ask Adam, “Where are you?”",
   curiosityHook: "God already knew where Adam was... so why ask?",
@@ -9,7 +9,9 @@ export const whyDidGodAskAdamWhereAreYou: BibleBite = {
   scriptureText:
     "Yahweh God called to the man, and said to him, “Where are you?”",
   translation: "WEB",
-  topic: "genesis",
+  topic: "people-and-stories",
+  questionType: "look-closer",
+  answerBasis: "strong-contextual-inference",
   question:
     "When God asked Adam, “Where are you?”, what was God really doing?",
   answerChoices: [
@@ -33,6 +35,6 @@ export const whyDidGodAskAdamWhereAreYou: BibleBite = {
     verseStart: 8,
     verseEnd: 13,
   },
-  tags: ["Genesis", "honesty", "sin", "relationship", "God’s voice"],
+  tags: ["Genesis", "Adam", "honesty", "shame", "relationship", "God's questions"],
   status: "published",
 };

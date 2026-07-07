@@ -46,6 +46,8 @@ Only bites with `status: "published"` appear publicly. Draft and approved bites 
 
 ## Editorial Style
 
+The authoritative content creation and review guidelines live in `docs/CONTENT_GUIDELINES.md`.
+
 Avoid em dashes in original site copy unless absolutely necessary. Prefer periods, commas, colons, semicolons, parentheses, or sentence breaks.
 
 This rule applies to Bible Bite content fields and original UI copy. Exact Scripture quotations and source attribution should remain faithful to their source text.

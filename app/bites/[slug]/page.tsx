@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { BitePage } from "@/components/BitePage";
-import { getPublishedBiteBySlug, getPublishedBites } from "@/lib/bites";
+import { getPublicBiteBySlug, getPublicBites } from "@/lib/bites";
 
 export function generateStaticParams() {
-  return getPublishedBites().map((bite) => ({ slug: bite.slug }));
+  return getPublicBites().map((bite) => ({ slug: bite.slug }));
 }
 
 export async function generateMetadata({
@@ -13,7 +13,7 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
-  const bite = getPublishedBiteBySlug(slug);
+  const bite = getPublicBiteBySlug(slug);
 
   if (!bite) {
     return {};
@@ -36,7 +36,7 @@ export default async function BiteRoute({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const bite = getPublishedBiteBySlug(slug);
+  const bite = getPublicBiteBySlug(slug);
 
   if (!bite) {
     notFound();

@@ -2,8 +2,25 @@ export type BiteStatus = "draft" | "approved" | "published";
 
 export type BibleTranslationKey = "WEB" | (string & {});
 
-export type TopicSlug = string;
+export type TopicSlug =
+  | "faith-and-god"
+  | "jesus-and-the-gospel"
+  | "people-and-stories"
+  | "bible-and-history"
+  | "prayer-and-worship"
+  | "wisdom-and-life"
+  | "hard-questions"
+  | "weird-and-wonderful";
 export type BibleBookKey = "genesis" | (string & {});
+export type QuestionType =
+  | "look-closer"
+  | "context"
+  | "big-meaning"
+  | "hard-question";
+export type AnswerBasis =
+  | "explicit-text"
+  | "strong-contextual-inference"
+  | "debated";
 
 export type AnswerChoice = {
   id: "A" | "B" | "C" | "D";
@@ -27,6 +44,8 @@ export type BibleBite = {
   scriptureText: string;
   translation: BibleTranslationKey;
   topic: TopicSlug;
+  questionType: QuestionType;
+  answerBasis: AnswerBasis;
   question: string;
   answerChoices: AnswerChoice[];
   correctAnswer: AnswerChoice["id"];

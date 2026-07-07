@@ -1,14 +1,14 @@
 import Link from "next/link";
-import { getPublishedBites } from "@/lib/bites";
+import { getPublicBites } from "@/lib/bites";
 import { getTopicName } from "@/lib/topics";
 
 export const metadata = {
   title: "Archive",
-  description: "Browse published Bible Bite quizzes and bite-sized lessons.",
+  description: "Browse Bible Bite quizzes and bite-sized lessons.",
 };
 
 export default function ArchivePage() {
-  const bites = getPublishedBites();
+  const bites = getPublicBites();
 
   return (
     <main className="page-shell py-12">
@@ -16,7 +16,7 @@ export default function ArchivePage() {
         Archive
       </p>
       <h1 className="mt-3 text-[clamp(3rem,10vw,5.5rem)] font-black leading-[0.95]">
-        Every published bite.
+        Every Bite So Far
       </h1>
       <div className="mt-8 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
         {bites.map((bite) => (

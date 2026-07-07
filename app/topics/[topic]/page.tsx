@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getPublishedBitesByTopic } from "@/lib/bites";
+import { getPublicBitesByTopic } from "@/lib/bites";
 import { getTopicBySlug, getTopics } from "@/lib/topics";
 
 export function generateStaticParams() {
@@ -38,7 +38,7 @@ export default async function TopicRoute({
     notFound();
   }
 
-  const bites = getPublishedBitesByTopic(topic.slug);
+  const bites = getPublicBitesByTopic(topic.slug);
 
   return (
     <main className="page-shell py-12">
@@ -70,7 +70,7 @@ export default async function TopicRoute({
           ))
         ) : (
           <p className="rounded-3xl border border-[var(--line)] bg-white/70 p-5 text-base font-bold text-[var(--muted)]">
-            No published bites here yet.
+            No Bites here yet.
           </p>
         )}
       </div>

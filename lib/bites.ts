@@ -1,5 +1,7 @@
 import { whyDidGodAskAdamWhereAreYou } from "@/content/bites/why-did-god-ask-adam-where-are-you";
-import type { AnswerChoice, BibleBite, BiteStatus } from "@/lib/types";
+import { answerBases, questionTypes } from "@/lib/editorialMetadata";
+import { siteConfig } from "@/lib/siteConfig";
+import type { AnswerBasis, AnswerChoice, BibleBite, BiteStatus, QuestionType } from "@/lib/types";
 import { getBibleReadingUrl, hasBibleBook, hasBibleTranslation } from "@/lib/sources";
 import { hasTopic } from "@/lib/topics";
 
@@ -17,6 +19,10 @@ function assert(condition: boolean, message: string): asserts condition {
 function validateRequiredString(bite: BibleBite, field: keyof BibleBite) {
   const value = bite[field];
   assert(typeof value === "string" && value.trim().length > 0, `${bite.slug || "unknown"} is missing ${String(field)}.`);
+}
+
+function isValidDateOnly(date: string) {
+  return /^\d{4}-\d{2}-\d{2}$/.test(date) && !Number.isNaN(Date.parse(`${date}T00:00:00`));
 }
 
 function validateAnswerChoices(bite: BibleBite) {
@@ -56,6 +62,20 @@ function validateEditorialStyle(bite: BibleBite) {
   });
 }
 
+function validateQuestionType(bite: BibleBite) {
+  assert(
+    questionTypes.includes(bite.questionType as QuestionType),
+    `${bite.slug} has invalid questionType ${bite.questionType}.`,
+  );
+}
+
+function validateAnswerBasis(bite: BibleBite) {
+  assert(
+    answerBases.includes(bite.answerBasis as AnswerBasis),
+    `${bite.slug} has invalid answerBasis ${bite.answerBasis}.`,
+  );
+}
+
 function validateDeeperReading(bite: BibleBite) {
   const reading = bite.deeperReading;
 
@@ -90,6 +110,8 @@ function validateBite(bite: BibleBite) {
     "scriptureText",
     "translation",
     "topic",
+    "questionType",
+    "answerBasis",
     "question",
     "correctAnswer",
     "explanation",
@@ -103,9 +125,11 @@ function validateBite(bite: BibleBite) {
   assert(hasTopic(bite.topic), `${bite.slug} uses unknown topic ${bite.topic}.`);
   assert(hasBibleTranslation(bite.translation), `${bite.slug} uses unknown translation ${bite.translation}.`);
   assert(Array.isArray(bite.tags) && bite.tags.length > 0, `${bite.slug} must have at least one tag.`);
-  assert(!Number.isNaN(Date.parse(`${bite.date}T00:00:00`)), `${bite.slug} has invalid date ${bite.date}.`);
+  assert(isValidDateOnly(bite.date), `${bite.slug} has invalid date ${bite.date}. Use YYYY-MM-DD.`);
 
   validateAnswerChoices(bite);
+  validateQuestionType(bite);
+  validateAnswerBasis(bite);
   validateEditorialStyle(bite);
   validateDeeperReading(bite);
 }
@@ -133,31 +157,58 @@ export function getAllBites() {
   return [...allBites].sort(sortByDateDesc);
 }
 
-export function getPublishedBites() {
-  return getAllBites().filter((bite) => bite.status === "published");
+export function getPublicationDate(now = new Date()) {
+  const parts = new Intl.DateTimeFormat("en-US", {
+    timeZone: siteConfig.publicationTimeZone,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).formatToParts(now);
+
+  const year = parts.find((part) => part.type === "year")?.value;
+  const month = parts.find((part) => part.type === "month")?.value;
+  const day = parts.find((part) => part.type === "day")?.value;
+
+  assert(Boolean(year && month && day), "Unable to determine publication date.");
+
+  return `${year}-${month}-${day}`;
 }
 
-export function getPublishedBiteBySlug(slug: string) {
-  return getPublishedBites().find((bite) => bite.slug === slug);
+export function isPubliclyAvailableBite(bite: BibleBite, now = new Date()) {
+  return bite.status === "published" && bite.date <= getPublicationDate(now);
 }
 
-export function getPublishedBitesByTopic(topic: string) {
-  return getPublishedBites().filter((bite) => bite.topic === topic);
+export function getPublicBites(now = new Date()) {
+  return getAllBites().filter((bite) => isPubliclyAvailableBite(bite, now));
+}
+
+export function getPublicBiteBySlug(slug: string, now = new Date()) {
+  return getPublicBites(now).find((bite) => bite.slug === slug);
+}
+
+export function getPublicBitesByTopic(topic: string, now = new Date()) {
+  return getPublicBites(now).filter((bite) => bite.topic === topic);
 }
 
 export function getTodayBite(now = new Date()) {
-  const published = getPublishedBites();
-  const today = now.toISOString().slice(0, 10);
-  return published.find((bite) => bite.date === today) ?? published[0];
+  const publicBites = getPublicBites(now);
+  const today = getPublicationDate(now);
+  const bite = publicBites.find((item) => item.date === today) ?? publicBites[0];
+
+  assert(Boolean(bite), "No publicly available Bible Bites.");
+
+  return bite;
 }
 
-export function getRelatedBites(currentSlug: string, limit = 3) {
-  const current = getPublishedBiteBySlug(currentSlug);
+export function getRelatedBites(currentSlug: string, limit = 3, now = new Date()) {
+  const current = getPublicBiteBySlug(currentSlug, now);
   if (!current) {
     return [];
   }
 
-  return getPublishedBites()
+  return getPublicBites(now)
     .filter((bite) => bite.slug !== current.slug && bite.topic === current.topic)
     .slice(0, limit);
 }
+
+export { validateBite };
