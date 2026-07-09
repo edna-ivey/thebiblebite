@@ -16,11 +16,13 @@ export type QuestionType =
   | "look-closer"
   | "context"
   | "big-meaning"
-  | "hard-question";
+  | "hard-question"
+  | "surprising-detail";
 export type AnswerBasis =
   | "explicit-text"
   | "strong-contextual-inference"
   | "debated";
+export type AnswerSatisfaction = "clear" | "strong" | "open";
 
 export type AnswerChoice = {
   id: "A" | "B" | "C" | "D";
@@ -47,6 +49,7 @@ export type BibleBite = {
   topic: TopicSlug;
   questionType: QuestionType;
   answerBasis: AnswerBasis;
+  answerSatisfaction: AnswerSatisfaction;
   question: string;
   answerChoices: AnswerChoice[];
   correctAnswer: AnswerChoice["id"];
@@ -58,6 +61,36 @@ export type BibleBite = {
   tags: string[];
   status: BiteStatus;
 };
+
+export type ReaderBibleBite = Pick<
+  BibleBite,
+  | "date"
+  | "slug"
+  | "title"
+  | "scriptureReference"
+  | "scriptureText"
+  | "translation"
+  | "topic"
+  | "question"
+  | "answerChoices"
+  | "correctAnswer"
+  | "explanation"
+  | "bigTruth"
+  | "takeTheBite"
+  | "prayer"
+  | "deeperReading"
+  | "tags"
+>;
+
+export type DailyBiteTeaser = Pick<
+  BibleBite,
+  | "date"
+  | "slug"
+  | "title"
+  | "curiosityHook"
+  | "scriptureReference"
+  | "topic"
+>;
 
 export type BibleReadingSource =
   | {

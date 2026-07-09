@@ -14,6 +14,7 @@ export const doesGodWontGiveYouMoreThanYouCanHandleComeFromTheBible: BibleBite =
   topic: "bible-and-history",
   questionType: "context",
   answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
   question:
     "Does the Bible say, “God won't give you more than you can handle”?",
   answerChoices: [

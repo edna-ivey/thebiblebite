@@ -13,6 +13,7 @@ export const whyDidGodRestOnTheSeventhDay: BibleBite = {
   topic: "faith-and-god",
   questionType: "big-meaning",
   answerBasis: "strong-contextual-inference",
+  answerSatisfaction: "strong",
   question: "Why did God rest on the seventh day if He does not get tired?",
   answerChoices: [
     { id: "A", text: "Creating the world had drained His strength" },

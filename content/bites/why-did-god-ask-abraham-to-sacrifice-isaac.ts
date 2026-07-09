@@ -13,6 +13,7 @@ export const whyDidGodAskAbrahamToSacrificeIsaac: BibleBite = {
   topic: "hard-questions",
   questionType: "hard-question",
   answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
   question:
     "Why did God ask Abraham to sacrifice Isaac if He was going to stop him?",
   answerChoices: [

@@ -13,6 +13,7 @@ export const whyDidJesusAskQuestionsHeKnewTheAnswersTo: BibleBite = {
   topic: "jesus-and-the-gospel",
   questionType: "big-meaning",
   answerBasis: "strong-contextual-inference",
+  answerSatisfaction: "clear",
   question: "Why did Jesus ask questions when He already knew the answers?",
   answerChoices: [
     { id: "A", text: "Jesus sometimes forgot important details during conversations" },

@@ -13,6 +13,7 @@ export const whyWasRahabIncludedInJesusFamilyLine: BibleBite = {
   topic: "people-and-stories",
   questionType: "big-meaning",
   answerBasis: "strong-contextual-inference",
+  answerSatisfaction: "strong",
   question: "Why is Rahab's place in Jesus's family line so significant?",
   answerChoices: [
     { id: "A", text: "She was secretly born into an Israelite priestly family" },

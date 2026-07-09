@@ -2,10 +2,10 @@
 
 import { useEffect, useRef } from "react";
 import { DigbyMascot } from "@/components/DigbyMascot";
-import type { BibleBite } from "@/lib/types";
+import type { ReaderBibleBite } from "@/lib/types";
 
 type QuizRevealProps = {
-  bite: BibleBite;
+  bite: ReaderBibleBite;
   revealed: boolean;
   selectedAnswer: string | null;
   setSelectedAnswer: (answerId: string) => void;

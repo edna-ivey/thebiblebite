@@ -1,11 +1,14 @@
 import Link from "next/link";
-import type { BibleBite } from "@/lib/types";
+import type { DailyBiteTeaser } from "@/lib/types";
 import { getTopicName } from "@/lib/topics";
-import { getBiteReadingTime } from "@/lib/readingTime";
 
-export function DailyBiteCard({ bite }: { bite: BibleBite }) {
-  const readingMinutes = getBiteReadingTime(bite);
-
+export function DailyBiteCard({
+  bite,
+  readingMinutes,
+}: {
+  bite: DailyBiteTeaser;
+  readingMinutes: number;
+}) {
   return (
     <section
       className="page-shell rounded-[1.75rem] border-2 border-amber-100 bg-[var(--paper)]/80 p-5 shadow-[var(--shadow)] lg:p-8"

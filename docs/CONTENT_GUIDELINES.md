@@ -32,6 +32,86 @@ A strong question should often create one of these reactions:
 - `context`: Historical, literary, cultural, sequence, or surrounding-passage context meaningfully changes understanding.
 - `big-meaning`: A familiar statement, verse, image, or biblical moment needs to be unpacked beyond the surface.
 - `hard-question`: A sincere difficult Bible or faith question that deserves a careful answer.
+- `surprising-detail`: A clear, text-grounded quiz question built around an unexpected person, action, object, custom, place, instruction, event, or physical detail in Scripture.
+
+### Surprising Detail
+
+Use `surprising-detail` for unexpected, explicit details in Scripture where the quiz answer itself creates curiosity or surprise.
+
+Suitable hook patterns include:
+
+- `Who did...?`
+- `What did...?`
+- `Where did...?`
+- `Which person...?`
+- `What object...?`
+- `What unusual action...?`
+
+The answer should generally be directly grounded in the biblical text. The Explanation should move beyond trivia by teaching the surrounding context, meaning, or significance.
+
+A `surprising-detail` Bite must not become shallow Bible trivia. The surprising fact is the hook. The Explanation earns the depth.
+
+The quiz hook does not always need to ask the deepest theological question. Sometimes the simple surprising fact should be the quiz, and the Explanation should carry the deeper teaching.
+
+For example, a Bite about Hosea may ask, `Who did God command to marry a woman of prostitution?` The answer is Hosea, because the identity is explicit in Hosea 1. The Explanation should then teach the connection between Hosea's marriage and Israel's unfaithfulness.
+
+For example, a Bite about Matthew 17 may ask, `Where did Peter get the money to pay the temple tax for Jesus?` The answer is that he found a coin in a fish's mouth. The Explanation should then teach the surrounding temple-tax conversation and why the event matters.
+
+Future `surprising-detail` concepts may include:
+
+- What watered the ground before God had caused it to rain?
+- What surprising piece of jewelry did Abraham's servant give Rebekah?
+
+When developing those ideas, use the configured Classic WEB translation and source registry. For Genesis 24, do not overstate a formal universal `engagement gift` rule unless the text or strong historical sourcing supports that conclusion.
+
+`surprising-detail` Bites will often be `answerSatisfaction: clear` and commonly `answerBasis: explicit-text`, but do not derive these values automatically. Each Bite must still be evaluated independently.
+
+## Question Wording Variety
+
+The Bible Bite should not default every Bite to `Why did...?`
+
+Questions may be framed as:
+
+- who
+- what
+- where
+- which
+- did
+- why
+- what did this mean
+- does the Bible actually say
+
+Choose the simplest compelling quiz framing for the passage. Do not artificially turn a clear factual question into a broad theological mystery.
+
+For mature content planning, aim approximately for:
+
+- `surprising-detail`: 25 to 35 percent
+- `look-closer`: 15 to 25 percent
+- `context`: 15 to 25 percent
+- `big-meaning`: 10 to 20 percent
+- `hard-question`: 10 to 20 percent
+
+The exact percentages may vary. This is planning guidance, not automated validation.
+
+The purpose is to prevent the site from becoming a continuous sequence of difficult `why` questions or unresolved theological debates.
+
+## Editorial Idea Sources
+
+The Bible Bite should draw from the whole Bible over time. Meki's real Bible study questions are an important editorial source, but they are one source among several.
+
+Approved idea sources include:
+
+- Meki's real Bible study questions
+- Explicit surprising details across all 66 books
+- `Wait, that's actually in the Bible?` moments
+- Customs and cultural context connected to the biblical text
+- Common Christian sayings or beliefs that should be checked against Scripture
+- Why questions where Scripture directly states the reason
+- Strange actions or instructions that Scripture explains
+- Look-closer textual details readers often miss
+- Hard questions, used selectively
+
+Do not constrain the editorial calendar to the books Meki has personally reached in her current reading plan. The goal is broad biblical coverage over time.
 
 ## Answer Basis
 
@@ -51,6 +131,34 @@ For `strong-contextual-inference`, use honest wording where needed, such as:
 Do not write an inference as though Scripture explicitly states an unstated motive, reason, or internal thought.
 
 For `debated`, acknowledge meaningful disagreement. Do not quietly present one denomination or theological tradition's interpretation as settled biblical fact. Explain major faithful views fairly enough for the Bite's scope. The Bite may still identify an editorial conclusion when appropriate, but it must distinguish interpretation from explicit biblical wording.
+
+## Answer Satisfaction
+
+`answerSatisfaction` describes the reader's answer experience. It is internal editorial metadata and should not be shown as a reader-facing label.
+
+- `clear`: The Bite gives the reader a definite, text-supported answer to the core quiz question. The text may directly state the reason, purpose, action, identity, or explanation. The reader should generally feel, `Oh! The Bible actually answers that.`
+- `strong`: The Bite gives the reader a satisfying, defensible answer supported by close context, multiple passages, or a strong biblical synthesis. Some inference, nuance, or meaningful Christian disagreement may remain. The reader should generally feel, `Ohhhh. I see why that answer fits.`
+- `open`: The core question remains meaningfully unresolved after careful biblical review. Scripture may report an event without explaining why, leave an identity unresolved, permit multiple major faithful interpretations, or not provide enough information for a confident core answer. The Bite should still teach something meaningful, but uncertainty itself is central to the lesson.
+
+`answerBasis` measures the support or interpretive status of the answer.
+
+`answerSatisfaction` measures the reader's sense of resolution.
+
+A debated Bite is not automatically open. A contextual-inference Bite is not automatically strong. Evaluate the reader experience independently.
+
+For mature content planning, aim approximately for:
+
+- 40 to 50 percent `clear`
+- 35 to 45 percent `strong`
+- 10 to 15 percent `open`
+
+The exact percentage may vary across a small batch. This is planning guidance, not automated validation.
+
+Avoid more than one `open` Bite in a rolling five-Bite stretch unless there is a deliberate editorial reason. The purpose is to prevent readers from learning that `The Bible doesn't tell us` is the site's predictable quiz answer.
+
+Open Bites should not repeatedly use identical answer-choice construction such as `The Bible does not tell us.` Rotate the question structure and teach from the uncertainty rather than making uncertainty a predictable distractor pattern.
+
+Answer-position balance and answerSatisfaction balance are separate editorial concerns. Preserve correct-answer position balance guidance while also considering the reader's answer experience across a batch.
 
 ## Quiz Feedback And Explanation
 

@@ -2,8 +2,30 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { BitePage } from "@/components/BitePage";
 import { getPublicBiteBySlug } from "@/lib/bites";
+import type { BibleBite, ReaderBibleBite } from "@/lib/types";
 
 export const dynamic = "force-dynamic";
+
+function toReaderBibleBite(bite: BibleBite): ReaderBibleBite {
+  return {
+    date: bite.date,
+    slug: bite.slug,
+    title: bite.title,
+    scriptureReference: bite.scriptureReference,
+    scriptureText: bite.scriptureText,
+    translation: bite.translation,
+    topic: bite.topic,
+    question: bite.question,
+    answerChoices: bite.answerChoices,
+    correctAnswer: bite.correctAnswer,
+    explanation: bite.explanation,
+    bigTruth: bite.bigTruth,
+    takeTheBite: bite.takeTheBite,
+    prayer: bite.prayer,
+    deeperReading: bite.deeperReading,
+    tags: bite.tags,
+  };
+}
 
 export async function generateMetadata({
   params,
@@ -40,5 +62,5 @@ export default async function BiteRoute({
     notFound();
   }
 
-  return <BitePage bite={bite} />;
+  return <BitePage bite={toReaderBibleBite(bite)} />;
 }

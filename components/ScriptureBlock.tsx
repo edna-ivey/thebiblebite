@@ -1,7 +1,7 @@
 import { getBibleTranslation } from "@/lib/sources";
-import type { BibleBite } from "@/lib/types";
+import type { ReaderBibleBite } from "@/lib/types";
 
-export function ScriptureBlock({ bite }: { bite: BibleBite }) {
+export function ScriptureBlock({ bite }: { bite: ReaderBibleBite }) {
   const source = getBibleTranslation(bite.translation);
 
   return (

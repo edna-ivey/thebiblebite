@@ -12,6 +12,7 @@ export const whyDidGodAskAdamWhereAreYou: BibleBite = {
   topic: "people-and-stories",
   questionType: "look-closer",
   answerBasis: "strong-contextual-inference",
+  answerSatisfaction: "strong",
   question:
     "When God asked Adam, “Where are you?”, what was God really doing?",
   answerChoices: [

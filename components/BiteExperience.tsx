@@ -8,12 +8,12 @@ import { QuizReveal } from "@/components/QuizReveal";
 import { ScriptureBlock } from "@/components/ScriptureBlock";
 import { ShareButton } from "@/components/ShareButton";
 import { TakeTheBiteCard } from "@/components/TakeTheBiteCard";
-import type { BibleBite } from "@/lib/types";
+import type { ReaderBibleBite } from "@/lib/types";
 import { formatBibleReadingReference, getBibleReadingUrl } from "@/lib/sources";
 import { getTopicName } from "@/lib/topics";
 
 type BiteExperienceProps = {
-  bite: BibleBite;
+  bite: ReaderBibleBite;
   readingMinutes: number;
 };
 

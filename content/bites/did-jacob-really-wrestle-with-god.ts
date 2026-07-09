@@ -13,6 +13,7 @@ export const didJacobReallyWrestleWithGod: BibleBite = {
   topic: "weird-and-wonderful",
   questionType: "look-closer",
   answerBasis: "debated",
+  answerSatisfaction: "strong",
   question: "Did Jacob really wrestle with God?",
   answerChoices: [
     { id: "A", text: "No. Jacob was only having a vivid dream" },

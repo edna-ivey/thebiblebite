@@ -12,6 +12,7 @@ export const whyDidJesusPrayIfHeIsGod: BibleBite = {
   topic: "prayer-and-worship",
   questionType: "hard-question",
   answerBasis: "debated",
+  answerSatisfaction: "strong",
   question: "Why did Jesus pray if He is God?",
   answerChoices: [
     {

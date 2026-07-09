@@ -1,6 +1,6 @@
-import type { BibleBite } from "@/lib/types";
+import type { ReaderBibleBite } from "@/lib/types";
 
-export function getBiteReadingTime(bite: BibleBite) {
+export function getBiteReadingTime(bite: ReaderBibleBite) {
   const words = [
     bite.scriptureText,
     bite.question,

@@ -2,18 +2,32 @@ import { DailyBiteCard } from "@/components/DailyBiteCard";
 import { HeroSection } from "@/components/HeroSection";
 import { TopicPill } from "@/components/TopicPill";
 import { getTodayBite } from "@/lib/bites";
+import { getBiteReadingTime } from "@/lib/readingTime";
 import { getTopics } from "@/lib/topics";
+import type { BibleBite, DailyBiteTeaser } from "@/lib/types";
 
 export const dynamic = "force-dynamic";
 
+function toDailyBiteTeaser(bite: BibleBite): DailyBiteTeaser {
+  return {
+    date: bite.date,
+    slug: bite.slug,
+    title: bite.title,
+    curiosityHook: bite.curiosityHook,
+    scriptureReference: bite.scriptureReference,
+    topic: bite.topic,
+  };
+}
+
 export default function Home() {
   const todayBite = getTodayBite();
+  const readingMinutes = getBiteReadingTime(todayBite);
   const topics = getTopics();
 
   return (
     <main>
       <HeroSection todayHref={`/bites/${todayBite.slug}`} />
-      <DailyBiteCard bite={todayBite} />
+      <DailyBiteCard bite={toDailyBiteTeaser(todayBite)} readingMinutes={readingMinutes} />
 
       <section
         className="full-band page-shell py-12 before:bg-white/40"

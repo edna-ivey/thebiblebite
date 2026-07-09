@@ -13,6 +13,7 @@ export const whatDidJesusMeanByTurnTheOtherCheek: BibleBite = {
   topic: "wisdom-and-life",
   questionType: "context",
   answerBasis: "debated",
+  answerSatisfaction: "strong",
   question: "What did Jesus mean by “turn the other cheek”?",
   answerChoices: [
     { id: "A", text: "Never protect yourself from physical danger" },

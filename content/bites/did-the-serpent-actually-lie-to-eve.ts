@@ -13,6 +13,7 @@ export const didTheSerpentActuallyLieToEve: BibleBite = {
   topic: "weird-and-wonderful",
   questionType: "look-closer",
   answerBasis: "strong-contextual-inference",
+  answerSatisfaction: "strong",
   question: "Did the serpent actually lie to Eve?",
   answerChoices: [
     {

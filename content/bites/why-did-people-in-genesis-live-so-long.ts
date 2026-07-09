@@ -13,6 +13,7 @@ export const whyDidPeopleInGenesisLiveSoLong: BibleBite = {
   topic: "weird-and-wonderful",
   questionType: "hard-question",
   answerBasis: "debated",
+  answerSatisfaction: "open",
   question: "Why did people in Genesis live for hundreds of years?",
   answerChoices: [
     { id: "A", text: "They were still eating from the tree of life outside Eden" },

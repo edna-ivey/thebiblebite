@@ -12,6 +12,7 @@ export const whyDidJesusCryIfLazarusWouldLive: BibleBite = {
   topic: "jesus-and-the-gospel",
   questionType: "look-closer",
   answerBasis: "strong-contextual-inference",
+  answerSatisfaction: "strong",
   question: "Why did Jesus cry if He knew Lazarus was about to live?",
   answerChoices: [
     { id: "A", text: "Jesus briefly forgot that He could raise Lazarus" },

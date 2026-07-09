@@ -13,6 +13,7 @@ export const whyDoesGodSeemDifferentInTheOldTestament: BibleBite = {
   topic: "hard-questions",
   questionType: "hard-question",
   answerBasis: "debated",
+  answerSatisfaction: "strong",
   question: "Why does God sometimes seem so different in the Old Testament?",
   answerChoices: [
     {

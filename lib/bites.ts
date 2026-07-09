@@ -12,9 +12,16 @@ import { doesGodWontGiveYouMoreThanYouCanHandleComeFromTheBible } from "@/conten
 import { whyWasRahabIncludedInJesusFamilyLine } from "@/content/bites/why-was-rahab-included-in-jesus-family-line";
 import { whyDoesGodSeemDifferentInTheOldTestament } from "@/content/bites/why-does-god-seem-different-in-the-old-testament";
 import { whyDidPeopleInGenesisLiveSoLong } from "@/content/bites/why-did-people-in-genesis-live-so-long";
-import { answerBases, questionTypes } from "@/lib/editorialMetadata";
+import { answerBases, answerSatisfactions, questionTypes } from "@/lib/editorialMetadata";
 import { siteConfig } from "@/lib/siteConfig";
-import type { AnswerBasis, AnswerChoice, BibleBite, BiteStatus, QuestionType } from "@/lib/types";
+import type {
+  AnswerBasis,
+  AnswerChoice,
+  AnswerSatisfaction,
+  BibleBite,
+  BiteStatus,
+  QuestionType,
+} from "@/lib/types";
 import { getBibleReadingUrl, hasBibleBook, hasBibleTranslation } from "@/lib/sources";
 import { hasTopic } from "@/lib/topics";
 
@@ -116,6 +123,13 @@ function validateAnswerBasis(bite: BibleBite) {
   );
 }
 
+function validateAnswerSatisfaction(bite: BibleBite) {
+  assert(
+    answerSatisfactions.includes(bite.answerSatisfaction as AnswerSatisfaction),
+    `${bite.slug} has invalid answerSatisfaction ${bite.answerSatisfaction}.`,
+  );
+}
+
 function validateDeeperReading(bite: BibleBite) {
   const reading = bite.deeperReading;
 
@@ -153,6 +167,7 @@ function validateBite(bite: BibleBite) {
     "topic",
     "questionType",
     "answerBasis",
+    "answerSatisfaction",
     "question",
     "correctAnswer",
     "explanation",
@@ -171,6 +186,7 @@ function validateBite(bite: BibleBite) {
   validateAnswerChoices(bite);
   validateQuestionType(bite);
   validateAnswerBasis(bite);
+  validateAnswerSatisfaction(bite);
   validateEditorialStyle(bite);
   validateDeeperReading(bite);
 }

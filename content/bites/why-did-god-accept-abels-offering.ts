@@ -13,6 +13,7 @@ export const whyDidGodAcceptAbelsOffering: BibleBite = {
   topic: "hard-questions",
   questionType: "hard-question",
   answerBasis: "debated",
+  answerSatisfaction: "strong",
   question: "Why did God accept Abel's offering but reject Cain's?",
   answerChoices: [
     { id: "A", text: "God only accepted animal sacrifices at that time" },
