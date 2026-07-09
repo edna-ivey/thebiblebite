@@ -58,8 +58,6 @@ Now, Christians do not all explain the nature of God and Jesus in exactly the sa
 
 That is why this Bite is marked as debated.
 
-But the best answer within historic Trinitarian Christian belief is C.
-
 Jesus prayed because the Son's relationship with the Father is real, and because the Son truly entered human life.
 
 And honestly, that makes His prayers more meaningful to me.

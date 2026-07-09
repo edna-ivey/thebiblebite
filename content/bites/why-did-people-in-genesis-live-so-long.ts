@@ -61,7 +61,7 @@ Then Enoch's story suddenly interrupts the rhythm. Instead of saying Enoch died,
 
 So why did people in Genesis live for hundreds of years?
 
-The honest answer is B. Scripture records the lifespans, but it does not directly explain why they were so long.
+The honest answer is that Scripture records the lifespans, but it does not directly explain why they were so long.
 
 That may feel unsatisfying. We like explanations. We like the secret answer that makes everything click.
 

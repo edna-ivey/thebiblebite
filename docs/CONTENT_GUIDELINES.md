@@ -52,6 +52,18 @@ Do not write an inference as though Scripture explicitly states an unstated moti
 
 For `debated`, acknowledge meaningful disagreement. Do not quietly present one denomination or theological tradition's interpretation as settled biblical fact. Explain major faithful views fairly enough for the Bite's scope. The Bite may still identify an editorial conclusion when appropriate, but it must distinguish interpretation from explicit biblical wording.
 
+## Quiz Feedback And Explanation
+
+- The quiz UI handles correctness.
+- Answer choices identify the correct answer after submission.
+- Compact result feedback may confirm whether the reader was correct.
+- Explanations teach the biblical reasoning and meaning.
+- Explanations should not repeat the selected answer.
+- Explanations should not repeat the correct option as an answer key.
+- Avoid phrases such as `the best answer is A` or `the correct answer is D` in Explanation copy.
+- Remove answer-choice letters from explanatory teaching unless a rare editorial reason genuinely requires them.
+- The Explanation should read naturally even when separated from the quiz controls.
+
 ## Length Targets
 
 These are editorial targets, not automated validation limits.

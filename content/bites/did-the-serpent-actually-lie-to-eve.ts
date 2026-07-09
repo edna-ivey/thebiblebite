@@ -49,8 +49,6 @@ The story also does not say Adam and Eve physically dropped dead that afternoon.
 
 The serpent made disobedience sound like enlightenment without telling the whole story of what it would cost.
 
-So yes, the best answer is A.
-
 But the deception is more sophisticated than a ridiculous, easy-to-spot lie. The serpent told enough truth to make distrusting God sound reasonable.
 
 And that may be exactly why this story still feels uncomfortably familiar.`,

@@ -75,8 +75,6 @@ The cold silence designed to make someone feel what you felt.
 
 The perfectly planned sentence you know will hit the sore spot.
 
-The best answer is D.
-
 Jesus calls His followers away from personal retaliation and toward a radically different response to enemies.
 
 That does not make evil good.

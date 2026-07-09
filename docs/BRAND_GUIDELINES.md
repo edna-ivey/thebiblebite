@@ -87,6 +87,36 @@ Approved signature features:
 The bow tie and gold cross are signature character details. The cross should
 remain a small, centered highlight on the bow tie, not the dominant visual mark.
 
+## Expression System
+
+Approved initial Digby expressions:
+
+- `default`
+- `celebrate`
+- `look-closer`
+
+Use `default` for:
+
+- brand identity
+- header
+- Our Mission introduction
+- neutral guidance
+
+Use `celebrate` for:
+
+- correct-answer feedback
+
+Use `look-closer` for:
+
+- incorrect-answer feedback
+- curious and encouraging feedback
+- moments that invite another careful look
+
+`look-closer` must never feel disappointed, shaming, smug, or judgmental.
+
+Additional Digby expressions should be created only when a real product use case
+exists. Do not create unused mascot variants speculatively.
+
 ## Usage Principle
 
 Digby should appear purposefully.

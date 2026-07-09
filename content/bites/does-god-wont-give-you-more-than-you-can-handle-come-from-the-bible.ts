@@ -79,8 +79,6 @@ The promise in 1 Corinthians 10 is that God is faithful in temptation.
 
 And the wider New Testament repeatedly points suffering people toward God's strength, God's comfort, prayer, and the help of other believers.
 
-So the best answer is A.
-
 It is a good reminder to read the verse we are quoting before we turn it into a slogan.`,
   bigTruth:
     "The Bible does not promise that life will never overwhelm your strength. It repeatedly teaches us not to depend on our strength alone.",

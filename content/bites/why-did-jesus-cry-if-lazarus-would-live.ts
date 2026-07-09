@@ -61,8 +61,6 @@ He was moved.
 
 He wept.
 
-The passage strongly points us toward B.
-
 Knowing that resurrection was coming did not stop Jesus from responding to the reality of death and the grief in front of Him.
 
 And I think that matters.

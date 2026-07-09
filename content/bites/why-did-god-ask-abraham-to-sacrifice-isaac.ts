@@ -58,7 +58,7 @@ Then, at the final moment, Abraham is stopped. Isaac is not sacrificed. A ram is
 
 This does not make the story emotionally easy.
 
-But the text's stated reason is A. This was a test.
+But the text gives us one clear frame: this was a test.
 
 The deeper tension is whether Abraham would trust God's character and promise when he could not make God's command and God's promise fit neatly together.
 

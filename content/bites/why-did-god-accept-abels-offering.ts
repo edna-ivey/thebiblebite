@@ -44,7 +44,7 @@ God speaks to Cain's anger. He asks why his face has fallen. He tells Cain that 
 
 The story's focus moves quickly from the offering to Cain.
 
-So the best answer is C. The New Testament connects Abel's offering with faith and righteousness, but Christians have debated the exact reason for Cain's rejection because Genesis leaves some details unstated.
+The New Testament connects Abel's offering with faith and righteousness, but Christians have debated the exact reason for Cain's rejection because Genesis leaves some details unstated.
 
 The text does not give us permission to reduce the story to, “God wanted meat, not vegetables.”
 

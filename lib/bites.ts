@@ -20,6 +20,8 @@ import { hasTopic } from "@/lib/topics";
 
 const VALID_STATUSES: BiteStatus[] = ["draft", "approved", "published"];
 const EM_DASH = "—";
+const ANSWER_LETTER_LEAKAGE_PATTERN =
+  /\b(?:(?:best|correct)\s+answer(?:\s+within[^.?!]{0,80})?|answer)\s+(?:is|was)\s+[ABCD]\b/i;
 
 const allBites: BibleBite[] = [
   whyDidGodAskAdamWhereAreYou,
@@ -74,6 +76,13 @@ function validateNoEmDash(value: string, field: string, slug: string) {
   assert(!value.includes(EM_DASH), `${slug} uses an em dash in ${field}. Use periods, commas, colons, semicolons, parentheses, or sentence breaks instead.`);
 }
 
+function validateNoAnswerLetterLeakage(value: string, field: string, slug: string) {
+  assert(
+    !ANSWER_LETTER_LEAKAGE_PATTERN.test(value),
+    `${slug} leaks an answer letter in ${field}. The quiz UI handles correctness; explanations should teach without answer-key phrasing.`,
+  );
+}
+
 function validateEditorialStyle(bite: BibleBite) {
   [
     ["title", bite.title],
@@ -89,6 +98,8 @@ function validateEditorialStyle(bite: BibleBite) {
   bite.answerChoices.forEach((choice) => {
     validateNoEmDash(choice.text, `answerChoices.${choice.id}`, bite.slug);
   });
+
+  validateNoAnswerLetterLeakage(bite.explanation, "explanation", bite.slug);
 }
 
 function validateQuestionType(bite: BibleBite) {

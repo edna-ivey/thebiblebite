@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from "react";
+import { DigbyMascot } from "@/components/DigbyMascot";
 import type { BibleBite } from "@/lib/types";
 
 type QuizRevealProps = {
@@ -18,20 +19,18 @@ export function QuizReveal({
   setSelectedAnswer,
   onReveal,
 }: QuizRevealProps) {
-  const revealRef = useRef<HTMLDivElement>(null);
-  const selectedChoice = bite.answerChoices.find((choice) => choice.id === selectedAnswer);
-  const correctChoice = bite.answerChoices.find((choice) => choice.id === bite.correctAnswer);
+  const feedbackRef = useRef<HTMLDivElement>(null);
   const isCorrect = selectedAnswer === bite.correctAnswer;
   const explanationParagraphs = bite.explanation.split(/\n{2,}/).filter(Boolean);
 
   useEffect(() => {
-    if (!revealed || !revealRef.current) {
+    if (!revealed || !feedbackRef.current) {
       return;
     }
 
     const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    revealRef.current.focus({ preventScroll: true });
-    revealRef.current.scrollIntoView({
+    feedbackRef.current.focus({ preventScroll: true });
+    feedbackRef.current.scrollIntoView({
       behavior: prefersReducedMotion ? "auto" : "smooth",
       block: "nearest",
     });
@@ -49,19 +48,27 @@ export function QuizReveal({
         </p>
         <div className="grid gap-3">
           {bite.answerChoices.map((choice) => {
-            const isCorrect = choice.id === bite.correctAnswer;
-            const isWrong = revealed && selectedAnswer === choice.id && !isCorrect;
+            const isCorrectChoice = choice.id === bite.correctAnswer;
+            const isWrong = revealed && selectedAnswer === choice.id && !isCorrectChoice;
             const isSelected = selectedAnswer === choice.id;
+            const resultLabel = revealed
+              ? isCorrectChoice
+                ? "Correct answer"
+                : isWrong
+                  ? "Your answer"
+                  : null
+              : null;
 
             return (
               <button
                 className={[
-                  "focus-ring grid min-h-14 grid-cols-[2.4rem_1fr_1.5rem] items-center gap-3 rounded-xl border-2 px-4 py-3 text-left text-base font-black transition",
-                  revealed && isCorrect
+                  "focus-ring grid min-h-14 grid-cols-[2.4rem_1fr] items-center gap-3 rounded-xl border-2 px-4 py-3 text-left text-base font-black transition",
+                  revealed && isCorrectChoice
                     ? "border-[var(--teal)] bg-gradient-to-r from-[#28b9b2] to-[#0d9698] text-white"
                     : "border-[#ead8c5] bg-[#fffdf8] text-[var(--ink)] hover:border-[var(--teal)]",
                   isSelected && !revealed ? "border-[var(--teal)] bg-teal-50" : "",
-                  isWrong ? "border-[#f06b58] bg-orange-50" : "",
+                  isWrong ? "border-[#f06b58] bg-orange-50 text-[var(--ink)]" : "",
+                  revealed && !isCorrectChoice && !isWrong ? "opacity-75" : "",
                 ].join(" ")}
                 disabled={revealed}
                 aria-pressed={isSelected}
@@ -72,59 +79,68 @@ export function QuizReveal({
                 <span className="grid size-7 place-items-center rounded-full bg-[#fff4e1] text-sm text-[var(--ink)]">
                   {choice.id}
                 </span>
-                <span>{choice.text}</span>
-                <span className="text-right">{revealed && isCorrect ? "✓" : ""}</span>
+                <span className="flex flex-wrap items-center gap-x-3 gap-y-2">
+                  <span>{choice.text}</span>
+                  {resultLabel ? (
+                    <span
+                      className={[
+                        "rounded-full px-2.5 py-1 text-xs font-black uppercase tracking-[0.08em]",
+                        isCorrectChoice
+                          ? "bg-white/90 text-[var(--teal-dark)]"
+                          : "bg-white text-[#9f2f21]",
+                      ].join(" ")}
+                    >
+                      {resultLabel}
+                    </span>
+                  ) : null}
+                </span>
               </button>
             );
           })}
         </div>
 
-        <div className="mt-5 flex items-center justify-end gap-3">
-          <button
-            className="focus-ring rounded-full border-2 border-teal-100 bg-teal-50 px-5 py-3 text-sm font-black text-[var(--teal-dark)] disabled:cursor-not-allowed disabled:opacity-50"
-            disabled={!selectedAnswer || revealed}
-            onClick={onReveal}
-            type="button"
-          >
-            {revealed ? "Explanation opened" : "Check my answer"}
-          </button>
-          <span className="text-3xl leading-none text-[var(--teal-dark)]" aria-hidden="true">
-            ⌁
-          </span>
-        </div>
+        {!revealed ? (
+          <div className="mt-5 flex items-center justify-end gap-3">
+            <button
+              className="focus-ring rounded-full border-2 border-teal-100 bg-teal-50 px-5 py-3 text-sm font-black text-[var(--teal-dark)] disabled:cursor-not-allowed disabled:opacity-50"
+              disabled={!selectedAnswer}
+              onClick={onReveal}
+              type="button"
+            >
+              Check my answer
+            </button>
+            <span className="text-3xl leading-none text-[var(--teal-dark)]" aria-hidden="true">
+              ⌁
+            </span>
+          </div>
+        ) : null}
 
         {revealed ? (
-          <div
-            className="mt-5 border-t border-[var(--line)] pt-5"
-            ref={revealRef}
-            role="status"
-            tabIndex={-1}
-          >
+          <div className="mt-5 border-t border-[var(--line)] pt-5">
             <div
+              aria-live="polite"
               className={[
-                "mb-5 rounded-2xl border-2 p-4",
-                isCorrect
-                  ? "border-teal-200 bg-teal-50"
-                  : "border-amber-200 bg-amber-50",
+                "mb-5 flex items-center gap-4 rounded-2xl border-2 p-4",
+                isCorrect ? "border-teal-200 bg-teal-50" : "border-amber-200 bg-amber-50",
               ].join(" ")}
+              ref={feedbackRef}
+              role="status"
+              tabIndex={-1}
             >
-              <p className="text-sm font-black uppercase tracking-[0.14em] text-[var(--teal-dark)]">
-                Answer Reveal
-              </p>
-              <h3 className="mt-2 text-2xl font-black leading-tight text-[var(--ink)]">
-                {isCorrect ? "You got it." : "Good thinking. Here’s the best answer."}
-              </h3>
-              <p className="mt-2 text-base font-bold leading-relaxed text-[var(--muted)]">
-                You chose{" "}
-                <strong className="text-[var(--ink)]">
-                  {selectedChoice?.id}. {selectedChoice?.text}
-                </strong>
-                . The best answer is{" "}
-                <strong className="text-[var(--ink)]">
-                  {correctChoice?.id}. {correctChoice?.text}
-                </strong>
-                .
-              </p>
+              <DigbyMascot
+                className="size-20 shrink-0"
+                expression={isCorrect ? "celebrate" : "look-closer"}
+              />
+              <div>
+                <h3 className="text-xl font-black leading-tight text-[var(--ink)]">
+                  {isCorrect ? "You got it!" : "Not quite. Let's look closer."}
+                </h3>
+                <p className="mt-1 text-base font-bold leading-relaxed text-[var(--muted)]">
+                  {isCorrect
+                    ? "Now let's look at why."
+                    : "The correct answer is highlighted above."}
+                </p>
+              </div>
             </div>
             <div className="rounded-2xl bg-[#fffdf8] p-4">
               <p className="mb-2 text-sm font-black uppercase tracking-[0.14em] text-[var(--purple-dark)]">

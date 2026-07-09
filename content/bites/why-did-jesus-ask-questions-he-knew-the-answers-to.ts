@@ -69,7 +69,7 @@ Answer.
 
 And sometimes hear your own heart out loud.
 
-So the best answer is C. The Gospels show Jesus using questions in different ways. John explicitly tells us that one question tested Philip, and the wider pattern suggests His questions often taught, confronted, or invited a personal response.
+The Gospels show Jesus using questions in different ways. John explicitly tells us that one question tested Philip, and the wider pattern suggests His questions often taught, confronted, or invited a personal response.
 
 Maybe that is worth remembering when Scripture asks you a question too.
 

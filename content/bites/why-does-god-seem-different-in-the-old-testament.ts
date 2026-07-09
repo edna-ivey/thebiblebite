@@ -52,8 +52,6 @@ And the New Testament will not cooperate with the stereotype either.
 
 Jesus teaches enemy love and mercy. He also warns about judgment, condemns hypocrisy in extremely sharp language, and speaks of coming judgment. Revelation presents Christ as a judge.
 
-So the best answer is A.
-
 Part of the difference we feel comes from what stories we emphasize.
 
 Children's Bible Jesus is holding a lamb.

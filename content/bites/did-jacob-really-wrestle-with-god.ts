@@ -53,8 +53,6 @@ God.
 
 Angel.
 
-That is why the best answer is D.
-
 We do not need to flatten the story into a cleaner answer than Scripture gives us.
 
 What is clear is that Jacob believed this encounter was with God in a profound way, and he did not walk away unchanged.
