@@ -135,6 +135,35 @@ Good uses include:
 Avoid using Digby as filler decoration, repeated card ornamentation, or a
 substitute for clear interface hierarchy.
 
+## Digby Site Icon
+
+The Bible Bite browser and site icon uses Digby.
+
+The site icon should read as mini Digby wearing his purple bow tie. The warm
+golden Bite body and upper-left Bite B are the primary silhouette signals.
+Digby's face remains part of the mascot favicon identity.
+
+The purple bow tie is required at all supported icon sizes. The centered gold
+cross should remain clear at larger sizes and may naturally become a small gold
+center detail at very small favicon sizes.
+
+Small-size simplification may improve pixel readability, but it must not remove
+Digby's core mascot identity. The browser favicon uses a deliberately tighter
+micro framing than the full mascot so Digby keeps enough visual presence in
+tiny browser tabs while remaining round, bitten, bow-tied, and unclipped.
+
+The favicon is not:
+
+- an abstract Bite logo
+- a generic smiley
+- a cookie
+- a letter mark
+- a generic cross
+- a bow-tie-free gold circle
+
+Canonical full Digby remains the source of brand identity. Simplifications used
+for favicon size must not be applied backward to the full mascot.
+
 ## Future Work
 
 Additional Digby expressions, poses, seasonal treatments, social avatars, app

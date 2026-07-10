@@ -8,7 +8,7 @@ type DigbyMascotProps = {
   label?: string;
 };
 
-const digbyBodyPath =
+export const digbyBodyPath =
   "M17.5 57.5c0-12.4 4.4-22.9 12-30.4 2.6 3.4 8.2 2.8 9.5-1.6 3.1 3.8 9.9 2.4 10.8-3.2 3.5 2 8.9.7 12.1-3.3 22.9 1 40.3 16.8 40.3 36.3 0 25.3-18.6 43.7-43.6 43.7-24.7 0-41.1-17.6-41.1-41.5Z";
 
 export function DigbyMascot({
