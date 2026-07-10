@@ -40,6 +40,12 @@ export default async function TopicRoute({
 
   return (
     <main className="page-shell py-12">
+      <Link
+        className="focus-ring mb-8 inline-flex w-max rounded-full bg-white/70 px-4 py-2 text-sm font-black text-[var(--purple-dark)] no-underline"
+        href="/topics"
+      >
+        ← Back to topics
+      </Link>
       <p className="text-5xl" aria-hidden="true">
         {topic.icon}
       </p>

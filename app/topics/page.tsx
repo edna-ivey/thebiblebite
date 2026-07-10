@@ -1,6 +1,7 @@
 import { TopicPill } from "@/components/TopicPill";
 import { getPublicBitesByTopic } from "@/lib/bites";
 import { getTopics } from "@/lib/topics";
+import Link from "next/link";
 
 export const dynamic = "force-dynamic";
 
@@ -30,8 +31,9 @@ export default function TopicsPage() {
           const biteCount = getPublicBitesByTopic(topic.slug).length;
 
           return (
-            <section
-              className="rounded-3xl border border-[var(--line)] bg-white/70 p-5 shadow-sm"
+            <Link
+              className="focus-ring rounded-3xl border border-[var(--line)] bg-white/70 p-5 no-underline shadow-sm transition hover:-translate-y-0.5 hover:border-purple-200 hover:shadow-md motion-reduce:hover:translate-y-0"
+              href={`/topics/${topic.slug}`}
               key={topic.slug}
             >
               <p className="text-3xl" aria-hidden="true">
@@ -44,7 +46,7 @@ export default function TopicsPage() {
               <p className="mt-4 text-sm font-black text-[var(--purple-dark)]">
                 {biteCount} {biteCount === 1 ? "Bite" : "Bites"}
               </p>
-            </section>
+            </Link>
           );
         })}
       </div>
