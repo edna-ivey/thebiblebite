@@ -8,6 +8,8 @@ import { whyDidJesusAskQuestionsHeKnewTheAnswersTo } from "@/content/bites/why-d
 import { whyDidJesusCryIfLazarusWouldLive } from "@/content/bites/why-did-jesus-cry-if-lazarus-would-live";
 import { whyDidJesusPrayIfHeIsGod } from "@/content/bites/why-did-jesus-pray-if-he-is-god";
 import { whatDidJesusMeanByTurnTheOtherCheek } from "@/content/bites/what-did-jesus-mean-by-turn-the-other-cheek";
+import { whatJewelryDidRebekahReceive } from "@/content/bites/what-jewelry-did-rebekah-receive";
+import { whatWateredTheGroundBeforeRain } from "@/content/bites/what-watered-the-ground-before-rain";
 import { doesGodWontGiveYouMoreThanYouCanHandleComeFromTheBible } from "@/content/bites/does-god-wont-give-you-more-than-you-can-handle-come-from-the-bible";
 import { whyWasRahabIncludedInJesusFamilyLine } from "@/content/bites/why-was-rahab-included-in-jesus-family-line";
 import { whyDoesGodSeemDifferentInTheOldTestament } from "@/content/bites/why-does-god-seem-different-in-the-old-testament";
@@ -45,6 +47,8 @@ const allBites: BibleBite[] = [
   whyDidJesusPrayIfHeIsGod,
   whyWasRahabIncludedInJesusFamilyLine,
   whyDoesGodSeemDifferentInTheOldTestament,
+  whatWateredTheGroundBeforeRain,
+  whatJewelryDidRebekahReceive,
 ];
 
 function assert(condition: boolean, message: string): asserts condition {
