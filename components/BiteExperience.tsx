@@ -54,7 +54,6 @@ export function BiteExperience({ bite, readingMinutes }: BiteExperienceProps) {
             </p>
           </header>
 
-          <ScriptureBlock bite={bite} />
           <QuizReveal
             bite={bite}
             revealed={revealed}
@@ -64,6 +63,7 @@ export function BiteExperience({ bite, readingMinutes }: BiteExperienceProps) {
           />
           {revealed ? (
             <div className="grid gap-5" aria-live="polite">
+              <ScriptureBlock bite={bite} />
               <BigTruthCard>{bite.bigTruth}</BigTruthCard>
               <TakeTheBiteCard>{bite.takeTheBite}</TakeTheBiteCard>
               <PrayerCard>{bite.prayer}</PrayerCard>

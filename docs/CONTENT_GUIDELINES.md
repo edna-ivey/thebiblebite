@@ -172,6 +172,22 @@ Answer-position balance and answerSatisfaction balance are separate editorial co
 - Remove answer-choice letters from explanatory teaching unless a rare editorial reason genuinely requires them.
 - The Explanation should read naturally even when separated from the quiz controls.
 
+## No Pre-Answer Spoilers
+
+The quiz should not reveal the answer before the reader submits a choice.
+
+Before answer submission, do not display Scripture text, explanatory copy, setup copy, or visible quoted text that directly states the correct answer or makes the correct answer obvious.
+
+Scripture displayed before answering must be spoiler-safe. If the exact answer verse gives away the answer, do not show that verse text before submission.
+
+It is good to show answer-supporting Scripture after submission. Explanation and Go Deeper are the right places to unpack direct answer verses.
+
+For `explicit-text`, `surprising-detail`, `common-belief-check`, who, what, and where Bites, check the pre-answer screen carefully.
+
+The reader should experience curiosity first, then confirmation and teaching.
+
+The quiz creates curiosity. The answer choice confirms. The Explanation teaches. Scripture must support the answer without spoiling the quiz before the reader participates.
+
 ## Length Targets
 
 These are editorial targets, not automated validation limits.
@@ -256,6 +272,7 @@ Emojis are seasoning, not the voice.
 - Is there one defensible best answer?
 - Are all four options plausible enough to require thought?
 - Does the question accidentally reveal the answer?
+- Has the pre-answer spoiler check passed?
 - Is the correct answer position balanced with the surrounding batch?
 
 ### Biblical Support
