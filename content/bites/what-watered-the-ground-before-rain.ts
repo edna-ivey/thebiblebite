@@ -22,19 +22,27 @@ export const whatWateredTheGroundBeforeRain: BibleBite = {
     { id: "D", text: "Dew that formed overnight" },
   ],
   correctAnswer: "B",
-  explanation: `Genesis says Yahweh God had not yet caused it to rain on the earth. Then it gives a detail many readers miss: water came up from the earth and watered the whole surface of the ground.
+  explanation: `Water came up from the earth.
 
-That is surprising because we usually think of watering as something that comes down from above. But in this early creation scene, Genesis points our attention to water rising from below before rain is mentioned.
+That little detail is easy to fly past because most of us picture watering as something that comes down. Rain falls. Clouds gather. The ground gets wet.
 
-The point is not to build a full weather system from two verses. The point is to slow down and notice what the text actually says. Before people are formed, before anyone is farming, and before rain is named as the source, God is still sustaining the ground.
+But Genesis slows us down before Adam is even formed and says Yahweh had not caused it to rain yet, and there was no man to work the ground. Then comes the part that makes you go, wait, what?
 
-Sometimes Scripture answers a question in a way we would not expect. The answer is not hidden in a complicated theory. It is sitting right there in the sentence.`,
+Water rose from the earth and watered the whole surface of the ground.
+
+Before people were planting, before anybody was farming, before the first person had a tool in his hand, God was already caring for the ground.
+
+That is the part I love. Creation was not running on human effort. God was sustaining what He made before anybody could take credit for it.
+
+Sometimes we rush past the small details looking for the big miracle, but Scripture will tuck wonder inside one sentence. Read too fast and you miss it.
+
+God was providing before people were even there to ask.`,
   bigTruth:
-    "God was sustaining creation before people were even there to work it.",
+    "God was already providing before people were even part of the story.",
   takeTheBite:
-    "Read slowly enough to notice the details you usually skip.",
+    "Do not read so fast that you miss the quiet wonders sitting inside the sentence.",
   prayer:
-    "God, help me slow down when I read Your Word. Teach me to notice what is actually written, not just what I assume is there. Give me curiosity that leads me closer to You. Amen.",
+    "God, help me slow down when I read Your Word. Teach me to notice what is actually there, not just what I expected to see. Remind me that You were providing before I ever knew what to ask for. Amen.",
   deeperReading: {
     reference: "Genesis 2:4-9",
     prompt:

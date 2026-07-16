@@ -24,19 +24,27 @@ export const whatJewelryDidRebekahReceive: BibleBite = {
   correctAnswer: "C",
   explanation: `A nose ring.
 
-Genesis 24 first says Abraham's servant gave Rebekah a gold ring and bracelets after she watered his camels. Later, when he retells the story to her family, he says plainly that he put the ring on her nose and the bracelets on her hands.
+I know. That sounds like something somebody made up in a comment section, but it is right there in Genesis.
 
-That detail can surprise modern readers because many of us do not picture nose jewelry in a Genesis marriage story. But the Bible does not treat the ring as scandalous. In this scene, it is part of the servant's gift-giving as he recognizes God's guidance in finding a wife for Isaac.
+Abraham's servant gives Rebekah gold jewelry after she waters his camels. Then when he retells the story to her family, he says plainly that he put the ring on her nose and the bracelets on her hands.
 
-This does not mean every culture has to use the same customs. It also does not mean every modern question about jewelry is answered by one verse. But it does remind us to read carefully before assuming our cultural expectations are the Bible's expectations.
+That detail matters because it shows how quickly we can call something “not biblical” when what we really mean is “not familiar to me.”
 
-Sometimes the Bible is more surprising than the version of the Bible we imagined.`,
+Genesis does not pause to scold Rebekah. It does not treat the jewelry as scandalous. In the story, it is part of the servant recognizing that God has guided him to the woman who will become Isaac's wife.
+
+Now does that mean one verse answers every modern question about piercings, modesty, wisdom, or personal conviction? No.
+
+But it should slow us down.
+
+Before we make our culture sound like God's voice, we need to look closely at what the Bible actually says.
+
+Sometimes Scripture surprises us not because it changed, but because we never noticed the detail before.`,
   bigTruth:
-    "Scripture often challenges our assumptions, even in small details.",
+    "Scripture can challenge our assumptions in the smallest details.",
   takeTheBite:
     "Before deciding what sounds biblical, look closely at what the Bible actually says.",
   prayer:
-    "God, teach me to read Your Word with humility. Help me notice the details I have overlooked and let Scripture shape my assumptions instead of the other way around. Amen.",
+    "God, give me humility when I read Your Word. Help me notice the details I have overlooked. Teach me to let Scripture shape my assumptions instead of forcing my assumptions onto Scripture. Amen.",
   deeperReading: {
     reference: "Genesis 24:15-27 and Genesis 24:42-49",
     prompt:
