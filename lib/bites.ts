@@ -14,6 +14,7 @@ import { doesGodWontGiveYouMoreThanYouCanHandleComeFromTheBible } from "@/conten
 import { whyWasRahabIncludedInJesusFamilyLine } from "@/content/bites/why-was-rahab-included-in-jesus-family-line";
 import { whyDoesGodSeemDifferentInTheOldTestament } from "@/content/bites/why-does-god-seem-different-in-the-old-testament";
 import { whyDidPeopleInGenesisLiveSoLong } from "@/content/bites/why-did-people-in-genesis-live-so-long";
+import { didJobEverFindOutWhyHeSuffered } from "@/content/bites/did-job-ever-find-out-why-he-suffered";
 import { answerBases, answerSatisfactions, questionTypes } from "@/lib/editorialMetadata";
 import { siteConfig } from "@/lib/siteConfig";
 import type {
@@ -49,6 +50,7 @@ const allBites: BibleBite[] = [
   whyDoesGodSeemDifferentInTheOldTestament,
   whatWateredTheGroundBeforeRain,
   whatJewelryDidRebekahReceive,
+  didJobEverFindOutWhyHeSuffered,
 ];
 
 function assert(condition: boolean, message: string): asserts condition {
