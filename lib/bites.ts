@@ -15,6 +15,20 @@ import { whyWasRahabIncludedInJesusFamilyLine } from "@/content/bites/why-was-ra
 import { whyDoesGodSeemDifferentInTheOldTestament } from "@/content/bites/why-does-god-seem-different-in-the-old-testament";
 import { whyDidPeopleInGenesisLiveSoLong } from "@/content/bites/why-did-people-in-genesis-live-so-long";
 import { didJobEverFindOutWhyHeSuffered } from "@/content/bites/did-job-ever-find-out-why-he-suffered";
+import { whereDidPeterGetTempleTaxMoney } from "@/content/bites/where-did-peter-get-temple-tax-money";
+import { whyDidHannahPrayWithoutMakingASound } from "@/content/bites/why-did-hannah-pray-without-making-a-sound";
+import { whyDidPeopleTearTheirClothesInTheBible } from "@/content/bites/why-did-people-tear-their-clothes-in-the-bible";
+import { whatDidJesusWriteOnTheGround } from "@/content/bites/what-did-jesus-write-on-the-ground";
+import { whatIsTheBeginningOfKnowledgeInProverbs } from "@/content/bites/what-is-the-beginning-of-knowledge-in-proverbs";
+import { whyDidGodHardenPharaohsHeart } from "@/content/bites/why-did-god-harden-pharaohs-heart";
+import { whatAnimalSpokeToBalaam } from "@/content/bites/what-animal-spoke-to-balaam";
+import { whyWasRuthsLoyaltyToNaomiSurprising } from "@/content/bites/why-was-ruths-loyalty-to-naomi-surprising";
+import { whoWasNeighborToTheWoundedMan } from "@/content/bites/who-was-neighbor-to-the-wounded-man";
+import { whatDidGodAskJonahAboutNineveh } from "@/content/bites/what-did-god-ask-jonah-about-nineveh";
+import { whatHappenedWhenPaulAndSilasPrayedAndSang } from "@/content/bites/what-happened-when-paul-and-silas-prayed-and-sang";
+import { whyDoesntGodAnswerEveryPrayerTheWayWeAsk } from "@/content/bites/why-doesnt-god-answer-every-prayer-the-way-we-ask";
+import { whatDidGodUseToGiveJonahShade } from "@/content/bites/what-did-god-use-to-give-jonah-shade";
+import { whatDoesJamesCompareTheTongueTo } from "@/content/bites/what-does-james-compare-the-tongue-to";
 import { answerBases, answerSatisfactions, questionTypes } from "@/lib/editorialMetadata";
 import { siteConfig } from "@/lib/siteConfig";
 import type {
@@ -51,6 +65,20 @@ const allBites: BibleBite[] = [
   whatWateredTheGroundBeforeRain,
   whatJewelryDidRebekahReceive,
   didJobEverFindOutWhyHeSuffered,
+  whereDidPeterGetTempleTaxMoney,
+  whyDidHannahPrayWithoutMakingASound,
+  whyDidPeopleTearTheirClothesInTheBible,
+  whatDidJesusWriteOnTheGround,
+  whatIsTheBeginningOfKnowledgeInProverbs,
+  whyDidGodHardenPharaohsHeart,
+  whatAnimalSpokeToBalaam,
+  whyWasRuthsLoyaltyToNaomiSurprising,
+  whoWasNeighborToTheWoundedMan,
+  whatDidGodAskJonahAboutNineveh,
+  whatHappenedWhenPaulAndSilasPrayedAndSang,
+  whyDoesntGodAnswerEveryPrayerTheWayWeAsk,
+  whatDidGodUseToGiveJonahShade,
+  whatDoesJamesCompareTheTongueTo,
 ];
 
 function assert(condition: boolean, message: string): asserts condition {
