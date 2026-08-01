@@ -29,6 +29,20 @@ import { whatHappenedWhenPaulAndSilasPrayedAndSang } from "@/content/bites/what-
 import { whyDoesntGodAnswerEveryPrayerTheWayWeAsk } from "@/content/bites/why-doesnt-god-answer-every-prayer-the-way-we-ask";
 import { whatDidGodUseToGiveJonahShade } from "@/content/bites/what-did-god-use-to-give-jonah-shade";
 import { whatDoesJamesCompareTheTongueTo } from "@/content/bites/what-does-james-compare-the-tongue-to";
+import { whyDidGodTellMosesToRemoveHisSandals } from "@/content/bites/why-did-god-tell-moses-to-remove-his-sandals";
+import { whatDidGodAskEzekielInTheValleyOfDryBones } from "@/content/bites/what-did-god-ask-ezekiel-in-the-valley-of-dry-bones";
+import { whoLaughedWhenSheHeardSheWouldHaveASon } from "@/content/bites/who-laughed-when-she-heard-she-would-have-a-son";
+import { whyDidJesusWashHisDisciplesFeet } from "@/content/bites/why-did-jesus-wash-his-disciples-feet";
+import { whatDidTheBereansDoAfterHearingPaulPreach } from "@/content/bites/what-did-the-bereans-do-after-hearing-paul-preach";
+import { whatDidSolomonAskGodFor } from "@/content/bites/what-did-solomon-ask-god-for";
+import { whyWereJobsFriendsWrong } from "@/content/bites/why-were-jobs-friends-wrong";
+import { whatDidRavensBringElijah } from "@/content/bites/what-did-ravens-bring-elijah";
+import { whoHidTheIsraeliteSpiesInJericho } from "@/content/bites/who-hid-the-israelite-spies-in-jericho";
+import { whatDoesMicahSayYahwehRequires } from "@/content/bites/what-does-micah-say-yahweh-requires";
+import { whatDidJesusSayMaryHadChosen } from "@/content/bites/what-did-jesus-say-mary-had-chosen";
+import { whatDidHagarCallGodInTheWilderness } from "@/content/bites/what-did-hagar-call-god-in-the-wilderness";
+import { whatHappenedWhenJehoshaphatsSingersBeganToPraise } from "@/content/bites/what-happened-when-jehoshaphats-singers-began-to-praise";
+import { whatDidHabakkukDecideToDoEvenIfEverythingFailed } from "@/content/bites/what-did-habakkuk-decide-to-do-even-if-everything-failed";
 import { answerBases, answerSatisfactions, questionTypes } from "@/lib/editorialMetadata";
 import { siteConfig } from "@/lib/siteConfig";
 import type {
@@ -79,6 +93,20 @@ const allBites: BibleBite[] = [
   whyDoesntGodAnswerEveryPrayerTheWayWeAsk,
   whatDidGodUseToGiveJonahShade,
   whatDoesJamesCompareTheTongueTo,
+  whyDidGodTellMosesToRemoveHisSandals,
+  whatDidGodAskEzekielInTheValleyOfDryBones,
+  whoLaughedWhenSheHeardSheWouldHaveASon,
+  whyDidJesusWashHisDisciplesFeet,
+  whatDidTheBereansDoAfterHearingPaulPreach,
+  whatDidSolomonAskGodFor,
+  whyWereJobsFriendsWrong,
+  whatDidRavensBringElijah,
+  whoHidTheIsraeliteSpiesInJericho,
+  whatDoesMicahSayYahwehRequires,
+  whatDidJesusSayMaryHadChosen,
+  whatDidHagarCallGodInTheWilderness,
+  whatHappenedWhenJehoshaphatsSingersBeganToPraise,
+  whatDidHabakkukDecideToDoEvenIfEverythingFailed,
 ];
 
 function assert(condition: boolean, message: string): asserts condition {
