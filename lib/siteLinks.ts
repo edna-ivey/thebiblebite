@@ -6,6 +6,7 @@ export function getMainMenuLinks(todayHref: string): SiteLink[] {
     { href: "/topics", label: "Browse Topics" },
     { href: "/archive", label: "Past Bites" },
     { href: "/about", label: "Our Mission" },
+    { href: "/ask-digby", label: "Ask Digby" },
   ];
 }
 

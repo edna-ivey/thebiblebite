@@ -88,6 +88,20 @@ export function BiteExperience({ bite, readingMinutes }: BiteExperienceProps) {
                   </a>
                 ) : null}
               </section>
+              <section className="rounded-[2rem] border border-purple-100 bg-white/70 p-6">
+                <p className="text-2xl font-black leading-tight text-[var(--ink)]">
+                  Still wondering?
+                </p>
+                <p className="mt-3 text-base font-bold leading-relaxed text-[var(--muted)]">
+                  Ask Digby about this Bite or tell us what made you look twice.
+                </p>
+                <Link
+                  className="focus-ring mt-5 inline-flex min-h-12 items-center justify-center rounded-full border-2 border-purple-200 bg-purple-50 px-5 py-3 text-base font-black text-[var(--purple-dark)] no-underline"
+                  href={`/ask-digby?bite=${bite.slug}&reason=discuss-bite`}
+                >
+                  Ask Digby
+                </Link>
+              </section>
               <section className="rounded-[2rem] border border-[var(--line)] bg-white/70 p-5">
                 <p className="mb-3 text-sm font-black uppercase tracking-[0.14em] text-[var(--purple-dark)]">
                   Topic & Tags
