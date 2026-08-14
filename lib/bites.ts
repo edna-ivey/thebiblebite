@@ -43,6 +43,23 @@ import { whatDidJesusSayMaryHadChosen } from "@/content/bites/what-did-jesus-say
 import { whatDidHagarCallGodInTheWilderness } from "@/content/bites/what-did-hagar-call-god-in-the-wilderness";
 import { whatHappenedWhenJehoshaphatsSingersBeganToPraise } from "@/content/bites/what-happened-when-jehoshaphats-singers-began-to-praise";
 import { whatDidHabakkukDecideToDoEvenIfEverythingFailed } from "@/content/bites/what-did-habakkuk-decide-to-do-even-if-everything-failed";
+import { whereWasAdamWhenEveAteTheFruit } from "@/content/bites/where-was-adam-when-eve-ate-the-fruit";
+import { whatDidEveSayGodHadNotSaid } from "@/content/bites/what-did-eve-say-god-had-not-said";
+import { whatDidJobWishHeHadBetweenHimselfAndGod } from "@/content/bites/what-did-job-wish-he-had-between-himself-and-god";
+import { whatSignDidGodGiveAfterTheFlood } from "@/content/bites/what-sign-did-god-give-after-the-flood";
+import { whatDidJesusSayToRemoveBeforeTheSpeck } from "@/content/bites/what-did-jesus-say-to-remove-before-the-speck";
+import { whyDidGideonPutOutTheFleece } from "@/content/bites/why-did-gideon-put-out-the-fleece";
+import { whoDidMaryMagdaleneThinkJesusWas } from "@/content/bites/who-did-mary-magdalene-think-jesus-was";
+import { whatDoesJamesSayPureReligionIncludes } from "@/content/bites/what-does-james-say-pure-religion-includes";
+import { whatGuardedTheWayToTheTreeOfLife } from "@/content/bites/what-guarded-the-way-to-the-tree-of-life";
+import { whatDidJesusSayTheSabbathWasMadeFor } from "@/content/bites/what-did-jesus-say-the-sabbath-was-made-for";
+import { whichProphetWasToldToMarryAWomanOfProstitution } from "@/content/bites/which-prophet-was-told-to-marry-a-woman-of-prostitution";
+import { whatDidJesusAskPeterThreeTimesAfterTheResurrection } from "@/content/bites/what-did-jesus-ask-peter-three-times-after-the-resurrection";
+import { whatDidJobSayAfterGodAnsweredHim } from "@/content/bites/what-did-job-say-after-god-answered-him";
+import { whatDidAnnaDoAfterSeeingBabyJesus } from "@/content/bites/what-did-anna-do-after-seeing-baby-jesus";
+import { whatDidGodGiveIsraelFromHeavenInTheWilderness } from "@/content/bites/what-did-god-give-israel-from-heaven-in-the-wilderness";
+import { whatDidJesusInviteThomasToDoAfterThomasDoubted } from "@/content/bites/what-did-jesus-invite-thomas-to-do-after-thomas-doubted";
+import { whatDidGodSayAfterSeeingEverythingHeMade } from "@/content/bites/what-did-god-say-after-seeing-everything-he-made";
 import { answerBases, answerSatisfactions, questionTypes } from "@/lib/editorialMetadata";
 import { siteConfig } from "@/lib/siteConfig";
 import type {
@@ -107,6 +124,23 @@ const allBites: BibleBite[] = [
   whatDidHagarCallGodInTheWilderness,
   whatHappenedWhenJehoshaphatsSingersBeganToPraise,
   whatDidHabakkukDecideToDoEvenIfEverythingFailed,
+  whereWasAdamWhenEveAteTheFruit,
+  whatDidEveSayGodHadNotSaid,
+  whatDidJobWishHeHadBetweenHimselfAndGod,
+  whatSignDidGodGiveAfterTheFlood,
+  whatDidJesusSayToRemoveBeforeTheSpeck,
+  whyDidGideonPutOutTheFleece,
+  whoDidMaryMagdaleneThinkJesusWas,
+  whatDoesJamesSayPureReligionIncludes,
+  whatGuardedTheWayToTheTreeOfLife,
+  whatDidJesusSayTheSabbathWasMadeFor,
+  whichProphetWasToldToMarryAWomanOfProstitution,
+  whatDidJesusAskPeterThreeTimesAfterTheResurrection,
+  whatDidJobSayAfterGodAnsweredHim,
+  whatDidAnnaDoAfterSeeingBabyJesus,
+  whatDidGodGiveIsraelFromHeavenInTheWilderness,
+  whatDidJesusInviteThomasToDoAfterThomasDoubted,
+  whatDidGodSayAfterSeeingEverythingHeMade,
 ];
 
 function assert(condition: boolean, message: string): asserts condition {
