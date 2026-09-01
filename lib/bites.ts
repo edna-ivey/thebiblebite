@@ -60,6 +60,13 @@ import { whatDidAnnaDoAfterSeeingBabyJesus } from "@/content/bites/what-did-anna
 import { whatDidGodGiveIsraelFromHeavenInTheWilderness } from "@/content/bites/what-did-god-give-israel-from-heaven-in-the-wilderness";
 import { whatDidJesusInviteThomasToDoAfterThomasDoubted } from "@/content/bites/what-did-jesus-invite-thomas-to-do-after-thomas-doubted";
 import { whatDidGodSayAfterSeeingEverythingHeMade } from "@/content/bites/what-did-god-say-after-seeing-everything-he-made";
+import { whyDidTheEasternTribesBuildAnAltar } from "@/content/bites/why-did-the-eastern-tribes-build-an-altar";
+import { whatDidDavidDoAfterHisChildDied } from "@/content/bites/what-did-david-do-after-his-child-died";
+import { whyDoesEcclesiastesSayTwoAreBetterThanOne } from "@/content/bites/why-does-ecclesiastes-say-two-are-better-than-one";
+import { whatDidElishasServantSeeWhenGodOpenedHisEyes } from "@/content/bites/what-did-elishas-servant-see-when-god-opened-his-eyes";
+import { whyWereSomePriestsRemovedFromServiceAfterTheExile } from "@/content/bites/why-were-some-priests-removed-from-service-after-the-exile";
+import { whatChangedAsaphsViewOfTheWicked } from "@/content/bites/what-changed-asaphs-view-of-the-wicked";
+import { whoStoppedDavidFromTakingRevengeOnNabal } from "@/content/bites/who-stopped-david-from-taking-revenge-on-nabal";
 import { answerBases, answerSatisfactions, questionTypes } from "@/lib/editorialMetadata";
 import { siteConfig } from "@/lib/siteConfig";
 import type {
@@ -141,6 +148,13 @@ const allBites: BibleBite[] = [
   whatDidGodGiveIsraelFromHeavenInTheWilderness,
   whatDidJesusInviteThomasToDoAfterThomasDoubted,
   whatDidGodSayAfterSeeingEverythingHeMade,
+  whyDidTheEasternTribesBuildAnAltar,
+  whatDidDavidDoAfterHisChildDied,
+  whyDoesEcclesiastesSayTwoAreBetterThanOne,
+  whatDidElishasServantSeeWhenGodOpenedHisEyes,
+  whyWereSomePriestsRemovedFromServiceAfterTheExile,
+  whatChangedAsaphsViewOfTheWicked,
+  whoStoppedDavidFromTakingRevengeOnNabal,
 ];
 
 function assert(condition: boolean, message: string): asserts condition {
