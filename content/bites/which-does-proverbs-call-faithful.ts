@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whichDoesProverbsCallFaithful: BibleBite = {
+  date: "2026-09-18",
+  slug: "which-does-proverbs-call-faithful",
+  title: "Which does Proverbs call faithful?",
+  curiosityHook: "Proverbs says one painful thing can be evidence of a faithful friendship.",
+  scriptureReference: "Proverbs 27:5-10",
+  scriptureText: "Better is open rebuke than hidden love. The wounds of a friend are faithful, although the kisses of an enemy are profuse.",
+  translation: "WEB",
+  topic: "wisdom-and-life",
+  questionType: "context",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "Which does Proverbs call faithful?",
+  answerChoices: [
+    { id: "A", text: "Praise offered by a stranger" },
+    { id: "B", text: "Silence from someone who disagrees" },
+    { id: "C", text: "Wounds given by a friend" },
+    { id: "D", text: "Advice that confirms our first idea" },
+  ],
+  correctAnswer: "C",
+  explanation: "\"Faithful are the wounds of a friend; although the kisses of an enemy are profuse.\" Proverbs uses uncomfortable language because honest friendship can be uncomfortable. A real friend may say something that stings, while a person who does not seek our good may keep us pleased with easy approval.\n\nThe verse is not permission to call every cruel remark \"truth.\" The surrounding wisdom literature condemns reckless words that pierce like a sword and praises speech that brings healing. A faithful wound is faithful because love governs its purpose, timing, and manner. It aims at restoration, not superiority. It also comes from a relationship sturdy enough to share both correction and care.\n\nWe usually prefer the kisses. Agreement feels safe, and correction can feel like rejection. Yet a life surrounded only by applause becomes dangerously hard to examine. Wise friendship gives another person enough access to tell us when our choices do not match who we say we want to be. Receiving that kind of truth requires discernment. Is this person trustworthy? Is the concern specific? Does it align with Scripture? Can I listen before deciding whether every part is right? A friend's words may not be perfect, but humility can still search them for something worth hearing.",
+  bigTruth: "Love sometimes tells us what comfort would rather leave unsaid.",
+  takeTheBite: "Ask one trustworthy person, \"Is there something in my choices lately that you think I am not seeing clearly?\" Listen without interrupting. Thank them, take time to pray, and decide on any needed response after the first wave of defensiveness passes.",
+  prayer: "God of truth and grace, give me friends who care more about my good than my approval. Make me humble enough to receive correction and wise enough to recognize manipulation or cruelty. When I need to speak hard truth, purify my motive and soften my delivery. Let honesty deepen love rather than become an excuse to wound. Amen.",
+  deeperReading: {
+    reference: "Proverbs 27:5-10; Proverbs 12:18; Galatians 6:1-2",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "proverbs",
+    chapter: 27,
+    verseStart: 5,
+    verseEnd: 10,
+  },
+  tags: ["Proverbs","Wisdom & Life"],
+  status: "published",
+};

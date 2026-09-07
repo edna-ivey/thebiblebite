@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whoDoesJudeSayDisputedWithTheDevilAboutMosesBody: BibleBite = {
+  date: "2026-10-26",
+  slug: "who-does-jude-say-disputed-with-the-devil-about-moses-body",
+  title: "Who does Jude say disputed with the devil about Moses' body?",
+  curiosityHook: "Jude mentions a spiritual dispute the rest of Scripture never narrates.",
+  scriptureReference: "Jude 8-10",
+  scriptureText: "But Michael, the archangel, when contending with the devil and arguing about the body of Moses, dared not bring against him an abusive condemnation, but said, “May the Lord rebuke you!” But these speak evil of whatever things they don’t know. They are destroyed in these things that they understand naturally, like the creatures without reason.",
+  translation: "WEB",
+  topic: "weird-and-wonderful",
+  questionType: "surprising-detail",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "Who does Jude say disputed with the devil about Moses' body?",
+  answerChoices: [
+    { id: "A", text: "Michael the archangel" },
+    { id: "B", text: "Gabriel the messenger" },
+    { id: "C", text: "Joshua the high priest" },
+    { id: "D", text: "Elijah the prophet" },
+  ],
+  correctAnswer: "A",
+  explanation: "Jude gives one of the New Testament's most mysterious details. Michael the archangel disputed with the devil about Moses' body, yet did not pronounce a reviling judgment. He said, \"May the Lord rebuke you!\" Deuteronomy records Moses' death and says the location of his grave was unknown, but it does not narrate this dispute.\n\nJude's immediate point is clearer than the missing backstory. He is contrasting Michael's restraint with arrogant teachers who slandered what they did not understand. Even in a confrontation with the devil, Michael did not posture as though final judgment belonged to his own authority. He appealed to the Lord.\n\nAncient Jewish traditions contain stories connected with Moses' death, but the surviving evidence does not let us reconstruct Jude's source or every detail with certainty. We do not need to fill the silence with an elaborate theory about why the body was disputed or where it is now. The text gives a strange example in service of a practical warning: spiritual language does not make reckless speech wise.\n\nMystery can tempt us to become more confident than Scripture. Jude models another response. Notice the detail, honor what is written, admit what is not explained, and pay attention to the moral point the writer is actually making.",
+  bigTruth: "Reverence knows the difference between what Scripture reveals and what curiosity invents.",
+  takeTheBite: "Choose one biblical mystery about which you have heard confident claims. Make two columns: \"The text says\" and \"People infer.\" Let the difference shape how confidently you speak about it.",
+  prayer: "Lord, make me curious without making me careless. Teach me to honor what You have revealed and admit what I do not know. Guard my speech from arrogance, especially when I talk about spiritual things. Give me Michael's restraint and a deeper confidence that judgment belongs to You, not to my performance of certainty. Amen.",
+  deeperReading: {
+    reference: "Deuteronomy 34:1-12; Zechariah 3:1-5; Jude 3-16",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "deuteronomy",
+    chapter: 34,
+    verseStart: 1,
+    verseEnd: 12,
+  },
+  tags: ["Jude","Weird & Wonderful"],
+  status: "published",
+};

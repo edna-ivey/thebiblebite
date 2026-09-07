@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const howDidJesusRedefineGreatnessAfterTheDisciplesArguedAboutWhoWasGreatest: BibleBite = {
+  date: "2026-10-13",
+  slug: "how-did-jesus-redefine-greatness-after-the-disciples-argued-about-who-was-greatest",
+  title: "How did Jesus redefine greatness after the disciples argued about who was greatest?",
+  curiosityHook: "The disciples argued about rank. Jesus answered by bringing someone overlooked into the center.",
+  scriptureReference: "Mark 9:33-37",
+  scriptureText: "He sat down and called the twelve; and he said to them, “If any man wants to be first, he shall be last of all, and servant of all.” He took a little child and set him in the middle of them. Taking him in his arms, he said to them, “Whoever receives one such little child in my name receives me; and whoever receives me, doesn’t receive me, but him who sent me.”",
+  translation: "WEB",
+  topic: "wisdom-and-life",
+  questionType: "context",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "How did Jesus redefine greatness after the disciples argued about who was greatest?",
+  answerChoices: [
+    { id: "A", text: "The greatest person wins the most public honor" },
+    { id: "B", text: "The greatest person avoids every low-status task" },
+    { id: "C", text: "The greatest person proves the strongest faith" },
+    { id: "D", text: "The greatest person becomes servant of all" },
+  ],
+  correctAnswer: "D",
+  explanation: "On the road to Capernaum, the disciples argued about which of them was greatest. When Jesus asked what they had discussed, they went silent. They already sensed the conversation did not fit what He had been teaching, especially His repeated words about suffering and the cross.\n\nJesus sat down, called the Twelve, and said, \"If any man wants to be first, he shall be last of all, and servant of all.\" Then He placed a child in their midst and welcomed the child in His arms. In that culture, children were loved, but they did not carry the social rank that could advance an adult's reputation. Welcoming one in Jesus' name meant giving attention to someone who could not repay the gesture with status.\n\nJesus did not say ability, leadership, or excellence are evil. He overturned the purpose of greatness. Influence is not a staircase for rising above people; it is a resource for serving them. The child in the center also makes the lesson concrete. \"Servant of all\" is not an inspiring idea until it reaches the person whose needs are easy to postpone because they do not seem important to our goals. Kingdom greatness asks a different question from ambition: not \"How am I being recognized?\" but \"Who is being received and cared for through what I have been given?\"",
+  bigTruth: "In Jesus' kingdom, greatness moves toward people who cannot increase our status.",
+  takeTheBite: "Do one useful task today that is unlikely to be noticed or repaid. Give particular attention to someone who is often treated as an interruption rather than a person worth receiving.",
+  prayer: "Jesus, You know how quickly I measure greatness by attention, rank, and comparison. Turn my ambition toward service. Help me notice people who cannot advance my plans and welcome them with genuine care. Give me the humility to take the lower place without secretly keeping score. Make whatever influence I have useful to others. Amen.",
+  deeperReading: {
+    reference: "Mark 9:30-37; Mark 10:35-45; Philippians 2:1-11",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "mark",
+    chapter: 9,
+    verseStart: 30,
+    verseEnd: 37,
+  },
+  tags: ["Mark","Wisdom & Life"],
+  status: "published",
+};

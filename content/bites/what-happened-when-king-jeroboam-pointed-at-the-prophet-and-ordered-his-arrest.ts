@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatHappenedWhenKingJeroboamPointedAtTheProphetAndOrderedHisArrest: BibleBite = {
+  date: "2026-10-11",
+  slug: "what-happened-when-king-jeroboam-pointed-at-the-prophet-and-ordered-his-arrest",
+  title: "What happened when King Jeroboam pointed at the prophet and ordered his arrest?",
+  curiosityHook: "A king tried to silence a prophet at an unauthorized altar.",
+  scriptureReference: "1 Kings 13:1-6",
+  scriptureText: "When the king heard the saying of the man of God, which he cried against the altar in Bethel, Jeroboam put out his hand from the altar, saying, “Seize him!” His hand, which he put out against him, dried up, so that he could not draw it back again to himself. The altar was also split apart, and the ashes poured out from the altar, according to the sign which the man of God had given by Yahweh’s word. The king answered the man of God, “Now intercede for the favor of Yahweh your God, and pray for me, that my hand may be restored to me.” The man of God interceded with Yahweh, and the king’s hand was restored to him, and became as it was before.",
+  translation: "WEB",
+  topic: "weird-and-wonderful",
+  questionType: "surprising-detail",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What happened when King Jeroboam pointed at the prophet and ordered his arrest?",
+  answerChoices: [
+    { id: "A", text: "The prophet suddenly became unable to speak" },
+    { id: "B", text: "The king's hand withered so he could not pull it back" },
+    { id: "C", text: "The altar disappeared beneath the ground" },
+    { id: "D", text: "The guards fell asleep around the king" },
+  ],
+  correctAnswer: "B",
+  explanation: "Jeroboam had built an altar at Bethel as part of a rival worship system. While he stood there to burn incense, a man of God from Judah announced judgment against the altar. The king pointed and commanded, \"Seize him!\" His outstretched hand immediately withered, and he could not draw it back. The altar also split, confirming the sign the prophet had announced.\n\nThen the king who had ordered the prophet's arrest asked him to pray. The prophet did, and Jeroboam's hand was restored. Judgment and mercy appear within the same brief scene. The king's power to point, command, and seize vanished in a moment; the man he threatened became the person through whom he sought help.\n\nThe story continues with the prophet's own tragic disobedience, so it does not divide people neatly into an always-right messenger and an always-wrong king. This opening scene makes a narrower point: political authority cannot make false worship true, and a hand extended in coercion is still dependent on God's mercy. Restoration also gave Jeroboam an opportunity to turn around, though the chapter says he did not change his evil way. Receiving relief is not the same as receiving correction. Mercy invites a response.",
+  bigTruth: "Mercy is not only relief from consequences; it is an invitation to change direction.",
+  takeTheBite: "Recall one problem from which you were relieved. Ask whether you returned to the habit that helped create it. Choose one change that receives the mercy as an invitation, not merely an escape.",
+  prayer: "Merciful God, thank You for help I did not earn. Keep me from receiving relief and returning unchanged to the same destructive path. When You expose misuse of power in me, make me quick to repent. Let gratitude become a new direction, and teach me to use whatever influence I have without coercion or pride. Amen.",
+  deeperReading: {
+    reference: "1 Kings 12:25-33; 1 Kings 13:1-10; Romans 2:1-4",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "1-kings",
+    chapter: 12,
+    verseStart: 25,
+    verseEnd: 33,
+  },
+  tags: ["1 Kings","Weird & Wonderful"],
+  status: "published",
+};

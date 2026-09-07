@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatDidEstherAskTheJewishCommunityInSusaToDoBeforeSheApproachedTheKingUninvited: BibleBite = {
+  date: "2026-10-08",
+  slug: "what-did-esther-ask-the-jewish-community-in-susa-to-do-before-she-approached-the-king-uninvited",
+  title: "What did Esther ask the Jewish community in Susa to do before she approached the king uninvited?",
+  curiosityHook: "Esther did not walk into danger as a solitary hero.",
+  scriptureReference: "Esther 4:10-17",
+  scriptureText: "Then Esther asked them to answer Mordecai, “Go, gather together all the Jews who are present in Susa, and fast for me, and neither eat nor drink three days, night or day. I and my maidens will also fast the same way. Then I will go in to the king, which is against the law; and if I perish, I perish.”",
+  translation: "WEB",
+  topic: "people-and-stories",
+  questionType: "look-closer",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What did Esther ask the Jewish community in Susa to do before she approached the king uninvited?",
+  answerChoices: [
+    { id: "A", text: "Gather weapons near the palace gate" },
+    { id: "B", text: "Send a second petition through Mordecai" },
+    { id: "C", text: "Fast for her for three days and nights" },
+    { id: "D", text: "Leave the city before the king heard her request" },
+  ],
+  correctAnswer: "C",
+  explanation: "Esther faced a decision no royal title could make safe. Approaching the king without being summoned could lead to death unless he extended the golden scepter. Yet remaining silent would not remove her from the danger threatening her people.\n\nAfter Mordecai challenged her, Esther did not rush into the throne room alone. She asked him to gather the Jewish people in Susa for a three-day fast. She and her attendants would fast too. Then she would go to the king, ending with the sober words, \"If I perish, I perish.\"\n\nThe book of Esther does not explicitly mention prayer in this scene or name God anywhere. Fasting elsewhere in Scripture often accompanies urgent prayer, but we should not add words the narrator chose not to include. What the text clearly shows is shared preparation. Esther's courage was personal, but it was not isolated. A threatened community abstained and stood with her while she entered the place only she could enter.\n\nCourage is sometimes pictured as solitary fearlessness. Esther offers a stronger image: one person accepts a particular responsibility while a community helps carry the weight. We still need that pattern. Before a costly conversation or action, ask others to seek God with you rather than using their support as a substitute for the step that is yours.",
+  bigTruth: "Courage can be deeply personal without ever being entirely solitary.",
+  takeTheBite: "If you face a difficult responsibility, ask two trusted people to pray or fast with you at a specific time. Tell them what action you plan to take and what kind of support you need afterward.",
+  prayer: "God, give me courage for the responsibility that belongs to me and humility to ask others to stand with me. Protect me from reckless action and paralyzing silence. Unite our community around people facing costly choices. When I must enter a room others cannot enter for me, remind me that I do not go unsupported. Amen.",
+  deeperReading: {
+    reference: "Esther 3:8-15; Esther 4:1-17; Esther 5:1-8",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "esther",
+    chapter: 3,
+    verseStart: 8,
+    verseEnd: 15,
+  },
+  tags: ["Esther","People & Stories"],
+  status: "published",
+};

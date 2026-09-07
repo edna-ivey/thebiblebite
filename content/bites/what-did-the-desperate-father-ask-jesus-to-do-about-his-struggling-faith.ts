@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatDidTheDesperateFatherAskJesusToDoAboutHisStrugglingFaith: BibleBite = {
+  date: "2026-10-14",
+  slug: "what-did-the-desperate-father-ask-jesus-to-do-about-his-struggling-faith",
+  title: "What did the desperate father ask Jesus to do about his struggling faith?",
+  curiosityHook: "A desperate father gave Jesus one of the Bible's most honest prayers.",
+  scriptureReference: "Mark 9:14-29",
+  scriptureText: "Jesus said to him, “If you can believe, all things are possible to him who believes.” Immediately the father of the child cried out with tears, “I believe. Help my unbelief!”",
+  translation: "WEB",
+  topic: "hard-questions",
+  questionType: "hard-question",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What did the desperate father ask Jesus to do about his struggling faith?",
+  answerChoices: [
+    { id: "A", text: "Help his unbelief" },
+    { id: "B", text: "Give him a sign before he believed" },
+    { id: "C", text: "Let the disciples answer for him" },
+    { id: "D", text: "Wait until his faith became certain" },
+  ],
+  correctAnswer: "A",
+  explanation: "A father brought his suffering son to Jesus after the disciples had been unable to help. The scene was chaotic: a crowd argued, the child convulsed, and the father described years of danger and distress. He pleaded, \"If you can do anything, have compassion on us and help us.\"\n\nJesus answered, \"If you can believe, all things are possible to him who believes.\" The father immediately cried, \"I believe. Help my unbelief!\" He did not hide the contradiction inside him. He brought both trust and doubt to Jesus in the same sentence.\n\nJesus helped the boy. The story does not teach that the father's emotional certainty earned healing, or that unanswered suffering proves inadequate faith. In fact, his prayer is memorable because his faith is not tidy. He believes enough to ask Jesus for help with the part that does not believe.\n\nThe passage describes this child's condition in spiritual terms within this particular narrative. It should not be used to label seizures, disability, or mental distress today as demonic. Its invitation is about honest dependence. Faith does not have to wait until every question is gone before it speaks. We can bring Jesus the confidence we have, the doubt we fear, and the need we cannot solve.",
+  bigTruth: "Honest faith can ask Jesus for help with the doubt still inside it.",
+  takeTheBite: "Finish this sentence in prayer: \"Jesus, I believe You are ______, and I need help believing You are ______.\" Do not correct the answer into something polished. Bring both parts honestly.",
+  prayer: "Jesus, I bring You the part of me that believes and the part that still trembles. I cannot manufacture certainty or control the outcome I need. Have compassion on people carrying long and frightening suffering. Guide us toward wise spiritual, medical, and practical care. Meet me in honest dependence, and help my unbelief without shaming me for naming it. Amen.",
+  deeperReading: {
+    reference: "Mark 9:14-29; Psalm 73:21-28; Jude 20-23",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "mark",
+    chapter: 9,
+    verseStart: 14,
+    verseEnd: 29,
+  },
+  tags: ["Mark","Hard Questions"],
+  status: "published",
+};

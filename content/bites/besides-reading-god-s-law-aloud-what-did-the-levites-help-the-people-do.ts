@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const besidesReadingGodSLawAloudWhatDidTheLevitesHelpThePeopleDo: BibleBite = {
+  date: "2026-09-29",
+  slug: "besides-reading-god-s-law-aloud-what-did-the-levites-help-the-people-do",
+  title: "Besides reading God's law aloud, what did the Levites help the people do?",
+  curiosityHook: "When Jerusalem heard the law again, reading it aloud was only part of the work.",
+  scriptureReference: "Nehemiah 8:1-12",
+  scriptureText: "They read in the book, in the law of God, distinctly; and they gave the sense, so that they understood the reading.",
+  translation: "WEB",
+  topic: "bible-and-history",
+  questionType: "context",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "Besides reading God's law aloud, what did the Levites help the people do?",
+  answerChoices: [
+    { id: "A", text: "Memorize the entire scroll before sunset" },
+    { id: "B", text: "Understand the meaning of what was read" },
+    { id: "C", text: "Replace difficult commands with simpler ones" },
+    { id: "D", text: "Choose which parts each family would follow" },
+  ],
+  correctAnswer: "B",
+  explanation: "After Jerusalem's wall was rebuilt, the people gathered as one in the square and asked Ezra to bring out the Book of the Law. He read from early morning until midday, and the people listened attentively. This was no quick ceremonial appearance by a sacred object. The assembly expected to hear.\n\nNehemiah then names the work of the Levites: they helped the people understand the law. The text says they read distinctly, gave the sense, and caused the people to understand the reading. Scripture was honored not only by being spoken but by being made understandable.\n\nWhen the people grasped what they heard, they wept. Ezra, Nehemiah, and the Levites did not manipulate their emotion or leave them crushed. They told the people that the day was holy, urged them to celebrate, and made sure portions were shared with anyone who had nothing prepared. Understanding moved toward worship, generosity, and strength.\n\nThis scene gives a healthy picture of Bible teaching. Clear explanation is not a rival to spiritual depth. It helps people respond to what the text actually says. Teachers should not make Scripture sound mysterious in order to appear impressive, and learners do not fail God by asking for help. The goal is not merely to finish the reading. It is to understand enough to live it together.",
+  bigTruth: "God's word is meant to be understood, shared, and lived.",
+  takeTheBite: "Choose one verse you have often heard but never examined in context. Read the whole paragraph, write one question, and use a trustworthy study resource or mature teacher to pursue the meaning rather than guessing.",
+  prayer: "God, thank You for speaking in words meant to be heard and understood. Give me patience to read beyond familiar phrases and humility to ask for help. Bless those who teach Your word with clarity and honesty. Let understanding lead me toward worship, generosity, and obedient joy, not merely more information. Amen.",
+  deeperReading: {
+    reference: "Nehemiah 8:1-18; Deuteronomy 31:9-13; Luke 24:25-35",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "nehemiah",
+    chapter: 8,
+    verseStart: 1,
+    verseEnd: 18,
+  },
+  tags: ["Nehemiah","Bible & History"],
+  status: "published",
+};

@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatPracticeDidTheReturnedExilesRediscoverWhileStudyingTheLaw: BibleBite = {
+  date: "2026-10-03",
+  slug: "what-practice-did-the-returned-exiles-rediscover-while-studying-the-law",
+  title: "What practice did the returned exiles rediscover while studying the law?",
+  curiosityHook: "A returned community found an old command and built temporary homes across Jerusalem.",
+  scriptureReference: "Nehemiah 8:13-18",
+  scriptureText: "They found written in the law how Yahweh had commanded by Moses that the children of Israel should dwell in booths in the feast of the seventh month; and that they should publish and proclaim in all their cities and in Jerusalem, saying, “Go out to the mountain, and get olive branches, branches of wild olive, myrtle branches, palm branches, and branches of thick trees, to make temporary shelters, † or, booths as it is written.” So the people went out and brought them, and made themselves temporary shelters, ‡ or, booths everyone on the roof of his house, in their courts, in the courts of God’s house, in the wide place of the water gate, and in the wide place of Ephraim’s gate. All the assembly of those who had come back out of the captivity made temporary shelters § or, booths and lived in the temporary shelters, for since the days of Joshua the son of Nun to that day the children of Israel had not done so. There was very great gladness.",
+  translation: "WEB",
+  topic: "bible-and-history",
+  questionType: "context",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What practice did the returned exiles rediscover while studying the law?",
+  answerChoices: [
+    { id: "A", text: "Lighting lamps around Jerusalem's wall" },
+    { id: "B", text: "Living in temporary shelters during the feast" },
+    { id: "C", text: "Fasting throughout the seventh month" },
+    { id: "D", text: "Bringing every firstborn animal to the city" },
+  ],
+  correctAnswer: "B",
+  explanation: "On the day after the public reading of the law, family leaders, priests, and Levites gathered with Ezra to study more carefully. They found the command that Israelites should live in temporary shelters during the feast of the seventh month. A proclamation went out, branches were gathered, and families built shelters on roofs, in courtyards, and in public squares.\n\nThis was the Feast of Booths, rooted in God's command that later generations remember how He made Israel live in shelters after bringing them out of Egypt. The practice turned memory into something people could inhabit. For several days, ordinary routines were interrupted by a physical reminder: our ancestors lived between rescue and home, and God sustained them there.\n\nNehemiah says the celebration had not been kept in this way since Joshua's days. That does not necessarily mean no Israelite had observed the feast at all during those centuries; other biblical texts mention celebrations. It emphasizes how fully this returned community embraced what it had rediscovered. Their study produced action, shared memory, and great joy.\n\nFaith can become thin when remembrance stays abstract. Scripture gives practices such as meals, songs, baptism, and the Lord's Supper that engage bodies and communities. We remember not because God forgets, but because we do.",
+  bigTruth: "Faithful practices help a rescued people remember who carried them.",
+  takeTheBite: "Choose one simple physical reminder of God's past care, such as a written date, a meal, a photo, or a short walk. Tell someone the story connected to it, including both the difficulty and the help you received.",
+  prayer: "God who sustained Your people between Egypt and home, keep me from forgetting the roads You have already brought me through. Give substance to my gratitude through practices I can repeat and stories I can share. When life feels temporary or unsettled, remind me that Your presence is not postponed until I arrive somewhere easier. Amen.",
+  deeperReading: {
+    reference: "Leviticus 23:33-43; Deuteronomy 16:13-17; Nehemiah 8:13-18",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "leviticus",
+    chapter: 23,
+    verseStart: 33,
+    verseEnd: 43,
+  },
+  tags: ["Nehemiah","Bible & History"],
+  status: "published",
+};

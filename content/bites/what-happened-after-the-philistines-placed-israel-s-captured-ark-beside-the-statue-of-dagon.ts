@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatHappenedAfterThePhilistinesPlacedIsraelSCapturedArkBesideTheStatueOfDagon: BibleBite = {
+  date: "2026-09-08",
+  slug: "what-happened-after-the-philistines-placed-israel-s-captured-ark-beside-the-statue-of-dagon",
+  title: "What happened after the Philistines placed Israel's captured ark beside the statue of Dagon?",
+  curiosityHook: "The Philistines put the captured ark beside Dagon. Morning changed the picture.",
+  scriptureReference: "1 Samuel 5:1-5",
+  scriptureText: "When the people of Ashdod arose early on the next day, behold, Dagon had fallen on his face to the ground before Yahweh’s ark. They took Dagon and set him in his place again.",
+  translation: "WEB",
+  topic: "weird-and-wonderful",
+  questionType: "surprising-detail",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What happened after the Philistines placed Israel's captured ark beside the statue of Dagon?",
+  answerChoices: [
+    { id: "A", text: "Dagon fell face down before the ark" },
+    { id: "B", text: "The ark split the temple floor open" },
+    { id: "C", text: "Dagon's priests carried the ark outside" },
+    { id: "D", text: "A fire burned the offerings beside Dagon" },
+  ],
+  correctAnswer: "A",
+  explanation: "The Philistines had defeated Israel, captured the ark of God, and carried it into Dagon's temple at Ashdod. In the ancient world, taking an enemy's sacred object could look like proof that your god had defeated theirs. The scene appears to announce Dagon's victory.\n\nThen the statue is found face down before the ark, in the posture of someone bowing. The Philistines stand Dagon back up, but the next morning he has fallen again. This time his head and hands are broken off on the threshold. Israel's army has lost a battle, yet the story refuses to treat the Lord as a defeated tribal god. He does not need Israel to prop Him up or rescue His reputation. Dagon is the one who must be lifted by human hands.\n\nThe ark was not a magic box, and Israel had been wrong to treat it like one in the previous chapter. Still, its capture did not place God under Philistine control. The strange temple scene makes a serious point with unforgettable imagery: human beings may mishandle what is holy, but God is not made powerless by our failure. Our disappointments do not knock Him from His throne.",
+  bigTruth: "God does not need us to hold Him up.",
+  takeTheBite: "Name one circumstance that has made God seem absent or defeated to you. Instead of trying to force a quick explanation, pray one honest sentence that remembers who God is even when the visible result looks confusing.",
+  prayer: "Lord, when loss makes me wonder whether You are still in control, steady my heart. Forgive me for treating Your presence like something I can manage or use. You are not fragile, and Your faithfulness does not depend on my ability to understand every outcome. Help me honor You in disappointment and wait for the fuller story You are writing. Amen.",
+  deeperReading: {
+    reference: "1 Samuel 4:1-11; 1 Samuel 5:1-12; Isaiah 46:5-10",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "1-samuel",
+    chapter: 4,
+    verseStart: 1,
+    verseEnd: 11,
+  },
+  tags: ["1 Samuel","Weird & Wonderful"],
+  status: "published",
+};

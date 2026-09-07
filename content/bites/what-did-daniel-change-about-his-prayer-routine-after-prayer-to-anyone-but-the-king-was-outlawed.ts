@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatDidDanielChangeAboutHisPrayerRoutineAfterPrayerToAnyoneButTheKingWasOutlawed: BibleBite = {
+  date: "2026-09-11",
+  slug: "what-did-daniel-change-about-his-prayer-routine-after-prayer-to-anyone-but-the-king-was-outlawed",
+  title: "What did Daniel change about his prayer routine after prayer to anyone but the king was outlawed?",
+  curiosityHook: "A new law targeted the one habit Daniel would not abandon.",
+  scriptureReference: "Daniel 6:6-13",
+  scriptureText: "When Daniel knew that the writing was signed, he went into his house (now his windows were open in his room toward Jerusalem) and he kneeled on his knees three times a day, and prayed, and gave thanks before his God, as he did before.",
+  translation: "WEB",
+  topic: "prayer-and-worship",
+  questionType: "look-closer",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What did Daniel change about his prayer routine after prayer to anyone but the king was outlawed?",
+  answerChoices: [
+    { id: "A", text: "He prayed only at night so no one would know" },
+    { id: "B", text: "He moved his prayers into the royal court" },
+    { id: "C", text: "He stopped for thirty days to obey the law" },
+    { id: "D", text: "He continued praying three times a day as before" },
+  ],
+  correctAnswer: "D",
+  explanation: "Daniel's enemies could not find corruption in his public work, so they designed a law around the one loyalty they knew he would not abandon. For thirty days, petitions could be directed only to King Darius. Daniel learned that the decree had been signed, went home, opened his windows toward Jerusalem, knelt, and prayed three times that day \"as he did before.\"\n\nThat last phrase is easy to miss. Daniel did not invent a dramatic spiritual performance for the crisis. He continued a practiced relationship with God. His prayer included thanks even while the law made prayer dangerous. Years of ordinary faithfulness had already formed the response he would need when pressure arrived.\n\nThe open windows were not a stunt aimed at his enemies. Praying toward Jerusalem echoed Solomon's prayer for exiles who would turn toward the city and seek God. Daniel was living far from home under foreign rule, but prayer kept his deepest allegiance clear. We may never face Daniel's decree, yet smaller pressures constantly invite us to let prayer become optional. Crisis reveals our habits, but it can also call us back to them. A steady life with God is built one unremarkable prayer at a time.",
+  bigTruth: "The prayers we practice in ordinary days prepare us for costly ones.",
+  takeTheBite: "Pick one repeatable time and place for prayer over the next seven days. Keep it small enough to be honest and consistent. When the time comes, thank God for one thing before asking for anything.",
+  prayer: "Faithful God, form in me a life that turns toward You before pressure arrives. Keep prayer from becoming only an emergency tool. Teach me to thank You when circumstances are unsettled and to remember where my deepest loyalty belongs. Give courage to believers whose worship carries a real cost today. Amen.",
+  deeperReading: {
+    reference: "Daniel 6:1-23; 1 Kings 8:46-50; Psalm 55:16-17",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "daniel",
+    chapter: 6,
+    verseStart: 1,
+    verseEnd: 23,
+  },
+  tags: ["Daniel","Prayer & Worship"],
+  status: "published",
+};

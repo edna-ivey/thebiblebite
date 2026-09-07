@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatDidKingHezekiahDoWithTheAssyrianCommanderSThreateningLetter: BibleBite = {
+  date: "2026-09-16",
+  slug: "what-did-king-hezekiah-do-with-the-assyrian-commander-s-threatening-letter",
+  title: "What did King Hezekiah do with the Assyrian commander's threatening letter?",
+  curiosityHook: "Hezekiah carried a terrifying message into the temple and laid it out.",
+  scriptureReference: "2 Kings 19:14-20",
+  scriptureText: "Hezekiah received the letter from the hand of the messengers and read it. Then Hezekiah went up to Yahweh’s house, and spread it before Yahweh. Hezekiah prayed before Yahweh, and said, “Yahweh, the God of Israel, enthroned above the cherubim, you are the God, even you alone, of all the kingdoms of the earth. You have made heaven and earth.",
+  translation: "WEB",
+  topic: "prayer-and-worship",
+  questionType: "look-closer",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What did King Hezekiah do with the Assyrian commander's threatening letter?",
+  answerChoices: [
+    { id: "A", text: "He spread it before the Lord and prayed" },
+    { id: "B", text: "He burned it in front of Jerusalem's leaders" },
+    { id: "C", text: "He sent it back with a warning of his own" },
+    { id: "D", text: "He hid it so the people would not panic" },
+  ],
+  correctAnswer: "A",
+  explanation: "Assyria had already conquered powerful nations and captured fortified cities in Judah. Its spokesman mocked Hezekiah's confidence and claimed that Jerusalem's God would fail just as the gods of other nations had failed. Hezekiah received the written threat, read it, went to the Lord's house, and spread it out before God.\n\nThat physical action is a vivid picture of prayer. Hezekiah did not bring God new information. He placed the exact source of his fear in God's presence. His prayer began with God's identity as the One enthroned above all kingdoms, then named the danger honestly. He did not deny Assyria's destructive record. He also recognized what the Assyrian message had missed: the defeated idols were objects made by human hands, not the living God.\n\nHezekiah asked for rescue, but his prayer reached beyond personal survival. He wanted the kingdoms of the earth to know that the Lord alone is God. Prayer did not make the military threat imaginary. It reordered the threat beneath a larger reality. We can do something similar when a message, diagnosis, invoice, or decision dominates our attention. Lay it before God. Read it with Him. Ask for what you need, and remember that the paper in front of you is not the highest authority in the room.",
+  bigTruth: "Prayer places a real threat beneath the reality of who God is.",
+  takeTheBite: "Take one written source of worry, whether it is a message, bill, calendar entry, or note you make yourself. Place it in front of you during prayer. Name what it says, then name one true thing about God before asking for help.",
+  prayer: "Lord, You already know the words that keep replaying in my mind. I place this fear before You without minimizing it or letting it become my master. You are present, wise, and greater than what threatens me. Show me the next faithful action, protect me from panic, and let my response make Your character visible. Amen.",
+  deeperReading: {
+    reference: "2 Kings 18:28-37; 2 Kings 19:1-20; Psalm 46",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "2-kings",
+    chapter: 18,
+    verseStart: 28,
+    verseEnd: 37,
+  },
+  tags: ["2 Kings","Prayer & Worship"],
+  status: "published",
+};

@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatProblemMadeCorinthSLordSSupperGatheringsDoMoreHarmThanGood: BibleBite = {
+  date: "2026-10-30",
+  slug: "what-problem-made-corinth-s-lord-s-supper-gatherings-do-more-harm-than-good",
+  title: "What problem made Corinth's Lord's Supper gatherings do more harm than good?",
+  curiosityHook: "The Lord's Supper in Corinth was exposing a division instead of healing it.",
+  scriptureReference: "1 Corinthians 11:17-34",
+  scriptureText: "When therefore you assemble yourselves together, it is not the Lord’s supper that you eat. For in your eating each one takes his own supper first. One is hungry, and another is drunken. What, don’t you have houses to eat and to drink in? Or do you despise God’s assembly and put them to shame who don’t have enough? What shall I tell you? Shall I praise you? In this I don’t praise you.",
+  translation: "WEB",
+  topic: "bible-and-history",
+  questionType: "context",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What problem made Corinth's Lord's Supper gatherings do more harm than good?",
+  answerChoices: [
+    { id: "A", text: "Divisions left some hungry while others feasted" },
+    { id: "B", text: "Believers used bread made outside the city" },
+    { id: "C", text: "Visitors were allowed to eat before members" },
+    { id: "D", text: "The meal took place in homes instead of the synagogue" },
+  ],
+  correctAnswer: "A",
+  explanation: "The Corinthian church gathered for what it called the Lord's Supper, but Paul said the meetings were doing more harm than good. People ate their own food without waiting for one another. One went hungry while another became drunk, and those who had nothing were humiliated.\n\nIn the immediate context, eating “in an unworthy manner” certainly included the way the community was humiliating some members while others ate and drank freely. Paul's call to self-examination is broader than one private feeling of solemnity, but the divisions at the table are impossible to separate from his warning.\n\nPaul's language about judgment, weakness, sickness, and death is severe. It belongs to his inspired assessment of this particular church and should not become a tool for diagnosing why someone is sick today. His practical instruction was direct: examine yourselves, wait for one another, and satisfy ordinary hunger at home so the shared meal would no longer enact division.\n\nThe Lord's Table announces a Savior who gave Himself for a people. Remembering Him while ignoring the person left hungry beside us turns remembrance into contradiction. Worship becomes truthful when the shape of the community begins to match the gift it celebrates.",
+  bigTruth: "A shared table cannot honor Jesus while humiliating members of His body.",
+  takeTheBite: "At your next shared meal, meeting, or church gathering, notice who receives less access, time, food, or welcome. Make one practical adjustment that helps the group wait for and honor one another.",
+  prayer: "Jesus, You gave Your body and welcomed us to one table. Expose the divisions our gatherings hide and the people our habits humiliate. Keep me from making worship private while a neighbor is left without care. Teach us to examine ourselves, wait for one another, share what we have, and receive Your grace as one body. Amen.",
+  deeperReading: {
+    reference: "1 Corinthians 10:14-22; 1 Corinthians 11:17-34; James 2:1-9",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "1-corinthians",
+    chapter: 10,
+    verseStart: 14,
+    verseEnd: 22,
+  },
+  tags: ["1 Corinthians","Bible & History"],
+  status: "published",
+};

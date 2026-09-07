@@ -42,7 +42,8 @@ export function getBibleReadingUrl(
   }
 
   if (translation.readingSource.provider === "eBible") {
-    const chapter = String(reading.chapter).padStart(2, "0");
+    const chapterWidth = book.ebibleCode === "PSA" ? 3 : 2;
+    const chapter = String(reading.chapter).padStart(chapterWidth, "0");
     const anchor = reading.verseStart ? `#V${reading.verseStart}` : "";
 
     return `${translation.readingSource.baseUrl}/${translation.readingSource.translationId}/${book.ebibleCode}${chapter}.htm${anchor}`;

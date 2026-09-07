@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whyDidJeremiahWearAWoodenYokeAroundHisNeck: BibleBite = {
+  date: "2026-10-04",
+  slug: "why-did-jeremiah-wear-a-wooden-yoke-around-his-neck",
+  title: "Why did Jeremiah wear a wooden yoke around his neck?",
+  curiosityHook: "Jeremiah walked around wearing an object that made his warning impossible to ignore.",
+  scriptureReference: "Jeremiah 27:1-15",
+  scriptureText: "Yahweh says to me: “Make bonds and bars, and put them on your neck. Then send them to the king of Edom, to the king of Moab, to the king of the children of Ammon, to the king of Tyre, and to the king of Sidon, by the hand of the messengers who come to Jerusalem to Zedekiah king of Judah. Give them a command to their masters, saying, ‘Yahweh of Armies, the God of Israel says, “You shall tell your masters: ‘I have made the earth, the men, and the animals that are on the surface of the earth by my great power and by my outstretched arm. I give it to whom it seems right to me. Now I have given all these lands into the hand of Nebuchadnezzar the king of Babylon, my servant. I have also given the animals of the field to him to serve him.",
+  translation: "WEB",
+  topic: "weird-and-wonderful",
+  questionType: "surprising-detail",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "Why did Jeremiah wear a wooden yoke around his neck?",
+  answerChoices: [
+    { id: "A", text: "To show that priests should return to farming" },
+    { id: "B", text: "To announce freedom from every foreign ruler" },
+    { id: "C", text: "To picture the nations coming under Babylon's rule" },
+    { id: "D", text: "To carry supplies during Jerusalem's siege" },
+  ],
+  correctAnswer: "C",
+  explanation: "God told Jeremiah to make straps and yokes, place one on his own neck, and send a message to the kings surrounding Judah. The farming tool became a public picture: Babylon's rule was coming, and resisting it would bring further disaster. For Judah, surrender to a pagan empire sounded like the opposite of faith. Other prophets promised that Babylon's power would quickly break. Jeremiah's yoke declared the harder word.\n\nThe symbol did not mean Babylon was righteous. Jeremiah later announced judgment against Babylon too. In this moment, however, God said that Nebuchadnezzar's authority formed part of His judgment, and hopeful-sounding predictions of immediate freedom were false. The strange object around Jeremiah's neck forced people to see a message they wanted to dismiss.\n\nThis is a unique prophetic instruction, not a model for performing dramatic signs whenever we want attention. Its enduring challenge concerns truth that does not flatter us. We often prefer a confident promise that confirms our desired timeline. Discernment asks whether the message matches what God has actually revealed, not whether it feels brave or positive. Sometimes faith means resisting evil. In Jeremiah 27's particular historical crisis, faithful survival meant accepting a consequence God had plainly announced.",
+  bigTruth: "A hopeful-sounding message is not faithful if it refuses the truth God has spoken.",
+  takeTheBite: "Identify one piece of advice you prefer mainly because it promises the fastest relief. Test it against Scripture, reality, and wise counsel. Write down the difficult fact you need to face before choosing your next step.",
+  prayer: "God of truth, I confess how quickly I call a message good when it tells me what I want to hear. Give me discernment that is neither cynical nor gullible. Help me face consequences honestly, reject false certainty, and obey what You have made clear. Keep my hope rooted in Your character rather than my preferred timetable. Amen.",
+  deeperReading: {
+    reference: "Jeremiah 27:1-22; Jeremiah 28:1-17; Jeremiah 29:1-14",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "jeremiah",
+    chapter: 27,
+    verseStart: 1,
+    verseEnd: 22,
+  },
+  tags: ["Jeremiah","Weird & Wonderful"],
+  status: "published",
+};

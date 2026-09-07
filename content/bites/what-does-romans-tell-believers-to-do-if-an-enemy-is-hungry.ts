@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatDoesRomansTellBelieversToDoIfAnEnemyIsHungry: BibleBite = {
+  date: "2026-10-27",
+  slug: "what-does-romans-tell-believers-to-do-if-an-enemy-is-hungry",
+  title: "What does Romans tell believers to do if an enemy is hungry?",
+  curiosityHook: "Romans turns enemy-love into something as practical as food and water.",
+  scriptureReference: "Romans 12:17-21",
+  scriptureText: "Don’t seek revenge yourselves, beloved, but give place to God’s wrath. For it is written, “Vengeance belongs to me; I will repay, says the Lord.” * Deuteronomy 32:35 Therefore “If your enemy is hungry, feed him. If he is thirsty, give him a drink; for in doing so, you will heap coals of fire on his head.” * Proverbs 25:21-22 Don’t be overcome by evil, but overcome evil with good.",
+  translation: "WEB",
+  topic: "wisdom-and-life",
+  questionType: "context",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What does Romans tell believers to do if an enemy is hungry?",
+  answerChoices: [
+    { id: "A", text: "Wait until the enemy apologizes before helping" },
+    { id: "B", text: "Give the enemy something to eat" },
+    { id: "C", text: "Ask another person to decide whether the need is real" },
+    { id: "D", text: "Remind the enemy why the relationship was broken" },
+  ],
+  correctAnswer: "B",
+  explanation: "Romans 12 does not treat love for enemies as a vague feeling. \"If your enemy is hungry, feed him. If he is thirsty, give him a drink.\" Paul is quoting Proverbs and placing practical care directly beside the command not to repay evil for evil.\n\nThe passage also says, \"As much as it is up to you, be at peace with all men.\" That wording recognizes a limit. Peace is not always within one person's control. Loving an enemy does not require calling evil good, abandoning justice, restoring trust without change, or remaining in danger. Paul tells believers not to take personal vengeance because judgment belongs to God. He does not tell authorities or communities to ignore harm.\n\nFeeding an enemy interrupts evil's attempt to reproduce itself through us. We refuse to let another person's wrong choose our character. The phrase about \"heaping coals of fire\" has been interpreted in different ways, but it cannot reasonably turn the act of feeding into disguised revenge, because the paragraph ends, \"Don't be overcome by evil, but overcome evil with good.\"\n\nGood does not always feel dramatic. It may be food, water, truthful restraint, a fair process, or a refusal to humiliate. The enemy's response remains theirs. Our response becomes a place where evil fails to make another copy of itself.",
+  bigTruth: "We overcome evil when we refuse to let it reproduce its character in us.",
+  takeTheBite: "Choose one safe, concrete good you can do without denying harm or reopening unsafe access. It may be speaking fairly, refusing gossip, meeting a basic need, or praying without plotting revenge.",
+  prayer: "Just and merciful God, You know the harm others have done and the anger I carry. Protect me from danger and lead me toward proper justice. At the same time, do not let evil remake me in its image. Show me what good is safe, truthful, and mine to do. Keep revenge from becoming my source of direction. Amen.",
+  deeperReading: {
+    reference: "Proverbs 25:21-22; Romans 12:9-21; Matthew 5:43-48",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "proverbs",
+    chapter: 25,
+    verseStart: 21,
+    verseEnd: 22,
+  },
+  tags: ["Romans","Wisdom & Life"],
+  status: "published",
+};

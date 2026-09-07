@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const howDidJesusAnswerTheDisciplesAssumptionThatAManSBlindnessMustHaveBeenCausedByHisSinOrHisParentsSin: BibleBite = {
+  date: "2026-09-22",
+  slug: "how-did-jesus-answer-the-disciples-assumption-that-a-man-s-blindness-must-have-been-caused-by-his-sin-or-his-parents-sin",
+  title: "How did Jesus answer the disciples' assumption that a man's blindness must have been caused by his sin or his parents' sin?",
+  curiosityHook: "The disciples saw a man born blind and immediately went looking for someone to blame.",
+  scriptureReference: "John 9:1-7",
+  scriptureText: "As he passed by, he saw a man blind from birth. His disciples asked him, “Rabbi, who sinned, this man or his parents, that he was born blind?” Jesus answered, “This man didn’t sin, nor did his parents, but that the works of God might be revealed in him.",
+  translation: "WEB",
+  topic: "jesus-and-the-gospel",
+  questionType: "look-closer",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "How did Jesus answer the disciples' assumption that a man's blindness must have been caused by his sin or his parents' sin?",
+  answerChoices: [
+    { id: "A", text: "He said the man's parents had hidden the real cause" },
+    { id: "B", text: "He agreed that one of them must have sinned" },
+    { id: "C", text: "He rejected both options in this man's case" },
+    { id: "D", text: "He refused to discuss the question at all" },
+  ],
+  correctAnswer: "C",
+  explanation: "The disciples saw a man who had been blind from birth and turned his life into a theological multiple-choice question: \"Who sinned, this man or his parents, that he was born blind?\" Their options assumed that someone's particular wrongdoing had to explain his condition.\n\nJesus refused the frame. \"Neither did this man sin, nor his parents,\" He answered. He was not declaring the family sinless in every sense. He was rejecting the claim that this man's blindness could be traced to either option the disciples offered. Then Jesus turned attention away from blame and toward the work of God He was about to do.\n\nThe passage does not give a universal explanation for disability. It does expose a universal temptation: when suffering is visible, observers may search for fault before they see a person. Jesus saw the man, engaged him, healed him, and later sought him out again after religious leaders expelled him. The chapter gradually shifts the question of sight. The man comes to see who Jesus is, while confident leaders refuse the light in front of them. Looking closer means resisting easy blame and asking how God's works of mercy, truth, inclusion, and faithful presence can become visible now.",
+  bigTruth: "Jesus sees a person where others may see a problem to explain.",
+  takeTheBite: "Notice one assumption you make about another person's body, hardship, or circumstances. Do not diagnose their story. Ask what respectful presence would look like, then offer help only in a way that protects their voice and dignity.",
+  prayer: "Jesus, forgive me for reaching for blame when another person's life does not fit my assumptions. Teach me to see people, not problems to solve or lessons to use. Make me attentive, respectful, and willing to follow another person's lead. Let Your works become visible through mercy and truth, never through careless explanations of someone else's pain. Amen.",
+  deeperReading: {
+    reference: "John 9:1-41; Luke 13:1-5; James 2:1-8",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "john",
+    chapter: 9,
+    verseStart: 1,
+    verseEnd: 41,
+  },
+  tags: ["John","Jesus & Gospel"],
+  status: "published",
+};

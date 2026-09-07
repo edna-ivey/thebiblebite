@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatDidShadrachMeshachAndAbednegoSayTheyWouldDoEvenIfGodDidNotRescueThemFromTheFurnace: BibleBite = {
+  date: "2026-09-28",
+  slug: "what-did-shadrach-meshach-and-abednego-say-they-would-do-even-if-god-did-not-rescue-them-from-the-furnace",
+  title: "What did Shadrach, Meshach, and Abednego say they would do even if God did not rescue them from the furnace?",
+  curiosityHook: "Three men trusted God's power without claiming to know their outcome.",
+  scriptureReference: "Daniel 3:13-25",
+  scriptureText: "If it happens, our God whom we serve is able to deliver us from the burning fiery furnace; and he will deliver us out of your hand, O king. But if not, let it be known to you, O king, that we will not serve your gods or worship the golden image which you have set up.”",
+  translation: "WEB",
+  topic: "faith-and-god",
+  questionType: "big-meaning",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What did Shadrach, Meshach, and Abednego say they would do even if God did not rescue them from the furnace?",
+  answerChoices: [
+    { id: "A", text: "Refuse to serve the king's gods or worship the image" },
+    { id: "B", text: "Ask for one more day to reconsider the command" },
+    { id: "C", text: "Leave Babylon as soon as they were released" },
+    { id: "D", text: "Build an altar beside the furnace" },
+  ],
+  correctAnswer: "A",
+  explanation: "Nebuchadnezzar gave the three men one final opportunity to bow before his golden image. His question was a challenge to both them and their God: \"Who is that god who will deliver you out of my hands?\"\n\nTheir answer held two truths together. God was able to deliver them, and they would not pretend to know that He certainly would. \"But if not,\" they continued, they still would not worship the image. Their obedience was rooted in who God is, not in a bargain that guaranteed survival.\n\nGod did rescue them, and the king saw a fourth figure walking with them in the fire. Yet the men's faith was visible before the rescue. That matters because this story can be told as though faith is a technique for securing the outcome we want. Their own words will not allow that reading. They trusted God's power without claiming control over His decision. The passage does not promise that every faithful person will be spared from physical harm. It shows allegiance that remains honest about risk. Mature faith can pray boldly for deliverance while also saying, \"My worship is not for sale, even when I cannot guarantee what obedience will cost.\"",
+  bigTruth: "Faithfulness is not a bargain we keep only when the outcome is safe.",
+  takeTheBite: "Identify one conviction you are tempted to trade for approval, convenience, or control. Write a calm sentence that states what you will and will not do, then practice saying it without hostility.",
+  prayer: "God who is able to rescue, I ask boldly for Your help in what I face. At the same time, free my obedience from bargaining. Keep my worship anchored in who You are, not only in the outcome I want. Give me courage without arrogance, conviction without hostility, and companionship in every fire I cannot avoid. Amen.",
+  deeperReading: {
+    reference: "Daniel 3:1-30; Habakkuk 3:17-19; 1 Peter 4:12-19",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "daniel",
+    chapter: 3,
+    verseStart: 1,
+    verseEnd: 30,
+  },
+  tags: ["Daniel","Faith & God"],
+  status: "published",
+};

@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatWasAnIsraeliteKingRequiredToWriteForHimself: BibleBite = {
+  date: "2026-09-15",
+  slug: "what-was-an-israelite-king-required-to-write-for-himself",
+  title: "What was an Israelite king required to write for himself?",
+  curiosityHook: "Israel's future king received a surprising writing assignment.",
+  scriptureReference: "Deuteronomy 17:14-20",
+  scriptureText: "It shall be, when he sits on the throne of his kingdom, that he shall write himself a copy of this law in a book, out of that which is before the Levitical priests. It shall be with him, and he shall read from it all the days of his life, that he may learn to fear Yahweh his God, to keep all the words of this law and these statutes, to do them; that his heart not be lifted up above his brothers, and that he not turn away from the commandment to the right hand, or to the left, to the end that he may prolong his days in his kingdom, he and his children, in the middle of Israel.",
+  translation: "WEB",
+  topic: "bible-and-history",
+  questionType: "context",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What was an Israelite king required to write for himself?",
+  answerChoices: [
+    { id: "A", text: "A record of every military victory" },
+    { id: "B", text: "A list of taxes owed by each tribe" },
+    { id: "C", text: "A history of the kings who ruled before him" },
+    { id: "D", text: "A copy of God's law to read throughout his life" },
+  ],
+  correctAnswer: "D",
+  explanation: "Long before Israel crowned its first king, Deuteronomy described how a king should live. He was not to multiply horses, wives, or silver and gold for himself. Those limits challenged familiar ways rulers displayed power, secured alliances, and insulated themselves from ordinary people.\n\nThen came an unusual assignment. The king was to write his own copy of the law from the copy kept by the priests. He was to keep it with him and read it all his days. Israel's highest human ruler remained a student under God's word. The throne did not place him above instruction.\n\nDeuteronomy even names the inner purpose: regular attention to the law would teach the king to fear the Lord and keep his heart from being lifted above his brothers. Leadership creates opportunities for pride because other people begin carrying what the leader once had to carry. God gave the king a practice designed to keep authority answerable and the heart teachable. Most of us will never sit on a throne, but each of us holds some influence. The question is not only whether we know the right principles. It is whether we stay close enough to God's word to be corrected by them when power makes correction inconvenient.",
+  bigTruth: "No amount of responsibility puts a person above God's instruction.",
+  takeTheBite: "Identify one area where people regularly trust your judgment. Before making the next decision there, read a relevant passage slowly and ask, \"What would obedience require of me, not only of everyone else?\"",
+  prayer: "God, keep my heart teachable wherever You have given me influence. Guard me from using responsibility as an excuse to avoid correction. Let Your word expose my pride, steady my choices, and remind me that every person I lead is my neighbor, not a tool for my success. Make my private habits worthy of the trust others place in me. Amen.",
+  deeperReading: {
+    reference: "Deuteronomy 17:14-20; Joshua 1:7-9; Psalm 119:9-16",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "deuteronomy",
+    chapter: 17,
+    verseStart: 14,
+    verseEnd: 20,
+  },
+  tags: ["Deuteronomy","Bible & History"],
+  status: "published",
+};

@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whyDoesPaulSayBelieversCarryTreasureInJarsOfClay: BibleBite = {
+  date: "2026-10-25",
+  slug: "why-does-paul-say-believers-carry-treasure-in-jars-of-clay",
+  title: "Why does Paul say believers carry treasure in jars of clay?",
+  curiosityHook: "Paul compares priceless treasure with a container that cracks.",
+  scriptureReference: "2 Corinthians 4:7-12",
+  scriptureText: "But we have this treasure in clay vessels, that the exceeding greatness of the power may be of God and not from ourselves. We are pressed on every side, yet not crushed; perplexed, yet not to despair; pursued, yet not forsaken; struck down, yet not destroyed;",
+  translation: "WEB",
+  topic: "faith-and-god",
+  questionType: "big-meaning",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "Why does Paul say believers carry treasure in jars of clay?",
+  answerChoices: [
+    { id: "A", text: "To show that spiritual life should remain hidden" },
+    { id: "B", text: "To compare the gospel with ancient burial customs" },
+    { id: "C", text: "To teach that the body has no lasting value" },
+    { id: "D", text: "To show that the extraordinary power belongs to God" },
+  ],
+  correctAnswer: "D",
+  explanation: "Paul has just described the light of the knowledge of God's glory shining in the face of Jesus Christ. Then he says, \"We have this treasure in clay vessels, that the exceeding greatness of the power may be of God, and not from ourselves.\"\n\nClay containers were ordinary and breakable. The image does not insult the body or celebrate neglect. It highlights the contrast between the priceless message and the visibly fragile people who carry it. Paul names the pressure honestly: afflicted but not crushed, perplexed but not driven to despair, persecuted but not forsaken, struck down but not destroyed.\n\nThe repeated \"but not\" does not erase suffering. Affliction still hurts, and perplexity means Paul did not always understand what was happening. God's power appeared not through an image of constant invulnerability but through lives that endured without pretending they were made of steel.\n\nWe often think credibility requires hiding weakness. Paul says the cracks can make the source of the light clearer. That does not mean disclosing every private wound to everyone or refusing appropriate care. It means we do not have to advertise ourselves as the treasure. The gospel remains precious when its messenger is tired, limited, and dependent. God's power does not wait for us to become impressive containers.",
+  bigTruth: "Our fragility can make the true source of the power clearer.",
+  takeTheBite: "In one safe relationship, replace a polished answer with an honest sentence about a limit or need. Then name the specific way God's help or another person's support is carrying you.",
+  prayer: "God of surpassing power, I am grateful that Your treasure does not depend on my appearing unbreakable. Meet me in pressure, confusion, and limitation. Give me wise honesty about my needs and protect me from performing strength. Let the light of Christ remain visible through my ordinary life, and make it clear that the sustaining power belongs to You. Amen.",
+  deeperReading: {
+    reference: "2 Corinthians 4:1-18; 2 Corinthians 12:7-10; Psalm 34:17-18",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "2-corinthians",
+    chapter: 4,
+    verseStart: 1,
+    verseEnd: 18,
+  },
+  tags: ["2 Corinthians","Faith & God"],
+  status: "published",
+};

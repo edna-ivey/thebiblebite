@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatDidZelophehadSDaughtersAskMosesToGiveThem: BibleBite = {
+  date: "2026-09-12",
+  slug: "what-did-zelophehad-s-daughters-ask-moses-to-give-them",
+  title: "What did Zelophehad's daughters ask Moses to give them?",
+  curiosityHook: "Five sisters brought Moses a question Israel's inheritance practice had not answered.",
+  scriptureReference: "Numbers 27:1-11",
+  scriptureText: "Why should the name of our father be taken away from among his family, because he had no son? Give to us a possession among the brothers of our father.” Moses brought their cause before Yahweh. Yahweh spoke to Moses, saying, “The daughters of Zelophehad speak right. You shall surely give them a possession of an inheritance among their father’s brothers. You shall cause the inheritance of their father to pass to them.",
+  translation: "WEB",
+  topic: "people-and-stories",
+  questionType: "look-closer",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What did Zelophehad's daughters ask Moses to give them?",
+  answerChoices: [
+    { id: "A", text: "Their father's inheritance among his relatives" },
+    { id: "B", text: "Permission to serve beside the priests" },
+    { id: "C", text: "Land outside Israel's tribal boundaries" },
+    { id: "D", text: "A place in the army's leadership" },
+  ],
+  correctAnswer: "A",
+  explanation: "Mahlah, Noah, Hoglah, Milcah, and Tirzah came before Moses and Israel's leaders with a problem the existing inheritance practice had not addressed. Their father, Zelophehad, had died without a son. If his name disappeared from the land allotment, his branch of the family would disappear with it. The five sisters asked, \"Why should the name of our father be taken away from among his family, because he had no son?\"\n\nMoses did not dismiss them or pretend to know the answer. He brought their case before the Lord. God's response was direct: \"The daughters of Zelophehad speak right.\" They were to receive an inheritance, and their case became part of a wider rule for Israel.\n\nThe passage is striking not because these women shouted louder than everyone else, but because they named a real gap, spoke together, and were heard. It also shows a leader willing to take an unfamiliar question to God instead of protecting his own image as the person with every answer. Scripture records both the courage to ask and the humility to listen. Faithful communities need both. A concern can be respectful and still require change.",
+  bigTruth: "A faithful question can bring an overlooked need into the light.",
+  takeTheBite: "Notice one person whose experience may be missing from a decision you influence. Ask a sincere question and listen without preparing your defense. If a policy or habit is creating an avoidable gap, name one next step toward repair.",
+  prayer: "God who hears people at the edge of the conversation, give me courage to speak when something important has been overlooked. Give me equal humility when another person brings a concern I did not see. Keep me from defending a familiar practice simply because it is familiar. Teach me to seek what is right with patience, honesty, and respect. Amen.",
+  deeperReading: {
+    reference: "Numbers 27:1-11; Numbers 36:1-12; Joshua 17:3-6",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "numbers",
+    chapter: 27,
+    verseStart: 1,
+    verseEnd: 11,
+  },
+  tags: ["Numbers","People & Stories"],
+  status: "published",
+};

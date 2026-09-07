@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const inWhichCircumstancesDidPaulSayHeHadLearnedContentment: BibleBite = {
+  date: "2026-10-19",
+  slug: "in-which-circumstances-did-paul-say-he-had-learned-contentment",
+  title: "In which circumstances did Paul say he had learned contentment?",
+  curiosityHook: "A famous verse about strength sits inside a lesson about changing circumstances.",
+  scriptureReference: "Philippians 4:10-13",
+  scriptureText: "Not that I speak because of lack, for I have learned in whatever state I am, to be content in it. I know how to be humbled, and I also know how to abound. In any and all circumstances I have learned the secret both to be filled and to be hungry, both to abound and to be in need. I can do all things through Christ who strengthens me.",
+  translation: "WEB",
+  topic: "wisdom-and-life",
+  questionType: "context",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "In which circumstances did Paul say he had learned contentment?",
+  answerChoices: [
+    { id: "A", text: "Only when his basic needs were fully met" },
+    { id: "B", text: "In both abundance and hunger" },
+    { id: "C", text: "Only while traveling with other believers" },
+    { id: "D", text: "In every situation except imprisonment" },
+  ],
+  correctAnswer: "B",
+  explanation: "\"I can do all things through Christ, who strengthens me\" is often placed beside dreams of achievement. In Philippians, Paul is talking about something quieter and harder: he has learned how to live with plenty and with hunger, in abundance and in need.\n\nContentment was learned, not automatic. Paul appreciated the Philippians' renewed financial support and later called their gift a fragrant offering. He was not pretending material needs did not matter or refusing help. He had learned that changing circumstances did not have to become the ruler of his inner life. Christ supplied strength for faithful endurance in both directions.\n\nAbundance has its own spiritual dangers. Plenty can produce entitlement, self-sufficiency, or fear of losing comfort. Need can produce anxiety, shame, or desperation. Paul says Christ has met him in both classrooms. The verse is not a blank check for accomplishing any goal we attach to it. \"All things\" refers to the full range of circumstances he has just named.\n\nBiblical contentment also does not tell a hungry person to stay silent or excuse a community from sharing. The Philippians did share. Contentment is freedom from being owned by circumstances, not indifference to suffering. We can receive help gratefully, seek needed change, and still learn that Christ remains enough in the unsettled middle.",
+  bigTruth: "Christ's strength is not only for achieving more; it is also for living faithfully with more or less.",
+  takeTheBite: "Notice whether plenty or lack is shaping your mood and identity today. Practice one fitting response: share something from abundance, ask honestly for needed help, or thank God for a provision you had begun to treat as guaranteed.",
+  prayer: "Christ, teach me the contentment Paul had to learn. In plenty, keep me generous and awake. In need, protect me from shame and help me receive support. I do not want circumstances to name my worth or command my peace. Strengthen me for the actual life in front of me, and make our community attentive to one another's needs. Amen.",
+  deeperReading: {
+    reference: "Philippians 4:10-20; 1 Timothy 6:6-10; Hebrews 13:5-6",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "philippians",
+    chapter: 4,
+    verseStart: 10,
+    verseEnd: 20,
+  },
+  tags: ["Philippians","Wisdom & Life"],
+  status: "published",
+};

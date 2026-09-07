@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatHappenedInTheTempleBetweenJesusSpeakingToTheFigTreeAndTheDisciplesFindingItWithered: BibleBite = {
+  date: "2026-10-06",
+  slug: "what-happened-in-the-temple-between-jesus-speaking-to-the-fig-tree-and-the-disciples-finding-it-withered",
+  title: "What happened in the temple between Jesus speaking to the fig tree and the disciples finding it withered?",
+  curiosityHook: "A fig tree story wraps around a confrontation inside the temple.",
+  scriptureReference: "Mark 11:12-25",
+  scriptureText: "They came to Jerusalem, and Jesus entered into the temple and began to throw out those who sold and those who bought in the temple, and overthrew the money changers’ tables and the seats of those who sold the doves. He would not allow anyone to carry a container through the temple. He taught, saying to them, “Isn’t it written, ‘My house will be called a house of prayer for all the nations’? * Isaiah 56:7 But you have made it a den of robbers!” * Jeremiah 7:11",
+  translation: "WEB",
+  topic: "hard-questions",
+  questionType: "hard-question",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What happened in the temple between Jesus speaking to the fig tree and the disciples finding it withered?",
+  answerChoices: [
+    { id: "A", text: "Jesus drove out those buying and selling and taught that the temple was to be a house of prayer" },
+    { id: "B", text: "Jesus healed a blind man outside Jerusalem" },
+    { id: "C", text: "Jesus told the parable of the lost son" },
+    { id: "D", text: "Jesus ate Passover with His disciples" },
+  ],
+  correctAnswer: "A",
+  explanation: "Jesus saw a leafy fig tree, found no fruit, and said no one would eat fruit from it again. Mark notes that it was not the season for figs, which makes the action confusing if it is read as an outburst over breakfast. The next scene helps explain it.\n\nJesus entered the temple, drove out people buying and selling, and condemned the way a house of prayer for all nations had become a den of robbers. The following morning, the disciples saw the fig tree withered from the roots. Mark has placed the temple confrontation inside the two halves of the fig tree story. Biblical prophets had used fruit and fig trees as pictures of Israel's spiritual condition and coming judgment. In that setting, the tree acts like a lived parable about impressive leaves without the fruit God seeks.\n\nThis reading does not make the tree morally guilty or give readers permission to direct contempt toward Jewish people. Jesus, Israel's Messiah, confronts corruption within Israel's worship using Israel's own prophetic language. The warning reaches any religious life that looks active while resisting prayer, justice, repentance, and welcome. Visible activity is not the same as faithful fruit. The scene asks what our worship is producing, especially for people seeking room to approach God.",
+  bigTruth: "Religious activity can look alive while failing to bear the fruit God seeks.",
+  takeTheBite: "Look at one visible faith habit, ministry, or routine in your life. Name the fruit it is meant to produce. Choose one practical change that moves it toward prayer, justice, repentance, or welcome instead of maintaining appearances.",
+  prayer: "Jesus, examine the places where my faith has leaves but little fruit. Clean out what turns worship into performance, profit, or exclusion. Grow in me prayer that listens, justice that acts, repentance that changes direction, and welcome that makes room for others to seek You. Keep me from judging another community while ignoring my own heart. Amen.",
+  deeperReading: {
+    reference: "Mark 11:12-25; Isaiah 56:1-8; Jeremiah 7:1-15",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "mark",
+    chapter: 11,
+    verseStart: 12,
+    verseEnd: 25,
+  },
+  tags: ["Mark","Hard Questions"],
+  status: "published",
+};

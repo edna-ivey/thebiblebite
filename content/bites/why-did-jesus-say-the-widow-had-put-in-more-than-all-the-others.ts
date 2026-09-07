@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whyDidJesusSayTheWidowHadPutInMoreThanAllTheOthers: BibleBite = {
+  date: "2026-10-02",
+  slug: "why-did-jesus-say-the-widow-had-put-in-more-than-all-the-others",
+  title: "Why did Jesus say the widow had put in more than all the others?",
+  curiosityHook: "Jesus watched a treasury and noticed the gift everyone else could have missed.",
+  scriptureReference: "Luke 21:1-4",
+  scriptureText: "He said, “Truly I tell you, this poor widow put in more than all of them, for all these put in gifts for God from their abundance, but she, out of her poverty, put in all that she had to live on.”",
+  translation: "WEB",
+  topic: "jesus-and-the-gospel",
+  questionType: "look-closer",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "Why did Jesus say the widow had put in more than all the others?",
+  answerChoices: [
+    { id: "A", text: "She gave out of her poverty, all she had to live on" },
+    { id: "B", text: "She was the first person to give that day" },
+    { id: "C", text: "Her coins were older and more valuable than they looked" },
+    { id: "D", text: "She gave without entering the temple court" },
+  ],
+  correctAnswer: "A",
+  explanation: "Jesus watched wealthy people place gifts into the temple treasury and saw a poor widow contribute two very small coins. He said she had put in more than all the others because they gave from abundance, while she gave from her poverty, \"all that she had to live on.\"\n\nJesus measures the gift differently from the treasury total. He sees cost, trust, and the person whom everyone else might overlook. At the same time, the scene sits directly after His warning about religious experts who \"devour widows' houses\" while making impressive prayers. That placement should make teachers careful. The widow's devotion is not a tool for pressuring people with little to give beyond what they can safely afford. Jesus draws attention to what her gift cost; He does not praise those who exploit vulnerability.\n\nThe passage asks every giver to move beyond appearance. A large amount can require little surrender, and a tiny amount can carry a whole story. Generosity is not a competition, and wisdom may include meeting essential needs, receiving help, or giving time rather than money. What Jesus reveals most clearly is His attention. The widow is not invisible to Him. He sees what her worship costs and refuses to value her by the size of her coins.",
+  bigTruth: "Jesus sees the cost that totals cannot measure.",
+  takeTheBite: "Examine one act of generosity without comparing its size to anyone else's. If you have abundance, choose a gift that is genuinely meaningful. If resources are tight, reject shame and offer only what is wise, free, and honest.",
+  prayer: "Jesus, You see people whom crowds and systems overlook. Protect generous hearts from manipulation, and confront every use of faith that exploits need. Teach me to give freely, wisely, and without performance. When I have plenty, loosen my grip. When I have little, free me from shame and remind me that my worth is never measured by an amount. Amen.",
+  deeperReading: {
+    reference: "Luke 20:45-47; Luke 21:1-4; 2 Corinthians 8:8-15; Deuteronomy 15:7-11",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "luke",
+    chapter: 20,
+    verseStart: 45,
+    verseEnd: 47,
+  },
+  tags: ["Luke","Jesus & Gospel"],
+  status: "published",
+};

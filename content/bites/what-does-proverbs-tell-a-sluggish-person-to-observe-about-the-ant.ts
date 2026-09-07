@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatDoesProverbsTellASluggishPersonToObserveAboutTheAnt: BibleBite = {
+  date: "2026-09-26",
+  slug: "what-does-proverbs-tell-a-sluggish-person-to-observe-about-the-ant",
+  title: "What does Proverbs tell a sluggish person to observe about the ant?",
+  curiosityHook: "Proverbs points a sleepy person toward a teacher small enough to overlook.",
+  scriptureReference: "Proverbs 6:6-11",
+  scriptureText: "Go to the ant, you sluggard. Consider her ways, and be wise; which having no chief, overseer, or ruler, provides her bread in the summer, and gathers her food in the harvest.",
+  translation: "WEB",
+  topic: "wisdom-and-life",
+  questionType: "context",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What does Proverbs tell a sluggish person to observe about the ant?",
+  answerChoices: [
+    { id: "A", text: "It stores more food than every other creature" },
+    { id: "B", text: "It never rests during any season" },
+    { id: "C", text: "It prepares its food without needing a commander" },
+    { id: "D", text: "It survives because it works entirely alone" },
+  ],
+  correctAnswer: "C",
+  explanation: "Proverbs sends the sluggard to a very small teacher: \"Go to the ant. Consider her ways, and be wise.\" The ant has no chief, overseer, or ruler standing over it, yet it prepares food in the right season. The lesson is not frantic motion. It is initiative joined to attention about timing.\n\nThe warning that follows is built from tiny delays: a little sleep, a little slumber, a little folding of the hands. Rest itself is not condemned. Scripture also treats rest as gift and command. The problem is the repeated \"little\" that keeps postponing necessary work until need arrives like an armed robber.\n\nThis proverb knows that large failures are often assembled from very small avoidances. We wait to feel motivated, hope someone will remind us, or turn a ten-minute responsibility into tomorrow's emergency. The ant offers a humbler rhythm. Notice the season. Do the next available part. Prepare before pressure becomes panic. Wisdom does not require becoming a machine or measuring our worth by productivity. It asks us to take responsibility for what has actually been entrusted to us, including the responsibility to rest at the proper time rather than using delay as rest's substitute.",
+  bigTruth: "Wise preparation begins before urgency starts shouting.",
+  takeTheBite: "Choose one task you have delayed that can be moved forward in fifteen minutes. Set a timer, complete only the next clear step, and schedule the next step before you stop.",
+  prayer: "God of seasons, help me recognize the work that belongs to today. Free me from both anxious overwork and the small delays that turn responsibility into crisis. Give me initiative when no one is watching, honesty about my limits, and wisdom to prepare without making productivity my identity. Teach me faithful rhythms of work and rest. Amen.",
+  deeperReading: {
+    reference: "Proverbs 6:6-11; Proverbs 24:30-34; Colossians 3:22-24",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "proverbs",
+    chapter: 6,
+    verseStart: 6,
+    verseEnd: 11,
+  },
+  tags: ["Proverbs","Wisdom & Life"],
+  status: "published",
+};

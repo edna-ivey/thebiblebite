@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatDoesEphesiansSayImmediatelyAfterBeAngry: BibleBite = {
+  date: "2026-09-27",
+  slug: "what-does-ephesians-say-immediately-after-be-angry",
+  title: "What does Ephesians say immediately after \"Be angry\"?",
+  curiosityHook: "Anger appears in a command that is often quoted only halfway.",
+  scriptureReference: "Ephesians 4:25-32",
+  scriptureText: "“Be angry, and don’t sin.” * Psalms 4:4 Don’t let the sun go down on your wrath, and don’t give place ‡ or, opportunity to the devil.",
+  translation: "WEB",
+  topic: "hard-questions",
+  questionType: "hard-question",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What does Ephesians say immediately after \"Be angry\"?",
+  answerChoices: [
+    { id: "A", text: "Keep the anger private until it disappears" },
+    { id: "B", text: "Use the anger to prove who is right" },
+    { id: "C", text: "Avoid every person who caused it" },
+    { id: "D", text: "Do not sin, and do not let the sun go down on it" },
+  ],
+  correctAnswer: "D",
+  explanation: "Ephesians 4 does not say that the first feeling of anger automatically makes a person faithless. It says, \"Be angry, and don't sin.\" Anger can register that something is wrong, threatened, or unjust. The command focuses on what happens next.\n\nPaul warns against letting anger settle in and give the devil an opportunity. He then becomes very practical: stop falsehood, speak truth with your neighbor, replace harmful speech with words that build up, put away bitterness and malice, and practice kindness and forgiveness. Anger is not allowed to become permission for contempt, revenge, manipulation, or endless rehearsal of an offense.\n\n\"Do not let the sun go down\" is wisdom about urgency, not a demand to force a complete reconciliation before bedtime when someone is unsafe, overwhelmed, or unwilling. Some conflicts require time, boundaries, outside help, or legal protection. The verse does challenge the pleasure of nursing resentment. We can address anger promptly without pretending trust is instantly restored. A faithful response asks: What wrong needs to be named? What action would keep this feeling from ruling me? What words would serve repair rather than simply release pressure? Anger may knock at the door, but it does not have to become the head of the house.",
+  bigTruth: "Anger can tell us something is wrong without being allowed to decide what we do next.",
+  takeTheBite: "Name one anger you are carrying. Write what value or wound sits underneath it. Choose one non-destructive response today, such as a calm conversation, a clear boundary, a request for help, or releasing the urge to replay an insult.",
+  prayer: "God, You see what has made me angry and what my anger is tempted to do. Help me tell the truth without cruelty, seek justice without revenge, and set boundaries without hatred. Where repair is possible, give me courage to begin it. Where safety requires distance, give me wisdom and support. Do not let bitterness take up residence in me. Amen.",
+  deeperReading: {
+    reference: "Ephesians 4:25-32; Psalm 4:1-5; James 1:19-21",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "ephesians",
+    chapter: 4,
+    verseStart: 25,
+    verseEnd: 32,
+  },
+  tags: ["Ephesians","Hard Questions"],
+  status: "published",
+};

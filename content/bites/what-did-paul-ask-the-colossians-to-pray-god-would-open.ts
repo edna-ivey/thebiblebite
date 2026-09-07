@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatDidPaulAskTheColossiansToPrayGodWouldOpen: BibleBite = {
+  date: "2026-10-29",
+  slug: "what-did-paul-ask-the-colossians-to-pray-god-would-open",
+  title: "What did Paul ask the Colossians to pray God would open?",
+  curiosityHook: "Paul asked for an open door while his own physical freedom was restricted.",
+  scriptureReference: "Colossians 4:2-6",
+  scriptureText: "Continue steadfastly in prayer, watching in it with thanksgiving, praying together for us also, that God may open to us a door for the word, to speak the mystery of Christ, for which I am also in bonds, that I may reveal it as I ought to speak.",
+  translation: "WEB",
+  topic: "prayer-and-worship",
+  questionType: "look-closer",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What did Paul ask the Colossians to pray God would open?",
+  answerChoices: [
+    { id: "A", text: "The doors of the prison holding him" },
+    { id: "B", text: "A path back to Jerusalem" },
+    { id: "C", text: "The treasury of a supporting church" },
+    { id: "D", text: "A door for the word about Christ" },
+  ],
+  correctAnswer: "D",
+  explanation: "Paul wrote Colossians while imprisoned, yet his prayer request was not first for a cell door. \"Pray together for us also, that God may open to us a door for the word, to speak the mystery of Christ, for which I am also in bonds.\" He wanted an opening to make the message clear within the limits he had not chosen.\n\nThe image is striking because the messenger lacked ordinary freedom. A locked physical door could not prevent God from opening a relational one. Paul still needed prayer, wisdom, and clarity. He asked believers to continue steadfastly in prayer with thanksgiving, then told them to walk wisely toward outsiders and let their speech be gracious, \"seasoned with salt.\"\n\nAn open door is therefore not permission to push through every conversation. The surrounding instructions call for wise conduct, gracious speech, and an answer fitted to each person. Opportunity and attentiveness belong together. We can miss openings through fear, but we can also damage them through pressure or careless words.\n\nThis prayer helps when our circumstances feel restrictive. We may not control the room, schedule, illness, workplace, or season. We can ask God to open a real opportunity within it and make us ready to speak with clarity and grace. Sometimes the door we need is not an exit from the situation but a way to serve faithfully inside it.",
+  bigTruth: "A closed circumstance cannot keep God from opening a door for faithful witness.",
+  takeTheBite: "Pray for one specific person or setting where you want a natural opening to speak about faith. Also prepare one short, honest sentence about what Christ means to you, without forcing it into a conversation where it does not fit.",
+  prayer: "God, open doors for the good news in places that feel closed. Give me wisdom to recognize an invitation, courage to speak when it comes, and restraint when listening is the faithful response. Season my words with grace. Make Christ clear without making me pushy, and use even the limits I did not choose. Amen.",
+  deeperReading: {
+    reference: "Colossians 4:2-6; Ephesians 6:18-20; 1 Peter 3:13-16",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "colossians",
+    chapter: 4,
+    verseStart: 2,
+    verseEnd: 6,
+  },
+  tags: ["Colossians","Prayer & Worship"],
+  status: "published",
+};

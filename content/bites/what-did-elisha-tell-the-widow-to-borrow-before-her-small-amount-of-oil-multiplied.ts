@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatDidElishaTellTheWidowToBorrowBeforeHerSmallAmountOfOilMultiplied: BibleBite = {
+  date: "2026-10-07",
+  slug: "what-did-elisha-tell-the-widow-to-borrow-before-her-small-amount-of-oil-multiplied",
+  title: "What did Elisha tell the widow to borrow before her small amount of oil multiplied?",
+  curiosityHook: "A widow's nearly empty cupboard became the starting place for provision.",
+  scriptureReference: "2 Kings 4:1-7",
+  scriptureText: "Then he said, “Go, borrow empty containers from all your neighbors. Don’t borrow just a few containers. Go in and shut the door on you and on your sons, and pour oil into all those containers; and set aside those which are full.” So she went from him, and shut the door on herself and on her sons. They brought the containers to her, and she poured oil. When the containers were full, she said to her son, “Bring me another container.” He said to her, “There isn’t another container.” Then the oil stopped flowing. Then she came and told the man of God. He said, “Go, sell the oil, and pay your debt; and you and your sons live on the rest.”",
+  translation: "WEB",
+  topic: "faith-and-god",
+  questionType: "big-meaning",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What did Elisha tell the widow to borrow before her small amount of oil multiplied?",
+  answerChoices: [
+    { id: "A", text: "Silver coins from her relatives" },
+    { id: "B", text: "Empty containers from all her neighbors" },
+    { id: "C", text: "Grain baskets from the royal storehouse" },
+    { id: "D", text: "Lamps from the school of the prophets" },
+  ],
+  correctAnswer: "B",
+  explanation: "A prophet's widow came to Elisha in crisis. Her husband had died, a creditor was coming to take her two sons, and she had almost nothing in the house except a small jar of oil. Elisha asked what she had, then told her to borrow empty containers from her neighbors, \"not a few.\"\n\nBehind a closed door, she poured. The little jar kept filling every available container. Only when her son said there were no more did the oil stop. Elisha told her to sell it, pay the debt, and live with her sons on what remained.\n\nThe story begins with honest need and a question about what is already present. The widow's small resource was not enough by itself, but it became the starting point of God's provision. Her neighbors' empty jars also became part of the answer. She had to admit need publicly enough to borrow them, then act privately on the prophet's instruction before she saw the result.\n\nThis is not a promise that every debt will be erased through a miracle or that borrowing containers is a formula for prosperity. It is a particular act of mercy in a desperate household. It does show God attending to debt, family vulnerability, and daily survival. His care is not too spiritual to reach the cupboard.",
+  bigTruth: "God can begin His provision with what looks painfully small.",
+  takeTheBite: "Write down the need you face and the resources actually available, including people you could ask for help. Take one practical step with what is present instead of waiting for an ideal solution to appear.",
+  prayer: "God who saw this widow's debt and fear, meet me in needs that feel embarrassingly practical. Help me name what I have, ask for help without shame, and take the next wise step. Protect me from formulas that promise control. Provide what is needed, and make me a neighbor willing to lend my own empty jars. Amen.",
+  deeperReading: {
+    reference: "2 Kings 4:1-7; Deuteronomy 15:7-11; Matthew 6:25-34",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "2-kings",
+    chapter: 4,
+    verseStart: 1,
+    verseEnd: 7,
+  },
+  tags: ["2 Kings","Faith & God"],
+  status: "published",
+};

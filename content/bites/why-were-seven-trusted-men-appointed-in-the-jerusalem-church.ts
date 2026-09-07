@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whyWereSevenTrustedMenAppointedInTheJerusalemChurch: BibleBite = {
+  date: "2026-10-17",
+  slug: "why-were-seven-trusted-men-appointed-in-the-jerusalem-church",
+  title: "Why were seven trusted men appointed in the Jerusalem church?",
+  curiosityHook: "A food distribution problem forced the growing church to examine its structure.",
+  scriptureReference: "Acts 6:1-7",
+  scriptureText: "Now in those days, when the number of the disciples was multiplying, a complaint arose from the Hellenists † The Hellenists used Greek language and culture, even though they were also of Hebrew descent. against the Hebrews, because their widows were neglected in the daily service. The twelve summoned the multitude of the disciples and said, “It is not appropriate for us to forsake the word of God and serve tables. Therefore, select from among you, brothers, seven men of good report, full of the Holy Spirit and of wisdom, whom we may appoint over this business.",
+  translation: "WEB",
+  topic: "bible-and-history",
+  questionType: "context",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "Why were seven trusted men appointed in the Jerusalem church?",
+  answerChoices: [
+    { id: "A", text: "To replace apostles who had left the city" },
+    { id: "B", text: "To collect taxes for Roman officials" },
+    { id: "C", text: "To decide which Gentiles could attend worship" },
+    { id: "D", text: "To address the daily neglect of Hellenist widows" },
+  ],
+  correctAnswer: "D",
+  explanation: "As the Jerusalem church grew, a serious complaint emerged. The Hellenists, Greek-speaking Jewish believers, said their widows were being neglected in the daily distribution compared with the Hebrews. The apostles did not dismiss the concern as divisive or ask the overlooked group to be patient indefinitely.\n\nThey gathered the whole community and proposed a structural response: choose seven reputable, Spirit-filled, wise people to oversee the need while the apostles remained devoted to prayer and the ministry of the word. The names of all seven appointees are Greek, which may suggest the community entrusted significant responsibility to people connected with the group that had raised the concern. Scripture does not explicitly state the selection strategy, so that point should remain a reasonable observation rather than certainty.\n\nThe passage refuses a false choice between teaching and tangible care. Both mattered enough to receive focused leadership. The solution also moved beyond good intentions. A recurring inequality in food distribution required named responsibility and a changed process.\n\nChurches and families can love people sincerely while their systems still overlook someone. Listening to the complaint is not an attack on unity. In Acts 6, taking it seriously protected unity and strengthened the church's witness. The word of God continued to spread after the community addressed the neglected table.",
+  bigTruth: "When care is uneven, love may need a better structure.",
+  takeTheBite: "Look at one repeated process you help lead. Ask who has to work harder to receive the same care or information. Invite feedback from someone affected and assign one clear responsibility for improving the process.",
+  prayer: "God of the overlooked, give me ears for complaints I would rather call inconvenient. Show me where sincere intentions are not producing fair care. Raise wise, trusted people to lead practical repair, and keep service and teaching from competing in our minds. Build communities where vulnerable people are heard and shared responsibility becomes visible love. Amen.",
+  deeperReading: {
+    reference: "Acts 6:1-7; Deuteronomy 10:17-19; James 2:1-9",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "acts",
+    chapter: 6,
+    verseStart: 1,
+    verseEnd: 7,
+  },
+  tags: ["Acts","Bible & History"],
+  status: "published",
+};

@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatStrengthenedGideonJustBeforeHeAttackedMidianSCamp: BibleBite = {
+  date: "2026-09-13",
+  slug: "what-strengthened-gideon-just-before-he-attacked-midian-s-camp",
+  title: "What strengthened Gideon just before he attacked Midian's camp?",
+  curiosityHook: "Gideon entered the enemy camp afraid and heard something meant for him.",
+  scriptureReference: "Judges 7:9-15",
+  scriptureText: "When Gideon had come, behold, there was a man telling a dream to his fellow. He said, “Behold, I dreamed a dream; and behold, a cake of barley bread tumbled into the camp of Midian, came to the tent, and struck it so that it fell, and turned it upside down, so that the tent lay flat.” His fellow answered, “This is nothing other than the sword of Gideon the son of Joash, a man of Israel. God has delivered Midian into his hand, with all the army.” It was so, when Gideon heard the telling of the dream and its interpretation, that he worshiped. Then he returned into the camp of Israel and said, “Arise, for Yahweh has delivered the army of Midian into your hand!”",
+  translation: "WEB",
+  topic: "faith-and-god",
+  questionType: "big-meaning",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What strengthened Gideon just before he attacked Midian's camp?",
+  answerChoices: [
+    { id: "A", text: "A second sign involving the fleece" },
+    { id: "B", text: "An enemy soldier's dream and its interpretation" },
+    { id: "C", text: "Reinforcements from a neighboring tribe" },
+    { id: "D", text: "A message delivered by an angel at the altar" },
+  ],
+  correctAnswer: "B",
+  explanation: "Gideon's army had been reduced to only three hundred men, and the Midianite camp below looked as numerous as locusts. God told Gideon to go down against it. Then, with remarkable tenderness, He added that if Gideon was afraid, he could first enter the edge of the camp with his servant Purah and listen.\n\nThere Gideon heard a Midianite describe a dream about a loaf of barley bread tumbling into the camp and overturning a tent. Another soldier interpreted it as Gideon's victory. The reassurance came from the very place Gideon feared. He bowed in worship before returning to call Israel into battle.\n\nThis detail gives us a fuller picture of courage. Gideon obeyed, but he did not begin fearless. God did not shame him for needing reassurance, and Gideon did not treat reassurance as permission to stay put forever. He received it, worshiped, and moved. The point is not that every anxious thought will be answered by a mysterious dream. This was a specific sign in a specific story. The transferable truth is that God can meet a trembling person with enough light for the next faithful step.",
+  bigTruth: "Courage can begin with fear and still move forward in faith.",
+  takeTheBite: "Identify one faithful step you have delayed because you are waiting to feel completely fearless. Ask God for the help you need, invite one trustworthy person to stand with you, and take the smallest honest step today.",
+  prayer: "Patient God, You know the difference between my excuses and my genuine fear. Thank You for meeting Gideon without humiliating him. Give me enough courage for the step in front of me, and keep me from demanding certainty about every step after it. Let reassurance lead me into worship and obedience, not endless delay. Amen.",
+  deeperReading: {
+    reference: "Judges 7:1-22; Psalm 56:3-4; 2 Corinthians 12:9-10",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "judges",
+    chapter: 7,
+    verseStart: 1,
+    verseEnd: 22,
+  },
+  tags: ["Judges","Faith & God"],
+  status: "published",
+};

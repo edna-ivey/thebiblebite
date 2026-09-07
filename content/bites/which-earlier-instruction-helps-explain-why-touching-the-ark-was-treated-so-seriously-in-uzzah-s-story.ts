@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whichEarlierInstructionHelpsExplainWhyTouchingTheArkWasTreatedSoSeriouslyInUzzahSStory: BibleBite = {
+  date: "2026-09-19",
+  slug: "which-earlier-instruction-helps-explain-why-touching-the-ark-was-treated-so-seriously-in-uzzah-s-story",
+  title: "Which earlier instruction helps explain why touching the ark was treated so seriously in Uzzah's story?",
+  curiosityHook: "Uzzah's story feels sudden until you look back at the ark's instructions.",
+  scriptureReference: "2 Samuel 6:1-11; Numbers 4:15; 7:9",
+  scriptureText: "“When Aaron and his sons have finished covering the sanctuary and all the furniture of the sanctuary, as the camp moves forward; after that, the sons of Kohath shall come to carry it; but they shall not touch the sanctuary, lest they die. The sons of Kohath shall carry these things belonging to the Tent of Meeting.\n\nBut to the sons of Kohath he gave none, because the service of the sanctuary belonged to them; they carried it on their shoulders.",
+  translation: "WEB",
+  topic: "hard-questions",
+  questionType: "hard-question",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "Which earlier instruction helps explain why touching the ark was treated so seriously in Uzzah's story?",
+  answerChoices: [
+    { id: "A", text: "The ark could be opened only by Israel's king" },
+    { id: "B", text: "The ark had to remain permanently inside the tabernacle" },
+    { id: "C", text: "The ark could be moved only after sunset" },
+    { id: "D", text: "The holy objects were not to be touched and the ark was carried on shoulders" },
+  ],
+  correctAnswer: "D",
+  explanation: "As David brought the ark toward Jerusalem, the oxen stumbled. Uzzah reached out to steady the ark, touched it, and died. His action can look instinctively protective, which is one reason the passage is so disturbing. David himself became angry and afraid. Scripture does not ask us to pretend the scene feels easy.\n\nEarlier instructions add context. The Kohathites were warned not to touch the holy objects, and the ark was assigned to be carried on their shoulders rather than transported by cart. David's procession was enthusiastic, but enthusiasm had replaced careful obedience. A later account says the first attempt failed because they did not seek God according to the prescribed order.\n\nThat context explains why the touch was not an isolated rule nobody could have known. It does not remove every emotional question about the severity of Uzzah's death. The story presents God's holiness as weighty, not manageable, and it exposes the danger of treating sacred things according to convenience. It should not be used to claim that a person's tragedy proves a hidden offense. This is a particular covenant event surrounding the ark. Its sober invitation is to let love for God include attention to what He has actually said, especially when celebration makes us careless.",
+  bigTruth: "Sincere enthusiasm does not make careful obedience unnecessary.",
+  takeTheBite: "Consider one area where good intentions have become your entire defense. Read what Scripture actually asks there, invite a mature believer to help you examine your practice, and correct one concrete shortcut without trying to excuse it.",
+  prayer: "Holy God, this story unsettles me, and I bring that discomfort honestly to You. Keep me from reducing Your holiness to something casual or using it to explain other people's suffering. Teach me obedience that listens closely, not merely enthusiasm that feels sincere. Where I have taken shortcuts, give me humility to change and deeper reverence for Your presence. Amen.",
+  deeperReading: {
+    reference: "2 Samuel 6:1-15; Numbers 4:1-20; 1 Chronicles 15:1-15",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "2-samuel",
+    chapter: 6,
+    verseStart: 1,
+    verseEnd: 15,
+  },
+  tags: ["2 Samuel","Hard Questions"],
+  status: "published",
+};

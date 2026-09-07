@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const howDidFourMenGetTheirParalyzedFriendCloseToJesusWhenTheHouseWasPacked: BibleBite = {
+  date: "2026-09-14",
+  slug: "how-did-four-men-get-their-paralyzed-friend-close-to-jesus-when-the-house-was-packed",
+  title: "How did four men get their paralyzed friend close to Jesus when the house was packed?",
+  curiosityHook: "A packed house could not keep four determined friends from Jesus.",
+  scriptureReference: "Mark 2:1-12",
+  scriptureText: "Four people came, carrying a paralytic to him. When they could not come near to him for the crowd, they removed the roof where he was. When they had broken it up, they let down the mat that the paralytic was lying on. Jesus, seeing their faith, said to the paralytic, “Son, your sins are forgiven you.”",
+  translation: "WEB",
+  topic: "jesus-and-the-gospel",
+  questionType: "look-closer",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "How did four men get their paralyzed friend close to Jesus when the house was packed?",
+  answerChoices: [
+    { id: "A", text: "They asked the crowd to form a path" },
+    { id: "B", text: "They waited beside the door until evening" },
+    { id: "C", text: "They opened the roof and lowered him through it" },
+    { id: "D", text: "They carried him to the nearest synagogue instead" },
+  ],
+  correctAnswer: "C",
+  explanation: "When Jesus returned to Capernaum, so many people crowded into the house that there was no room even near the door. Four men arrived carrying someone who could not walk. The crowd became an obstacle, but they did not confuse an obstacle with an answer. They reached the roof, opened it above Jesus, and lowered the man on his mat.\n\nMark says Jesus saw \"their faith.\" The wording draws attention to a faith expressed together through stubborn, practical love. These friends could not heal the man or forgive his sins. They could carry him, solve the problem in front of them, and place him before the One who could do what they could not.\n\nJesus first told the man his sins were forgiven, which startled the scribes who correctly understood that forgiveness belongs to God. Then Jesus healed him visibly, demonstrating His authority to address the deeper invisible need as well. The friends came seeking movement in the man's legs; they encountered a Savior whose authority reached body and soul. Their determined care did not control what Jesus would do, but it brought their friend into His presence. Sometimes faith looks like borrowing strength for someone who cannot get there alone.",
+  bigTruth: "Faith carries people toward Jesus and trusts Him with what happens next.",
+  takeTheBite: "Think of one person carrying a burden that has made ordinary steps difficult. Offer one concrete form of help this week: a ride, a meal, a phone call, child care, or simply sitting beside them while they ask for help.",
+  prayer: "Jesus, thank You for seeing the whole person and meeting needs deeper than the ones everyone else can see. Make me the kind of friend who notices obstacles and helps carry the weight. Keep me from trying to control another person's outcome. Give me practical love, persistent faith, and confidence in Your authority to forgive and restore. Amen.",
+  deeperReading: {
+    reference: "Mark 2:1-12; Luke 5:17-26; Galatians 6:1-2",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "mark",
+    chapter: 2,
+    verseStart: 1,
+    verseEnd: 12,
+  },
+  tags: ["Mark","Jesus & Gospel"],
+  status: "published",
+};

@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatDidJesusTellTheRestoredManToDoWhenHeBeggedToTravelWithHim: BibleBite = {
+  date: "2026-10-21",
+  slug: "what-did-jesus-tell-the-restored-man-to-do-when-he-begged-to-travel-with-him",
+  title: "What did Jesus tell the restored man to do when he begged to travel with Him?",
+  curiosityHook: "The restored man wanted to leave with Jesus. Jesus gave him another direction.",
+  scriptureReference: "Mark 5:1-20",
+  scriptureText: "As he was entering into the boat, he who had been possessed by demons begged him that he might be with him. He didn’t allow him, but said to him, “Go to your house, to your friends, and tell them what great things the Lord has done for you and how he had mercy on you.” He went his way, and began to proclaim in Decapolis how Jesus had done great things for him, and everyone marveled.",
+  translation: "WEB",
+  topic: "jesus-and-the-gospel",
+  questionType: "look-closer",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What did Jesus tell the restored man to do when he begged to travel with Him?",
+  answerChoices: [
+    { id: "A", text: "Enter the synagogue and confront its leaders" },
+    { id: "B", text: "Remain silent until Jesus returned to the region" },
+    { id: "C", text: "Follow the disciples to Jerusalem on his own" },
+    { id: "D", text: "Go home and tell how much the Lord had done for him" },
+  ],
+  correctAnswer: "D",
+  explanation: "On the far side of the sea, Jesus met a man living among tombs in devastating isolation and spiritual bondage. The community had tried chains and shackles, but restraint had not restored him. After Jesus delivered him, the man was sitting, clothed, and in his right mind.\n\nThe surrounding people were afraid and asked Jesus to leave. The restored man wanted to get into the boat with Him. Jesus said no, but the refusal was not rejection. He gave the man a calling: \"Go to your house, to your friends, and tell them how the Lord has done great things for you, and how he had mercy on you.\"\n\nThe man became a witness in the Decapolis, a largely Gentile region. He did not need years of travel with the Twelve before telling the truth he knew firsthand. His message was not expertise about every question. It was mercy experienced and honestly named.\n\nThis story should not be used to diagnose mental illness or unusual behavior as demonic. Mark tells us the cause within this particular event. Its broader picture is that Jesus restores dignity where control and isolation could not. The man who had been treated as a danger became a messenger to his own people. Sometimes following Jesus means going with Him somewhere new. Sometimes it means returning home as evidence that mercy has reached a place everyone had given up on.",
+  bigTruth: "Jesus can turn a place of isolation into a place where mercy is told.",
+  takeTheBite: "Tell one trusted person a specific way God has met you, without exaggerating or turning your story into advice for everyone else. Keep the focus on what mercy did, not on making yourself impressive.",
+  prayer: "Jesus, You move toward people others fear, restrain, or abandon. Bring compassionate spiritual, medical, and community care to those living in severe distress. Restore dignity where labels have replaced names. Give me an honest story of Your mercy and wisdom about where to tell it. Make my witness humble, specific, and safe for those who hear. Amen.",
+  deeperReading: {
+    reference: "Mark 5:1-20; Psalm 40:1-3; 1 Peter 2:9-10",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "mark",
+    chapter: 5,
+    verseStart: 1,
+    verseEnd: 20,
+  },
+  tags: ["Mark","Jesus & Gospel"],
+  status: "published",
+};

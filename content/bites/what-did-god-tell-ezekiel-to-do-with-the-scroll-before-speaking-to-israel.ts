@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatDidGodTellEzekielToDoWithTheScrollBeforeSpeakingToIsrael: BibleBite = {
+  date: "2026-09-25",
+  slug: "what-did-god-tell-ezekiel-to-do-with-the-scroll-before-speaking-to-israel",
+  title: "What did God tell Ezekiel to do with the scroll before speaking to Israel?",
+  curiosityHook: "Before Ezekiel could speak God's words, he had to do something strange with a scroll.",
+  scriptureReference: "Ezekiel 2:8-3:4",
+  scriptureText: "He said to me, “Son of man, eat what you find. Eat this scroll, and go, speak to the house of Israel.” So I opened my mouth, and he caused me to eat the scroll. He said to me, “Son of man, eat this scroll that I give you and fill your belly and your bowels with it.” Then I ate it. It was as sweet as honey in my mouth.",
+  translation: "WEB",
+  topic: "faith-and-god",
+  questionType: "big-meaning",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What did God tell Ezekiel to do with the scroll before speaking to Israel?",
+  answerChoices: [
+    { id: "A", text: "Seal it until the people asked for it" },
+    { id: "B", text: "Eat it and fill his stomach with it" },
+    { id: "C", text: "Copy it onto the city gate" },
+    { id: "D", text: "Give it to the elders to interpret" },
+  ],
+  correctAnswer: "B",
+  explanation: "Ezekiel's prophetic calling includes one of Scripture's strangest meals. God gives him a scroll covered with words of lamentation, mourning, and woe, then tells him to eat it. Ezekiel obeys, and the scroll tastes as sweet as honey in his mouth. Only after receiving it into himself is he sent to speak God's words to Israel.\n\nThe sweetness does not mean the message is cheerful. Its written contents are heavy. The sweetness lies in receiving the word of God as God's word, even when carrying it will be costly and the audience may refuse to listen. Ezekiel is not allowed to stand at a distance and use the message only on other people. He must take it in before he speaks it out.\n\nThat order challenges anyone who handles Scripture. It is possible to collect verses mainly as tools for winning arguments, correcting strangers, or sounding informed. Ezekiel's vision asks whether the word has first reached our own appetite, imagination, grief, and obedience. We do not literally eat a page, and this prophetic sign should not be imitated as a stunt. We can, however, read slowly enough for Scripture to address us before we decide who else needs to hear it.",
+  bigTruth: "God's word is meant to enter us before it comes through us.",
+  takeTheBite: "Read today's passage twice. On the second reading, replace the question \"Who else needs this?\" with \"What is this asking me to receive or obey?\" Write down one personal response before sharing any insight with someone else.",
+  prayer: "God who speaks, give me an appetite for Your word that goes deeper than collecting information. Let Scripture comfort, confront, and reshape me before I use it to address anyone else. Make me honest about hard words and grateful for Your voice within them. May what I say grow from a life that is listening. Amen.",
+  deeperReading: {
+    reference: "Ezekiel 2:1-10; Ezekiel 3:1-11; Jeremiah 15:15-21; Revelation 10:8-11",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "ezekiel",
+    chapter: 2,
+    verseStart: 1,
+    verseEnd: 10,
+  },
+  tags: ["Ezekiel","Faith & God"],
+  status: "published",
+};

@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const accordingToProverbsWhatCanAGentleAnswerDoInAHeatedMoment: BibleBite = {
+  date: "2026-09-09",
+  slug: "according-to-proverbs-what-can-a-gentle-answer-do-in-a-heated-moment",
+  title: "According to Proverbs, what can a gentle answer do in a heated moment?",
+  curiosityHook: "One sentence can either cool a conflict or feed it.",
+  scriptureReference: "Proverbs 15:1-4",
+  scriptureText: "A gentle answer turns away wrath, but a harsh word stirs up anger.",
+  translation: "WEB",
+  topic: "wisdom-and-life",
+  questionType: "context",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "According to Proverbs, what can a gentle answer do in a heated moment?",
+  answerChoices: [
+    { id: "A", text: "Prove that the speaker has done nothing wrong" },
+    { id: "B", text: "Turn away wrath before it grows" },
+    { id: "C", text: "Make every disagreement disappear" },
+    { id: "D", text: "Keep the other person from answering back" },
+  ],
+  correctAnswer: "B",
+  explanation: "Proverbs 15:1 places two kinds of speech side by side: a gentle answer turns away wrath, while a harsh word stirs up anger. The proverb does not promise that a calm response will instantly solve every conflict. It describes the direction our words can push a moment. Speech can lower the temperature, or it can feed the fire.\n\nGentleness here is not the same as pretending nothing is wrong. The surrounding verses praise wise, truthful speech and warn against words that pour out foolishness. A gentle answer may still name harm, set a boundary, or disagree clearly. Its strength is that it refuses to borrow anger's cruelty. It cares about the truth without using the truth as a weapon.\n\nThat distinction matters because harshness often feels powerful in the moment. A cutting reply can make us feel as though we have regained control. Yet Proverbs asks us to notice what our words produce, not merely how satisfying they feel as they leave our mouths. Wisdom listens for the moment when a conversation could turn. Sometimes the most courageous sentence is the one spoken slowly enough to keep another person's dignity intact.",
+  bigTruth: "A gentle answer can be strong enough to change a conversation's direction.",
+  takeTheBite: "Before one difficult conversation today, write the first sentence you want to say. Remove any insult, exaggeration, or mind-reading from it. Keep the truth, but deliver it in a form the other person can actually hear.",
+  prayer: "God of wisdom, teach me to hear the weight of my words before I release them. Give me courage to speak honestly and restraint to speak without cruelty. When I feel defensive, slow me down. Help my voice make room for truth, repentance, and peace rather than adding heat simply because I am hurt. Amen.",
+  deeperReading: {
+    reference: "Proverbs 15:1-4; Proverbs 12:17-19; James 1:19-20",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "proverbs",
+    chapter: 15,
+    verseStart: 1,
+    verseEnd: 4,
+  },
+  tags: ["Proverbs","Wisdom & Life"],
+  status: "published",
+};

@@ -67,6 +67,60 @@ import { whatDidElishasServantSeeWhenGodOpenedHisEyes } from "@/content/bites/wh
 import { whyWereSomePriestsRemovedFromServiceAfterTheExile } from "@/content/bites/why-were-some-priests-removed-from-service-after-the-exile";
 import { whatChangedAsaphsViewOfTheWicked } from "@/content/bites/what-changed-asaphs-view-of-the-wicked";
 import { whoStoppedDavidFromTakingRevengeOnNabal } from "@/content/bites/who-stopped-david-from-taking-revenge-on-nabal";
+import { whatHappenedAfterThePhilistinesPlacedIsraelSCapturedArkBesideTheStatueOfDagon } from "@/content/bites/what-happened-after-the-philistines-placed-israel-s-captured-ark-beside-the-statue-of-dagon";
+import { accordingToProverbsWhatCanAGentleAnswerDoInAHeatedMoment } from "@/content/bites/according-to-proverbs-what-can-a-gentle-answer-do-in-a-heated-moment";
+import { whatWereIsraeliteFarmersToldToDoWithTheEdgesOfTheirFieldsAndLeftoverProduce } from "@/content/bites/what-were-israelite-farmers-told-to-do-with-the-edges-of-their-fields-and-leftover-produce";
+import { whatDidDanielChangeAboutHisPrayerRoutineAfterPrayerToAnyoneButTheKingWasOutlawed } from "@/content/bites/what-did-daniel-change-about-his-prayer-routine-after-prayer-to-anyone-but-the-king-was-outlawed";
+import { whatDidZelophehadSDaughtersAskMosesToGiveThem } from "@/content/bites/what-did-zelophehad-s-daughters-ask-moses-to-give-them";
+import { whatStrengthenedGideonJustBeforeHeAttackedMidianSCamp } from "@/content/bites/what-strengthened-gideon-just-before-he-attacked-midian-s-camp";
+import { howDidFourMenGetTheirParalyzedFriendCloseToJesusWhenTheHouseWasPacked } from "@/content/bites/how-did-four-men-get-their-paralyzed-friend-close-to-jesus-when-the-house-was-packed";
+import { whatWasAnIsraeliteKingRequiredToWriteForHimself } from "@/content/bites/what-was-an-israelite-king-required-to-write-for-himself";
+import { whatDidKingHezekiahDoWithTheAssyrianCommanderSThreateningLetter } from "@/content/bites/what-did-king-hezekiah-do-with-the-assyrian-commander-s-threatening-letter";
+import { whatAppearedOnAaronSStaffOvernight } from "@/content/bites/what-appeared-on-aaron-s-staff-overnight";
+import { whichDoesProverbsCallFaithful } from "@/content/bites/which-does-proverbs-call-faithful";
+import { whichEarlierInstructionHelpsExplainWhyTouchingTheArkWasTreatedSoSeriouslyInUzzahSStory } from "@/content/bites/which-earlier-instruction-helps-explain-why-touching-the-ark-was-treated-so-seriously-in-uzzah-s-story";
+import { whatDidJonathanSayCouldNotLimitTheLordSAbilityToSave } from "@/content/bites/what-did-jonathan-say-could-not-limit-the-lord-s-ability-to-save";
+import { whatLastingPlaceDidDavidGiveJonathanSSonMephibosheth } from "@/content/bites/what-lasting-place-did-david-give-jonathan-s-son-mephibosheth";
+import { howDidJesusAnswerTheDisciplesAssumptionThatAManSBlindnessMustHaveBeenCausedByHisSinOrHisParentsSin } from "@/content/bites/how-did-jesus-answer-the-disciples-assumption-that-a-man-s-blindness-must-have-been-caused-by-his-sin-or-his-parents-sin";
+import { whatDidHezekiahDoWhenManyPassoverWorshipersHadNotCompletedTheRequiredPurification } from "@/content/bites/what-did-hezekiah-do-when-many-passover-worshipers-had-not-completed-the-required-purification";
+import { howDoesPsalm13EndAfterBeginningWithRepeatedCriesOfHowLong } from "@/content/bites/how-does-psalm-13-end-after-beginning-with-repeated-cries-of-how-long";
+import { whatDidGodTellEzekielToDoWithTheScrollBeforeSpeakingToIsrael } from "@/content/bites/what-did-god-tell-ezekiel-to-do-with-the-scroll-before-speaking-to-israel";
+import { whatDoesProverbsTellASluggishPersonToObserveAboutTheAnt } from "@/content/bites/what-does-proverbs-tell-a-sluggish-person-to-observe-about-the-ant";
+import { whatDoesEphesiansSayImmediatelyAfterBeAngry } from "@/content/bites/what-does-ephesians-say-immediately-after-be-angry";
+import { whatDidShadrachMeshachAndAbednegoSayTheyWouldDoEvenIfGodDidNotRescueThemFromTheFurnace } from "@/content/bites/what-did-shadrach-meshach-and-abednego-say-they-would-do-even-if-god-did-not-rescue-them-from-the-furnace";
+import { besidesReadingGodSLawAloudWhatDidTheLevitesHelpThePeopleDo } from "@/content/bites/besides-reading-god-s-law-aloud-what-did-the-levites-help-the-people-do";
+import { whoHidTheYoungJoashWhenAthaliahTriedToDestroyTheRoyalFamily } from "@/content/bites/who-hid-the-young-joash-when-athaliah-tried-to-destroy-the-royal-family";
+import { whatTwoSoundsWereHeardTogetherWhenTheSecondTempleSFoundationWasLaid } from "@/content/bites/what-two-sounds-were-heard-together-when-the-second-temple-s-foundation-was-laid";
+import { whyDidJesusSayTheWidowHadPutInMoreThanAllTheOthers } from "@/content/bites/why-did-jesus-say-the-widow-had-put-in-more-than-all-the-others";
+import { whatPracticeDidTheReturnedExilesRediscoverWhileStudyingTheLaw } from "@/content/bites/what-practice-did-the-returned-exiles-rediscover-while-studying-the-law";
+import { whyDidJeremiahWearAWoodenYokeAroundHisNeck } from "@/content/bites/why-did-jeremiah-wear-a-wooden-yoke-around-his-neck";
+import { whatDoesProverbsSayHelpsPlansSucceed } from "@/content/bites/what-does-proverbs-say-helps-plans-succeed";
+import { whatHappenedInTheTempleBetweenJesusSpeakingToTheFigTreeAndTheDisciplesFindingItWithered } from "@/content/bites/what-happened-in-the-temple-between-jesus-speaking-to-the-fig-tree-and-the-disciples-finding-it-withered";
+import { whatDidElishaTellTheWidowToBorrowBeforeHerSmallAmountOfOilMultiplied } from "@/content/bites/what-did-elisha-tell-the-widow-to-borrow-before-her-small-amount-of-oil-multiplied";
+import { whatDidEstherAskTheJewishCommunityInSusaToDoBeforeSheApproachedTheKingUninvited } from "@/content/bites/what-did-esther-ask-the-jewish-community-in-susa-to-do-before-she-approached-the-king-uninvited";
+import { sinceEvenHeavenCouldNotContainGodWhereDidSolomonAskHimToHearHisPeopleSPrayers } from "@/content/bites/since-even-heaven-could-not-contain-god-where-did-solomon-ask-him-to-hear-his-people-s-prayers";
+import { whatProtectionDidACityOfRefugeProvideAfterAnAccidentalKilling } from "@/content/bites/what-protection-did-a-city-of-refuge-provide-after-an-accidental-killing";
+import { whatHappenedWhenKingJeroboamPointedAtTheProphetAndOrderedHisArrest } from "@/content/bites/what-happened-when-king-jeroboam-pointed-at-the-prophet-and-ordered-his-arrest";
+import { whyDoesProverbsPlaceDoNotAnswerAFoolBesideAnswerAFool } from "@/content/bites/why-does-proverbs-place-do-not-answer-a-fool-beside-answer-a-fool";
+import { howDidJesusRedefineGreatnessAfterTheDisciplesArguedAboutWhoWasGreatest } from "@/content/bites/how-did-jesus-redefine-greatness-after-the-disciples-argued-about-who-was-greatest";
+import { whatDidTheDesperateFatherAskJesusToDoAboutHisStrugglingFaith } from "@/content/bites/what-did-the-desperate-father-ask-jesus-to-do-about-his-struggling-faith";
+import { whatDidTheCenturionBelieveJesusCouldDoWithoutEnteringHisHouse } from "@/content/bites/what-did-the-centurion-believe-jesus-could-do-without-entering-his-house";
+import { whatWasTheChurchDoingWhilePeterWasKeptInPrison } from "@/content/bites/what-was-the-church-doing-while-peter-was-kept-in-prison";
+import { whyWereSevenTrustedMenAppointedInTheJerusalemChurch } from "@/content/bites/why-were-seven-trusted-men-appointed-in-the-jerusalem-church";
+import { whatHappenedAfterPaulAndBarnabasSharplyDisagreedAboutTakingMarkOnAnotherJourney } from "@/content/bites/what-happened-after-paul-and-barnabas-sharply-disagreed-about-taking-mark-on-another-journey";
+import { inWhichCircumstancesDidPaulSayHeHadLearnedContentment } from "@/content/bites/in-which-circumstances-did-paul-say-he-had-learned-contentment";
+import { whatWasTheEthiopianOfficialReadingWhenPhilipApproachedHisChariot } from "@/content/bites/what-was-the-ethiopian-official-reading-when-philip-approached-his-chariot";
+import { whatDidJesusTellTheRestoredManToDoWhenHeBeggedToTravelWithHim } from "@/content/bites/what-did-jesus-tell-the-restored-man-to-do-when-he-begged-to-travel-with-him";
+import { whatDidTheBelieversAskGodToGiveThemAfterAuthoritiesThreatenedPeterAndJohn } from "@/content/bites/what-did-the-believers-ask-god-to-give-them-after-authorities-threatened-peter-and-john";
+import { whatContrastAppearsBetweenTimothyInActs16AndTitusInGalatians2 } from "@/content/bites/what-contrast-appears-between-timothy-in-acts-16-and-titus-in-galatians-2";
+import { accordingToHebrews5JesusLearnedObedienceThroughWhat } from "@/content/bites/according-to-hebrews-5-jesus-learned-obedience-through-what";
+import { whyDoesPaulSayBelieversCarryTreasureInJarsOfClay } from "@/content/bites/why-does-paul-say-believers-carry-treasure-in-jars-of-clay";
+import { whoDoesJudeSayDisputedWithTheDevilAboutMosesBody } from "@/content/bites/who-does-jude-say-disputed-with-the-devil-about-moses-body";
+import { whatDoesRomansTellBelieversToDoIfAnEnemyIsHungry } from "@/content/bites/what-does-romans-tell-believers-to-do-if-an-enemy-is-hungry";
+import { howDidPaulAskPhilemonToReceiveOnesimus } from "@/content/bites/how-did-paul-ask-philemon-to-receive-onesimus";
+import { whatDidPaulAskTheColossiansToPrayGodWouldOpen } from "@/content/bites/what-did-paul-ask-the-colossians-to-pray-god-would-open";
+import { whatProblemMadeCorinthSLordSSupperGatheringsDoMoreHarmThanGood } from "@/content/bites/what-problem-made-corinth-s-lord-s-supper-gatherings-do-more-harm-than-good";
+import { whatInvitationIsRepeatedNearTheVeryEndOfTheBible } from "@/content/bites/what-invitation-is-repeated-near-the-very-end-of-the-bible";
 import { answerBases, answerSatisfactions, questionTypes } from "@/lib/editorialMetadata";
 import { siteConfig } from "@/lib/siteConfig";
 import type {
@@ -155,6 +209,60 @@ const allBites: BibleBite[] = [
   whyWereSomePriestsRemovedFromServiceAfterTheExile,
   whatChangedAsaphsViewOfTheWicked,
   whoStoppedDavidFromTakingRevengeOnNabal,
+  whatHappenedAfterThePhilistinesPlacedIsraelSCapturedArkBesideTheStatueOfDagon,
+  accordingToProverbsWhatCanAGentleAnswerDoInAHeatedMoment,
+  whatWereIsraeliteFarmersToldToDoWithTheEdgesOfTheirFieldsAndLeftoverProduce,
+  whatDidDanielChangeAboutHisPrayerRoutineAfterPrayerToAnyoneButTheKingWasOutlawed,
+  whatDidZelophehadSDaughtersAskMosesToGiveThem,
+  whatStrengthenedGideonJustBeforeHeAttackedMidianSCamp,
+  howDidFourMenGetTheirParalyzedFriendCloseToJesusWhenTheHouseWasPacked,
+  whatWasAnIsraeliteKingRequiredToWriteForHimself,
+  whatDidKingHezekiahDoWithTheAssyrianCommanderSThreateningLetter,
+  whatAppearedOnAaronSStaffOvernight,
+  whichDoesProverbsCallFaithful,
+  whichEarlierInstructionHelpsExplainWhyTouchingTheArkWasTreatedSoSeriouslyInUzzahSStory,
+  whatDidJonathanSayCouldNotLimitTheLordSAbilityToSave,
+  whatLastingPlaceDidDavidGiveJonathanSSonMephibosheth,
+  howDidJesusAnswerTheDisciplesAssumptionThatAManSBlindnessMustHaveBeenCausedByHisSinOrHisParentsSin,
+  whatDidHezekiahDoWhenManyPassoverWorshipersHadNotCompletedTheRequiredPurification,
+  howDoesPsalm13EndAfterBeginningWithRepeatedCriesOfHowLong,
+  whatDidGodTellEzekielToDoWithTheScrollBeforeSpeakingToIsrael,
+  whatDoesProverbsTellASluggishPersonToObserveAboutTheAnt,
+  whatDoesEphesiansSayImmediatelyAfterBeAngry,
+  whatDidShadrachMeshachAndAbednegoSayTheyWouldDoEvenIfGodDidNotRescueThemFromTheFurnace,
+  besidesReadingGodSLawAloudWhatDidTheLevitesHelpThePeopleDo,
+  whoHidTheYoungJoashWhenAthaliahTriedToDestroyTheRoyalFamily,
+  whatTwoSoundsWereHeardTogetherWhenTheSecondTempleSFoundationWasLaid,
+  whyDidJesusSayTheWidowHadPutInMoreThanAllTheOthers,
+  whatPracticeDidTheReturnedExilesRediscoverWhileStudyingTheLaw,
+  whyDidJeremiahWearAWoodenYokeAroundHisNeck,
+  whatDoesProverbsSayHelpsPlansSucceed,
+  whatHappenedInTheTempleBetweenJesusSpeakingToTheFigTreeAndTheDisciplesFindingItWithered,
+  whatDidElishaTellTheWidowToBorrowBeforeHerSmallAmountOfOilMultiplied,
+  whatDidEstherAskTheJewishCommunityInSusaToDoBeforeSheApproachedTheKingUninvited,
+  sinceEvenHeavenCouldNotContainGodWhereDidSolomonAskHimToHearHisPeopleSPrayers,
+  whatProtectionDidACityOfRefugeProvideAfterAnAccidentalKilling,
+  whatHappenedWhenKingJeroboamPointedAtTheProphetAndOrderedHisArrest,
+  whyDoesProverbsPlaceDoNotAnswerAFoolBesideAnswerAFool,
+  howDidJesusRedefineGreatnessAfterTheDisciplesArguedAboutWhoWasGreatest,
+  whatDidTheDesperateFatherAskJesusToDoAboutHisStrugglingFaith,
+  whatDidTheCenturionBelieveJesusCouldDoWithoutEnteringHisHouse,
+  whatWasTheChurchDoingWhilePeterWasKeptInPrison,
+  whyWereSevenTrustedMenAppointedInTheJerusalemChurch,
+  whatHappenedAfterPaulAndBarnabasSharplyDisagreedAboutTakingMarkOnAnotherJourney,
+  inWhichCircumstancesDidPaulSayHeHadLearnedContentment,
+  whatWasTheEthiopianOfficialReadingWhenPhilipApproachedHisChariot,
+  whatDidJesusTellTheRestoredManToDoWhenHeBeggedToTravelWithHim,
+  whatDidTheBelieversAskGodToGiveThemAfterAuthoritiesThreatenedPeterAndJohn,
+  whatContrastAppearsBetweenTimothyInActs16AndTitusInGalatians2,
+  accordingToHebrews5JesusLearnedObedienceThroughWhat,
+  whyDoesPaulSayBelieversCarryTreasureInJarsOfClay,
+  whoDoesJudeSayDisputedWithTheDevilAboutMosesBody,
+  whatDoesRomansTellBelieversToDoIfAnEnemyIsHungry,
+  howDidPaulAskPhilemonToReceiveOnesimus,
+  whatDidPaulAskTheColossiansToPrayGodWouldOpen,
+  whatProblemMadeCorinthSLordSSupperGatheringsDoMoreHarmThanGood,
+  whatInvitationIsRepeatedNearTheVeryEndOfTheBible,
 ];
 
 function assert(condition: boolean, message: string): asserts condition {

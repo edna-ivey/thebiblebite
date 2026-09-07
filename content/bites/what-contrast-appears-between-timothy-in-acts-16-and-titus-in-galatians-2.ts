@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatContrastAppearsBetweenTimothyInActs16AndTitusInGalatians2: BibleBite = {
+  date: "2026-10-23",
+  slug: "what-contrast-appears-between-timothy-in-acts-16-and-titus-in-galatians-2",
+  title: "What contrast appears between Timothy in Acts 16 and Titus in Galatians 2?",
+  curiosityHook: "Timothy and Titus faced two outwardly different decisions about the same Jewish practice.",
+  scriptureReference: "Acts 16:1-5; Galatians 2:1-5",
+  scriptureText: "Paul wanted to have him go out with him, and he took and circumcised him because of the Jews who were in those parts, for they all knew that his father was a Greek.\n\nBut not even Titus, who was with me, being a Greek, was compelled to be circumcised. This was because of the false brothers secretly brought in, who stole in to spy out our liberty which we have in Christ Jesus, that they might bring us into bondage, to whom we gave no place in the way of subjection, not for an hour, that the truth of the Good News might continue with you.",
+  translation: "WEB",
+  topic: "bible-and-history",
+  questionType: "context",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What contrast appears between Timothy in Acts 16 and Titus in Galatians 2?",
+  answerChoices: [
+    { id: "A", text: "Timothy was not circumcised, while Titus was" },
+    { id: "B", text: "Timothy was circumcised, while Titus was not compelled to be" },
+    { id: "C", text: "Both men were compelled to be circumcised by church leaders" },
+    { id: "D", text: "Neither man's circumcision is discussed in the passages" },
+  ],
+  correctAnswer: "B",
+  explanation: "Acts says Paul circumcised Timothy because local Jewish communities knew Timothy's father was Greek. Galatians says Paul refused pressure for Titus, a Greek, to be circumcised, \"that the truth of the Good News might continue with you.\" At first glance, the choices can look inconsistent.\n\nA common reading of the two settings sees an important difference. Titus's case involved people attempting to make circumcision a requirement that compromised freedom in Christ. Yielding there would suggest that faith in Jesus was insufficient without taking on this covenant marker. Timothy's circumcision followed the Jerusalem council's decision that Gentile believers did not need circumcision for salvation. Acts presents his case as removing a predictable barrier in a Jewish mission context, not as earning acceptance with God.\n\nThis distinction should be held with humility because neither passage gives us every private conversation. Together they show Paul refusing to compromise the gospel while remaining willing to surrender a personal freedom for the sake of reaching people. The same outward action can carry different meaning in different contexts.\n\nDiscernment asks two questions: Is someone demanding this as a condition God has not imposed? Or am I freely adjusting a preference so another person can hear? Faithfulness may require a firm no to coercion and a generous yes to inconvenience.",
+  bigTruth: "Gospel freedom resists coercion and remains free to serve.",
+  takeTheBite: "Examine one disputed expectation. Ask whether it is being made a condition of belonging that Scripture does not require, or whether it is a voluntary accommodation that helps you love someone. Respond from conviction rather than pressure or pride.",
+  prayer: "God of grace, keep me from adding human conditions to the welcome You give in Christ. Give me courage to resist spiritual coercion and freedom to lay down preferences when love truly calls for it. Make me careful with context, slow to accuse inconsistency, and clear about the gospel that no human achievement can complete. Amen.",
+  deeperReading: {
+    reference: "Acts 15:1-29; Acts 16:1-5; Galatians 2:1-10",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "acts",
+    chapter: 15,
+    verseStart: 1,
+    verseEnd: 29,
+  },
+  tags: ["Acts","Bible & History"],
+  status: "published",
+};

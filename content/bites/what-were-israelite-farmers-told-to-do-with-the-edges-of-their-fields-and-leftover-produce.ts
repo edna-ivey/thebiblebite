@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatWereIsraeliteFarmersToldToDoWithTheEdgesOfTheirFieldsAndLeftoverProduce: BibleBite = {
+  date: "2026-09-10",
+  slug: "what-were-israelite-farmers-told-to-do-with-the-edges-of-their-fields-and-leftover-produce",
+  title: "What were Israelite farmers told to do with the edges of their fields and leftover produce?",
+  curiosityHook: "Israel's harvest law left something valuable deliberately uncollected.",
+  scriptureReference: "Leviticus 19:9-10",
+  scriptureText: "“ ‘When you reap the harvest of your land, you shall not wholly reap the corners of your field, neither shall you gather the gleanings of your harvest. You shall not glean your vineyard, neither shall you gather the fallen grapes of your vineyard. You shall leave them for the poor and for the foreigner. I am Yahweh your God.",
+  translation: "WEB",
+  topic: "bible-and-history",
+  questionType: "context",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What were Israelite farmers told to do with the edges of their fields and leftover produce?",
+  answerChoices: [
+    { id: "A", text: "Store them for the next year's planting" },
+    { id: "B", text: "Give them to the priests at the sanctuary" },
+    { id: "C", text: "Leave them for the poor and the foreigner" },
+    { id: "D", text: "Burn them as a harvest offering" },
+  ],
+  correctAnswer: "C",
+  explanation: "In Leviticus 19, holiness reaches all the way into the field. Farmers were told not to harvest every corner or gather every fallen piece. Grapes left on the vine and grain at the edges were to remain for people who were poor and for foreigners living among Israel.\n\nThis was not random waste. It built generosity into the way an owner harvested. The instruction protected space for a person in need to gather food with real effort and dignity, as Ruth later does in Boaz's field. It also challenged the instinct to squeeze every possible gain from what God had provided. The landowner could not look at the final row and say, \"Mine, because I can reach it.\"\n\nThe command sits in the same chapter as \"You shall love your neighbor as yourself.\" That location is important. Biblical holiness is not merely private devotion or careful ceremony. It changes how power, property, and opportunity are handled. Most readers do not own an ancient grain field, but we still control margins: time we could share, room in a budget, access to information, or opportunities others cannot easily reach. Love often becomes visible in what we deliberately refuse to keep entirely for ourselves.",
+  bigTruth: "Holiness makes room for a neighbor to flourish.",
+  takeTheBite: "Choose one margin you control this week, such as an hour, a meal, a useful introduction, or part of your budget. Set a specific portion aside for someone who would otherwise be left out.",
+  prayer: "Generous God, everything I hold has first come from Your hand. Show me where I have harvested life too closely, keeping every advantage for myself. Give me eyes for the person at the edge and wisdom to help without taking away dignity. Shape my habits so generosity is planned, not only occasional. Amen.",
+  deeperReading: {
+    reference: "Leviticus 19:1-18; Deuteronomy 24:17-22; Ruth 2:1-13",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "leviticus",
+    chapter: 19,
+    verseStart: 1,
+    verseEnd: 18,
+  },
+  tags: ["Leviticus","Bible & History"],
+  status: "published",
+};

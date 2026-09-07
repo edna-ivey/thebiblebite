@@ -1,0 +1,36 @@
+import type { BibleBite } from "@/lib/types";
+
+export const accordingToHebrews5JesusLearnedObedienceThroughWhat: BibleBite = {
+  date: "2026-10-24",
+  slug: "according-to-hebrews-5-jesus-learned-obedience-through-what",
+  title: "According to Hebrews 5, Jesus \"learned obedience\" through what?",
+  curiosityHook: "Hebrews uses a surprising phrase about the sinless Son's obedience.",
+  scriptureReference: "Hebrews 5:7-10",
+  scriptureText: "He, in the days of his flesh, having offered up prayers and petitions with strong crying and tears to him who was able to save him from death, and having been heard for his godly fear, though he was a Son, yet learned obedience by the things which he suffered. Having been made perfect, he became to all of those who obey him the author of eternal salvation,",
+  translation: "WEB",
+  topic: "hard-questions",
+  questionType: "hard-question",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "According to Hebrews 5, Jesus \"learned obedience\" through what?",
+  answerChoices: [
+    { id: "A", text: "The years He spent in Nazareth" },
+    { id: "B", text: "The teachings of the temple priests" },
+    { id: "C", text: "The things He suffered" },
+    { id: "D", text: "The miracles He performed" },
+  ],
+  correctAnswer: "C",
+  explanation: "Hebrews says that Jesus, \"though he was a Son, yet learned obedience by the things which he suffered.\" That can sound as though He moved from disobedience to obedience. The same book, however, says Jesus was tempted as we are yet without sin. \"Learned\" cannot mean He first had to stop rebelling against God.\n\nThe passage points to obedience entered and completed through lived human experience. Jesus did not know suffering only as an idea. In the days of His flesh, He prayed with loud crying and tears. He obeyed the Father along a path that cost Him anguish and death. The eternal Son experienced what faithful human obedience requires under pressure.\n\nThis matters because Jesus' sympathy is not distant. Hebrews presents Him as our high priest, able to deal gently with weakness and bring eternal salvation. He does not ask suffering people to walk a road He observed from safety.\n\nThe verse also must not be used to call every abusive or destructive situation a lesson God requires someone to remain inside. Jesus' obedience included confronting evil, withdrawing from danger at times, and freely laying down His life according to His mission. His suffering is unique in its saving purpose. What believers receive is not a command to seek harm, but a Savior whose faithful love went all the way through it.",
+  bigTruth: "Jesus knows costly obedience from the inside.",
+  takeTheBite: "Bring Jesus one place where doing what is right feels costly. Ask for wisdom to distinguish faithful endurance from preventable harm, and seek qualified help if safety is involved. Take only the next clear step.",
+  prayer: "Jesus, thank You for entering human weakness without sin and for obeying through real tears and suffering. Meet me where faithfulness costs more than I expected. Give me courage to do what is right, wisdom to leave what is harmful, and help from trustworthy people. I rest in a Savior who understands from the inside and carries what I cannot save myself from. Amen.",
+  deeperReading: {
+    reference: "Hebrews 4:14-5:10; Philippians 2:5-11; Matthew 26:36-46",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "hebrews",
+    chapter: 4,
+    verseStart: 14,
+  },
+  tags: ["Hebrews","Hard Questions"],
+  status: "published",
+};

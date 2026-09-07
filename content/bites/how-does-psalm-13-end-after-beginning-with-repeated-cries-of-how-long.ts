@@ -1,0 +1,35 @@
+import type { BibleBite } from "@/lib/types";
+
+export const howDoesPsalm13EndAfterBeginningWithRepeatedCriesOfHowLong: BibleBite = {
+  date: "2026-09-24",
+  slug: "how-does-psalm-13-end-after-beginning-with-repeated-cries-of-how-long",
+  title: "How does Psalm 13 end after beginning with repeated cries of \"How long?\"",
+  curiosityHook: "One of Scripture's shortest laments travels from four questions to a song.",
+  scriptureReference: "Psalm 13",
+  scriptureText: "But I trust in your loving kindness. My heart rejoices in your salvation. I will sing to Yahweh, because he has been good to me.",
+  translation: "WEB",
+  topic: "prayer-and-worship",
+  questionType: "look-closer",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "How does Psalm 13 end after beginning with repeated cries of \"How long?\"",
+  answerChoices: [
+    { id: "A", text: "With trust, rejoicing, and a decision to sing" },
+    { id: "B", text: "With an explanation of why the trouble happened" },
+    { id: "C", text: "With an apology for having asked difficult questions" },
+    { id: "D", text: "With a promise that the enemy will disappear that day" },
+  ],
+  correctAnswer: "A",
+  explanation: "Psalm 13 opens without small talk. Four times David asks, \"How long?\" He feels forgotten, wrestles with sorrow, and sees an enemy gaining ground. The prayer does not begin from a settled emotional place, and it never provides the missing timeline or an explanation for the delay.\n\nIn only six verses, the movement is remarkable. David complains honestly, asks God to look and answer, then says, \"But I trust in your loving kindness. My heart rejoices in your salvation. I will sing to Yahweh, because he has been good to me.\" The circumstances are not reported as changed before the song begins. Something in the act of prayer has brought God's past goodness back into view beside the present pain.\n\nThis is not a formula for forcing sadness to disappear. Lament is not a gloomy waiting room we must hurry through to reach respectable faith. The questions themselves are part of biblical prayer. Yet lament also keeps speaking to God, and that relationship makes room for memory, petition, and sometimes praise before resolution. When we cannot honestly say, \"Everything is fine,\" Psalm 13 gives us truer words: \"This hurts. Please answer. I still bring myself to You.\"",
+  bigTruth: "Lament can tell the whole truth about pain without letting pain have the final word.",
+  takeTheBite: "Write a four-line prayer: \"How long?\" \"Look and answer.\" \"I remember.\" \"I will.\" Keep each line honest. Your final line can name one small act of faith even if your feelings have not changed.",
+  prayer: "God, how long must this burden feel unresolved? Look toward me and give light for the next step. I will not hide my grief from You or pretend I understand the delay. Bring Your past faithfulness back to my memory. Hold me close enough that sorrow can speak and hope can still answer. Teach me the song that is honest for today. Amen.",
+  deeperReading: {
+    reference: "Psalm 13; Psalm 42; Lamentations 3:19-26",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "psalms",
+    chapter: 13,
+  },
+  tags: ["Psalm","Prayer & Worship"],
+  status: "published",
+};

@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatDidHezekiahDoWhenManyPassoverWorshipersHadNotCompletedTheRequiredPurification: BibleBite = {
+  date: "2026-09-23",
+  slug: "what-did-hezekiah-do-when-many-passover-worshipers-had-not-completed-the-required-purification",
+  title: "What did Hezekiah do when many Passover worshipers had not completed the required purification?",
+  curiosityHook: "A Passover celebration began before everyone had completed the expected preparation.",
+  scriptureReference: "2 Chronicles 30:13-20",
+  scriptureText: "For a multitude of the people, even many of Ephraim, Manasseh, Issachar, and Zebulun, had not cleansed themselves, yet they ate the Passover other than the way it is written. For Hezekiah had prayed for them, saying, “May the good Yahweh pardon everyone who sets his heart to seek God, Yahweh, the God of his fathers, even if they aren’t clean according to the purification of the sanctuary.” Yahweh listened to Hezekiah, and healed the people.",
+  translation: "WEB",
+  topic: "bible-and-history",
+  questionType: "context",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What did Hezekiah do when many Passover worshipers had not completed the required purification?",
+  answerChoices: [
+    { id: "A", text: "He canceled the feast until the following year" },
+    { id: "B", text: "He removed everyone who came from another tribe" },
+    { id: "C", text: "He told the priests to ignore every ceremonial command" },
+    { id: "D", text: "He prayed that the Lord would pardon those who had prepared their hearts" },
+  ],
+  correctAnswer: "D",
+  explanation: "Hezekiah reopened the temple and invited people from both Judah and the northern tribes to celebrate Passover in Jerusalem. The gathering included many whose preparation did not match the ceremonial requirements. Chronicles does not hide that irregularity. It says they ate the Passover \"otherwise than it is written.\"\n\nHezekiah responded with a prayer: \"May Yahweh, who is good, pardon everyone who sets his heart to seek God,\" even though that person was not purified according to the sanctuary's rules. The next line says the Lord listened and healed the people.\n\nThis was not a declaration that preparation never mattered. The chapter describes priests and Levites purifying themselves, and Hezekiah acknowledges that the written standard had not been met. The surprise is that he brings the failure to a good God while recognizing the worshipers' sincere direction of heart. Order and mercy are not treated as enemies. The rules tell the truth about what was lacking; prayer asks God to meet people there.\n\nThis passage can steady communities that face imperfect beginnings. We should not call carelessness faithfulness, but neither should we make flawless performance the doorway to seeking God. A healthy response can name what is incomplete, help people grow, and still pray confidently for mercy.",
+  bigTruth: "God's mercy can meet sincere seekers in the middle of imperfect preparation.",
+  takeTheBite: "Think of someone who is taking an imperfect first step toward God or community. Instead of testing whether they already know every expectation, offer one kind welcome and one clear next step that helps them keep growing.",
+  prayer: "Good Lord, thank You for hearing people who turn their hearts toward You before they have everything in order. Keep me from excusing carelessness in myself or demanding polished perfection from others. Give me patience with beginnings, honesty about what needs to grow, and confidence in Your mercy. Make our worship both sincere and teachable. Amen.",
+  deeperReading: {
+    reference: "2 Chronicles 29:1-11; 2 Chronicles 30:1-27; Psalm 86:1-7",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "2-chronicles",
+    chapter: 29,
+    verseStart: 1,
+    verseEnd: 11,
+  },
+  tags: ["2 Chronicles","Bible & History"],
+  status: "published",
+};

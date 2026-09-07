@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatHappenedAfterPaulAndBarnabasSharplyDisagreedAboutTakingMarkOnAnotherJourney: BibleBite = {
+  date: "2026-10-18",
+  slug: "what-happened-after-paul-and-barnabas-sharply-disagreed-about-taking-mark-on-another-journey",
+  title: "What happened after Paul and Barnabas sharply disagreed about taking Mark on another journey?",
+  curiosityHook: "Two trusted ministry partners reached an argument they could not resolve together.",
+  scriptureReference: "Acts 15:36-41",
+  scriptureText: "Barnabas planned to take John, who was called Mark, with them also. But Paul didn’t think that it was a good idea to take with them someone who had withdrawn from them in Pamphylia, and didn’t go with them to do the work. Then the contention grew so sharp that they separated from each other. Barnabas took Mark with him and sailed away to Cyprus, but Paul chose Silas and went out, being commended by the brothers to the grace of God.",
+  translation: "WEB",
+  topic: "hard-questions",
+  questionType: "hard-question",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What happened after Paul and Barnabas sharply disagreed about taking Mark on another journey?",
+  answerChoices: [
+    { id: "A", text: "They separated and formed two ministry teams" },
+    { id: "B", text: "The Jerusalem council removed both from leadership" },
+    { id: "C", text: "Mark was forbidden to travel with either of them" },
+    { id: "D", text: "They waited until an angel chose between them" },
+  ],
+  correctAnswer: "A",
+  explanation: "Barnabas wanted to take Mark on another missionary journey. Paul objected because Mark had withdrawn from them earlier in Pamphylia and had not continued in the work. Acts calls their disagreement \"sharp.\" They separated: Barnabas took Mark to Cyprus, while Paul chose Silas and traveled through Syria and Cilicia.\n\nLuke does not pause to announce a winner. Paul's concern about reliability was understandable. Barnabas, whose name was associated with encouragement, was willing to invest in someone who had failed before. Readers often rush to defend one and blame the other, but the text leaves the tension largely unresolved.\n\nGod continued working through both teams, yet that does not make the rupture ideal or every harsh disagreement harmless. Later letters show that Paul came to value Mark as useful in ministry, suggesting that failure did not become Mark's final identity. Scripture is honest enough to show mature leaders reaching an impasse and gracious enough to show that one painful chapter did not end anyone's usefulness.\n\nSome conflicts can be reconciled through patient conversation. Others lead to changed roles or separate paths. Faithfulness requires truth about reliability, room for restoration, and humility about our own judgment. We do not need to rewrite a painful separation as either total disaster or secret perfection.",
+  bigTruth: "A painful disagreement does not have to become the final word on a person's usefulness.",
+  takeTheBite: "Think of someone you have frozen in the identity of an old failure, including yourself. Without ignoring trust or accountability, name what evidence of growth would make a new judgment possible.",
+  prayer: "God, meet us in conflicts that do not resolve neatly. Give me honesty about broken trust, patience with the work of restoration, and humility when faithful people see a situation differently. Keep me from using Your future work to excuse my harshness. Redeem what can be redeemed, and do not let one failure become anyone's permanent name. Amen.",
+  deeperReading: {
+    reference: "Acts 13:1-13; Acts 15:36-41; 2 Timothy 4:9-11",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "acts",
+    chapter: 13,
+    verseStart: 1,
+    verseEnd: 13,
+  },
+  tags: ["Acts","Hard Questions"],
+  status: "published",
+};

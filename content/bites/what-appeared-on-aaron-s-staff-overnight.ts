@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatAppearedOnAaronSStaffOvernight: BibleBite = {
+  date: "2026-09-17",
+  slug: "what-appeared-on-aaron-s-staff-overnight",
+  title: "What appeared on Aaron's staff overnight?",
+  curiosityHook: "One dead staff completed a growing season overnight.",
+  scriptureReference: "Numbers 17:1-11",
+  scriptureText: "On the next day, Moses went into the Tent of the Testimony; and behold, Aaron’s rod for the house of Levi had sprouted, budded, produced blossoms, and bore ripe almonds.",
+  translation: "WEB",
+  topic: "weird-and-wonderful",
+  questionType: "surprising-detail",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What appeared on Aaron's staff overnight?",
+  answerChoices: [
+    { id: "A", text: "Fire that did not consume the wood" },
+    { id: "B", text: "Buds, blossoms, and ripe almonds" },
+    { id: "C", text: "The names of all twelve tribes" },
+    { id: "D", text: "Leaves shaped like priestly garments" },
+  ],
+  correctAnswer: "B",
+  explanation: "After rebellion and repeated arguments about leadership, God told Moses to collect one staff from each tribe. Each leader's name was written on his staff, with Aaron's name on Levi's. The staffs were placed overnight before the testimony in the tent of meeting.\n\nBy morning, Aaron's dead piece of wood had done several stages of a growing season at once. It had sprouted, produced buds and blossoms, and grown ripe almonds. The sign was not merely that Aaron's staff looked greener than the others. Life and fruit had appeared where no natural process could explain them.\n\nThe staff was then kept as a sign against continued rebellion. That does not mean every leader's authority should go unquestioned. Numbers itself records failures by leaders, including Moses. In this particular dispute, however, God made His choice clear so the community would stop tearing itself apart over the priesthood. The almond branch also fits a pattern Scripture uses often: God can bring living fruit from what appears dry and finished. His work is not validated by noise, rivalry, or self-promotion. The fruit comes from His life. When we are tempted to force recognition, Aaron's staff invites a quieter question: what kind of fruit is actually growing?",
+  bigTruth: "What God gives life to can bear fruit without being forced.",
+  takeTheBite: "Look at one responsibility where you have been chasing recognition. Stop one act of self-promotion today and invest that energy in the work itself. Ask what patient, healthy fruit would look like there.",
+  prayer: "Living God, You can bring fruit from places that look dry. Free me from the need to prove my worth through rivalry or noise. Help me respect what You have entrusted to others and tend faithfully what You have entrusted to me. Grow character in me that remains visible after attention fades. Amen.",
+  deeperReading: {
+    reference: "Numbers 16:1-11; Numbers 17:1-13; John 15:1-8",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "numbers",
+    chapter: 16,
+    verseStart: 1,
+    verseEnd: 11,
+  },
+  tags: ["Numbers","Weird & Wonderful"],
+  status: "published",
+};

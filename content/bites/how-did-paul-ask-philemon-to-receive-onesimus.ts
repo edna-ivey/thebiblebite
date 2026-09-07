@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const howDidPaulAskPhilemonToReceiveOnesimus: BibleBite = {
+  date: "2026-10-28",
+  slug: "how-did-paul-ask-philemon-to-receive-onesimus",
+  title: "How did Paul ask Philemon to receive Onesimus?",
+  curiosityHook: "Paul's shortest letter places a man called a slave inside the language of family.",
+  scriptureReference: "Philemon 8-21",
+  scriptureText: "For perhaps he was therefore separated from you for a while that you would have him forever, no longer as a slave, but more than a slave, a beloved brother—especially to me, but how much rather to you, both in the flesh and in the Lord. If then you count me a partner, receive him as you would receive me.",
+  translation: "WEB",
+  topic: "people-and-stories",
+  questionType: "look-closer",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "How did Paul ask Philemon to receive Onesimus?",
+  answerChoices: [
+    { id: "A", text: "As a temporary worker until the debt was paid" },
+    { id: "B", text: "As a stranger whose past should not be discussed" },
+    { id: "C", text: "As a beloved brother, and as Paul himself" },
+    { id: "D", text: "As a messenger who no longer belonged to the household" },
+  ],
+  correctAnswer: "C",
+  explanation: "Onesimus was legally bound to Philemon within the Roman system of slavery and had become close to Paul during Paul's imprisonment. Paul sent him back carrying a letter that appealed to Philemon's identity in Christ. Onesimus was \"no longer as a slave, but more than a slave, a beloved brother,\" and Paul added, \"If then you count me a partner, receive him as you would receive me.\"\n\nThose words create a serious collision between the household's legal hierarchy and the church's confession of family in Christ. Paul also offered to cover any wrong or debt associated with Onesimus. He did not treat reconciliation as a warm idea that cost the more powerful person nothing.\n\nThe letter does not contain an explicit command abolishing slavery, and we should not pretend it resolves every moral question readers rightly bring to it. Nor should its affectionate language be used to soften the violence and lack of freedom built into enslavement. Paul does press Philemon toward a relationship that the surrounding system could not comfortably contain: brother, partner, welcome him as me.\n\nThe gospel does not permit us to call someone family in worship while treating that person as lesser in practice. Reconciliation requires more than sentiment. It asks what status, cost, and power must change for the welcome to become true.",
+  bigTruth: "In Christ, calling someone family must change how we use power toward them.",
+  takeTheBite: "Examine one relationship where you use warm language but retain every advantage. Identify one concrete way to share voice, absorb a cost, repair a debt, or make the welcome more equal in practice.",
+  prayer: "Jesus, You receive people as family and confront the ways power denies their dignity. Forgive me when my language sounds loving while my choices protect every advantage. Lead me toward repair that carries a real cost. Bring freedom and healing wherever people are exploited, and make our communities truthful about the systems we have excused. Amen.",
+  deeperReading: {
+    reference: "Philemon 1-25; Galatians 3:23-29; Colossians 4:7-9",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "philemon",
+    chapter: 1,
+    verseStart: 1,
+    verseEnd: 25,
+  },
+  tags: ["Philemon","People & Stories"],
+  status: "published",
+};

@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatWasTheChurchDoingWhilePeterWasKeptInPrison: BibleBite = {
+  date: "2026-10-16",
+  slug: "what-was-the-church-doing-while-peter-was-kept-in-prison",
+  title: "What was the church doing while Peter was kept in prison?",
+  curiosityHook: "The church prayed through a night when one apostle had already been killed and another was imprisoned.",
+  scriptureReference: "Acts 12:1-17",
+  scriptureText: "Peter therefore was kept in the prison, but constant prayer was made by the assembly to God for him.",
+  translation: "WEB",
+  topic: "prayer-and-worship",
+  questionType: "look-closer",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What was the church doing while Peter was kept in prison?",
+  answerChoices: [
+    { id: "A", text: "Negotiating his release with Herod" },
+    { id: "B", text: "Preparing to leave Jerusalem that night" },
+    { id: "C", text: "Praying earnestly to God for him" },
+    { id: "D", text: "Choosing another apostle to replace him" },
+  ],
+  correctAnswer: "C",
+  explanation: "Herod had killed James and imprisoned Peter under heavy guard. Acts says, \"Peter therefore was kept in the prison, but constant prayer was made by the assembly to God for him.\" The danger was not theoretical. This same chapter had already recorded an apostle's death.\n\nDuring the night, an angel led Peter past the guards and out through the iron gate. Peter went to the house where many believers were gathered and praying. A servant named Rhoda recognized his voice at the door, became so excited that she left him standing outside, and ran to announce he was there. The praying group initially told her she was out of her mind.\n\nThe detail is both funny and deeply human. Their prayer was real, yet they struggled to believe the answer was knocking. Acts does not present mature prayer as flawless emotional certainty. The church kept turning toward God together while the outcome remained dangerous and unknown.\n\nWe should not use Peter's rescue to promise that every imprisoned or persecuted believer will be released, especially when James was not. The chapter holds both outcomes. What the church could do in either case was pray earnestly, stay together, and receive God's action with astonishment. Sometimes prayer is faithful before it feels confident.",
+  bigTruth: "Prayer can be sincere even when the answer still surprises us.",
+  takeTheBite: "Invite one person to pray with you about a need that has outlasted your confidence. Ask specifically, without pretending certainty about the outcome. Agree on one time to check in again rather than carrying it alone.",
+  prayer: "God, I bring You needs that feel too serious for easy words. Teach me to pray faithfully even when hope and fear sit together. Strengthen believers facing danger, imprisonment, and loss. Join me to people who will keep praying, and make me ready to recognize Your help even when it arrives in a form I did not expect. Amen.",
+  deeperReading: {
+    reference: "Acts 12:1-19; Philippians 1:19-26; Hebrews 13:1-3",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "acts",
+    chapter: 12,
+    verseStart: 1,
+    verseEnd: 19,
+  },
+  tags: ["Acts","Prayer & Worship"],
+  status: "published",
+};

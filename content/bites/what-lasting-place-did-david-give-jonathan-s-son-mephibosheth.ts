@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatLastingPlaceDidDavidGiveJonathanSSonMephibosheth: BibleBite = {
+  date: "2026-09-21",
+  slug: "what-lasting-place-did-david-give-jonathan-s-son-mephibosheth",
+  title: "What lasting place did David give Jonathan's son Mephibosheth?",
+  curiosityHook: "A surviving member of Saul's family expected danger at David's summons.",
+  scriptureReference: "2 Samuel 9:1-13",
+  scriptureText: "Till the land for him—you, your sons, and your servants. Bring in the harvest, that your master’s son may have bread to eat; but Mephibosheth your master’s son will always eat bread at my table.” Now Ziba had fifteen sons and twenty servants. Then Ziba said to the king, “According to all that my lord the king commands his servant, so your servant will do.” So Mephibosheth ate at the king’s table like one of the king’s sons.",
+  translation: "WEB",
+  topic: "people-and-stories",
+  questionType: "look-closer",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What lasting place did David give Jonathan's son Mephibosheth?",
+  answerChoices: [
+    { id: "A", text: "Command of a division in David's army" },
+    { id: "B", text: "A seat at the king's table like one of the king's sons" },
+    { id: "C", text: "Authority over Jonathan's former tribe" },
+    { id: "D", text: "A room beside the tabernacle priests" },
+  ],
+  correctAnswer: "B",
+  explanation: "After David's kingdom was established, he asked whether anyone remained from Saul's family so that he could show kindness for Jonathan's sake. This was not the question people expected from a new king. Rival dynasties often represented danger. David instead looked for someone to receive covenant loyalty.\n\nThe surviving relative was Mephibosheth, Jonathan's son, who had been injured in both feet as a child. When summoned, he fell before David and called himself the king's servant. David's first words were, \"Do not be afraid.\" He restored Saul's land to him and promised that Mephibosheth would always eat at the royal table.\n\nThe repeated table language matters. David did more than send supplies from a distance. He gave Mephibosheth a continuing place within the king's household, \"like one of the king's sons.\" The story does not erase the political complexity of David's relationship with Saul's house, and later chapters bring additional tension. Here, however, David honors his promise to Jonathan through concrete, costly welcome. Kindness becomes land, protection, meals, and belonging. Our own promises are proved in similar ways, not by warm memory alone but by making room in the present.",
+  bigTruth: "Covenant kindness turns remembered love into present welcome.",
+  takeTheBite: "Think of one promise, relationship, or kindness you have meant to honor but left as a good intention. Choose a tangible action this week that creates real welcome, support, or belonging for the person involved.",
+  prayer: "Faithful God, You remember Your promises and make room for people who arrive afraid. Teach me to practice kindness that costs more than a pleasant thought. Help me honor commitments, welcome people without making them feel like projects, and use what I control to create belonging. Let my table and my time reflect Your generous heart. Amen.",
+  deeperReading: {
+    reference: "1 Samuel 20:12-17; 2 Samuel 4:4; 2 Samuel 9:1-13",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "1-samuel",
+    chapter: 20,
+    verseStart: 12,
+    verseEnd: 17,
+  },
+  tags: ["2 Samuel","People & Stories"],
+  status: "published",
+};

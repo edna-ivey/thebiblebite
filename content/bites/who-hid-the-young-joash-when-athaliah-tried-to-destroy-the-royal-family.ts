@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whoHidTheYoungJoashWhenAthaliahTriedToDestroyTheRoyalFamily: BibleBite = {
+  date: "2026-09-30",
+  slug: "who-hid-the-young-joash-when-athaliah-tried-to-destroy-the-royal-family",
+  title: "Who hid the young Joash when Athaliah tried to destroy the royal family?",
+  curiosityHook: "A little-known woman hid one child while a kingdom turned violent.",
+  scriptureReference: "2 Kings 11:1-12",
+  scriptureText: "But Jehosheba, the daughter of King Joram, sister of Ahaziah, took Joash the son of Ahaziah, and stole him away from among the king’s sons who were slain, even him and his nurse, and put them in the bedroom; and they hid him from Athaliah, so that he was not slain. He was with her hidden in Yahweh’s house six years while Athaliah reigned over the land.",
+  translation: "WEB",
+  topic: "people-and-stories",
+  questionType: "look-closer",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "Who hid the young Joash when Athaliah tried to destroy the royal family?",
+  answerChoices: [
+    { id: "A", text: "The prophet Elisha" },
+    { id: "B", text: "His grandmother Athaliah" },
+    { id: "C", text: "His aunt Jehosheba" },
+    { id: "D", text: "The commander Jehu" },
+  ],
+  correctAnswer: "C",
+  explanation: "When Athaliah saw that her son Ahaziah was dead, she moved to destroy the royal offspring and seize the throne. One child escaped. Jehosheba, Ahaziah's sister, took the infant Joash from among the princes facing death and hid him with his nurse in a bedroom. He was later concealed in the Lord's house for six years.\n\nJehosheba appears briefly, but her courage changes the direction of the story. God's promise concerning David's royal line was preserved through a woman who recognized immediate danger and acted before she knew how the larger political crisis would end. The priest Jehoiada and the guards would later play public roles in crowning Joash. Her part began in secrecy, with one vulnerable child and one decisive rescue.\n\nThe passage does not tell us everything she felt or exactly how she carried out the plan. It gives us enough to see that hidden faithfulness can carry enormous weight. Many acts that protect life and preserve hope never look dramatic from the outside. They may happen in a spare room, a quiet phone call, a safety plan, or a decision to intervene. We should not take reckless risks without help, especially in violent situations. Jehosheba's story does invite us to respect the person whose brave, careful action creates time for life to continue.",
+  bigTruth: "A hidden act of courage can protect a future no one else can yet see.",
+  takeTheBite: "Identify one person whose safety or future needs practical support. Choose an action appropriate to your role, and involve qualified help when danger is present. Courage can mean making the call, documenting the concern, or refusing to look away.",
+  prayer: "God of refuge, thank You for Jehosheba's quick and courageous care. Make me attentive when someone vulnerable needs protection. Give me wisdom that does not confuse courage with acting alone, and connect me with the right help when a situation is dangerous. Honor the unseen people whose faithful choices shelter life and hope. Amen.",
+  deeperReading: {
+    reference: "2 Kings 11:1-21; 2 Chronicles 22:10-12; 2 Chronicles 23:1-11; Psalm 82:3-4",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "2-kings",
+    chapter: 11,
+    verseStart: 1,
+    verseEnd: 21,
+  },
+  tags: ["2 Kings","People & Stories"],
+  status: "published",
+};

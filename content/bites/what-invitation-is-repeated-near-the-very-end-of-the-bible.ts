@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatInvitationIsRepeatedNearTheVeryEndOfTheBible: BibleBite = {
+  date: "2026-10-31",
+  slug: "what-invitation-is-repeated-near-the-very-end-of-the-bible",
+  title: "What invitation is repeated near the very end of the Bible?",
+  curiosityHook: "The Bible's final chapter ends with a word for thirsty people.",
+  scriptureReference: "Revelation 22:12-21",
+  scriptureText: "I, Jesus, have sent my angel to testify these things to you for the assemblies. I am the root and the offspring of David, the Bright and Morning Star.” The Spirit and the bride say, “Come!” He who hears, let him say, “Come!” He who is thirsty, let him come. He who desires, let him take the water of life freely.",
+  translation: "WEB",
+  topic: "jesus-and-the-gospel",
+  questionType: "look-closer",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What invitation is repeated near the very end of the Bible?",
+  answerChoices: [
+    { id: "A", text: "Build a city where sorrow cannot enter" },
+    { id: "B", text: "Come and take the water of life freely" },
+    { id: "C", text: "Discover the exact day of Jesus' return" },
+    { id: "D", text: "Earn a place at the tree of life through knowledge" },
+  ],
+  correctAnswer: "B",
+  explanation: "Revelation closes with urgency, promise, warning, and invitation. Jesus says He is coming quickly. The Spirit and the bride answer, \"Come.\" Then the invitation widens: \"He who is thirsty, let him come. He who desires, let him take the water of life freely.\"\n\nThe Bible's final pages are filled with a renewed creation, a healed city, the tree of life, and God's servants seeing His face. Yet the closing word to the thirsty is not \"solve every symbol first.\" It is \"come.\" The water is gift.\n\nThat welcome does not make the chapter's warnings unreal. Revelation takes allegiance, injustice, deception, and judgment seriously. Grace is not denial of evil. It is the free provision no thirsty person could manufacture. The book also refuses to satisfy our desire for a date we can control. Jesus promises His coming, and the church responds with longing: \"Amen! Come, Lord Jesus.\"\n\nThe last sentence is grace too: \"The grace of the Lord Jesus Christ be with all the saints.\" Scripture ends not with human achievement but with Christ's grace resting on His people. We may bring real questions to Revelation, but we should not let fascination with charts drown out its final call. Come thirsty. Receive freely. Live awake for Jesus.",
+  bigTruth: "The Bible's final invitation is not to perform, but to come thirsty and receive grace.",
+  takeTheBite: "Name the thirst beneath one restless habit, such as approval, control, escape, or certainty. Bring that need to Jesus plainly. Then step away from one substitute for ten minutes and read Revelation 22 as an invitation rather than a puzzle.",
+  prayer: "Lord Jesus, I am thirsty for life I cannot create for myself. Free me from substitutes that promise relief and leave me restless. Keep me awake to Your coming without feeding fear or speculation. Let Your grace shape how I live today, and join my hope to the prayer of Your people: come, Lord Jesus. Amen.",
+  deeperReading: {
+    reference: "Isaiah 55:1-3; John 7:37-39; Revelation 21:1-27; Revelation 22:1-21",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "isaiah",
+    chapter: 55,
+    verseStart: 1,
+    verseEnd: 3,
+  },
+  tags: ["Revelation","Jesus & Gospel"],
+  status: "published",
+};

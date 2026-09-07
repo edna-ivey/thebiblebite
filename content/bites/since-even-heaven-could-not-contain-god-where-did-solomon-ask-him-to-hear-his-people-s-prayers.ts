@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const sinceEvenHeavenCouldNotContainGodWhereDidSolomonAskHimToHearHisPeopleSPrayers: BibleBite = {
+  date: "2026-10-09",
+  slug: "since-even-heaven-could-not-contain-god-where-did-solomon-ask-him-to-hear-his-people-s-prayers",
+  title: "Since even heaven could not contain God, where did Solomon ask Him to hear His people's prayers?",
+  curiosityHook: "Solomon dedicated a temple by admitting that God could never fit inside it.",
+  scriptureReference: "1 Kings 8:22-30",
+  scriptureText: "But will God in very deed dwell on the earth? Behold, heaven and the heaven of heavens can’t contain you; how much less this house that I have built! Yet have respect for the prayer of your servant and for his supplication, Yahweh my God, to listen to the cry and to the prayer which your servant prays before you today; that your eyes may be open toward this house night and day, even toward the place of which you have said, ‘My name shall be there;’ to listen to the prayer which your servant prays toward this place. Listen to the supplication of your servant, and of your people Israel, when they pray toward this place. Yes, hear in heaven, your dwelling place; and when you hear, forgive.",
+  translation: "WEB",
+  topic: "prayer-and-worship",
+  questionType: "look-closer",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "Since even heaven could not contain God, where did Solomon ask Him to hear His people's prayers?",
+  answerChoices: [
+    { id: "A", text: "From the innermost room of the new temple" },
+    { id: "B", text: "From wherever the ark happened to rest" },
+    { id: "C", text: "From the mountain where Moses met Him" },
+    { id: "D", text: "From heaven, His dwelling place" },
+  ],
+  correctAnswer: "D",
+  explanation: "At the temple dedication, Solomon stood before the altar and celebrated God's promise to David. Then he named a tension at the heart of the building: \"Will God indeed dwell on the earth? Behold, heaven and the heaven of heavens can't contain you; how much less this house that I have built!\"\n\nThe temple mattered, but it did not shrink God into a room. Solomon repeatedly asked God to hear from heaven when people prayed toward that place. The building was a location God had chosen for His name and Israel's worship, not a container that placed the Creator under human control.\n\nThat distinction protects worship from two opposite mistakes. We can treat places and gathered practices as unimportant, forgetting that God gives embodied people meaningful places to meet, remember, confess, and celebrate. Or we can act as though God is available only inside a favored building, style, or atmosphere. Solomon's prayer values the temple while confessing that the universe cannot hold its God.\n\nWherever we pray, we are not trying to get an absent God's attention through the right architecture. We turn toward the One who hears. A quiet room can help us focus. A sanctuary can carry shared memory. Neither creates His presence or limits where mercy can reach.",
+  bigTruth: "Sacred places can focus our worship, but they can never contain our God.",
+  takeTheBite: "Pray once today in a place you do not usually label spiritual, such as a car, hallway, break room, or sidewalk. Let the unfamiliar setting remind you that God hears without being confined to your preferred atmosphere.",
+  prayer: "God whom heaven cannot contain, thank You for meeting us in real places without being limited by them. Bless the spaces that help me remember and worship, but free me from acting as though Your presence belongs to one room or style. Hear from heaven, forgive, guide, and make every part of my life open to You. Amen.",
+  deeperReading: {
+    reference: "1 Kings 8:22-53; Isaiah 66:1-2; Acts 17:22-28",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "1-kings",
+    chapter: 8,
+    verseStart: 22,
+    verseEnd: 53,
+  },
+  tags: ["1 Kings","Prayer & Worship"],
+  status: "published",
+};

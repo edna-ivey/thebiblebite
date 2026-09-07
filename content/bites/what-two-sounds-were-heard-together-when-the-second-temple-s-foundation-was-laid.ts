@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatTwoSoundsWereHeardTogetherWhenTheSecondTempleSFoundationWasLaid: BibleBite = {
+  date: "2026-10-01",
+  slug: "what-two-sounds-were-heard-together-when-the-second-temple-s-foundation-was-laid",
+  title: "What two sounds were heard together when the second temple's foundation was laid?",
+  curiosityHook: "At the new temple foundation, celebration was loud, but so was something else.",
+  scriptureReference: "Ezra 3:10-13",
+  scriptureText: "But many of the priests and Levites and heads of fathers’ households, the old men who had seen the first house, when the foundation of this house was laid before their eyes, wept with a loud voice. Many also shouted aloud for joy, so that the people could not discern the noise of the shout of joy from the noise of the weeping of the people; for the people shouted with a loud shout, and the noise was heard far away.",
+  translation: "WEB",
+  topic: "prayer-and-worship",
+  questionType: "look-closer",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What two sounds were heard together when the second temple's foundation was laid?",
+  answerChoices: [
+    { id: "A", text: "Trumpets of war and cries of surrender" },
+    { id: "B", text: "Priestly teaching and complete silence" },
+    { id: "C", text: "Thunder and the sound of an earthquake" },
+    { id: "D", text: "Shouts of joy and loud weeping" },
+  ],
+  correctAnswer: "D",
+  explanation: "When the returned exiles laid the foundation of the Lord's temple, priests sounded trumpets, Levites played cymbals, and the people praised God: \"For he is good, for his loving kindness endures forever toward Israel.\" It was a genuine beginning after devastating loss.\n\nThe crowd did not produce only one emotion. Many shouted for joy, while older priests, Levites, and family heads who had seen the first temple wept loudly. Ezra says the sounds blended so completely that people could not distinguish joy from weeping at a distance.\n\nScripture does not scold either group. The foundation was worthy of celebration, and its smaller scale awakened grief for what had been destroyed. Both responses belonged in the same worshiping community. That detail matters whenever a new beginning arrives after loss. Gratitude does not erase memory. Grief does not make hope unfaithful. Two people can stand before the same good gift and feel it differently because they carried different parts of the story.\n\nWorship can hold that complexity without forcing everyone into the same emotional performance. God's enduring love was the truth beneath both sounds. It gave the joyful a reason to shout and the grieving a safe place to weep. A mature community learns to celebrate without silencing sorrow and to mourn without despising new mercy.",
+  bigTruth: "God's faithfulness is spacious enough for joy and grief to worship together.",
+  takeTheBite: "When someone responds differently than you to a shared change, resist correcting their emotion. Ask what the moment represents to them. Make room for one sentence of celebration and one sentence of grief without forcing either to cancel the other.",
+  prayer: "Faithful God, You meet us in beginnings that carry both gratitude and loss. Receive the praise I can offer and the grief I cannot tidy away. Help me celebrate without rushing another person's sorrow and mourn without overlooking present mercy. Hold our different voices together beneath the truth that Your loving kindness endures. Amen.",
+  deeperReading: {
+    reference: "Ezra 3:1-13; Haggai 2:1-9; Psalm 126",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "ezra",
+    chapter: 3,
+    verseStart: 1,
+    verseEnd: 13,
+  },
+  tags: ["Ezra","Prayer & Worship"],
+  status: "published",
+};

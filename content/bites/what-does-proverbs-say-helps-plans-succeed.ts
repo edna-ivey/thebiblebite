@@ -1,0 +1,36 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatDoesProverbsSayHelpsPlansSucceed: BibleBite = {
+  date: "2026-10-05",
+  slug: "what-does-proverbs-say-helps-plans-succeed",
+  title: "What does Proverbs say helps plans succeed?",
+  curiosityHook: "Proverbs treats disagreement as a resource for better plans.",
+  scriptureReference: "Proverbs 15:22; 20:18",
+  scriptureText: "Where there is no counsel, plans fail; but in a multitude of counselors they are established.",
+  translation: "WEB",
+  topic: "wisdom-and-life",
+  questionType: "context",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What does Proverbs say helps plans succeed?",
+  answerChoices: [
+    { id: "A", text: "Keeping the plan secret until it is finished" },
+    { id: "B", text: "Waiting until every risk disappears" },
+    { id: "C", text: "Choosing the quickest available path" },
+    { id: "D", text: "Seeking counsel from multiple advisers" },
+  ],
+  correctAnswer: "D",
+  explanation: "\"Where there is no counsel, plans fail; but in a multitude of counselors they are established.\" Proverbs does not promise that a committee makes every decision wise. It warns that our private view is limited. Other people may see consequences, motives, or possibilities that we cannot see from inside our own plan.\n\nAnother proverb says plans are established by advice and applies the principle even to the grave decision of making war. The larger the stakes, the less room there is for unexamined confidence. Good counsel slows us enough to ask better questions before speed makes the choice for us.\n\nThe word \"multiple\" matters, but numbers alone are not wisdom. Ten people who all share our blind spot, depend on our approval, or simply echo one another may function like one voice. Wise counsel comes from people with relevant knowledge, honest character, and enough freedom to disagree. Prayer and Scripture remain essential, yet \"I prayed about it\" should not become a shield against every concern. God often gives guidance through the wisdom of His people. Seeking counsel does not remove responsibility for the final decision. It helps us carry that responsibility with fewer illusions.",
+  bigTruth: "Wise plans make room for voices that can see what we cannot.",
+  takeTheBite: "Before one meaningful decision, ask advice from two people who bring different strengths. Tell them what you are leaning toward and specifically invite them to name a risk or assumption you may be missing.",
+  prayer: "Wise God, You see every part of the path that I cannot. Protect me from confusing confidence with clarity. Lead me to advisers who are honest, informed, and free to disagree with me. Give me humility to listen, discernment to weigh what I hear, and courage to remain responsible for the decision I make. Amen.",
+  deeperReading: {
+    reference: "Proverbs 11:14; Proverbs 15:22; Proverbs 20:18",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "proverbs",
+    chapter: 11,
+    verseStart: 14,
+  },
+  tags: ["Proverbs","Wisdom & Life"],
+  status: "published",
+};

@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whyDoesProverbsPlaceDoNotAnswerAFoolBesideAnswerAFool: BibleBite = {
+  date: "2026-10-12",
+  slug: "why-does-proverbs-place-do-not-answer-a-fool-beside-answer-a-fool",
+  title: "Why does Proverbs place \"Do not answer a fool\" beside \"Answer a fool\"?",
+  curiosityHook: "Two neighboring Proverbs give opposite-sounding advice about the same person.",
+  scriptureReference: "Proverbs 26:4-5",
+  scriptureText: "Don’t answer a fool according to his folly, lest you also be like him. Answer a fool according to his folly, lest he be wise in his own eyes.",
+  translation: "WEB",
+  topic: "wisdom-and-life",
+  questionType: "context",
+  answerBasis: "strong-contextual-inference",
+  answerSatisfaction: "strong",
+  question: "Why does Proverbs place \"Do not answer a fool\" beside \"Answer a fool\"?",
+  answerChoices: [
+    { id: "A", text: "One command is for kings and the other for priests" },
+    { id: "B", text: "The second saying corrects an error in the first" },
+    { id: "C", text: "Different situations require wisdom about whether a reply will help" },
+    { id: "D", text: "The reader is meant to choose whichever saying feels easier" },
+  ],
+  correctAnswer: "C",
+  explanation: "Two neighboring proverbs sound like a contradiction. \"Don't answer a fool according to his folly, lest you also be like him.\" Then: \"Answer a fool according to his folly, lest he be wise in his own eyes.\" One warns that replying can pull us into foolishness. The other warns that silence can leave foolish confidence unchallenged.\n\nThe pair does not give a mechanical rule. It trains judgment. Before responding, ask which danger is greater in this moment. Will an answer merely copy the person's insults, reward a bad-faith argument, or trap everyone in an endless exchange? Silence may be wise. Will a vulnerable listener mistake the claim for truth, or will the speaker interpret silence as proof? A clear response may be necessary.\n\nWisdom is more demanding than possessing a universal comeback. It pays attention to the person, the audience, the stakes, our own emotional state, and the likely fruit of speaking. Even a needed answer can be given without becoming \"according to folly\" in tone or method. These two verses also humble us. The person we label foolish may not be the only one in danger of foolish behavior. Our need to have the last word can become its own trap.",
+  bigTruth: "Wisdom knows that speaking and staying silent can each be faithful at the right time.",
+  takeTheBite: "Before answering one provocative comment, pause and write two outcomes: what your reply could protect, and what it could feed. Choose the response, including silence, that serves truth without copying foolishness.",
+  prayer: "God of wisdom, teach me when an answer will clarify truth and when it will only deepen folly. Guard me from the pride that needs the last word. Give me courage to speak when silence would abandon someone, and restraint when my reply would merely multiply heat. Let my words serve what is good, not my appetite to win. Amen.",
+  deeperReading: {
+    reference: "Proverbs 26:1-12; Ecclesiastes 3:1-8; 2 Timothy 2:23-26",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "proverbs",
+    chapter: 26,
+    verseStart: 1,
+    verseEnd: 12,
+  },
+  tags: ["Proverbs","Wisdom & Life"],
+  status: "published",
+};

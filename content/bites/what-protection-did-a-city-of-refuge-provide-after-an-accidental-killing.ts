@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatProtectionDidACityOfRefugeProvideAfterAnAccidentalKilling: BibleBite = {
+  date: "2026-10-10",
+  slug: "what-protection-did-a-city-of-refuge-provide-after-an-accidental-killing",
+  title: "What protection did a city of refuge provide after an accidental killing?",
+  curiosityHook: "Israel's law created a place where accusation had to wait for judgment.",
+  scriptureReference: "Numbers 35:9-34",
+  scriptureText: "then you shall appoint for yourselves cities to be cities of refuge for you, that the man slayer who kills any person unwittingly may flee there. The cities shall be for your refuge from the avenger, that the man slayer not die until he stands before the congregation for judgment.",
+  translation: "WEB",
+  topic: "bible-and-history",
+  questionType: "context",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What protection did a city of refuge provide after an accidental killing?",
+  answerChoices: [
+    { id: "A", text: "Safety from immediate revenge while the case was judged" },
+    { id: "B", text: "Permanent immunity from any investigation" },
+    { id: "C", text: "A new identity in a different tribe" },
+    { id: "D", text: "Permission to leave Israel without a hearing" },
+  ],
+  correctAnswer: "A",
+  explanation: "Numbers distinguishes between murder and an unintended death. In a society where a family avenger might pursue the person responsible, cities of refuge created space between the event and retaliation. The accused could flee there, stand before the community for judgment, and be protected from immediate revenge while the facts were examined.\n\nThe chapter gives examples involving tools, stones, and objects made of wood. It asks about means and intent rather than treating every death as the same offense. Deliberate murder was not excused, and an accidental killing was not treated as though nothing serious had happened. The refuge city held accountability and protection together.\n\nThese instructions belong to ancient Israel's covenant law and should not be copied piece by piece into a modern justice system. Their moral shape still deserves attention. Anger wants a conclusion before evidence has been heard. Rumor can appoint itself judge, and a crowd can punish faster than truth can speak. God's law inserted process into a moment charged with grief and vengeance.\n\nWisdom today still resists instant verdicts. Protecting due process is not indifference to victims. It is one way a community refuses to multiply injustice while seeking the truth. Serious harm calls for serious investigation, safe reporting, impartial judgment, and care for everyone endangered by the event.",
+  bigTruth: "Justice needs truth and restraint, not only the speed of our anger.",
+  takeTheBite: "Before sharing an accusation or forming a public verdict, separate what you know directly from what you have assumed. If someone may be in danger, contact the appropriate qualified help. If there is no emergency, wait for reliable evidence before adding your voice.",
+  prayer: "Just God, You care about truth, accountability, and protection. Slow me when anger demands an instant verdict. Give wisdom to investigators, courts, advocates, and communities carrying painful cases. Protect those at risk, comfort those who grieve, and keep me from spreading claims I have not verified. Make justice careful enough to be just. Amen.",
+  deeperReading: {
+    reference: "Numbers 35:9-34; Deuteronomy 19:1-13; Proverbs 18:13-17",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "numbers",
+    chapter: 35,
+    verseStart: 9,
+    verseEnd: 34,
+  },
+  tags: ["Numbers","Bible & History"],
+  status: "published",
+};

@@ -1,0 +1,36 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatWasTheEthiopianOfficialReadingWhenPhilipApproachedHisChariot: BibleBite = {
+  date: "2026-10-20",
+  slug: "what-was-the-ethiopian-official-reading-when-philip-approached-his-chariot",
+  title: "What was the Ethiopian official reading when Philip approached his chariot?",
+  curiosityHook: "An official was reading Isaiah aloud on a desert road, but he needed someone beside him.",
+  scriptureReference: "Acts 8:26-40",
+  scriptureText: "Philip ran to him, and heard him reading Isaiah the prophet, and said, “Do you understand what you are reading?” He said, “How can I, unless someone explains it to me?” He begged Philip to come up and sit with him. Now the passage of the Scripture which he was reading was this, “He was led as a sheep to the slaughter. As a lamb before his shearer is silent, so he doesn’t open his mouth. In his humiliation, his judgment was taken away. Who will declare His generation? For his life is taken from the earth.” * Isaiah 53:7,8 The eunuch answered Philip, “Who is the prophet talking about? About himself, or about someone else?” Philip opened his mouth, and beginning from this Scripture, preached to him about Jesus.",
+  translation: "WEB",
+  topic: "people-and-stories",
+  questionType: "look-closer",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What was the Ethiopian official reading when Philip approached his chariot?",
+  answerChoices: [
+    { id: "A", text: "Moses' account of the first Passover" },
+    { id: "B", text: "David's song about the good shepherd" },
+    { id: "C", text: "Isaiah's words about a silent, suffering servant" },
+    { id: "D", text: "Jeremiah's promise of a new covenant" },
+  ],
+  correctAnswer: "C",
+  explanation: "An angel directed Philip toward the desert road from Jerusalem to Gaza. There he met an Ethiopian court official returning home after worshiping in Jerusalem. The man was reading Isaiah aloud, specifically the passage about one led like a sheep to slaughter who did not open his mouth.\n\nPhilip began with a question rather than a speech: \"Do you understand what you are reading?\" The official answered honestly, \"How can I, unless someone explains it to me?\" He invited Philip to sit beside him and asked whether Isaiah was speaking about himself or someone else. Beginning from that Scripture, Philip told him the good news about Jesus.\n\nThe scene honors both Scripture and conversation. The official was educated and powerful enough to oversee a royal treasury, yet he was willing to admit what he did not understand. Philip had a message to share, yet he listened to the man's actual question and began where the man was already reading. The Spirit-created meeting did not require either person to perform expertise.\n\nThe passage continues to baptism and joy. A question that could have been embarrassing became a doorway. Healthy Bible learning grows where people can say, \"I do not understand this,\" and someone responds by sitting beside them rather than standing over them.",
+  bigTruth: "An honest question can become the road where good news meets us.",
+  takeTheBite: "Bring one Bible question you have been hiding to a trustworthy person who respects both Scripture and your dignity. If someone asks you a question, begin by listening for what they are actually trying to understand.",
+  prayer: "God who meets people on unexpected roads, make me honest about what I do not understand. Lead me to patient teachers who begin with Scripture and listen well. When I have something to share, keep me from performing expertise. Help me sit beside people, honor their questions, and point clearly toward Jesus. Amen.",
+  deeperReading: {
+    reference: "Isaiah 52:13-53:12; Acts 8:26-40; Luke 24:44-48",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "isaiah",
+    chapter: 52,
+    verseStart: 13,
+  },
+  tags: ["Acts","People & Stories"],
+  status: "published",
+};

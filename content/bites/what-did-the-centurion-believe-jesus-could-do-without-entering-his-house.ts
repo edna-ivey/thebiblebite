@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatDidTheCenturionBelieveJesusCouldDoWithoutEnteringHisHouse: BibleBite = {
+  date: "2026-10-15",
+  slug: "what-did-the-centurion-believe-jesus-could-do-without-entering-his-house",
+  title: "What did the centurion believe Jesus could do without entering his house?",
+  curiosityHook: "A Roman officer understood authority in a way that amazed Jesus.",
+  scriptureReference: "Matthew 8:5-13",
+  scriptureText: "The centurion answered, “Lord, I’m not worthy for you to come under my roof. Just say the word, and my servant will be healed. For I am also a man under authority, having under myself soldiers. I tell this one, ‘Go,’ and he goes; and tell another, ‘Come,’ and he comes; and tell my servant, ‘Do this,’ and he does it.” When Jesus heard it, he marveled and said to those who followed, “Most certainly I tell you, I haven’t found so great a faith, not even in Israel.",
+  translation: "WEB",
+  topic: "faith-and-god",
+  questionType: "big-meaning",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What did the centurion believe Jesus could do without entering his house?",
+  answerChoices: [
+    { id: "A", text: "Send one of the disciples in His place" },
+    { id: "B", text: "Speak a word and heal his servant from a distance" },
+    { id: "C", text: "Tell him which medicine would cure the illness" },
+    { id: "D", text: "Ask the synagogue leaders to pray there" },
+  ],
+  correctAnswer: "B",
+  explanation: "A Roman centurion approached Jesus on behalf of a servant who was paralyzed and suffering terribly. When Jesus offered to come, the officer said he was not worthy to receive Him under his roof. \"Only say the word, and my servant will be healed.\"\n\nThe centurion explained his reasoning through authority. As a man under authority who also commanded soldiers, he knew that a legitimate order did not become weaker because the commander was physically distant. He recognized in Jesus an authority that illness itself must obey.\n\nJesus marveled at this faith and contrasted it with the unbelief He had encountered among people with far greater access to Israel's story. The outsider saw something important: Jesus' authority was not tied to proximity, ceremony, or social belonging. The servant was healed in that hour.\n\nThis is not a promise that every request for healing will receive the same immediate result. Matthew records a particular sign of Jesus' kingdom authority. The centurion's posture still teaches us how to ask: with compassion for another person, humility about ourselves, and confidence that Jesus is not limited by the distance we feel. We do not have to create the right atmosphere for Him to be Lord.",
+  bigTruth: "Jesus' authority reaches where our presence and power cannot.",
+  takeTheBite: "Pray by name for one person or situation you cannot physically reach or personally fix. Resist planning how you will control the outcome. Ask clearly for help, then choose one supportive action that is actually yours to take.",
+  prayer: "Jesus, Your authority is not limited by distance, circumstance, or my ability to help. I bring You the person I cannot reach and the need I cannot repair. Please act with mercy. Keep me humble about what I can do and faithful in what is mine to do. Let confidence in Your power free me from the illusion of control. Amen.",
+  deeperReading: {
+    reference: "Matthew 8:5-13; Luke 7:1-10; Psalm 107:17-22",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "matthew",
+    chapter: 8,
+    verseStart: 5,
+    verseEnd: 13,
+  },
+  tags: ["Matthew","Faith & God"],
+  status: "published",
+};

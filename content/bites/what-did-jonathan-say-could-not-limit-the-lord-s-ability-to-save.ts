@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatDidJonathanSayCouldNotLimitTheLordSAbilityToSave: BibleBite = {
+  date: "2026-09-20",
+  slug: "what-did-jonathan-say-could-not-limit-the-lord-s-ability-to-save",
+  title: "What did Jonathan say could not limit the Lord's ability to save?",
+  curiosityHook: "Jonathan looked at an army and refused to measure God by numbers.",
+  scriptureReference: "1 Samuel 14:1-15",
+  scriptureText: "Jonathan said to the young man who bore his armor, “Come! Let’s go over to the garrison of these uncircumcised. It may be that Yahweh will work for us, for there is no restraint on Yahweh to save by many or by few.”",
+  translation: "WEB",
+  topic: "faith-and-god",
+  questionType: "big-meaning",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What did Jonathan say could not limit the Lord's ability to save?",
+  answerChoices: [
+    { id: "A", text: "Whether He worked through many people or only a few" },
+    { id: "B", text: "Whether Israel had offered a sacrifice that morning" },
+    { id: "C", text: "Whether the enemy occupied the higher ground" },
+    { id: "D", text: "Whether Saul had approved the battle plan" },
+  ],
+  correctAnswer: "A",
+  explanation: "Israel's situation looked terrible. The Philistines had a large force and controlled the local metalwork, leaving most Israelites without swords or spears. Saul sat under a tree with six hundred men. Jonathan quietly told his armor bearer that they would cross toward a Philistine outpost.\n\nHis confidence was not that two people were secretly stronger than an army. \"There is no restraint on Yahweh to save by many or by few,\" he said. Jonathan did not know in advance that God would act. His next sentence was, \"It may be that Yahweh will work for us.\" This is faith without presumption. He believed God was able, while refusing to claim that God owed him the outcome he wanted.\n\nThe armor bearer answered with wholehearted support, and together they moved. God did give them victory, sending panic through the enemy camp. Yet the most useful detail may be Jonathan's combination of confidence and humility. Biblical faith can say both \"God can\" and \"I do not control what God will do.\" That frees us from measuring possibility only by visible resources. It also keeps us from dressing our own plans in certainty God has not promised.",
+  bigTruth: "God's ability is never measured by the size of our visible resources.",
+  takeTheBite: "Name one good action you have dismissed because your contribution seems too small. Separate what God is able to do from what He has specifically promised, then take one responsible step without pretending you control the result.",
+  prayer: "Mighty God, I often confuse small resources with small possibilities. Teach me Jonathan's confidence in Your power and his humility about the outcome. Keep me from hiding behind what I lack or claiming certainty You have not given. Show me the faithful step that belongs to me, and help me leave the size of the result with You. Amen.",
+  deeperReading: {
+    reference: "1 Samuel 13:19-23; 1 Samuel 14:1-23; Zechariah 4:6-10",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "1-samuel",
+    chapter: 13,
+    verseStart: 19,
+    verseEnd: 23,
+  },
+  tags: ["1 Samuel","Faith & God"],
+  status: "published",
+};

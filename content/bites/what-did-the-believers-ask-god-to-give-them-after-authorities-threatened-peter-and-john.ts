@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatDidTheBelieversAskGodToGiveThemAfterAuthoritiesThreatenedPeterAndJohn: BibleBite = {
+  date: "2026-10-22",
+  slug: "what-did-the-believers-ask-god-to-give-them-after-authorities-threatened-peter-and-john",
+  title: "What did the believers ask God to give them after authorities threatened Peter and John?",
+  curiosityHook: "After threats, the believers gathered to ask God for what they needed most.",
+  scriptureReference: "Acts 4:23-31",
+  scriptureText: "Now, Lord, look at their threats, and grant to your servants to speak your word with all boldness, while you stretch out your hand to heal; and that signs and wonders may be done through the name of your holy Servant Jesus.” When they had prayed, the place was shaken where they were gathered together. They were all filled with the Holy Spirit, and they spoke the word of God with boldness.",
+  translation: "WEB",
+  topic: "prayer-and-worship",
+  questionType: "look-closer",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What did the believers ask God to give them after authorities threatened Peter and John?",
+  answerChoices: [
+    { id: "A", text: "Boldness to keep speaking His word" },
+    { id: "B", text: "A private place where no one could find them" },
+    { id: "C", text: "Political control over the Jerusalem council" },
+    { id: "D", text: "Immediate punishment for every opponent" },
+  ],
+  correctAnswer: "A",
+  explanation: "Peter and John returned from interrogation with a command to stop speaking in Jesus' name. The community listened to their report and raised their voices together in prayer. They began with God as Creator and remembered Psalm 2, placing the threats inside the larger story of human rulers resisting God's Anointed One.\n\nThen they asked, \"Now, Lord, look at their threats, and grant to your servants to speak your word with all boldness.\" They did not pretend the danger was imaginary. They asked God to look directly at it. Their main request was not comfort, revenge, or even removal of opposition. It was courage to remain faithful within the pressure.\n\nThe place shook, they were filled with the Holy Spirit, and they spoke God's word boldly. This was not bravado. Boldness in Acts includes clear witness, dependence on the Spirit, and a community sharing life and resources. It does not authorize rudeness or a hunger for conflict.\n\nMany situations rightly call for prayers of protection and escape. Scripture contains those prayers too. Acts 4 gives us another necessary prayer: when the obstacle remains, make us faithful enough to keep doing the good work You assigned. Sometimes the answer is not a quieter world but a steadier church.",
+  bigTruth: "Prayer can ask not only for the pressure to change, but for courage within it.",
+  takeTheBite: "Name one good, truthful action you have avoided because another person's reaction may be uncomfortable. Pray for boldness, then take a respectful step that does not confuse courage with aggression.",
+  prayer: "Sovereign God, You see every threat and every pressure that makes faithfulness feel costly. I ask for protection where it is needed and boldness where the work must continue. Fill me with Your Spirit so fear does not choose my words. Keep my courage free from hostility, and join me to a community that prays and acts together. Amen.",
+  deeperReading: {
+    reference: "Acts 4:1-31; Psalm 2; Ephesians 6:18-20",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "acts",
+    chapter: 4,
+    verseStart: 1,
+    verseEnd: 31,
+  },
+  tags: ["Acts","Prayer & Worship"],
+  status: "published",
+};
