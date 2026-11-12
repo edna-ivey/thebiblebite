@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatDidJesusSayHisComingCouldBringWithinAHousehold: BibleBite = {
+  date: "2026-11-23",
+  slug: "what-did-jesus-say-his-coming-could-bring-within-a-household",
+  title: "What did Jesus say His coming could bring within a household?",
+  curiosityHook: "Matthew places a surprising detail inside a much bigger story.",
+  scriptureReference: "Matthew 10:34-39",
+  scriptureText: "“Don’t think that I came to send peace on the earth. I didn’t come to send peace, but a sword.",
+  translation: "WEB",
+  topic: "hard-questions",
+  questionType: "hard-question",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What did Jesus say His coming could bring within a household?",
+  answerChoices: [
+    { id: "A", text: "Immediate agreement about every spiritual question" },
+    { id: "B", text: "Financial security for relatives who believed" },
+    { id: "C", text: "Division as loyalties were exposed" },
+    { id: "D", text: "An end to all obligations between parents and children" },
+  ],
+  correctAnswer: "C",
+  explanation: "Jesus told the Twelve not to imagine that His mission would produce uncomplicated peace in every relationship. He said He had come not to bring peace but a sword, then described divisions between close family members.\n\nIn context, Jesus was preparing disciples for opposition as they announced God's kingdom. The \"sword\" is not a command to attack relatives or spread Christianity through force. The verses that follow describe relational division and the costly choice of loving Jesus above every other allegiance. Elsewhere Jesus blesses peacemakers, commands love for enemies, and refuses violent defense of His kingdom.\n\nThe language remains hard because family bonds are good and deeply significant. Jesus is not teaching contempt for parents or children. He is saying that even our closest relationships cannot become the authority that decides whether we obey Him. When one person follows Jesus and another resists, the resulting conflict can feel like a blade through a household.\n\nThis passage must not become cover for avoidable harshness. Some conflict comes from faithful conviction; some comes from pride, manipulation, or poor listening. Christians should not label every negative reaction \"persecution\" and assume their own behavior needs no examination.\n\nJesus names the real cost of discipleship without celebrating broken relationships. Faithfulness seeks peace wherever possible, refuses coercion, and still will not make another person's approval into a substitute lord.",
+  bigTruth: "Following Jesus should make us more loving, not less loyal to Him. Sometimes both commitments make a relationship costly.",
+  takeTheBite: "In one strained relationship, ask whether the tension comes from necessary faithfulness or unnecessary harshness. Keep the conviction that belongs to Jesus and repent of any cruelty that belongs to you.",
+  prayer: "Jesus, You know how painful divided loyalties can become inside a family. Keep me faithful without making me hard. Protect me from using Your words to excuse cruelty, superiority, or avoidable conflict. Give me courage when obedience truly costs approval, and humility when my manner has caused harm. Teach me to love relatives honestly, seek peace patiently, and keep You first without treating people as enemies to defeat. Amen.",
+  deeperReading: {
+    reference: "Matthew 10:16-39; Micah 7:5-7; Romans 12:14-21",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "matthew",
+    chapter: 10,
+    verseStart: 16,
+    verseEnd: 39,
+  },
+  tags: ["Matthew", "Hard Questions"],
+  status: "published",
+};

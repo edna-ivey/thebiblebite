@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatHappenedWhenElizabethHeardMarySGreeting: BibleBite = {
+  date: "2026-12-05",
+  slug: "what-happened-when-elizabeth-heard-mary-s-greeting",
+  title: "What happened when Elizabeth heard Mary's greeting?",
+  curiosityHook: "A small detail in Luke opens the door to a larger truth.",
+  scriptureReference: "Luke 1:39-45",
+  scriptureText: "When Elizabeth heard Mary’s greeting, the baby leaped in her womb; and Elizabeth was filled with the Holy Spirit.",
+  translation: "WEB",
+  topic: "people-and-stories",
+  questionType: "look-closer",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What happened when Elizabeth heard Mary's greeting?",
+  answerChoices: [
+    { id: "A", text: "Zechariah immediately spoke" },
+    { id: "B", text: "An angel appeared in the room" },
+    { id: "C", text: "The baby leaped in her womb" },
+    { id: "D", text: "Mary began her journey home" },
+  ],
+  correctAnswer: "C",
+  explanation: "Mary entered Zechariah's house and greeted Elizabeth. The baby leaped in Elizabeth's womb, Elizabeth was filled with the Holy Spirit, and she blessed Mary and the child Mary carried. Before Jesus was born, His arrival was already producing recognition and joy. Elizabeth did not make Mary's unexpected pregnancy about herself, though she too had received a remarkable gift after years of barrenness. She welcomed Mary, named God's work, and called her blessed for believing. Her words offered confirmation at a moment when Mary faced an extraordinary and costly calling. This meeting shows how encouragement can become part of faithful obedience. Elizabeth did not control Mary's future or remove its difficulty. She recognized grace and spoke truth into it. Sometimes another person's faithful word helps us carry what God has entrusted to us.",
+  bigTruth: "Spirit-shaped encouragement recognizes God's work in another person without making it about ourselves.",
+  takeTheBite: "Tell one person specifically where you see courage, growth, or faithfulness in them. Avoid vague praise; name the evidence you have noticed.",
+  prayer: "God, make me generous in recognizing Your work in other people. Keep comparison from shrinking my joy when someone else receives a calling or gift. Give me words that are truthful, timely, and strengthening. When I need confirmation, lead me toward people who listen for You; when another person needs it, help me become a steady and humble voice of encouragement. Amen.",
+  deeperReading: {
+    reference: "Luke 1:39-56; Hebrews 10:23-25; Romans 12:9-10",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "luke",
+    chapter: 1,
+    verseStart: 39,
+    verseEnd: 56,
+  },
+  tags: ["Luke", "People & Stories"],
+  status: "published",
+};

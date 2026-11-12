@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const fromWhichSmallTownDidMicahSayIsraelSRulerWouldCome: BibleBite = {
+  date: "2026-12-22",
+  slug: "from-which-small-town-did-micah-say-israel-s-ruler-would-come",
+  title: "From which small town did Micah say Israel's ruler would come?",
+  curiosityHook: "This moment in Micah asks us to slow down and look again.",
+  scriptureReference: "Micah 5:1-5",
+  scriptureText: "But you, Bethlehem Ephrathah, being small among the clans of Judah, out of you one will come out to me who is to be ruler in Israel; whose goings out are from of old, from ancient times.",
+  translation: "WEB",
+  topic: "bible-and-history",
+  questionType: "context",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "From which small town did Micah say Israel's ruler would come?",
+  answerChoices: [
+    { id: "A", text: "Hebron" },
+    { id: "B", text: "Nazareth" },
+    { id: "C", text: "Jericho" },
+    { id: "D", text: "Bethlehem Ephrathah" },
+  ],
+  correctAnswer: "D",
+  explanation: "Micah addresses a pressured and humiliated people, then names little Bethlehem Ephrathah as the place from which a ruler would come. Bethlehem was connected with David, but Micah emphasizes its smallness among Judah's clans. Matthew later cites this passage when Herod asks where the Messiah is to be born. Micah's promise is larger than geographic trivia. The ruler will stand and shepherd in the Lord's strength, and His greatness will reach the ends of the earth. \"He will be our peace\" points beyond mere military relief toward secure shepherding under God's appointed king. Christians read this promise in light of Jesus, while respecting Micah's original setting of threat and hope.",
+  bigTruth: "God can bring world-changing hope from places people consider too small to matter.",
+  takeTheBite: "Invest attention in one overlooked place, person, or responsibility instead of assuming significance always arrives through prominence.",
+  prayer: "God, You are not limited by small beginnings or overlooked places. Forgive my habit of measuring promise by visibility. Thank You for the Shepherd-King who brings peace through Your strength. Make me faithful in quiet assignments, attentive to people others dismiss, and willing to receive Your work in forms that do not advertise their importance. Amen.",
+  deeperReading: {
+    reference: "Micah 5:1-5; Matthew 2:1-6; John 10:11-16",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "micah",
+    chapter: 5,
+    verseStart: 1,
+    verseEnd: 5,
+  },
+  tags: ["Micah", "Bible & History"],
+  status: "published",
+};

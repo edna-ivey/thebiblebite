@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whereWereIsraeliteHouseholdsToldToPutTheLambSBloodOnTheFirstPassoverNight: BibleBite = {
+  date: "2026-11-12",
+  slug: "where-were-israelite-households-told-to-put-the-lamb-s-blood-on-the-first-passover-night",
+  title: "Where were Israelite households told to put the lamb's blood on the first Passover night?",
+  curiosityHook: "Exodus answers a question many readers move past too quickly.",
+  scriptureReference: "Exodus 12:1-14",
+  scriptureText: "They shall take some of the blood, and put it on the two door posts and on the lintel, on the houses in which they shall eat it.",
+  translation: "WEB",
+  topic: "bible-and-history",
+  questionType: "context",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "Where were Israelite households told to put the lamb's blood on the first Passover night?",
+  answerChoices: [
+    { id: "A", text: "On the floor beside the family meal" },
+    { id: "B", text: "On the household's cooking vessels" },
+    { id: "C", text: "On a cloth carried during the departure" },
+    { id: "D", text: "On the two doorposts and the lintel" },
+  ],
+  correctAnswer: "D",
+  explanation: "On the night of the final plague in Egypt, Israelite households were told to slaughter a lamb and put some of its blood on the two doorposts and upper frame of the house where they ate. They were to remain inside, eat the meal ready to travel, and remember the night as the Lord's Passover.\n\nThe sign was placed at the household entrance, the visible boundary between inside and outside. The blood did not signal that Israelites were naturally better than Egyptians. It marked households responding in trust to God's instruction and depending on His provided sign of protection.\n\nThe meal joined rescue with memory. Unleavened bread reflected the haste of departure. Bitter herbs belonged to the meal that later generations would repeat. Israel's calendar was reorganized around deliverance, because freedom was not meant to become a vague national legend. Families would retell it at the table.\n\nChristians read Passover as part of the larger biblical pattern that reaches Jesus, whom the New Testament calls our Passover sacrifice. That connection should not erase the first meaning of Exodus or the continuing importance of Passover in Jewish life. The story begins with God's rescue of enslaved Israel from Egypt.\n\nThe marked doorway reminds us that redemption is received, remembered, and taught. A rescued people must learn to build life around the God who brought them out.",
+  bigTruth: "Deliverance becomes part of a community's identity when it is received with trust and remembered with care.",
+  takeTheBite: "Tell someone one specific story of God's help that you do not want your household or community to forget. Include the need, the help, and what changed afterward.",
+  prayer: "Delivering God, thank You for hearing oppressed people and acting to bring Israel out of slavery. Keep me from turning rescue into a vague story that asks nothing of my memory or life. Teach me to receive Your grace with humility, honor the people and history in this passage, and tell the next generation what You have done. Let gratitude reshape the rhythms of my home and the way I respond to people still longing for freedom. Amen.",
+  deeperReading: {
+    reference: "Exodus 12:1-28; Deuteronomy 6:20-25; 1 Corinthians 5:6-8",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "exodus",
+    chapter: 12,
+    verseStart: 1,
+    verseEnd: 28,
+  },
+  tags: ["Exodus", "Bible & History"],
+  status: "published",
+};

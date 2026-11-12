@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whoDidJesusSayKnowsTheDayAndHourOfHisComing: BibleBite = {
+  date: "2026-12-30",
+  slug: "who-did-jesus-say-knows-the-day-and-hour-of-his-coming",
+  title: "Who did Jesus say knows the day and hour of His coming?",
+  curiosityHook: "One detail in Matthew changes how the whole scene comes into focus.",
+  scriptureReference: "Matthew 24:36-44",
+  scriptureText: "“But no one knows of that day and hour, not even the angels of heaven, but my Father only.",
+  translation: "WEB",
+  topic: "hard-questions",
+  questionType: "hard-question",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "Who did Jesus say knows the day and hour of His coming?",
+  answerChoices: [
+    { id: "A", text: "Every careful prophecy student" },
+    { id: "B", text: "The angels in heaven" },
+    { id: "C", text: "The Son's disciples" },
+    { id: "D", text: "The Father alone" },
+  ],
+  correctAnswer: "D",
+  explanation: "Jesus says no one knows the day and hour, not the angels, but the Father alone. He compares His coming to Noah's day, when ordinary life continued until the flood arrived, and to a homeowner who would have stayed awake if he knew when a thief was coming. The point is not to supply clues clever readers can use to defeat the statement. It is to form readiness. Christians disagree about details of end-times chronology, but calculations that announce a date directly conflict with Jesus' warning. Readiness is not panic, withdrawal, or constant suspicion of headlines. In the surrounding teaching, it looks like faithful service while the master seems delayed. The unknown time turns attention from prediction to character.",
+  bigTruth: "Jesus calls us to faithful readiness, not secret mastery of the calendar.",
+  takeTheBite: "Replace ten minutes of speculative end-times content with one act of obedience you would want to be found doing today.",
+  prayer: "Father, free me from fear disguised as certainty and curiosity that outruns obedience. I do not know the day or hour, but You have made today's faithfulness clear. Keep me awake through love, justice, prayer, and responsible service. Protect me from teachers who trade in panic or secret timelines. Let hope in Christ's return make me steady, not frantic. Amen.",
+  deeperReading: {
+    reference: "Matthew 24:36-51; Acts 1:6-11; 1 Thessalonians 5:1-11",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "matthew",
+    chapter: 24,
+    verseStart: 36,
+    verseEnd: 51,
+  },
+  tags: ["Matthew", "Hard Questions"],
+  status: "published",
+};

@@ -1,0 +1,35 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatAppearedDuringBelshazzarSFeastAndWroteOnThePalaceWall: BibleBite = {
+  date: "2026-12-02",
+  slug: "what-appeared-during-belshazzar-s-feast-and-wrote-on-the-palace-wall",
+  title: "What appeared during Belshazzar's feast and wrote on the palace wall?",
+  curiosityHook: "One detail in Daniel changes how the whole scene comes into focus.",
+  scriptureReference: "Daniel 5:1-30",
+  scriptureText: "Belshazzar, while he tasted the wine, commanded that the golden and silver vessels which Nebuchadnezzar his father had taken out of the temple which was in Jerusalem be brought to him, that the king and his lords, his wives and his concubines, might drink from them.",
+  translation: "WEB",
+  topic: "weird-and-wonderful",
+  questionType: "surprising-detail",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What appeared during Belshazzar's feast and wrote on the palace wall?",
+  answerChoices: [
+    { id: "A", text: "A winged lion" },
+    { id: "B", text: "A burning scroll" },
+    { id: "C", text: "A sword suspended in the air" },
+    { id: "D", text: "The fingers of a human hand" },
+  ],
+  correctAnswer: "D",
+  explanation: "King Belshazzar held a great feast and ordered the gold and silver vessels taken from Jerusalem's temple to be used for drinking. As the guests praised idols of metal, wood, and stone, the fingers of a human hand appeared and wrote on the plaster wall.\n\nThe king turned pale. His wise men could not interpret the words, so Daniel was summoned. Daniel refused to flatter him. He reminded Belshazzar how Nebuchadnezzar had been humbled, then said Belshazzar knew that history but had not humbled his own heart. He had treated the temple vessels as party cups while failing to honor the God who held his life and ways.\n\nDaniel interpreted the message: Belshazzar's reign had been numbered, weighed, and divided. That very night he was killed, and the kingdom passed to the Medes and Persians.\n\nThe eerie hand is memorable, but the surprise is not that Belshazzar lacked warning. Daniel says he knew what had happened before him. Knowledge without humility had become another form of resistance.\n\nThe story cautions against treating sacred things, hard lessons, or borrowed authority as props for self-importance. Being warned is mercy, but a warning only helps when pride is willing to listen.",
+  bigTruth: "A lesson we know can still judge us when pride keeps us from living it.",
+  takeTheBite: "Recall one lesson you often quote but rarely practice. Choose one behavior today that brings your actions into agreement with what you already know.",
+  prayer: "God, You know the difference between information in my mind and humility in my life. Keep me from using sacred things to decorate my pride or from assuming past warnings do not apply to me. Make me teachable before consequences force my attention. Help me honor what belongs to You, use responsibility with reverence, and respond quickly when truth exposes the distance between what I know and how I live. Amen.",
+  deeperReading: {
+    reference: "Daniel 5; Daniel 4:28-37; Proverbs 16:18-20",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "daniel",
+    chapter: 5,
+  },
+  tags: ["Daniel", "Weird & Wonderful"],
+  status: "published",
+};

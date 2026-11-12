@@ -1,0 +1,35 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatTwoTreesStoodBesideTheLampstandInZechariahSVision: BibleBite = {
+  date: "2026-12-31",
+  slug: "what-two-trees-stood-beside-the-lampstand-in-zechariah-s-vision",
+  title: "What two trees stood beside the lampstand in Zechariah's vision?",
+  curiosityHook: "Zechariah answers a question many readers move past too quickly.",
+  scriptureReference: "Zechariah 4:1-14",
+  scriptureText: "I asked him the second time, “What are these two olive branches, which are beside the two golden spouts that pour the golden oil out of themselves?”",
+  translation: "WEB",
+  topic: "weird-and-wonderful",
+  questionType: "surprising-detail",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What two trees stood beside the lampstand in Zechariah's vision?",
+  answerChoices: [
+    { id: "A", text: "Cedars" },
+    { id: "B", text: "Fig trees" },
+    { id: "C", text: "Olive trees" },
+    { id: "D", text: "Palm trees" },
+  ],
+  correctAnswer: "C",
+  explanation: "Zechariah saw a gold lampstand supplied with oil and two olive trees beside it. When he asked what the vision meant, the angel delivered God's word to Zerubbabel: \"Not by might, nor by power, but by my Spirit.\" Zerubbabel faced the enormous work of rebuilding the temple after exile. The vision did not tell him effort was unnecessary. It told him the work would not be completed by human strength as though God's purpose depended on impressive resources. The two anointed figures in the vision are commonly connected with the community's royal and priestly leaders, though the imagery has prompted further interpretations. The central message is explicit: obstacles that look like mountains can become level ground as God's Spirit sustains the work.",
+  bigTruth: "God's work depends finally on His Spirit, not on our ability to appear powerful.",
+  takeTheBite: "End the year by naming one unfinished faithful work. Write the next step, then pray over it before measuring your resources.",
+  prayer: "God, at the edge of a new year I can feel both ambitious and inadequate. Keep me from trusting appearance, force, or relentless effort more than Your Spirit. Thank You for work completed and mercy that met what remains unfinished. Show me the next faithful step, supply what I cannot manufacture, and make me humble enough to receive help. May the coming year display Your strength rather than my performance. Amen.",
+  deeperReading: {
+    reference: "Zechariah 4; Haggai 2:1-9; 2 Corinthians 4:7",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "zechariah",
+    chapter: 4,
+  },
+  tags: ["Zechariah", "Weird & Wonderful"],
+  status: "published",
+};

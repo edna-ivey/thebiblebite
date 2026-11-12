@@ -1,0 +1,35 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatHappenedAfterKingJehoiakimCutAndBurnedJeremiahSScroll: BibleBite = {
+  date: "2026-11-20",
+  slug: "what-happened-after-king-jehoiakim-cut-and-burned-jeremiah-s-scroll",
+  title: "What happened after King Jehoiakim cut and burned Jeremiah's scroll?",
+  curiosityHook: "The familiar words of Jeremiah carry more tension than they first appear to.",
+  scriptureReference: "Jeremiah 36:20-32",
+  scriptureText: "Then Jeremiah took another scroll, and gave it to Baruch the scribe, the son of Neriah, who wrote therein from the mouth of Jeremiah all the words of the book which Jehoiakim king of Judah had burned in the fire; and many similar words were added to them. Jeremiah < 36 >",
+  translation: "WEB",
+  topic: "bible-and-history",
+  questionType: "context",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What happened after King Jehoiakim cut and burned Jeremiah's scroll?",
+  answerChoices: [
+    { id: "A", text: "Jeremiah stopped prophesying until the king died" },
+    { id: "B", text: "The remaining pieces were hidden beneath the temple" },
+    { id: "C", text: "A foreign scribe reconstructed it years later" },
+    { id: "D", text: "Jeremiah dictated another scroll with the former words and more" },
+  ],
+  correctAnswer: "D",
+  explanation: "Jeremiah dictated the Lord's messages to Baruch, who wrote them on a scroll and read them publicly. When the scroll reached King Jehoiakim, a servant read it aloud. After several columns, the king cut them off with a knife and threw them into the fire.\n\nThe king and his servants showed no fear and did not tear their clothes. Jehoiakim treated the written warning as if destroying its physical form could cancel its authority.\n\nGod told Jeremiah to take another scroll. Baruch wrote all the former words again at Jeremiah's dictation, and many similar words were added. The fire consumed one copy, not the truth it carried.\n\nThe chapter offers a rare window into prophetic words being dictated, written, read, rejected, and rewritten. It does not describe the entire process by which every biblical book took shape, but it shows that preservation involved real people, writing materials, public reading, danger, and repeated labor.\n\nJehoiakim's knife is a picture of a temptation that remains familiar. We may not burn a scroll, but we can edit, ignore, or ridicule any word that threatens our preferred story. Rejection does not make truth disappear. It only reveals what we are unwilling to face.\n\nBaruch's quiet work matters too. After watching the first scroll destroyed, he sat down and wrote again. Faithfulness sometimes looks like preserving truth after power tried to erase it.",
+  bigTruth: "We can destroy a copy, silence a messenger, or ignore a warning. We cannot make God's truth stop being true.",
+  takeTheBite: "Identify one part of Scripture you tend to cut around because it challenges you. Read its full context and write down the response it is asking from you.",
+  prayer: "God of truth, forgive me for the subtle ways I edit what I do not want to hear. Give me a heart that trembles at Your word without becoming afraid of Your mercy. Strengthen people like Jeremiah and Baruch who preserve and speak truth when power resists it. When faithful work is destroyed or dismissed, give me courage to begin again. Let Your word correct my story instead of making me reshape Your word to protect it. Amen.",
+  deeperReading: {
+    reference: "Jeremiah 36; Isaiah 40:6-8; 2 Timothy 3:14-17",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "jeremiah",
+    chapter: 36,
+  },
+  tags: ["Jeremiah", "Bible & History"],
+  status: "published",
+};

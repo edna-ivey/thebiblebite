@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatDidJesusSayAfterReadingIsaiahSWordsAboutGoodNewsAndFreedom: BibleBite = {
+  date: "2026-11-02",
+  slug: "what-did-jesus-say-after-reading-isaiah-s-words-about-good-news-and-freedom",
+  title: "What did Jesus say after reading Isaiah's words about good news and freedom?",
+  curiosityHook: "Isaiah places a surprising detail inside a much bigger story.",
+  scriptureReference: "Luke 4:16-21",
+  scriptureText: "The Lord Yahweh’s Spirit is on me, because Yahweh has anointed me to preach good news to the humble. He has sent me to bind up the broken hearted, to proclaim liberty to the captives and release to those who are bound,",
+  translation: "WEB",
+  topic: "jesus-and-the-gospel",
+  questionType: "look-closer",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What did Jesus say after reading Isaiah's words about good news and freedom?",
+  answerChoices: [
+    { id: "A", text: "The passage would be fulfilled by a later prophet" },
+    { id: "B", text: "The Scripture had been fulfilled in their hearing" },
+    { id: "C", text: "The promises applied only to people living in Jerusalem" },
+    { id: "D", text: "The synagogue should choose someone else to explain it" },
+  ],
+  correctAnswer: "B",
+  explanation: "Jesus returned to Nazareth, entered the synagogue on the Sabbath, and stood to read. He was given Isaiah's scroll and read words about the Spirit of the Lord, good news for the poor, freedom for captives, sight for the blind, relief for the oppressed, and the Lord's favorable year.\n\nThen He sat down, the usual posture for teaching, while everyone watched Him. His explanation began with a startling sentence: \"Today, this Scripture has been fulfilled in your hearing.\"\n\nJesus did not present Isaiah as an inspiring idea that people should try harder to achieve. He placed Himself inside the promise. God's promised rescue was arriving through Him. Luke has already shown the Spirit resting on Jesus at His baptism and leading Him through the wilderness. Now Jesus announces what His Spirit-filled mission means for people who are burdened, excluded, trapped, and unable to rescue themselves.\n\nThe rest of Luke's Gospel shows this mission taking shape through teaching, healing, forgiveness, table fellowship, confrontation, the cross, and resurrection. It also shows that people can admire gracious words while resisting the wideness of God's mercy. Nazareth's first response would not remain simple approval.\n\nThe word \"today\" matters. In Jesus, God's good news is not merely an old memory or distant hope. It demands a response in the present.",
+  bigTruth: "Jesus does not merely explain God's rescue. He announces that the rescue has arrived in Him.",
+  takeTheBite: "Read Luke 4:18-19 slowly. Choose one phrase that describes a need you recognize in yourself or your community, and ask how following Jesus should shape your response to it today.",
+  prayer: "Jesus, You came with good news for people who could not free or heal themselves. Help me receive You as more than a teacher with beautiful words. Let Your mercy reach the places in me that are poor, bound, blind, or burdened. Then make me attentive to people whose needs are easy to overlook. Keep me from admiring Your mission while resisting where it leads. May Your good news become visible in the way I listen, welcome, serve, and hope today. Amen.",
+  deeperReading: {
+    reference: "Isaiah 61:1-3; Luke 4:14-30; Luke 7:18-23",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "isaiah",
+    chapter: 61,
+    verseStart: 1,
+    verseEnd: 3,
+  },
+  tags: ["Isaiah", "Jesus & the Gospel"],
+  status: "published",
+};

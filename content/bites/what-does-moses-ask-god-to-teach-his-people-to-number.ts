@@ -1,0 +1,35 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatDoesMosesAskGodToTeachHisPeopleToNumber: BibleBite = {
+  date: "2026-11-29",
+  slug: "what-does-moses-ask-god-to-teach-his-people-to-number",
+  title: "What does Moses ask God to teach His people to number?",
+  curiosityHook: "A close look at Psalms reveals a detail that is easy to miss.",
+  scriptureReference: "Psalm 90:1-17",
+  scriptureText: "For a thousand years in your sight are just like yesterday when it is past, like a watch in the night.",
+  translation: "WEB",
+  topic: "prayer-and-worship",
+  questionType: "look-closer",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What does Moses ask God to teach His people to number?",
+  answerChoices: [
+    { id: "A", text: "Their days" },
+    { id: "B", text: "Their possessions" },
+    { id: "C", text: "Their enemies" },
+    { id: "D", text: "Their victories" },
+  ],
+  correctAnswer: "A",
+  explanation: "Psalm 90 places human life beside God's eternity. Before mountains existed, God was God. Human generations return to dust, and even a thousand years are like yesterday to Him. Against that scale, Moses prays, \"Teach us to count our days, that we may gain a heart of wisdom.\"\n\nNumbering our days is not obsessing over a countdown or pretending we can predict how long we will live. It is allowing life's limits to shape wise choices. Time is not endless, so attention matters. Resentment, distraction, and delay consume real days that cannot be recovered.\n\nThe psalm is honest about sorrow and mortality, but it does not end there. Moses asks God to satisfy His people with steadfast love, make them glad, show His work, and establish the work of their hands. Human work is brief, yet it can receive enduring significance from the eternal God.\n\nThat combination protects us from two errors. Our days are too precious to waste, but we are not required to make ourselves permanent. We can work faithfully and ask God to establish what is worth carrying forward.\n\nA wise life does not deny its limits. It receives each day as a meaningful, finite gift beneath God's enduring care.",
+  bigTruth: "Life's limits can teach us to spend our days with wisdom instead of fear.",
+  takeTheBite: "Look at tomorrow's schedule and protect thirty minutes for what you say matters most but regularly neglect. Let your calendar answer the prayer to number your days.",
+  prayer: "Eternal God, my days are limited, but Your faithfulness is not. Teach me to face time honestly without becoming afraid or frantic. Satisfy me with Your steadfast love so I do not spend my life chasing what cannot hold me. Give wisdom to my choices, mercy for wasted days, and purpose for the work before me. Establish what serves Your love, and help me release what does not. Amen.",
+  deeperReading: {
+    reference: "Psalm 90; Psalm 39:4-7; James 4:13-17",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "psalms",
+    chapter: 90,
+  },
+  tags: ["Psalms", "Prayer & Worship"],
+  status: "published",
+};

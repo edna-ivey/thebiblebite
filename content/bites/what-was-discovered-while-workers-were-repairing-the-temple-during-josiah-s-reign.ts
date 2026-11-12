@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatWasDiscoveredWhileWorkersWereRepairingTheTempleDuringJosiahSReign: BibleBite = {
+  date: "2026-11-04",
+  slug: "what-was-discovered-while-workers-were-repairing-the-temple-during-josiah-s-reign",
+  title: "What was discovered while workers were repairing the temple during Josiah's reign?",
+  curiosityHook: "One detail in 2 Kings changes how the whole scene comes into focus.",
+  scriptureReference: "2 Chronicles 34:14-21",
+  scriptureText: "Hilkiah the high priest said to Shaphan the scribe, “I have found the book of the law in Yahweh’s house.” Hilkiah delivered the book to Shaphan, and he read it.",
+  translation: "WEB",
+  topic: "bible-and-history",
+  questionType: "context",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What was discovered while workers were repairing the temple during Josiah's reign?",
+  answerChoices: [
+    { id: "A", text: "A hidden room filled with royal weapons" },
+    { id: "B", text: "The original plans for Solomon's palace" },
+    { id: "C", text: "A chest containing tribute from Egypt" },
+    { id: "D", text: "The Book of the Law given through Moses" },
+  ],
+  correctAnswer: "D",
+  explanation: "King Josiah began seeking God while he was still young. Later, he ordered repairs to the neglected temple. During that work, Hilkiah the priest found \"the book of Yahweh's law given by Moses.\" The scroll was carried to the king and read aloud.\n\nJosiah tore his clothes. The discovery was not treated like an interesting artifact for a royal collection. Hearing the words revealed how far Judah had wandered and how seriously earlier generations had ignored God's covenant. The king sent trusted leaders to inquire of the Lord, and the prophet Huldah confirmed both coming judgment and God's notice of Josiah's humble response.\n\nReaders debate exactly which portion or edition of the Law the phrase describes, often connecting it especially with Deuteronomy. Chronicles does not answer every modern question about the scroll's history. Its main emphasis is clear: God's written instruction had been neglected in the very place devoted to worship, and recovering it required more than putting it back on a shelf.\n\nJosiah listened, humbled himself, gathered the people, renewed the covenant, and acted on what he heard. Repairing a building mattered, but the deeper repair began when Scripture examined the worshipers.\n\nIt is possible to preserve religious spaces and habits while losing attentiveness to God's word. Rediscovery becomes renewal only when reading leads to repentance and changed practice.",
+  bigTruth: "Scripture is not truly recovered until we let it question and redirect us.",
+  takeTheBite: "Read a familiar command of Jesus without rushing past it. Write one sentence naming what would change if you treated it as instruction for today rather than information you already know.",
+  prayer: "God, keep me from confusing familiarity with obedience. Your word can sit close to me while my life remains far from its direction. Give me Josiah's willingness to listen, grieve what is wrong, and respond with concrete change. Protect me from using Scripture only to examine other people. Let it uncover my neglected loyalties, renew my worship, and lead me back to You with a tender heart. Amen.",
+  deeperReading: {
+    reference: "2 Kings 22:1-20; 2 Chronicles 34:1-33; Deuteronomy 31:24-29",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "2-kings",
+    chapter: 22,
+    verseStart: 1,
+    verseEnd: 20,
+  },
+  tags: ["2 Kings", "Bible & History"],
+  status: "published",
+};

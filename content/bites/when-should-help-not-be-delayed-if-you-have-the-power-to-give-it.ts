@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whenShouldHelpNotBeDelayedIfYouHaveThePowerToGiveIt: BibleBite = {
+  date: "2026-12-24",
+  slug: "when-should-help-not-be-delayed-if-you-have-the-power-to-give-it",
+  title: "When should help not be delayed if you have the power to give it?",
+  curiosityHook: "Proverbs answers a question many readers move past too quickly.",
+  scriptureReference: "Proverbs 3:27-28",
+  scriptureText: "Don’t say to your neighbor, “Go, and come again; tomorrow I will give it to you,” when you have it by you.",
+  translation: "WEB",
+  topic: "wisdom-and-life",
+  questionType: "big-meaning",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "When should help not be delayed if you have the power to give it?",
+  answerChoices: [
+    { id: "A", text: "Until someone asks twice" },
+    { id: "B", text: "Until tomorrow" },
+    { id: "C", text: "Until every risk is removed" },
+    { id: "D", text: "Until your own plans are finished" },
+  ],
+  correctAnswer: "B",
+  explanation: "Proverbs says not to withhold good from those to whom it is due when it is in your power to act. It adds, \"Don't say to your neighbor, 'Go, and come again; tomorrow I will give it to you,' when you have it by you.\" Delay can be a disguised refusal. The proverb does not demand meeting every need or acting without wisdom. It addresses good that is genuinely owed or within reach now. A wage, apology, meal, response, or promised assistance can become more painful when someone with power treats another person's need as movable. Wisdom notices that tomorrow may be convenient for the giver and costly for the waiting neighbor.",
+  bigTruth: "When needed good is already within our power, unnecessary delay can become its own form of harm.",
+  takeTheBite: "Complete one act of help, payment, repair, or response today that you have postponed despite having what is needed.",
+  prayer: "Generous God, show me where \"tomorrow\" has become a comfortable way to withhold good. Give me wisdom about my real limits and honesty about the resources already in my hand. Make me prompt with what is owed, attentive to the cost of waiting, and free from using busyness to excuse neglect. Let my care arrive while it can still serve the need. Amen.",
+  deeperReading: {
+    reference: "Proverbs 3:27-28; James 2:14-17; Galatians 6:9-10",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "proverbs",
+    chapter: 3,
+    verseStart: 27,
+    verseEnd: 28,
+  },
+  tags: ["Proverbs", "Wisdom & Life"],
+  status: "published",
+};

@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatDoesIsaiahSayGodGivesToPeopleWhoAreFaintAndPowerless: BibleBite = {
+  date: "2026-11-01",
+  slug: "what-does-isaiah-say-god-gives-to-people-who-are-faint-and-powerless",
+  title: "What does Isaiah say God gives to people who are faint and powerless?",
+  curiosityHook: "A close look at Isaiah reveals a detail that is easy to miss.",
+  scriptureReference: "Isaiah 40:27-31",
+  scriptureText: "Why do you say, Jacob, and speak, Israel, “My way is hidden from Yahweh, and the justice due me is disregarded by my God”?",
+  translation: "WEB",
+  topic: "faith-and-god",
+  questionType: "big-meaning",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What does Isaiah say God gives to people who are faint and powerless?",
+  answerChoices: [
+    { id: "A", text: "Power and increased strength" },
+    { id: "B", text: "A life without any exhausting seasons" },
+    { id: "C", text: "Immediate answers to every difficult question" },
+    { id: "D", text: "Freedom from needing help from other people" },
+  ],
+  correctAnswer: "A",
+  explanation: "Isaiah speaks to people who feel forgotten. They complain that their way is hidden from the Lord and that their cause has been ignored. The prophet does not shame their exhaustion. He answers it by widening their view of God.\n\nThe Lord is the everlasting Creator. He does not grow faint or weary, and His understanding cannot be measured. Then Isaiah makes the surprising connection: the God who never runs out of strength gives strength to people who have none. Even the young eventually become tired and stumble. Human energy, age, and confidence are not enough to carry a life forever.\n\nThose who wait for the Lord renew their strength. Waiting here is not pretending to feel strong or passively doing nothing. It is continuing to look toward God when our own resources have reached their edge. The familiar images of soaring, running, and walking include both dramatic movement and ordinary endurance. Sometimes renewed strength looks like rising above a crisis. Sometimes it looks like taking the next faithful step without collapsing.\n\nThe passage does not promise that believers will never become tired. It promises that weariness is not the end of the story and that weakness does not disqualify us from God's care. Empty hands are able to receive what self-sufficiency cannot.",
+  bigTruth: "God does not despise exhausted people. He meets them with strength they do not have to manufacture.",
+  takeTheBite: "Name one place where you are running on empty. Ask God for enough strength for the next faithful step, then let one trustworthy person know where you need support.",
+  prayer: "Everlasting God, You do not become tired, confused, or inattentive. I do. Meet me honestly in the places where my strength has run out. Keep me from hiding my weakness or treating exhaustion like failure. Renew me for the work that is actually mine today, and give me humility to receive help. Teach me to wait for You without giving up, whether You help me soar, run, or simply walk the next few steps. Amen.",
+  deeperReading: {
+    reference: "Isaiah 40:12-31; Psalm 121; 2 Corinthians 12:7-10",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "isaiah",
+    chapter: 40,
+    verseStart: 12,
+    verseEnd: 31,
+  },
+  tags: ["Isaiah", "Faith & God"],
+  status: "published",
+};

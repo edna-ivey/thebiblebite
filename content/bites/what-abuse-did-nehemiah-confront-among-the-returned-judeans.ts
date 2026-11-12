@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatAbuseDidNehemiahConfrontAmongTheReturnedJudeans: BibleBite = {
+  date: "2026-12-14",
+  slug: "what-abuse-did-nehemiah-confront-among-the-returned-judeans",
+  title: "What abuse did Nehemiah confront among the returned Judeans?",
+  curiosityHook: "Nehemiah places a surprising detail inside a much bigger story.",
+  scriptureReference: "Nehemiah 5:1-13",
+  scriptureText: "There were also some who said, “We have borrowed money for the king’s tribute using our fields and our vineyards as collateral.",
+  translation: "WEB",
+  topic: "bible-and-history",
+  questionType: "context",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What abuse did Nehemiah confront among the returned Judeans?",
+  answerChoices: [
+    { id: "A", text: "Closing the temple gates" },
+    { id: "B", text: "Refusing to rebuild the wall" },
+    { id: "C", text: "Worshiping on Mount Gerizim" },
+    { id: "D", text: "Charging interest and taking property from their own people" },
+  ],
+  correctAnswer: "D",
+  explanation: "While Jerusalem's wall was being rebuilt, a crisis grew inside the community. Families lacked grain, mortgaged fields, borrowed for taxes, and saw children enter debt servitude. Their fellow Judeans were profiting from their desperation. Nehemiah became angry, but he first considered the matter, then confronted nobles and officials. He called their practices inconsistent with the fear of God and required restoration of fields, houses, money, and interest. The wall project did not excuse exploitation. A community could defend itself from external threats while destroying neighbors economically within. Nehemiah's reform included both moral confrontation and material repair. Saying sorry without returning what had been taken would not have answered the harm.",
+  bigTruth: "Community renewal is hollow when progress is financed by another person's desperation.",
+  takeTheBite: "Examine one fee, debt, wage, or agreement you influence. Correct any term that benefits you because the other person has little power to refuse.",
+  prayer: "God of justice, do not let shared goals hide harm within our own communities. Show me where convenience or profit depends on another person's vulnerability. Give me Nehemiah's willingness to consider carefully, speak plainly, and pursue repair. Teach me that repentance may require returning money, opportunity, or dignity, not merely expressing regret. Amen.",
+  deeperReading: {
+    reference: "Nehemiah 5:1-13; Leviticus 25:35-43; James 5:1-6",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "nehemiah",
+    chapter: 5,
+    verseStart: 1,
+    verseEnd: 13,
+  },
+  tags: ["Nehemiah", "Bible & History"],
+  status: "published",
+};

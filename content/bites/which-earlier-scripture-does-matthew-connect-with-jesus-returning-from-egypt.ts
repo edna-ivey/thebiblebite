@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whichEarlierScriptureDoesMatthewConnectWithJesusReturningFromEgypt: BibleBite = {
+  date: "2026-12-25",
+  slug: "which-earlier-scripture-does-matthew-connect-with-jesus-returning-from-egypt",
+  title: "Which earlier Scripture does Matthew connect with Jesus returning from Egypt?",
+  curiosityHook: "The familiar words of Matthew carry more tension than they first appear to.",
+  scriptureReference: "Matthew 2:13-18; Hosea 11:1",
+  scriptureText: "and was there until the death of Herod, that it might be fulfilled which was spoken by the Lord through the prophet, saying, “Out of Egypt I called my son.”",
+  translation: "WEB",
+  topic: "hard-questions",
+  questionType: "hard-question",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "Which earlier Scripture does Matthew connect with Jesus returning from Egypt?",
+  answerChoices: [
+    { id: "A", text: "\"A voice was heard in Ramah\"" },
+    { id: "B", text: "\"The virgin will conceive\"" },
+    { id: "C", text: "\"Out of Egypt I called my son\"" },
+    { id: "D", text: "\"He will be called a Nazarene\"" },
+  ],
+  correctAnswer: "C",
+  explanation: "After Herod sought the child, Joseph took Jesus and Mary to Egypt. Matthew says their return fulfilled, \"Out of Egypt I called my son.\" In Hosea 11, that line looks backward to Israel's exodus, not forward as a stand-alone prediction about a future child. Matthew sees Jesus reliving Israel's story: God's Son comes out of Egypt and embodies the faithful calling Israel had not completed. The chapter also includes Herod's murder of children in Bethlehem. Christmas does not make that suffering decorative. Matthew places Jesus in a world of political terror, displaced families, and grieving parents. God protects Jesus for His mission, but the text does not promise every child will be spared violence. It announces a Savior who enters this wounded history and will ultimately confront sin and death from within it.",
+  bigTruth: "Jesus enters the wounded story of His people and carries it toward redemption rather than observing suffering from safety.",
+  takeTheBite: "Support one organization or trusted local effort serving displaced families, grieving children, or people fleeing violence.",
+  prayer: "Jesus, You entered a world where rulers harmed children and families fled for safety. Hold those living that story now. Keep me from using celebration to look away from grief. Thank You for taking Israel's story and our wounded human story upon Yourself. Make me generous toward displaced people, truthful about violence, and hopeful in the redemption You bring without pretending every wound has already healed. Amen.",
+  deeperReading: {
+    reference: "Matthew 2:13-18; Hosea 11:1-4; Exodus 4:21-23",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "matthew",
+    chapter: 2,
+    verseStart: 13,
+    verseEnd: 18,
+  },
+  tags: ["Matthew", "Hard Questions"],
+  status: "published",
+};

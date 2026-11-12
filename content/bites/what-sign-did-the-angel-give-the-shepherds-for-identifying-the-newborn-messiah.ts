@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatSignDidTheAngelGiveTheShepherdsForIdentifyingTheNewbornMessiah: BibleBite = {
+  date: "2026-12-12",
+  slug: "what-sign-did-the-angel-give-the-shepherds-for-identifying-the-newborn-messiah",
+  title: "What sign did the angel give the shepherds for identifying the newborn Messiah?",
+  curiosityHook: "A small detail in Luke opens the door to a larger truth.",
+  scriptureReference: "Luke 2:8-20",
+  scriptureText: "For there is born to you today, in David’s city, a Savior, who is Christ the Lord.",
+  translation: "WEB",
+  topic: "jesus-and-the-gospel",
+  questionType: "look-closer",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What sign did the angel give the shepherds for identifying the newborn Messiah?",
+  answerChoices: [
+    { id: "A", text: "A star standing above the town" },
+    { id: "B", text: "A baby wrapped in cloths and lying in a manger" },
+    { id: "C", text: "A priest waiting outside the temple" },
+    { id: "D", text: "A royal procession entering Bethlehem" },
+  ],
+  correctAnswer: "B",
+  explanation: "The angel announced good news of great joy: a Savior, Christ the Lord, had been born in David's city. The identifying sign was surprisingly ordinary and lowly, a wrapped baby lying in a manger. Luke's shepherds were not told to search for a palace or public ceremony. They found Mary, Joseph, and the child exactly as described, then spread the news. The manger did not make Jesus less royal. It revealed the unexpected form in which God's promised King arrived. Heaven's praise surrounded a birth encountered in humble conditions. Familiar Christmas imagery can soften this surprise. The sign asked the shepherds to recognize glory without the status markers people associate with importance.",
+  bigTruth: "God's glory may arrive without the status symbols we expect greatness to wear.",
+  takeTheBite: "Give full attention today to one person or responsibility you tend to overlook because it appears ordinary or unimpressive.",
+  prayer: "Jesus, I confess how easily I associate importance with display, influence, and recognition. Train my eyes to receive You in humility and to honor people the world passes by. Thank You for entering human vulnerability rather than observing it from a distance. Let wonder become witness in me, so that what I have heard about You changes what I notice and what I share. Amen.",
+  deeperReading: {
+    reference: "Luke 2:8-20; Micah 5:2-5; Philippians 2:5-11",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "luke",
+    chapter: 2,
+    verseStart: 8,
+    verseEnd: 20,
+  },
+  tags: ["Luke", "Jesus & the Gospel"],
+  status: "published",
+};

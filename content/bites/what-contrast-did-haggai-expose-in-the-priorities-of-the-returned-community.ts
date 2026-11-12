@@ -1,0 +1,35 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatContrastDidHaggaiExposeInThePrioritiesOfTheReturnedCommunity: BibleBite = {
+  date: "2026-11-28",
+  slug: "what-contrast-did-haggai-expose-in-the-priorities-of-the-returned-community",
+  title: "What contrast did Haggai expose in the priorities of the returned community?",
+  curiosityHook: "A small detail in Haggai opens the door to a larger truth.",
+  scriptureReference: "Haggai 1:2-11",
+  scriptureText: "“Is it a time for you yourselves to dwell in your paneled houses, while this house lies waste?",
+  translation: "WEB",
+  topic: "bible-and-history",
+  questionType: "context",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What contrast did Haggai expose in the priorities of the returned community?",
+  answerChoices: [
+    { id: "A", text: "They planted vineyards but refused to harvest them" },
+    { id: "B", text: "They repaired the city gate but ignored the wall" },
+    { id: "C", text: "They built houses for foreigners but not for themselves" },
+    { id: "D", text: "They lived in paneled houses while the Lord's house lay in ruins" },
+  ],
+  correctAnswer: "D",
+  explanation: "After exile, some Judeans returned home and began rebuilding the temple. Opposition and discouragement stalled the work. Through Haggai, God confronted the community's repeated claim that the time had not yet come to rebuild His house.\n\nMeanwhile, they were living in paneled houses while the temple remained desolate. Haggai told them to consider their ways. They sowed much but harvested little, earned wages that seemed to disappear, and never felt satisfied. The prophet connected their frustrated labor with neglected covenant priorities.\n\nThis is not a universal formula claiming every financial hardship results from misplaced priorities. Haggai addressed a particular postexilic community under the covenant, with a specific unfinished assignment. The historical setting matters.\n\nThe enduring question is still uncomfortable: what work for God do we keep calling \"not yet\" while finding time and resources for what makes us comfortable? Delay can sound reasonable for so long that it begins to feel like obedience.\n\nGod told them to go up the mountain, bring wood, and build. The next faithful step was practical. Renewal did not begin with vague guilt. It began when the people reconsidered their priorities and resumed the work in front of them.",
+  bigTruth: "A delayed act of obedience can quietly become a settled way of life.",
+  takeTheBite: "Identify one good and clear responsibility you have repeatedly postponed. Choose one concrete step you can complete today rather than waiting for ideal conditions.",
+  prayer: "God, help me consider my ways honestly. Show me where comfort, distraction, or discouragement has turned \"not yet\" into a habit. Keep me from treating every hardship as a simple punishment, but do not let that caution become an excuse for disobedience. Give me clarity about the work You have placed before me and courage to take the next faithful step with what I have today. Amen.",
+  deeperReading: {
+    reference: "Haggai 1; Ezra 4:1-5; Haggai 2:1-9",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "haggai",
+    chapter: 1,
+  },
+  tags: ["Haggai", "Bible & History"],
+  status: "published",
+};

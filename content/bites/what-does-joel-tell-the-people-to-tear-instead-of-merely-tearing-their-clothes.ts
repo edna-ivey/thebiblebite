@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatDoesJoelTellThePeopleToTearInsteadOfMerelyTearingTheirClothes: BibleBite = {
+  date: "2026-12-11",
+  slug: "what-does-joel-tell-the-people-to-tear-instead-of-merely-tearing-their-clothes",
+  title: "What does Joel tell the people to tear instead of merely tearing their clothes?",
+  curiosityHook: "The familiar words of Joel carry more tension than they first appear to.",
+  scriptureReference: "Joel 2:12-13",
+  scriptureText: "Tear your heart and not your garments, and turn to Yahweh, your God; for he is gracious and merciful, slow to anger, and abundant in loving kindness, and relents from sending calamity.",
+  translation: "WEB",
+  topic: "faith-and-god",
+  questionType: "big-meaning",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What does Joel tell the people to tear instead of merely tearing their clothes?",
+  answerChoices: [
+    { id: "A", text: "Their hearts" },
+    { id: "B", text: "Their contracts" },
+    { id: "C", text: "Their tents" },
+    { id: "D", text: "Their family records" },
+  ],
+  correctAnswer: "A",
+  explanation: "Tearing clothing was a visible expression of grief. Joel called the people to return to God with fasting, weeping, and mourning, then said, \"Tear your heart, and not your garments.\" He was not condemning every outward practice. He was exposing the danger of a sign that no longer corresponded to inward return. The invitation rests on God's character: gracious, merciful, slow to anger, and abundant in steadfast love. Repentance is more than performing regret where others can see it. It turns toward God because mercy makes return possible. A torn heart is not self-hatred. It is honesty that lets God reach beneath appearances and change what produced the wrong.",
+  bigTruth: "Repentance reaches deeper than the appearance of regret and returns the heart to God.",
+  takeTheBite: "Replace one vague apology with a specific confession that names what you did, who it affected, and what you will do differently.",
+  prayer: "Merciful God, I know how to manage appearances while protecting the habits underneath them. Tear through my excuses without crushing me. Give me grief that leads toward truth, repair, and return. Thank You that repentance begins with Your gracious character, not my ability to punish myself. Change what public regret cannot reach, and make my next action agree with the confession on my lips. Amen.",
+  deeperReading: {
+    reference: "Joel 2:12-17; Psalm 51:10-17; 2 Corinthians 7:9-11",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "joel",
+    chapter: 2,
+    verseStart: 12,
+    verseEnd: 17,
+  },
+  tags: ["Joel", "Faith & God"],
+  status: "published",
+};

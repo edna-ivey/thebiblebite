@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatDoesProverbsCompareToGoldApplesInSilverSettings: BibleBite = {
+  date: "2026-12-16",
+  slug: "what-does-proverbs-compare-to-gold-apples-in-silver-settings",
+  title: "What does Proverbs compare to gold apples in silver settings?",
+  curiosityHook: "One detail in Proverbs changes how the whole scene comes into focus.",
+  scriptureReference: "Proverbs 25:11-15",
+  scriptureText: "A word fitly spoken is like apples of gold in settings of silver.",
+  translation: "WEB",
+  topic: "wisdom-and-life",
+  questionType: "big-meaning",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What does Proverbs compare to gold apples in silver settings?",
+  answerChoices: [
+    { id: "A", text: "A well-timed word" },
+    { id: "B", text: "A costly gift" },
+    { id: "C", text: "A royal banquet" },
+    { id: "D", text: "A secret plan" },
+  ],
+  correctAnswer: "B",
+  explanation: "Proverbs compares a word spoken at the right time to gold apples in silver settings. The image emphasizes fit as well as value. A true statement can still land poorly when timing, tone, or relationship is ignored. The next sayings praise wise correction received by a listening ear and describe patient persuasion with the startling line that a gentle tongue can break a bone. Wisdom does not reduce speech to softness. It brings fitting truth in a form and moment that can be received. Timing should not become an excuse for permanent silence, and gentleness should not disguise manipulation. The goal is speech whose content, delivery, and moment serve what is good.",
+  bigTruth: "Wise words are shaped not only by truth, but also by timing, tone, and love.",
+  takeTheBite: "Before one important conversation, write the truth you need to say, why it matters, and what timing would best serve the listener.",
+  prayer: "God, put truth in my mouth and wisdom around it. Keep me from using honesty as permission to be careless or timing as an excuse to remain silent. Make me patient enough to listen, gentle enough to be heard, and brave enough to speak when love requires it. Let my words fit the moment and serve healing rather than my need to win. Amen.",
+  deeperReading: {
+    reference: "Proverbs 25:11-15; Ephesians 4:15; Colossians 4:5-6",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "proverbs",
+    chapter: 25,
+    verseStart: 11,
+    verseEnd: 15,
+  },
+  tags: ["Proverbs", "Wisdom & Life"],
+  status: "published",
+};

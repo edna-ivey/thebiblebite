@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatObjectDidEzekielUseToCreateAModelOfJerusalemUnderSiege: BibleBite = {
+  date: "2026-11-16",
+  slug: "what-object-did-ezekiel-use-to-create-a-model-of-jerusalem-under-siege",
+  title: "What object did Ezekiel use to create a model of Jerusalem under siege?",
+  curiosityHook: "Ezekiel places a surprising detail inside a much bigger story.",
+  scriptureReference: "Ezekiel 4:1-8",
+  scriptureText: "Then the Spirit lifted me up, and I heard behind me the voice of a great rushing, saying, “Blessed be Yahweh’s glory from his place.”",
+  translation: "WEB",
+  topic: "weird-and-wonderful",
+  questionType: "surprising-detail",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What object did Ezekiel use to create a model of Jerusalem under siege?",
+  answerChoices: [
+    { id: "A", text: "A bronze shield" },
+    { id: "B", text: "A wooden chest" },
+    { id: "C", text: "A woven curtain" },
+    { id: "D", text: "A brick" },
+  ],
+  correctAnswer: "D",
+  explanation: "God told Ezekiel to take a brick, place it before him, and draw Jerusalem on it. He was then to build miniature siege works around it: a siege wall, ramp, camps, and battering rams. An iron pan stood between Ezekiel and the city like an iron wall.\n\nThe prophet's message became something people could see. Jerusalem's residents believed their city and temple offered security, but Ezekiel was already among exiles in Babylon. His small siege scene announced that Jerusalem itself would face judgment.\n\nEzekiel's prophetic signs became physically demanding. He was told to lie on his side for extended periods symbolically bearing years of Israel's and Judah's guilt. Interpreters differ on exactly how the days were arranged and whether he remained in position continuously or during public periods of enactment. The central point is less uncertain: the coming siege was not an empty threat, and the prophet's own body carried the burden of communicating it.\n\nThe brick makes judgment concrete. People can learn to ignore repeated warnings when they remain abstract. Ezekiel's strange public act broke through familiarity and forced his audience to picture where their path was leading.\n\nGod's warnings in Scripture are not given so readers can enjoy predicting someone else's ruin. They are mercy before consequence, an invitation to stop treating destructive choices as if they have no destination.",
+  bigTruth: "A warning is an act of mercy when it helps us see where a destructive path is actually going.",
+  takeTheBite: "Make one consequence visible. Write down where a repeated harmful choice is likely to lead in six months, then name one change you can begin today.",
+  prayer: "God, I can ignore warnings when consequences still feel distant. Thank You for speaking truth before a destructive path reaches its end. Give me courage to picture honestly where my choices are leading without sinking into fear or shame. Help me receive correction as mercy and respond while change is still possible. When I warn someone else, keep me humble, clear, and free from the desire to feel superior. Amen.",
+  deeperReading: {
+    reference: "Ezekiel 3:22-27; Ezekiel 4:1-17; Ezekiel 33:1-11",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "ezekiel",
+    chapter: 3,
+    verseStart: 22,
+    verseEnd: 27,
+  },
+  tags: ["Ezekiel", "Weird & Wonderful"],
+  status: "published",
+};

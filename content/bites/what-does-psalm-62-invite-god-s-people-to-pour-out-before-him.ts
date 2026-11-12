@@ -1,0 +1,35 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatDoesPsalm62InviteGodSPeopleToPourOutBeforeHim: BibleBite = {
+  date: "2026-11-05",
+  slug: "what-does-psalm-62-invite-god-s-people-to-pour-out-before-him",
+  title: "What does Psalm 62 invite God's people to pour out before Him?",
+  curiosityHook: "Psalms answers a question many readers move past too quickly.",
+  scriptureReference: "Psalm 62:5-8",
+  scriptureText: "My soul, wait in silence for God alone, for my expectation is from him.",
+  translation: "WEB",
+  topic: "prayer-and-worship",
+  questionType: "look-closer",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What does Psalm 62 invite God's people to pour out before Him?",
+  answerChoices: [
+    { id: "A", text: "Their hearts" },
+    { id: "B", text: "A drink offering" },
+    { id: "C", text: "Their complaints against neighboring nations" },
+    { id: "D", text: "The names of everyone who opposed them" },
+  ],
+  correctAnswer: "A",
+  explanation: "Psalm 62 repeats a quiet confession: David's soul waits in silence for God, because salvation and hope come from Him. The psalm names pressure too. Enemies attack like people trying to topple a leaning wall. Status, lies, wealth, and human power all prove too unstable to carry the weight of trust.\n\nThen David turns from speaking to himself and addresses the community: \"Trust in him at all times, you people. Pour out your heart before him. God is a refuge for us.\"\n\nPouring out the heart is not polished religious speech. It suggests bringing the full interior life into God's presence: fear, anger, confusion, hope, disappointment, gratitude, and need. Silence before God and honest speech to God are not opposites in this psalm. Both can be expressions of trust. We become quiet because God is our rock, and we speak freely because He is our refuge.\n\nThe invitation also says \"at all times.\" Prayer is not reserved for the moment after we have organized our emotions into respectable sentences. God is not fragile, and our honesty does not endanger Him. Pouring out the heart does not mean every feeling becomes a command we must follow. It means we stop hiding those feelings from the One who can hold, correct, and steady us.\n\nA refuge is a place we run toward, not a performance we stage from a distance.",
+  bigTruth: "Trust does not require a guarded heart. God is safe enough for the truth we have been carrying.",
+  takeTheBite: "Set a timer for five quiet minutes. Tell God one thing you have edited out of your prayers, then remain still long enough to remember that He is your refuge.",
+  prayer: "God, You are my rock and my refuge, yet I often speak to You as if I must protect You from my honest heart. Teach me to wait quietly without shutting down and to pour out my feelings without letting them rule me. Receive the fear, anger, hope, and weariness I have been carrying. Correct what is distorted, strengthen what is weak, and settle me again in the safety of Your faithful presence. Amen.",
+  deeperReading: {
+    reference: "Psalm 62; Psalm 142; 1 Peter 5:6-7",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "psalms",
+    chapter: 62,
+  },
+  tags: ["Psalms", "Prayer & Worship"],
+  status: "published",
+};

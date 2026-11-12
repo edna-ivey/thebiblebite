@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatDoesZephaniahSayGodWillDoOverHisRestoredPeople: BibleBite = {
+  date: "2026-11-17",
+  slug: "what-does-zephaniah-say-god-will-do-over-his-restored-people",
+  title: "What does Zephaniah say God will do over His restored people?",
+  curiosityHook: "This moment in Zephaniah asks us to slow down and look again.",
+  scriptureReference: "Zephaniah 3:14-17",
+  scriptureText: "Yahweh, your God, is among you, a mighty one who will save. He will rejoice over you with joy. He will calm you in his love. He will rejoice over you with singing.",
+  translation: "WEB",
+  topic: "faith-and-god",
+  questionType: "big-meaning",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What does Zephaniah say God will do over His restored people?",
+  answerChoices: [
+    { id: "A", text: "Rejoice over them with singing" },
+    { id: "B", text: "Ask the nations to praise them" },
+    { id: "C", text: "Remove every memory of their past" },
+    { id: "D", text: "Make them rulers over neighboring kingdoms" },
+  ],
+  correctAnswer: "A",
+  explanation: "Zephaniah contains strong warnings of judgment. The prophet exposes idolatry, violence, complacency, and leaders who failed the people. That makes the joy near the book's end especially striking.\n\nJerusalem is told to sing because the Lord has taken away judgment, turned back enemies, and come to be present with His people. Then the image shifts: God Himself rejoices over them with joy, quiets them in His love, and celebrates over them with singing.\n\nThis is not shallow positivity pasted over everything that came before. Restoration follows truth, judgment, purification, and God's action to gather people who were scattered and ashamed. The same God who confronted what destroyed the community now delights in making them whole.\n\nMany people can imagine God tolerating them after repentance but struggle to imagine Him rejoicing. Zephaniah does not describe reluctant acceptance. God's presence removes fear, His love brings rest, and His joy becomes a song over His people.\n\nThe promise was spoken to a particular covenant community and points toward God's work of restoration. It should not be turned into a guarantee that every painful circumstance immediately changes. It does reveal something dependable about God's character: His goal is not endless humiliation. He gathers, renews, and delights.\n\nYou are not asked to create God's affection by becoming impressive. His restoring love is the reason shame no longer gets the final word.",
+  bigTruth: "God's restoration is more than being allowed back. It is being welcomed into His delight.",
+  takeTheBite: "Sit quietly for one minute with the phrase, \"He will rejoice over you with singing.\" Notice the resistance it raises, then answer that resistance with what the passage actually says.",
+  prayer: "Restoring God, I can imagine Your disappointment more easily than Your delight. Thank You that Your holiness confronts what destroys us and Your love does not leave us in shame. Quiet the accusing noise I carry. Help me receive Your welcome without pretending my failures never mattered. Gather what feels scattered in me, renew what has become weak, and teach me to live as someone loved enough to be restored. Amen.",
+  deeperReading: {
+    reference: "Zephaniah 3:8-20; Isaiah 62:1-5; Luke 15:11-32",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "zephaniah",
+    chapter: 3,
+    verseStart: 8,
+    verseEnd: 20,
+  },
+  tags: ["Zephaniah", "Faith & God"],
+  status: "published",
+};

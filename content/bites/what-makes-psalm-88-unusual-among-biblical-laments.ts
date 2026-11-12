@@ -1,0 +1,35 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatMakesPsalm88UnusualAmongBiblicalLaments: BibleBite = {
+  date: "2026-12-15",
+  slug: "what-makes-psalm-88-unusual-among-biblical-laments",
+  title: "What makes Psalm 88 unusual among biblical laments?",
+  curiosityHook: "This moment in Psalms asks us to slow down and look again.",
+  scriptureReference: "Psalm 88",
+  scriptureText: "Yahweh, the God of my salvation, I have cried day and night before you.",
+  translation: "WEB",
+  topic: "prayer-and-worship",
+  questionType: "look-closer",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What makes Psalm 88 unusual among biblical laments?",
+  answerChoices: [
+    { id: "A", text: "It ends without a clear turn to praise or relief" },
+    { id: "B", text: "It never addresses God directly" },
+    { id: "C", text: "It contains no request for help" },
+    { id: "D", text: "It celebrates victory over enemies" },
+  ],
+  correctAnswer: "A",
+  explanation: "Many psalms of lament move toward remembered confidence or praise. Psalm 88 does not offer that visible turn. The writer cries day and night, describes life near the grave, and ends with darkness as the closest companion. Yet the prayer remains Scripture. Its presence refuses the idea that acceptable faith must sound hopeful before a person is able to feel hope. The psalmist still addresses the Lord as the God of salvation and keeps speaking, even while describing divine absence. Psalm 88 does not solve despair, and it should not be used to romanticize it. It gives faithful language for a night that has not yet lifted. People in danger or profound distress may also need immediate human help, medical care, or emergency support. Seeking that help is not a failure to pray.",
+  bigTruth: "Prayer can remain real even when relief has not yet become visible.",
+  takeTheBite: "If you are carrying darkness, tell one trustworthy person plainly rather than hiding behind \"I'm fine.\" If you are in danger, seek immediate local help.",
+  prayer: "God of my salvation, some nights do not resolve by the final line. Hear me when I have no bright ending to offer. Hold me when darkness feels nearer than friendship, and lead me toward people who can help carry what I cannot carry alone. Give me courage to speak honestly, receive care without shame, and keep one small opening toward You when hope feels beyond my reach. Amen.",
+  deeperReading: {
+    reference: "Psalm 88; 1 Kings 19:1-8; 2 Corinthians 1:8-11",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "psalms",
+    chapter: 88,
+  },
+  tags: ["Psalms", "Prayer & Worship"],
+  status: "published",
+};

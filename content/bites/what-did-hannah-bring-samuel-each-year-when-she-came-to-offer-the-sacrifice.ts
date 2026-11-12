@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatDidHannahBringSamuelEachYearWhenSheCameToOfferTheSacrifice: BibleBite = {
+  date: "2026-12-13",
+  slug: "what-did-hannah-bring-samuel-each-year-when-she-came-to-offer-the-sacrifice",
+  title: "What did Hannah bring Samuel each year when she came to offer the sacrifice?",
+  curiosityHook: "A close look at 1 Samuel reveals a detail that is easy to miss.",
+  scriptureReference: "1 Samuel 2:18-21",
+  scriptureText: "But Hannah didn’t go up, for she said to her husband, “Not until the child is weaned; then I will bring him, that he may appear before Yahweh, and stay there forever.”",
+  translation: "WEB",
+  topic: "people-and-stories",
+  questionType: "look-closer",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What did Hannah bring Samuel each year when she came to offer the sacrifice?",
+  answerChoices: [
+    { id: "A", text: "A scroll" },
+    { id: "B", text: "A silver cup" },
+    { id: "C", text: "A little robe" },
+    { id: "D", text: "A shepherd's staff" },
+  ],
+  correctAnswer: "C",
+  explanation: "Samuel ministered before the Lord as a child, wearing a linen ephod. Each year Hannah made him a little robe and brought it when she came with her husband for the annual sacrifice. Earlier she had prayed for a son and entrusted Samuel to lifelong service. The robe is a quiet detail beside that enormous promise. It shows that surrender did not erase relationship or care. Hannah's faithfulness continued through repeated, practical love shaped to a growing child. Eli blessed the family, and Hannah later had more children, but the story does not treat them as replacements for Samuel. The annual robe reminds us that faithful love can release control without becoming detached.",
+  bigTruth: "Letting someone go into God's care does not require us to stop loving them in practical ways.",
+  takeTheBite: "Choose one recurring act of care that supports someone without controlling their choices. Put the next occurrence on your calendar.",
+  prayer: "God, teach me the difference between faithful care and anxious control. When love requires release, keep my heart tender and my hands useful. Show me the small, fitting gift that says, \"I remember you,\" without demanding ownership of another person's path. Bless the people I cannot keep close, and make my continuing love steady, practical, and free. Amen.",
+  deeperReading: {
+    reference: "1 Samuel 1:24-28; 1 Samuel 2:18-21; Psalm 127",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "1-samuel",
+    chapter: 1,
+    verseStart: 24,
+    verseEnd: 28,
+  },
+  tags: ["1 Samuel", "People & Stories"],
+  status: "published",
+};

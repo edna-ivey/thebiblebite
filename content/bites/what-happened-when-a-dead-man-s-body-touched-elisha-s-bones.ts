@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatHappenedWhenADeadManSBodyTouchedElishaSBones: BibleBite = {
+  date: "2026-11-24",
+  slug: "what-happened-when-a-dead-man-s-body-touched-elisha-s-bones",
+  title: "What happened when a dead man's body touched Elisha's bones?",
+  curiosityHook: "This moment in 2 Kings asks us to slow down and look again.",
+  scriptureReference: "2 Kings 13:20-21",
+  scriptureText: "As they were burying a man, behold, they saw a band of raiders; and they threw the man into Elisha’s tomb. As soon as the man touched Elisha’s bones, he revived, and stood up on his feet.",
+  translation: "WEB",
+  topic: "weird-and-wonderful",
+  questionType: "surprising-detail",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What happened when a dead man's body touched Elisha's bones?",
+  answerChoices: [
+    { id: "A", text: "The burial cave collapsed" },
+    { id: "B", text: "Elisha's bones turned to dust" },
+    { id: "C", text: "The raiders fled from the tomb" },
+    { id: "D", text: "The man revived and stood on his feet" },
+  ],
+  correctAnswer: "D",
+  explanation: "Elisha died and was buried. Later, while some Israelites were burying another man, they saw a band of Moabite raiders. In their urgency, they threw the body into Elisha's tomb. When the man's body touched Elisha's bones, he revived and stood up.\n\nThe story is only two verses long, and Scripture does not explain a method or prescribe a practice. The bones are not presented as objects people had learned to use for healing. The contact happened during a rushed burial, and the life that returned was God's surprising action.\n\nThe scene also follows Elisha's final interaction with King Joash. Even as Elisha was dying, the prophet announced that God would still give Israel victories over Syria. The revival at his tomb becomes one more sign that the Lord's power and promise were not buried with the prophet.\n\nThis passage should not be used to build a formula around relics or to suggest that human remains contain controllable spiritual power. The narrative directs wonder toward the God who gives life, not toward a technique.\n\nIt also speaks into the fear that faithful work ends when a faithful person dies. Leaders and servants are mortal. God is not. He can continue bringing life in ways no messenger can manage, claim, or even witness.",
+  bigTruth: "God's life-giving power is not buried when one of His servants dies.",
+  takeTheBite: "Remember one good influence from someone who is no longer present. Thank God for the life that continues through their faithful witness, then carry one part of it forward.",
+  prayer: "God of life, every human servant reaches an ending, but Your power and promises do not. Thank You for the people whose faithfulness still bears fruit after they are gone. Keep me from idolizing messengers or trying to control Your work through formulas. Let what is good in their witness point me back to You. Use my own ordinary faithfulness in ways I may never see, and keep hope alive where loss feels final. Amen.",
+  deeperReading: {
+    reference: "2 Kings 13:14-25; 1 Corinthians 3:4-9; 2 Corinthians 4:7-14",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "2-kings",
+    chapter: 13,
+    verseStart: 14,
+    verseEnd: 25,
+  },
+  tags: ["2 Kings", "Weird & Wonderful"],
+  status: "published",
+};

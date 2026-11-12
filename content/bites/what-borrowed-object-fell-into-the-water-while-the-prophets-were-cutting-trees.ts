@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatBorrowedObjectFellIntoTheWaterWhileTheProphetsWereCuttingTrees: BibleBite = {
+  date: "2026-12-10",
+  slug: "what-borrowed-object-fell-into-the-water-while-the-prophets-were-cutting-trees",
+  title: "What borrowed object fell into the water while the prophets were cutting trees?",
+  curiosityHook: "2 Kings answers a question many readers move past too quickly.",
+  scriptureReference: "2 Kings 6:1-7",
+  scriptureText: "But as one was cutting down a tree, the ax head fell into the water. Then he cried out and said, “Alas, my master! For it was borrowed.”",
+  translation: "WEB",
+  topic: "weird-and-wonderful",
+  questionType: "surprising-detail",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What borrowed object fell into the water while the prophets were cutting trees?",
+  answerChoices: [
+    { id: "A", text: "A bronze saw" },
+    { id: "B", text: "A wooden yoke" },
+    { id: "C", text: "A measuring line" },
+    { id: "D", text: "An iron axe head" },
+  ],
+  correctAnswer: "D",
+  explanation: "The community of prophets needed more room, so they went to the Jordan to cut beams. One man's borrowed iron axe head fell into the water, and he cried out because it was borrowed. Elisha cut a stick, threw it where the iron had fallen, and the axe head floated. Compared with national crises surrounding Elisha, this loss seems small. Yet debt and responsibility made it serious to the borrower. The story does not provide a technique for recovering lost property or explain the miracle's mechanics. It shows God's power entering an ordinary worksite and a practical problem. The man still had to reach out and pick it up. Divine care did not make his responsibility irrelevant; it made faithful action possible.",
+  bigTruth: "No need is too ordinary to bring honestly before God.",
+  takeTheBite: "Address one small problem you have avoided because it feels embarrassing. Ask for help and take the practical next step available to you.",
+  prayer: "God, I often hide ordinary problems until they become heavier. Thank You for caring about responsibilities, mistakes, and needs that seem too small to mention. Give me humility to ask for help, honesty about what I owe, and willingness to reach for the solution You provide. Keep me from demanding miracles, but also from assuming Your care belongs only to dramatic moments. Amen.",
+  deeperReading: {
+    reference: "2 Kings 6:1-7; Psalm 55:22; Philippians 4:5-7",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "2-kings",
+    chapter: 6,
+    verseStart: 1,
+    verseEnd: 7,
+  },
+  tags: ["2 Kings", "Weird & Wonderful"],
+  status: "published",
+};

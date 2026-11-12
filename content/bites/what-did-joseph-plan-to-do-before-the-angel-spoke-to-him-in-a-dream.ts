@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatDidJosephPlanToDoBeforeTheAngelSpokeToHimInADream: BibleBite = {
+  date: "2026-12-21",
+  slug: "what-did-joseph-plan-to-do-before-the-angel-spoke-to-him-in-a-dream",
+  title: "What did Joseph plan to do before the angel spoke to him in a dream?",
+  curiosityHook: "Matthew places a surprising detail inside a much bigger story.",
+  scriptureReference: "Matthew 1:18-25",
+  scriptureText: "Now the birth of Jesus Christ was like this: After his mother, Mary, was engaged to Joseph, before they came together, she was found pregnant by the Holy Spirit.",
+  translation: "WEB",
+  topic: "people-and-stories",
+  questionType: "look-closer",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What did Joseph plan to do before the angel spoke to him in a dream?",
+  answerChoices: [
+    { id: "A", text: "Publicly accuse Mary" },
+    { id: "B", text: "Leave Bethlehem permanently" },
+    { id: "C", text: "Divorce Mary quietly" },
+    { id: "D", text: "Ask Herod for judgment" },
+  ],
+  correctAnswer: "C",
+  explanation: "Joseph learned Mary was pregnant before they came together. Matthew calls him righteous and says he planned to divorce her quietly because he did not want to expose her publicly. Then an angel told him the child was conceived by the Holy Spirit and instructed him to take Mary as his wife. Joseph obeyed. His righteousness appears first as restraint and then as responsiveness. Before he understood the miracle, he chose not to maximize Mary's humiliation. After receiving new truth, he changed his plan despite the cost to his own reputation. Biblical righteousness is not stubborn attachment to the first conclusion reached with incomplete information. It can act mercifully while waiting and move decisively when God clarifies the path.",
+  bigTruth: "Righteousness joins moral courage with mercy and a willingness to change course.",
+  takeTheBite: "Revisit one conclusion you formed with incomplete information. Ask what mercy requires while you seek the truth.",
+  prayer: "God, give me Joseph's restraint when I do not know the whole story and his courage when obedience becomes clear. Keep me from protecting my reputation by exposing someone else to unnecessary shame. Make me teachable enough to revise a plan, steady enough to accept its cost, and faithful in responsibilities few people will applaud. Amen.",
+  deeperReading: {
+    reference: "Matthew 1:18-25; Proverbs 18:13; James 3:13-18",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "matthew",
+    chapter: 1,
+    verseStart: 18,
+    verseEnd: 25,
+  },
+  tags: ["Matthew", "People & Stories"],
+  status: "published",
+};

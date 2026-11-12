@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatUnusualObjectDidZechariahSeeFlyingThroughTheAir: BibleBite = {
+  date: "2026-11-08",
+  slug: "what-unusual-object-did-zechariah-see-flying-through-the-air",
+  title: "What unusual object did Zechariah see flying through the air?",
+  curiosityHook: "A close look at Zechariah reveals a detail that is easy to miss.",
+  scriptureReference: "Zechariah 5:1-4",
+  scriptureText: "Then he said to me, “This is the curse that goes out over the surface of the whole land, for everyone who steals shall be cut off according to it on the one side; and everyone who swears falsely shall be cut off according to it on the other side.",
+  translation: "WEB",
+  topic: "weird-and-wonderful",
+  questionType: "surprising-detail",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What unusual object did Zechariah see flying through the air?",
+  answerChoices: [
+    { id: "A", text: "A bronze altar" },
+    { id: "B", text: "A sealed clay jar" },
+    { id: "C", text: "A pair of stone tablets" },
+    { id: "D", text: "A large scroll" },
+  ],
+  correctAnswer: "D",
+  explanation: "Zechariah looked up and saw a flying scroll. The interpreting angel asked what he saw, then explained that the scroll represented a curse going out over the whole land against stealing and false swearing.\n\nThe scroll was enormous, twenty cubits long and ten cubits wide. Those measurements match the dimensions associated with the temple porch in 1 Kings 6:3, although Zechariah does not explicitly explain whether that connection is intended. What the vision does explain is that God's word is not trapped inside a religious building. It flies outward and enters the houses of people who use theft and false oaths to build their lives.\n\nThe returned community had rebuilt the temple, but restored worship required restored integrity. A community could not celebrate coming home while allowing dishonesty to become at home among them. The vision makes hidden wrongdoing visible and refuses to separate worship from ordinary economic and relational choices.\n\nProphetic visions often communicate through images that feel strange because ordinary language has become easy to ignore. A flying scroll is difficult to forget. It pictures God's word actively searching, exposing, and judging what people would rather keep private.\n\nFor Christians, this is not an invitation to become suspicious of everyone else's house. It is a call to let God's truth travel beyond our public worship and examine the promises, possessions, and practices inside our own.",
+  bigTruth: "God's word does not stop at the door of worship. It follows us into the integrity of ordinary life.",
+  takeTheBite: "Review one promise, purchase, report, or conversation from this week. Correct any detail you shaded to protect yourself, even if the correction feels small.",
+  prayer: "God of truth, let Your word move through every room of my life. Expose the places where I excuse dishonesty because it seems private, useful, or small. Make my promises reliable and my treatment of other people's property just. Keep me from using worship as cover for choices I would not want brought into the light. Give me courage to correct what I can and to live with the same integrity in public and at home. Amen.",
+  deeperReading: {
+    reference: "Zechariah 5:1-4; Leviticus 19:11-12; Ephesians 4:25-28",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "zechariah",
+    chapter: 5,
+    verseStart: 1,
+    verseEnd: 4,
+  },
+  tags: ["Zechariah", "Weird & Wonderful"],
+  status: "published",
+};

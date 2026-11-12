@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const inNahumSOpeningPoemWhatIsCalledTheStrongholdWherePeopleMayTakeRefuge: BibleBite = {
+  date: "2026-11-25",
+  slug: "in-nahum-s-opening-poem-what-is-called-the-stronghold-where-people-may-take-refuge",
+  title: "In Nahum's opening poem, what is called the stronghold where people may take refuge?",
+  curiosityHook: "One detail in Nahum changes how the whole scene comes into focus.",
+  scriptureReference: "Nahum 1:2-7",
+  scriptureText: "Yahweh is good, a stronghold in the day of trouble; and he knows those who take refuge in him.",
+  translation: "WEB",
+  topic: "faith-and-god",
+  questionType: "big-meaning",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "In Nahum's opening poem, what is called the stronghold where people may take refuge?",
+  answerChoices: [
+    { id: "A", text: "The Lord Himself" },
+    { id: "B", text: "The walls of Nineveh" },
+    { id: "C", text: "The armies of Judah" },
+    { id: "D", text: "The mountains surrounding the city" },
+  ],
+  correctAnswer: "A",
+  explanation: "Nahum begins with language that can feel severe: God is jealous, avenging, and powerful in judgment. Yet the same poem says the Lord is good, a stronghold in the day of trouble, and that He knows those who take refuge in Him.\n\nThose statements belong together. Nineveh was the capital of Assyria, an empire remembered in Scripture for conquest and cruelty. Nahum's announcement would have sounded like hope to people who had lived beneath that violence. God's patience did not mean He was indifferent, and His opposition to evil did not cancel His care for those seeking shelter in Him.\n\nThis passage does not authorize us to label our personal opponents as Nineveh or to celebrate suffering. It does show why divine goodness includes moral seriousness. A god who never confronted cruelty would not be a safe refuge for its victims.\n\nNahum also redirects where security is found. Cities, armies, and terrain could fail. The Lord knew those who trusted Him. That word \"knows\" is relational, not merely informational. In a frightening day, God's people were not anonymous to Him.\n\nFaith can hold both truths: God is patient, and evil will not receive endless permission. The refuge is not our anger. The refuge is God Himself.",
+  bigTruth: "God's goodness is not passive toward evil, and His care does not lose sight of those who seek refuge in Him.",
+  takeTheBite: "Name one injustice that tempts you toward either despair or revenge. Ask God for protection, truthful action, and a heart that leaves final judgment with Him.",
+  prayer: "God, You see harm that others overlook and pain that powerful people dismiss. Be a refuge for those living under fear, violence, or injustice. Keep me from confusing Your judgment with permission for my revenge. Teach me to pursue what is right without becoming cruel, to protect the vulnerable without feeding hatred, and to trust that no person seeking shelter in You is forgotten. Amen.",
+  deeperReading: {
+    reference: "Nahum 1:2-7; Psalm 46; Romans 12:17-21",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "nahum",
+    chapter: 1,
+    verseStart: 2,
+    verseEnd: 7,
+  },
+  tags: ["Nahum", "Faith & God"],
+  status: "published",
+};

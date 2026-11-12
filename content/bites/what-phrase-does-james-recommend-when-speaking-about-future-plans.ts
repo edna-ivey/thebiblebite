@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatPhraseDoesJamesRecommendWhenSpeakingAboutFuturePlans: BibleBite = {
+  date: "2026-12-29",
+  slug: "what-phrase-does-james-recommend-when-speaking-about-future-plans",
+  title: "What phrase does James recommend when speaking about future plans?",
+  curiosityHook: "This moment in James asks us to slow down and look again.",
+  scriptureReference: "James 4:13-17",
+  scriptureText: "Come now, you who say, “Today or tomorrow let’s go into this city and spend a year there, trade, and make a profit.”",
+  translation: "WEB",
+  topic: "wisdom-and-life",
+  questionType: "big-meaning",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What phrase does James recommend when speaking about future plans?",
+  answerChoices: [
+    { id: "A", text: "\"Nothing can stop us\"" },
+    { id: "B", text: "\"Tomorrow belongs to the prepared\"" },
+    { id: "C", text: "\"If the Lord wills\"" },
+    { id: "D", text: "\"Success proves the plan was right\"" },
+  ],
+  correctAnswer: "C",
+  explanation: "James addresses merchants confidently announcing where they will go, how long they will stay, and what profit they will make. He does not condemn planning or commerce. He confronts boasting that treats tomorrow as owned. Human life is a mist that appears briefly and vanishes, so plans should be held beneath, \"If the Lord wills, we will both live and do this or that.\" The phrase is not magic punctuation added to confident speech. It describes a posture: dependent, morally attentive, and ready for God to redirect. James ends by saying that knowing good and failing to do it is sin. Humble planning therefore does not mean passive waiting. We make responsible plans while doing the good already clear today.",
+  bigTruth: "Wise planning prepares carefully without pretending to own tomorrow.",
+  takeTheBite: "Review one major plan and name both the preparation it requires and the good you should do now even if the plan changes.",
+  prayer: "Lord, my plans easily become claims of control. Teach me to prepare responsibly while remembering that life, opportunity, and outcome remain gifts. Make \"if You will\" a posture deeper than words. Keep uncertainty from making me passive, and show me the good already within reach. Give me flexibility when plans change and faithfulness in the day I actually have. Amen.",
+  deeperReading: {
+    reference: "James 4:13-17; Proverbs 16:1-3; Luke 12:16-21",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "james",
+    chapter: 4,
+    verseStart: 13,
+    verseEnd: 17,
+  },
+  tags: ["James", "Wisdom & Life"],
+  status: "published",
+};

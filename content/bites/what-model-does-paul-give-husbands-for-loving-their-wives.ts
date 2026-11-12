@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatModelDoesPaulGiveHusbandsForLovingTheirWives: BibleBite = {
+  date: "2026-12-17",
+  slug: "what-model-does-paul-give-husbands-for-loving-their-wives",
+  title: "What model does Paul give husbands for loving their wives?",
+  curiosityHook: "Ephesians answers a question many readers move past too quickly.",
+  scriptureReference: "Ephesians 5:21-33",
+  scriptureText: "Husbands, love your wives, even as Christ also loved the assembly and gave himself up for her,",
+  translation: "WEB",
+  topic: "hard-questions",
+  questionType: "hard-question",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What model does Paul give husbands for loving their wives?",
+  answerChoices: [
+    { id: "A", text: "A ruler governing subjects" },
+    { id: "B", text: "A teacher correcting students" },
+    { id: "C", text: "Christ loving the church and giving Himself for her" },
+    { id: "D", text: "A patron rewarding loyal clients" },
+  ],
+  correctAnswer: "C",
+  explanation: "Ephesians introduces this household section with believers submitting to one another in reverence for Christ. Wives are addressed concerning submission, and husbands receive the repeated command to love as Christ loved the church and gave Himself for her. Christians differ over how submission and headship should shape marriage today. Those debates should not obscure what the passage makes unmistakable: a husband is never given permission to dominate, threaten, or protect his comfort at his wife's expense. His model is the crucified Christ. The text describes nourishing, cherishing, and self-giving love, not entitlement. No interpretation can faithfully require a person to remain in immediate danger or call abuse biblical leadership. Marriage is meant to witness to Christ's covenant care, which exposes coercion rather than sanctifying it.",
+  bigTruth: "Christlike love spends power for another person's good, never for control.",
+  takeTheBite: "In one relationship where you hold influence, ask what would use that influence for the other person's safety, dignity, and flourishing today.",
+  prayer: "Jesus, You used Your strength to serve and gave Yourself in love. Expose every way I use influence to protect comfort, demand compliance, or avoid listening. Form relationships marked by mutual honor, truth, safety, and sacrifice. Protect people experiencing abuse and lead them toward wise support. Teach me to recognize Your cross as the pattern for love, never as a tool for controlling someone else. Amen.",
+  deeperReading: {
+    reference: "Ephesians 5:21-33; Mark 10:42-45; Colossians 3:12-19",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "ephesians",
+    chapter: 5,
+    verseStart: 21,
+    verseEnd: 33,
+  },
+  tags: ["Ephesians", "Hard Questions"],
+  status: "published",
+};

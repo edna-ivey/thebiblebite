@@ -1,0 +1,35 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatLimitedTestDidDanielProposeInsteadOfImmediatelyEatingTheKingSFood: BibleBite = {
+  date: "2026-12-06",
+  slug: "what-limited-test-did-daniel-propose-instead-of-immediately-eating-the-king-s-food",
+  title: "What limited test did Daniel propose instead of immediately eating the king's food?",
+  curiosityHook: "A close look at Daniel reveals a detail that is easy to miss.",
+  scriptureReference: "Daniel 1:8-16",
+  scriptureText: "But Daniel purposed in his heart that he would not defile himself with the king’s delicacies, nor with the wine which he drank. Therefore he requested of the prince of the eunuchs that he might not defile himself.",
+  translation: "WEB",
+  topic: "bible-and-history",
+  questionType: "context",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What limited test did Daniel propose instead of immediately eating the king's food?",
+  answerChoices: [
+    { id: "A", text: "Three days of fasting" },
+    { id: "B", text: "Seven days of bread and water" },
+    { id: "C", text: "Twenty days away from court" },
+    { id: "D", text: "Ten days of vegetables and water" },
+  ],
+  correctAnswer: "D",
+  explanation: "Daniel and his friends were Judean captives being trained for Babylonian service. Daniel resolved not to defile himself with the king's food and wine, but he did not stage a reckless confrontation. He asked the official for permission and proposed a ten-day test with vegetables and water. God had given Daniel favor, and the official saw that the four looked healthier afterward. The passage does not explain precisely why the royal food would defile Daniel, so proposals involving dietary law, idol association, or royal dependence should remain cautious. The clear point is that Daniel sought faithfulness inside a system he did not choose. His conviction was firm, while his approach was respectful, practical, and accountable. Courage was not measured by how dramatic he could make the conflict.",
+  bigTruth: "Conviction can be both firm in purpose and wise in approach.",
+  takeTheBite: "Prepare one respectful sentence and one workable alternative for a boundary you need to communicate this week.",
+  prayer: "God, give me Daniel's settled heart and measured courage. Help me recognize where compromise would damage integrity, then respond without pride or needless hostility. Grant favor where You choose, wisdom in proposing alternatives, and steadiness if the outcome remains uncertain. Let my convictions be visible through faithful choices, not theatrical conflict. Amen.",
+  deeperReading: {
+    reference: "Daniel 1; Romans 14:1-8; 1 Peter 3:15-16",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "daniel",
+    chapter: 1,
+  },
+  tags: ["Daniel", "Bible & History"],
+  status: "published",
+};

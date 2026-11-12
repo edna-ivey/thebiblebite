@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatHappenedAfterAGroupMockedElishaAndHePronouncedACurseInTheLordSName: BibleBite = {
+  date: "2026-11-15",
+  slug: "what-happened-after-a-group-mocked-elisha-and-he-pronounced-a-curse-in-the-lord-s-name",
+  title: "What happened after a group mocked Elisha and he pronounced a curse in the Lord's name?",
+  curiosityHook: "A close look at 2 Kings reveals a detail that is easy to miss.",
+  scriptureReference: "2 Kings 2:23-25",
+  scriptureText: "He looked behind him and saw them, and cursed them in Yahweh’s name. Then two female bears came out of the woods and mauled forty-two of those youths.",
+  translation: "WEB",
+  topic: "hard-questions",
+  questionType: "hard-question",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What happened after a group mocked Elisha and he pronounced a curse in the Lord's name?",
+  answerChoices: [
+    { id: "A", text: "Fire consumed the road behind them" },
+    { id: "B", text: "They were struck unable to speak" },
+    { id: "C", text: "Two bears came out and mauled forty-two of them" },
+    { id: "D", text: "Soldiers from Bethel arrested them" },
+  ],
+  correctAnswer: "C",
+  explanation: "As Elisha traveled toward Bethel, a group came out and mocked him, saying, \"Go up, you baldhead!\" Elisha pronounced a curse in the Lord's name, and two female bears came from the woods and mauled forty-two of them.\n\nThis is a disturbing text. Some translations call the mockers \"little children,\" while the Hebrew expression can refer more broadly to youths or young people and is used elsewhere for people old enough to carry responsibility. The number forty-two also suggests a sizable, potentially threatening group rather than two toddlers making a joke. Even with that context, the severity should not be made cute or easy.\n\nBethel had become a center of rival worship under Israel's kings. The taunt \"Go up\" may mock Elijah's recent ascent and reject Elisha's authority as God's prophet. The scene therefore carries covenant and prophetic significance beyond an insult about appearance. Yet the narrative does not give modern readers permission to curse people who disrespect them or to celebrate violence against youth.\n\nThe passage belongs to a biblical world where rejecting God's prophetic word could bring severe judgment. It should leave us sober, not smug. Christians read every difficult judgment text alongside Jesus, who rebuked disciples for wanting to call down fire and taught them to love enemies. Honest faith does not pretend the bears are emotionally simple. It lets the text challenge careless mockery while refusing to weaponize it.",
+  bigTruth: "God's word is not trivial, and difficult judgment stories must never become excuses for personal revenge.",
+  takeTheBite: "Notice whether you use this story, or any judgment passage, to laugh at suffering or justify anger. Ask what sober respect for God and Christlike treatment of opponents require instead.",
+  prayer: "God, this story is severe, and I do not want to soften its violence or use it to threaten people. Teach me to take Your word seriously without turning judgment into entertainment. Guard me from contempt for Your messengers and from revenge disguised as faithfulness. Help me read difficult Scripture with humility, historical care, and the character of Jesus before me. Make me sober about rebellion and gentle toward people, especially the young and vulnerable. Amen.",
+  deeperReading: {
+    reference: "2 Kings 2:1-25; 2 Kings 17:24-28; Luke 9:51-56",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "2-kings",
+    chapter: 2,
+    verseStart: 1,
+    verseEnd: 25,
+  },
+  tags: ["2 Kings", "Hard Questions"],
+  status: "published",
+};

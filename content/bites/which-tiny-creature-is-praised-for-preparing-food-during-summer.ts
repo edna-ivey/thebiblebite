@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whichTinyCreatureIsPraisedForPreparingFoodDuringSummer: BibleBite = {
+  date: "2026-11-30",
+  slug: "which-tiny-creature-is-praised-for-preparing-food-during-summer",
+  title: "Which tiny creature is praised for preparing food during summer?",
+  curiosityHook: "Proverbs places a surprising detail inside a much bigger story.",
+  scriptureReference: "Proverbs 30:24-28",
+  scriptureText: "“There are four things which are little on the earth, but they are exceedingly wise:",
+  translation: "WEB",
+  topic: "wisdom-and-life",
+  questionType: "big-meaning",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "Which tiny creature is praised for preparing food during summer?",
+  answerChoices: [
+    { id: "A", text: "The lizard" },
+    { id: "B", text: "The ant" },
+    { id: "C", text: "The locust" },
+    { id: "D", text: "The rock badger" },
+  ],
+  correctAnswer: "B",
+  explanation: "Proverbs 30 names four things that are small on the earth yet exceedingly wise: ants, rock badgers, locusts, and lizards. Each survives without the kind of strength people usually admire.\n\nAnts prepare food in summer. Rock badgers make homes among the rocks despite lacking power. Locusts have no king, yet move together in ranks. A lizard can be caught by hand, yet appears in royal palaces. The list trains the reader to notice wisdom in unexpected places.\n\nTheir smallness is not denied. It is precisely the point. Vulnerability can produce foresight, wise shelter, cooperation, and persistence. None of these creatures wastes energy pretending to be something else. Each responds intelligently to the world it actually inhabits.\n\nBiblical wisdom often begins with attention. A person who only watches the impressive may miss the lessons quietly built into creation. Planning is not unbelief. Accepting limits is not cowardice. Cooperation is not weakness. Small, repeated action can reach places raw strength cannot.\n\nYou do not need every resource before you act wisely. You can prepare in season, find appropriate shelter, work with others, and keep moving with the capacity God has given you.",
+  bigTruth: "Wisdom makes faithful use of real limits instead of waiting to feel powerful.",
+  takeTheBite: "Choose one \"ant-sized\" preparation that will help your future self: set aside a small amount, organize one document, schedule one appointment, or prepare one needed meal.",
+  prayer: "God of creation, slow me down enough to learn from what seems small. Free me from believing that wisdom belongs only to the powerful, wealthy, or impressive. Help me prepare without anxiety, accept limits without shame, seek help without pride, and practice steady faithfulness. Show me the small action that belongs to this season, and give me patience to let modest obedience become lasting strength. Amen.",
+  deeperReading: {
+    reference: "Proverbs 30:24-28; Proverbs 6:6-11; Matthew 6:26-30",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "proverbs",
+    chapter: 30,
+    verseStart: 24,
+    verseEnd: 28,
+  },
+  tags: ["Proverbs", "Wisdom & Life"],
+  status: "published",
+};

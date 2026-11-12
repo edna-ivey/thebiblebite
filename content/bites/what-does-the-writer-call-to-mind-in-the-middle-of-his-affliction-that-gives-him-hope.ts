@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatDoesTheWriterCallToMindInTheMiddleOfHisAfflictionThatGivesHimHope: BibleBite = {
+  date: "2026-12-03",
+  slug: "what-does-the-writer-call-to-mind-in-the-middle-of-his-affliction-that-gives-him-hope",
+  title: "What does the writer call to mind in the middle of his affliction that gives him hope?",
+  curiosityHook: "Lamentations answers a question many readers move past too quickly.",
+  scriptureReference: "Lamentations 3:19-26",
+  scriptureText: "My soul still remembers them, and is bowed down within me.",
+  translation: "WEB",
+  topic: "faith-and-god",
+  questionType: "big-meaning",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What does the writer call to mind in the middle of his affliction that gives him hope?",
+  answerChoices: [
+    { id: "A", text: "The Lord's steadfast love and mercies" },
+    { id: "B", text: "Jerusalem's military strength" },
+    { id: "C", text: "His own record of obedience" },
+    { id: "D", text: "A promise that sorrow would end that day" },
+  ],
+  correctAnswer: "A",
+  explanation: "Lamentations does not reach hope by minimizing pain. The writer remembers affliction, wandering, bitterness, and gall. His soul is bowed down within him. Then he deliberately calls something else to mind: the Lord's steadfast love has not ceased, His mercies are new every morning, and His faithfulness is great.\n\nThese words rise from a book grieving Jerusalem's devastation. They are not spoken from a comfortable distance or offered as a quick way to stop mourning. Hope appears inside lament, not instead of it.\n\nThe writer says, \"The Lord is my portion,\" language that makes God Himself the ground of hope when other securities have collapsed. He concludes that it is good to wait quietly for the Lord's salvation. Quiet waiting here is not denial, passivity toward injustice, or pretending everything feels peaceful. It is a refusal to let present anguish become the only truth the mind can remember.\n\nCalling truth to mind can be an act of faith when emotions cannot yet follow. God's mercies being new every morning does not mean yesterday's wounds were small. It means devastation has not exhausted God's character or cancelled His capacity to meet His people again.",
+  bigTruth: "Hope can tell the truth about pain while refusing to forget the character of God.",
+  takeTheBite: "Write two honest sentences about what hurts, then write one specific truth about God's character from this passage. Hold both before God without forcing either one to disappear.",
+  prayer: "Faithful God, You do not ask me to rename bitterness as sweetness or devastation as ease. Meet me in what is real. When sorrow narrows my memory, help me call Your steadfast love to mind. Give me mercy for this morning, not imaginary strength for every future day. Be my portion where other securities have failed, and teach me to wait without surrendering honesty or hope. Amen.",
+  deeperReading: {
+    reference: "Lamentations 3:19-33; Psalm 42:5-11; 2 Corinthians 4:7-18",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "lamentations",
+    chapter: 3,
+    verseStart: 19,
+    verseEnd: 33,
+  },
+  tags: ["Lamentations", "Faith & God"],
+  status: "published",
+};

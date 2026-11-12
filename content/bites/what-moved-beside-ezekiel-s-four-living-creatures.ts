@@ -1,0 +1,35 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatMovedBesideEzekielSFourLivingCreatures: BibleBite = {
+  date: "2026-12-26",
+  slug: "what-moved-beside-ezekiel-s-four-living-creatures",
+  title: "What moved beside Ezekiel's four living creatures?",
+  curiosityHook: "A small detail in Ezekiel opens the door to a larger truth.",
+  scriptureReference: "Ezekiel 1:4-28",
+  scriptureText: "Now as I saw the living creatures, behold, there was one wheel on the earth beside the living creatures, for each of the four faces of it.",
+  translation: "WEB",
+  topic: "weird-and-wonderful",
+  questionType: "surprising-detail",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What moved beside Ezekiel's four living creatures?",
+  answerChoices: [
+    { id: "A", text: "Four boats of bronze" },
+    { id: "B", text: "Four pillars of smoke" },
+    { id: "C", text: "Four ladders of fire" },
+    { id: "D", text: "Wheels intersecting wheels" },
+  ],
+  correctAnswer: "D",
+  explanation: "Ezekiel saw living creatures, fire, gleaming metal, and wheels beside the creatures that looked like a wheel within a wheel. The wheels could move in any direction and were full of eyes. Above them was an expanse and a throne-like form surrounded by radiant glory. Ezekiel repeatedly says things were \"like\" what he describes. Visionary language reaches for comparisons because the glory exceeds ordinary categories. The wheels are not presented as a puzzle inviting confident mechanical diagrams. Within the vision they move with the living creatures, displaying coordinated freedom and awareness beneath God's throne. Ezekiel was among exiles far from Jerusalem. The vision's central comfort is that God's glory was not trapped in the temple or left behind by geography.",
+  bigTruth: "God's presence is not confined by the places where we expected to find Him.",
+  takeTheBite: "Name one disruption that made God feel distant. Ask where faithful attention and obedience are possible in the place you are now.",
+  prayer: "God of radiant glory, I cannot reduce You to the places, images, or explanations I understand. Meet me in dislocation and change. When familiar signs of Your presence are gone, keep me from assuming You are absent. Give me reverence before mystery, humility in interpretation, and courage to obey You in the place where I actually stand. Amen.",
+  deeperReading: {
+    reference: "Ezekiel 1; Ezekiel 10:1-22; Revelation 4:1-11",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "ezekiel",
+    chapter: 1,
+  },
+  tags: ["Ezekiel", "Weird & Wonderful"],
+  status: "published",
+};

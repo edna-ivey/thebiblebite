@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatDoesProverbsCallAnsweringBeforeListening: BibleBite = {
+  date: "2026-12-08",
+  slug: "what-does-proverbs-call-answering-before-listening",
+  title: "What does Proverbs call answering before listening?",
+  curiosityHook: "This moment in Proverbs asks us to slow down and look again.",
+  scriptureReference: "Proverbs 18:13-17",
+  scriptureText: "He who pleads his cause first seems right— until another comes and questions him.",
+  translation: "WEB",
+  topic: "wisdom-and-life",
+  questionType: "big-meaning",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What does Proverbs call answering before listening?",
+  answerChoices: [
+    { id: "A", text: "Confidence and speed" },
+    { id: "B", text: "Folly and shame" },
+    { id: "C", text: "Discernment and courage" },
+    { id: "D", text: "Leadership and strength" },
+  ],
+  correctAnswer: "B",
+  explanation: "Proverbs warns that answering before hearing is folly and shame. A few verses later, it says the first person's case seems right until another comes and examines it. Together, these sayings expose a common trap: quick certainty can feel wise when we have heard only the first version. Listening is more than waiting for a pause. It gathers facts, notices what is missing, and allows another person to be understood before a verdict forms. The proverb does not require endless indecision or treating every claim as equally credible. It requires enough humility to know that immediacy is not the same as accuracy. In arguments, headlines, workplaces, and families, restraint can protect people from judgments that are difficult to retrieve once spoken.",
+  bigTruth: "A fast answer is not wise if it arrives before understanding.",
+  takeTheBite: "In your next disagreement, ask one sincere clarifying question before defending your position or offering advice.",
+  prayer: "God of truth, slow the answer that rises before I have listened. Expose the pride that assumes I already understand another person's experience or motive. Give me patience for fuller facts, courage to revise an opinion, and wisdom to recognize when enough is known to act. Let my words serve truth and people rather than the relief of sounding certain. Amen.",
+  deeperReading: {
+    reference: "Proverbs 18:13-17; James 1:19-20; Proverbs 15:28",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "proverbs",
+    chapter: 18,
+    verseStart: 13,
+    verseEnd: 17,
+  },
+  tags: ["Proverbs", "Wisdom & Life"],
+  status: "published",
+};

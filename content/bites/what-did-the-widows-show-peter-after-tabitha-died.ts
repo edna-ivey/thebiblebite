@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatDidTheWidowsShowPeterAfterTabithaDied: BibleBite = {
+  date: "2026-11-27",
+  slug: "what-did-the-widows-show-peter-after-tabitha-died",
+  title: "What did the widows show Peter after Tabitha died?",
+  curiosityHook: "The familiar words of Acts carry more tension than they first appear to.",
+  scriptureReference: "Acts 9:36-42",
+  scriptureText: "Now there was at Joppa a certain disciple named Tabitha, which when translated means Dorcas. This woman was full of good works and acts of mercy which she did.",
+  translation: "WEB",
+  topic: "people-and-stories",
+  questionType: "look-closer",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What did the widows show Peter after Tabitha died?",
+  answerChoices: [
+    { id: "A", text: "Letters she had written" },
+    { id: "B", text: "Coins she had distributed" },
+    { id: "C", text: "Clothes she had made" },
+    { id: "D", text: "Food she had stored" },
+  ],
+  correctAnswer: "C",
+  explanation: "Tabitha, also called Dorcas, was a disciple in Joppa known for good works and acts of mercy. When she became sick and died, believers sent urgently for Peter. The widows stood around him weeping and showing him tunics and other garments Tabitha had made while she was with them.\n\nThose clothes make her service wonderfully concrete. Acts does not preserve a sermon from Tabitha or describe a public office she held. It shows the work of her hands and the people who felt her absence. Her faith had taken fabric, time, skill, and attention and turned them into care.\n\nPeter sent everyone out, knelt, and prayed. Then he told Tabitha to arise. She opened her eyes, sat up, and was presented alive to the believers and widows. The miracle became known throughout Joppa, and many believed in the Lord.\n\nThe resurrection is God's extraordinary act, not a technique Peter controlled. Yet before that dramatic moment, Luke makes sure readers see Tabitha's ordinary faithfulness. Her life mattered before the miracle because love had become tangible around her.\n\nNot every act of service receives a public story. God still sees the quiet work that keeps someone warm, fed, included, or remembered.",
+  bigTruth: "Love becomes memorable when it takes a practical shape in another person's life.",
+  takeTheBite: "Use one skill you already possess to meet a specific need this week. Make, repair, deliver, teach, or organize something that lightens another person's load.",
+  prayer: "God, thank You for Tabitha's life and for every person whose quiet work makes mercy visible. Show me what is already in my hands that could serve someone well. Free me from waiting for a grand opportunity or public recognition. Make me attentive to people whose needs are easy to miss, and let the work I offer carry dignity, care, and the love of Christ. Amen.",
+  deeperReading: {
+    reference: "Acts 9:36-42; Proverbs 31:19-20; James 2:14-17",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "acts",
+    chapter: 9,
+    verseStart: 36,
+    verseEnd: 42,
+  },
+  tags: ["Acts", "People & Stories"],
+  status: "published",
+};

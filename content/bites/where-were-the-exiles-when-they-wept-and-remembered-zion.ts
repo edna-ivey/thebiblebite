@@ -1,0 +1,35 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whereWereTheExilesWhenTheyWeptAndRememberedZion: BibleBite = {
+  date: "2026-12-09",
+  slug: "where-were-the-exiles-when-they-wept-and-remembered-zion",
+  title: "Where were the exiles when they wept and remembered Zion?",
+  curiosityHook: "One detail in Psalms changes how the whole scene comes into focus.",
+  scriptureReference: "Psalm 137",
+  scriptureText: "By the rivers of Babylon, there we sat down. Yes, we wept, when we remembered Zion.",
+  translation: "WEB",
+  topic: "hard-questions",
+  questionType: "hard-question",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "Where were the exiles when they wept and remembered Zion?",
+  answerChoices: [
+    { id: "A", text: "Beside the Jordan River" },
+    { id: "B", text: "At the gates of Jerusalem" },
+    { id: "C", text: "By the rivers of Babylon" },
+    { id: "D", text: "In the wilderness of Sinai" },
+  ],
+  correctAnswer: "C",
+  explanation: "Psalm 137 remembers Judean exiles weeping by Babylon's rivers while captors demanded songs of Zion. It ends with a shocking wish that Babylon's infants be dashed against rocks. Scripture records this cry, but recording it is not the same as commanding God's people to perform it. The psalm gives trauma and rage uncensored language before God. Babylonian violence had destroyed homes, temple, and families; the final image reflects the brutal world the exiles had endured and the vengeance they wanted returned. We should not make that desire holy merely because it appears in prayer. The wider biblical witness commands love of enemies and leaves vengeance with God. Yet neither should we use those truths to shame wounded people into polite silence. Psalm 137 shows that unbearable anger can be brought to God rather than acted out against the vulnerable.",
+  bigTruth: "God can receive the ugliest cry of wounded anger without turning that anger into our permission to harm.",
+  takeTheBite: "Bring one angry thought to God without editing it, then ask Him to prevent your pain from becoming harm to someone else.",
+  prayer: "God, some wounds produce words I am afraid to admit. Receive my anger without letting it rule me. Defend people who have been devastated by violence, and protect the vulnerable from cycles of revenge. Teach me to tell You the truth, seek justice without cruelty, and entrust judgment to You. Where trauma has hardened my imagination, begin the slow work of healing without demanding that I pretend the wound was small. Amen.",
+  deeperReading: {
+    reference: "Psalm 137; Romans 12:17-21; Matthew 5:43-48",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "psalms",
+    chapter: 137,
+  },
+  tags: ["Psalms", "Hard Questions"],
+  status: "published",
+};

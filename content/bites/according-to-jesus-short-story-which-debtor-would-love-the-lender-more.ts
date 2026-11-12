@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const accordingToJesusShortStoryWhichDebtorWouldLoveTheLenderMore: BibleBite = {
+  date: "2026-11-10",
+  slug: "according-to-jesus-short-story-which-debtor-would-love-the-lender-more",
+  title: "According to Jesus' short story, which debtor would love the lender more?",
+  curiosityHook: "This moment in Luke asks us to slow down and look again.",
+  scriptureReference: "Luke 7:36-50",
+  scriptureText: "Turning to the woman, he said to Simon, “Do you see this woman? I entered into your house, and you gave me no water for my feet, but she has wet my feet with her tears, and wiped them with the hair of her head.",
+  translation: "WEB",
+  topic: "jesus-and-the-gospel",
+  questionType: "look-closer",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "According to Jesus' short story, which debtor would love the lender more?",
+  answerChoices: [
+    { id: "A", text: "The debtor who borrowed most recently" },
+    { id: "B", text: "The debtor whose larger debt was forgiven" },
+    { id: "C", text: "The debtor who promised never to borrow again" },
+    { id: "D", text: "The debtor who could explain why the debt was unfair" },
+  ],
+  correctAnswer: "B",
+  explanation: "A Pharisee named Simon invited Jesus to eat. During the meal, a woman known in the city as a sinner entered, wept at Jesus' feet, wiped them with her hair, kissed them, and poured perfume on them. Simon silently judged both the woman and Jesus.\n\nJesus answered the thought Simon had not spoken with a story. Two people owed a lender different amounts. Neither could pay, so the lender forgave both. Which would love him more? Simon answered that the person forgiven more would.\n\nJesus then contrasted the woman's welcome with Simon's. Simon had not provided water for Jesus' feet, a kiss of greeting, or oil for His head. The woman had offered each form of care extravagantly. Her actions did not purchase forgiveness. Jesus' story begins with debts neither person could repay and a lender who freely canceled them. Her love revealed how deeply she had received mercy.\n\nSimon saw a category called \"sinner.\" Jesus saw a person responding to grace. The danger in Simon's posture was not that he needed less forgiveness. It was that he recognized less of his need and therefore saw little reason for gratitude or tenderness.\n\nJesus told the woman her sins were forgiven and her faith had saved her. Grace did not pretend her past was unimportant. It gave her a future no room full of judgment could take away.",
+  bigTruth: "We do not love our way into forgiveness. Forgiveness teaches a humbled heart how to love.",
+  takeTheBite: "Notice one person you have reduced to a label. Ask God to show you both their dignity and your own need for mercy before you speak about them again.",
+  prayer: "Jesus, I can recognize other people's failures more quickly than my own need for mercy. Forgive the pride that keeps me emotionally distant and makes grace feel unnecessary. Thank You that forgiveness is not something I can purchase through performance. Let receiving Your mercy soften the way I see people with complicated stories. Give me gratitude that becomes welcome, humility, and generous love rather than quiet judgment. Amen.",
+  deeperReading: {
+    reference: "Luke 7:36-50; Psalm 32:1-5; Ephesians 2:1-10",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "luke",
+    chapter: 7,
+    verseStart: 36,
+    verseEnd: 50,
+  },
+  tags: ["Luke", "Jesus & the Gospel"],
+  status: "published",
+};

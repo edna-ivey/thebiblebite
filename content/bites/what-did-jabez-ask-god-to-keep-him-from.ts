@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatDidJabezAskGodToKeepHimFrom: BibleBite = {
+  date: "2026-12-07",
+  slug: "what-did-jabez-ask-god-to-keep-him-from",
+  title: "What did Jabez ask God to keep him from?",
+  curiosityHook: "1 Chronicles places a surprising detail inside a much bigger story.",
+  scriptureReference: "1 Chronicles 4:9-10",
+  scriptureText: "Jabez called on the God of Israel, saying, “Oh that you would bless me indeed, and enlarge my border! May your hand be with me, and may you keep me from evil, that I may not cause pain!” God granted him that which he requested.",
+  translation: "WEB",
+  topic: "prayer-and-worship",
+  questionType: "look-closer",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What did Jabez ask God to keep him from?",
+  answerChoices: [
+    { id: "A", text: "Harm and pain" },
+    { id: "B", text: "Travel and change" },
+    { id: "C", text: "Work and responsibility" },
+    { id: "D", text: "Enemies and strangers" },
+  ],
+  correctAnswer: "A",
+  explanation: "In the middle of a long genealogy, Chronicles pauses for two verses about Jabez. His mother named him in connection with pain, yet Jabez called on Israel's God for blessing, enlarged territory, God's hand with him, and protection from harm. God granted his request. The prayer is memorable, but it is not a formula guaranteeing wealth or expansion to everyone who repeats it. Chronicles records one man's request and God's answer, not a transaction believers can use to control outcomes. What stands out is that Jabez did not treat the pain associated with his name as a fixed script for his future. He brought desire, work, vulnerability, and fear directly to God. Honest prayer can ask boldly while leaving the answer with the One addressed.",
+  bigTruth: "A painful history does not have to become the only future we are willing to ask God for.",
+  takeTheBite: "Write one clear request you have softened into vague language. Pray it honestly, then add, \"Keep Your hand with me as I receive Your answer.\"",
+  prayer: "God, You know the names, memories, and expectations that have shaped how I see my future. Teach me to ask boldly without treating prayer as a formula. Enlarge my capacity for faithful service, keep Your hand with me, and protect me from harm I cannot foresee. Where Your answer differs from my request, hold me close enough to keep trusting Your wisdom. Amen.",
+  deeperReading: {
+    reference: "1 Chronicles 4:9-10; Matthew 7:7-11; James 4:13-16",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "1-chronicles",
+    chapter: 4,
+    verseStart: 9,
+    verseEnd: 10,
+  },
+  tags: ["1 Chronicles", "Prayer & Worship"],
+  status: "published",
+};

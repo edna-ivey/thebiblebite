@@ -121,6 +121,67 @@ import { howDidPaulAskPhilemonToReceiveOnesimus } from "@/content/bites/how-did-
 import { whatDidPaulAskTheColossiansToPrayGodWouldOpen } from "@/content/bites/what-did-paul-ask-the-colossians-to-pray-god-would-open";
 import { whatProblemMadeCorinthSLordSSupperGatheringsDoMoreHarmThanGood } from "@/content/bites/what-problem-made-corinth-s-lord-s-supper-gatherings-do-more-harm-than-good";
 import { whatInvitationIsRepeatedNearTheVeryEndOfTheBible } from "@/content/bites/what-invitation-is-repeated-near-the-very-end-of-the-bible";
+import { whatDoesIsaiahSayGodGivesToPeopleWhoAreFaintAndPowerless } from "@/content/bites/what-does-isaiah-say-god-gives-to-people-who-are-faint-and-powerless";
+import { whatDidJesusSayAfterReadingIsaiahSWordsAboutGoodNewsAndFreedom } from "@/content/bites/what-did-jesus-say-after-reading-isaiah-s-words-about-good-news-and-freedom";
+import { whatDidElishaTellNaamanToDoToBeHealedOfHisSkinDisease } from "@/content/bites/what-did-elisha-tell-naaman-to-do-to-be-healed-of-his-skin-disease";
+import { whatWasDiscoveredWhileWorkersWereRepairingTheTempleDuringJosiahSReign } from "@/content/bites/what-was-discovered-while-workers-were-repairing-the-temple-during-josiah-s-reign";
+import { whatDoesPsalm62InviteGodSPeopleToPourOutBeforeHim } from "@/content/bites/what-does-psalm-62-invite-god-s-people-to-pour-out-before-him";
+import { whichDoesEcclesiastesSayIsBetterWhenADifficultProcessFeelsSlow } from "@/content/bites/which-does-ecclesiastes-say-is-better-when-a-difficult-process-feels-slow";
+import { whatDidSaulDoWhenHeWasTerrifiedAndReceivedNoAnswerThroughTheMeansHeSought } from "@/content/bites/what-did-saul-do-when-he-was-terrified-and-received-no-answer-through-the-means-he-sought";
+import { whatUnusualObjectDidZechariahSeeFlyingThroughTheAir } from "@/content/bites/what-unusual-object-did-zechariah-see-flying-through-the-air";
+import { whatDoesGodPromiseHisPeopleWhenTheyPassThroughWatersAndFire } from "@/content/bites/what-does-god-promise-his-people-when-they-pass-through-waters-and-fire";
+import { accordingToJesusShortStoryWhichDebtorWouldLoveTheLenderMore } from "@/content/bites/according-to-jesus-short-story-which-debtor-would-love-the-lender-more";
+import { whatDidEbedMelechUseWithTheRopesToProtectJeremiahWhilePullingHimFromTheCistern } from "@/content/bites/what-did-ebed-melech-use-with-the-ropes-to-protect-jeremiah-while-pulling-him-from-the-cistern";
+import { whereWereIsraeliteHouseholdsToldToPutTheLambSBloodOnTheFirstPassoverNight } from "@/content/bites/where-were-israelite-households-told-to-put-the-lamb-s-blood-on-the-first-passover-night";
+import { whatSmallCreatureDoesPsalm84SayFoundAHomeNearGodSAltars } from "@/content/bites/what-small-creature-does-psalm-84-say-found-a-home-near-god-s-altars";
+import { whatMayHappenSevenTimesToARighteousPersonWhoStillRisesAgain } from "@/content/bites/what-may-happen-seven-times-to-a-righteous-person-who-still-rises-again";
+import { whatHappenedAfterAGroupMockedElishaAndHePronouncedACurseInTheLordSName } from "@/content/bites/what-happened-after-a-group-mocked-elisha-and-he-pronounced-a-curse-in-the-lord-s-name";
+import { whatObjectDidEzekielUseToCreateAModelOfJerusalemUnderSiege } from "@/content/bites/what-object-did-ezekiel-use-to-create-a-model-of-jerusalem-under-siege";
+import { whatDoesZephaniahSayGodWillDoOverHisRestoredPeople } from "@/content/bites/what-does-zephaniah-say-god-will-do-over-his-restored-people";
+import { whatCouldTheBlindManSeeAfterJesusFirstPlacedHisHandsOnHim } from "@/content/bites/what-could-the-blind-man-see-after-jesus-first-placed-his-hands-on-him";
+import { whomDidJosiahSOfficialsConsultAfterTheBookOfTheLawWasFound } from "@/content/bites/whom-did-josiah-s-officials-consult-after-the-book-of-the-law-was-found";
+import { whatHappenedAfterKingJehoiakimCutAndBurnedJeremiahSScroll } from "@/content/bites/what-happened-after-king-jehoiakim-cut-and-burned-jeremiah-s-scroll";
+import { whatDidDavidAskGodToPlaceOverHisMouth } from "@/content/bites/what-did-david-ask-god-to-place-over-his-mouth";
+import { whyDoesEcclesiastesEncourageSowingInTheMorningAndContinuingInTheEvening } from "@/content/bites/why-does-ecclesiastes-encourage-sowing-in-the-morning-and-continuing-in-the-evening";
+import { whatDidJesusSayHisComingCouldBringWithinAHousehold } from "@/content/bites/what-did-jesus-say-his-coming-could-bring-within-a-household";
+import { whatHappenedWhenADeadManSBodyTouchedElishaSBones } from "@/content/bites/what-happened-when-a-dead-man-s-body-touched-elisha-s-bones";
+import { inNahumSOpeningPoemWhatIsCalledTheStrongholdWherePeopleMayTakeRefuge } from "@/content/bites/in-nahum-s-opening-poem-what-is-called-the-stronghold-where-people-may-take-refuge";
+import { whatDistinguishedTheOneHealedManWhoReturnedToJesusFromTheOtherNine } from "@/content/bites/what-distinguished-the-one-healed-man-who-returned-to-jesus-from-the-other-nine";
+import { whatDidTheWidowsShowPeterAfterTabithaDied } from "@/content/bites/what-did-the-widows-show-peter-after-tabitha-died";
+import { whatContrastDidHaggaiExposeInThePrioritiesOfTheReturnedCommunity } from "@/content/bites/what-contrast-did-haggai-expose-in-the-priorities-of-the-returned-community";
+import { whatDoesMosesAskGodToTeachHisPeopleToNumber } from "@/content/bites/what-does-moses-ask-god-to-teach-his-people-to-number";
+import { whichTinyCreatureIsPraisedForPreparingFoodDuringSummer } from "@/content/bites/which-tiny-creature-is-praised-for-preparing-food-during-summer";
+import { whatDidJesusSayAWouldBeDiscipleShouldDoBeforeBeginningLikeABuilderPlanningATower } from "@/content/bites/what-did-jesus-say-a-would-be-disciple-should-do-before-beginning-like-a-builder-planning-a-tower";
+import { whatAppearedDuringBelshazzarSFeastAndWroteOnThePalaceWall } from "@/content/bites/what-appeared-during-belshazzar-s-feast-and-wrote-on-the-palace-wall";
+import { whatDoesTheWriterCallToMindInTheMiddleOfHisAfflictionThatGivesHimHope } from "@/content/bites/what-does-the-writer-call-to-mind-in-the-middle-of-his-affliction-that-gives-him-hope";
+import { whatDidJesusFinallySayWasGreatAboutTheCanaaniteWomanSResponse } from "@/content/bites/what-did-jesus-finally-say-was-great-about-the-canaanite-woman-s-response";
+import { whatHappenedWhenElizabethHeardMarySGreeting } from "@/content/bites/what-happened-when-elizabeth-heard-mary-s-greeting";
+import { whatLimitedTestDidDanielProposeInsteadOfImmediatelyEatingTheKingSFood } from "@/content/bites/what-limited-test-did-daniel-propose-instead-of-immediately-eating-the-king-s-food";
+import { whatDidJabezAskGodToKeepHimFrom } from "@/content/bites/what-did-jabez-ask-god-to-keep-him-from";
+import { whatDoesProverbsCallAnsweringBeforeListening } from "@/content/bites/what-does-proverbs-call-answering-before-listening";
+import { whereWereTheExilesWhenTheyWeptAndRememberedZion } from "@/content/bites/where-were-the-exiles-when-they-wept-and-remembered-zion";
+import { whatBorrowedObjectFellIntoTheWaterWhileTheProphetsWereCuttingTrees } from "@/content/bites/what-borrowed-object-fell-into-the-water-while-the-prophets-were-cutting-trees";
+import { whatDoesJoelTellThePeopleToTearInsteadOfMerelyTearingTheirClothes } from "@/content/bites/what-does-joel-tell-the-people-to-tear-instead-of-merely-tearing-their-clothes";
+import { whatSignDidTheAngelGiveTheShepherdsForIdentifyingTheNewbornMessiah } from "@/content/bites/what-sign-did-the-angel-give-the-shepherds-for-identifying-the-newborn-messiah";
+import { whatDidHannahBringSamuelEachYearWhenSheCameToOfferTheSacrifice } from "@/content/bites/what-did-hannah-bring-samuel-each-year-when-she-came-to-offer-the-sacrifice";
+import { whatAbuseDidNehemiahConfrontAmongTheReturnedJudeans } from "@/content/bites/what-abuse-did-nehemiah-confront-among-the-returned-judeans";
+import { whatMakesPsalm88UnusualAmongBiblicalLaments } from "@/content/bites/what-makes-psalm-88-unusual-among-biblical-laments";
+import { whatDoesProverbsCompareToGoldApplesInSilverSettings } from "@/content/bites/what-does-proverbs-compare-to-gold-apples-in-silver-settings";
+import { whatModelDoesPaulGiveHusbandsForLovingTheirWives } from "@/content/bites/what-model-does-paul-give-husbands-for-loving-their-wives";
+import { whatObjectsCarriedFromPaulWereAssociatedWithExtraordinaryHealingsInEphesus } from "@/content/bites/what-objects-carried-from-paul-were-associated-with-extraordinary-healings-in-ephesus";
+import { whatDoesPaulSayCannotBeBoundEvenWhileHeIsChained } from "@/content/bites/what-does-paul-say-cannot-be-bound-even-while-he-is-chained";
+import { inMarySSongWhomDoesSheSayGodHasFilledWithGoodThings } from "@/content/bites/in-mary-s-song-whom-does-she-say-god-has-filled-with-good-things";
+import { whatDidJosephPlanToDoBeforeTheAngelSpokeToHimInADream } from "@/content/bites/what-did-joseph-plan-to-do-before-the-angel-spoke-to-him-in-a-dream";
+import { fromWhichSmallTownDidMicahSayIsraelSRulerWouldCome } from "@/content/bites/from-which-small-town-did-micah-say-israel-s-ruler-would-come";
+import { whatImageDoesZechariahUseForGodSComingSalvation } from "@/content/bites/what-image-does-zechariah-use-for-god-s-coming-salvation";
+import { whenShouldHelpNotBeDelayedIfYouHaveThePowerToGiveIt } from "@/content/bites/when-should-help-not-be-delayed-if-you-have-the-power-to-give-it";
+import { whichEarlierScriptureDoesMatthewConnectWithJesusReturningFromEgypt } from "@/content/bites/which-earlier-scripture-does-matthew-connect-with-jesus-returning-from-egypt";
+import { whatMovedBesideEzekielSFourLivingCreatures } from "@/content/bites/what-moved-beside-ezekiel-s-four-living-creatures";
+import { whatHadTheHolySpiritRevealedSimeonWouldSeeBeforeHeDied } from "@/content/bites/what-had-the-holy-spirit-revealed-simeon-would-see-before-he-died";
+import { whereWereJesusAndMaryWhenTheMagiEnteredAndSawTheChild } from "@/content/bites/where-were-jesus-and-mary-when-the-magi-entered-and-saw-the-child";
+import { whatPhraseDoesJamesRecommendWhenSpeakingAboutFuturePlans } from "@/content/bites/what-phrase-does-james-recommend-when-speaking-about-future-plans";
+import { whoDidJesusSayKnowsTheDayAndHourOfHisComing } from "@/content/bites/who-did-jesus-say-knows-the-day-and-hour-of-his-coming";
+import { whatTwoTreesStoodBesideTheLampstandInZechariahSVision } from "@/content/bites/what-two-trees-stood-beside-the-lampstand-in-zechariah-s-vision";
 import { answerBases, answerSatisfactions, questionTypes } from "@/lib/editorialMetadata";
 import { siteConfig } from "@/lib/siteConfig";
 import type {
@@ -263,6 +324,67 @@ const allBites: BibleBite[] = [
   whatDidPaulAskTheColossiansToPrayGodWouldOpen,
   whatProblemMadeCorinthSLordSSupperGatheringsDoMoreHarmThanGood,
   whatInvitationIsRepeatedNearTheVeryEndOfTheBible,
+  whatDoesIsaiahSayGodGivesToPeopleWhoAreFaintAndPowerless,
+  whatDidJesusSayAfterReadingIsaiahSWordsAboutGoodNewsAndFreedom,
+  whatDidElishaTellNaamanToDoToBeHealedOfHisSkinDisease,
+  whatWasDiscoveredWhileWorkersWereRepairingTheTempleDuringJosiahSReign,
+  whatDoesPsalm62InviteGodSPeopleToPourOutBeforeHim,
+  whichDoesEcclesiastesSayIsBetterWhenADifficultProcessFeelsSlow,
+  whatDidSaulDoWhenHeWasTerrifiedAndReceivedNoAnswerThroughTheMeansHeSought,
+  whatUnusualObjectDidZechariahSeeFlyingThroughTheAir,
+  whatDoesGodPromiseHisPeopleWhenTheyPassThroughWatersAndFire,
+  accordingToJesusShortStoryWhichDebtorWouldLoveTheLenderMore,
+  whatDidEbedMelechUseWithTheRopesToProtectJeremiahWhilePullingHimFromTheCistern,
+  whereWereIsraeliteHouseholdsToldToPutTheLambSBloodOnTheFirstPassoverNight,
+  whatSmallCreatureDoesPsalm84SayFoundAHomeNearGodSAltars,
+  whatMayHappenSevenTimesToARighteousPersonWhoStillRisesAgain,
+  whatHappenedAfterAGroupMockedElishaAndHePronouncedACurseInTheLordSName,
+  whatObjectDidEzekielUseToCreateAModelOfJerusalemUnderSiege,
+  whatDoesZephaniahSayGodWillDoOverHisRestoredPeople,
+  whatCouldTheBlindManSeeAfterJesusFirstPlacedHisHandsOnHim,
+  whomDidJosiahSOfficialsConsultAfterTheBookOfTheLawWasFound,
+  whatHappenedAfterKingJehoiakimCutAndBurnedJeremiahSScroll,
+  whatDidDavidAskGodToPlaceOverHisMouth,
+  whyDoesEcclesiastesEncourageSowingInTheMorningAndContinuingInTheEvening,
+  whatDidJesusSayHisComingCouldBringWithinAHousehold,
+  whatHappenedWhenADeadManSBodyTouchedElishaSBones,
+  inNahumSOpeningPoemWhatIsCalledTheStrongholdWherePeopleMayTakeRefuge,
+  whatDistinguishedTheOneHealedManWhoReturnedToJesusFromTheOtherNine,
+  whatDidTheWidowsShowPeterAfterTabithaDied,
+  whatContrastDidHaggaiExposeInThePrioritiesOfTheReturnedCommunity,
+  whatDoesMosesAskGodToTeachHisPeopleToNumber,
+  whichTinyCreatureIsPraisedForPreparingFoodDuringSummer,
+  whatDidJesusSayAWouldBeDiscipleShouldDoBeforeBeginningLikeABuilderPlanningATower,
+  whatAppearedDuringBelshazzarSFeastAndWroteOnThePalaceWall,
+  whatDoesTheWriterCallToMindInTheMiddleOfHisAfflictionThatGivesHimHope,
+  whatDidJesusFinallySayWasGreatAboutTheCanaaniteWomanSResponse,
+  whatHappenedWhenElizabethHeardMarySGreeting,
+  whatLimitedTestDidDanielProposeInsteadOfImmediatelyEatingTheKingSFood,
+  whatDidJabezAskGodToKeepHimFrom,
+  whatDoesProverbsCallAnsweringBeforeListening,
+  whereWereTheExilesWhenTheyWeptAndRememberedZion,
+  whatBorrowedObjectFellIntoTheWaterWhileTheProphetsWereCuttingTrees,
+  whatDoesJoelTellThePeopleToTearInsteadOfMerelyTearingTheirClothes,
+  whatSignDidTheAngelGiveTheShepherdsForIdentifyingTheNewbornMessiah,
+  whatDidHannahBringSamuelEachYearWhenSheCameToOfferTheSacrifice,
+  whatAbuseDidNehemiahConfrontAmongTheReturnedJudeans,
+  whatMakesPsalm88UnusualAmongBiblicalLaments,
+  whatDoesProverbsCompareToGoldApplesInSilverSettings,
+  whatModelDoesPaulGiveHusbandsForLovingTheirWives,
+  whatObjectsCarriedFromPaulWereAssociatedWithExtraordinaryHealingsInEphesus,
+  whatDoesPaulSayCannotBeBoundEvenWhileHeIsChained,
+  inMarySSongWhomDoesSheSayGodHasFilledWithGoodThings,
+  whatDidJosephPlanToDoBeforeTheAngelSpokeToHimInADream,
+  fromWhichSmallTownDidMicahSayIsraelSRulerWouldCome,
+  whatImageDoesZechariahUseForGodSComingSalvation,
+  whenShouldHelpNotBeDelayedIfYouHaveThePowerToGiveIt,
+  whichEarlierScriptureDoesMatthewConnectWithJesusReturningFromEgypt,
+  whatMovedBesideEzekielSFourLivingCreatures,
+  whatHadTheHolySpiritRevealedSimeonWouldSeeBeforeHeDied,
+  whereWereJesusAndMaryWhenTheMagiEnteredAndSawTheChild,
+  whatPhraseDoesJamesRecommendWhenSpeakingAboutFuturePlans,
+  whoDidJesusSayKnowsTheDayAndHourOfHisComing,
+  whatTwoTreesStoodBesideTheLampstandInZechariahSVision,
 ];
 
 function assert(condition: boolean, message: string): asserts condition {

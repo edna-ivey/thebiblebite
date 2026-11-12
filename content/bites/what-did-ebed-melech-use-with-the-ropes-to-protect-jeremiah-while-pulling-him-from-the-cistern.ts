@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatDidEbedMelechUseWithTheRopesToProtectJeremiahWhilePullingHimFromTheCistern: BibleBite = {
+  date: "2026-11-11",
+  slug: "what-did-ebed-melech-use-with-the-ropes-to-protect-jeremiah-while-pulling-him-from-the-cistern",
+  title: "What did Ebed-melech use with the ropes to protect Jeremiah while pulling him from the cistern?",
+  curiosityHook: "One detail in Jeremiah changes how the whole scene comes into focus.",
+  scriptureReference: "Jeremiah 38:7-13",
+  scriptureText: "So Ebedmelech took the men with him, and went into the house of the king under the treasury, and took from there rags and worn-out garments, and let them down by cords into the dungeon to Jeremiah.",
+  translation: "WEB",
+  topic: "people-and-stories",
+  questionType: "look-closer",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What did Ebed-melech use with the ropes to protect Jeremiah while pulling him from the cistern?",
+  answerChoices: [
+    { id: "A", text: "Pieces of leather armor" },
+    { id: "B", text: "Branches cut from the palace garden" },
+    { id: "C", text: "Worn cloths and old rags" },
+    { id: "D", text: "A wooden platform lowered by soldiers" },
+  ],
+  correctAnswer: "C",
+  explanation: "Jeremiah had been lowered into a muddy cistern and left to die because officials hated his message. Ebed-melech, an Ethiopian official in the royal palace, heard what happened. He went directly to King Zedekiah and said the officials had acted wickedly.\n\nThe king authorized a rescue. Ebed-melech gathered men, ropes, and worn cloths from a storage place. He lowered the cloths to Jeremiah and told him to place them under his arms beneath the ropes. Then the men pulled Jeremiah out.\n\nThe old rags are a small detail with enormous tenderness. Ebed-melech did not only accomplish the rescue. He considered how to keep the rescue itself from causing unnecessary pain to a weak and trapped person. Courage and gentleness worked together.\n\nHis position was complicated. He served inside a palace ruled by a fearful king, yet he used the access he had to challenge injustice. Scripture later records God's promise to preserve Ebed-melech because he trusted in the Lord. The foreign court official acted with more covenant faithfulness than many leaders born into Judah.\n\nWe often imagine courage as a dramatic confrontation and compassion as a soft feeling. Ebed-melech shows both in practical form: speak to the person with authority, gather help, find the ropes, remember the rags, and pull.",
+  bigTruth: "Courage notices who is trapped. Compassion notices what will hurt while helping them out.",
+  takeTheBite: "Think of one person who needs practical help. Ask not only, \"How can I solve this?\" but also, \"How can I protect their dignity and reduce unnecessary pain while I help?\"",
+  prayer: "God, give me Ebed-melech's courage to name injustice even when powerful people caused it. Give me his practical compassion too. Help me notice the small details that preserve another person's dignity and ease their pain. Keep me from celebrating a solution while ignoring how my help feels to the person receiving it. Show me what access, resources, and voice I already have, and teach me to use them faithfully. Amen.",
+  deeperReading: {
+    reference: "Jeremiah 38:1-13; Jeremiah 39:15-18; Isaiah 58:6-10",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "jeremiah",
+    chapter: 38,
+    verseStart: 1,
+    verseEnd: 13,
+  },
+  tags: ["Jeremiah", "People & Stories"],
+  status: "published",
+};

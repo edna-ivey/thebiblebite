@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatDidElishaTellNaamanToDoToBeHealedOfHisSkinDisease: BibleBite = {
+  date: "2026-11-03",
+  slug: "what-did-elisha-tell-naaman-to-do-to-be-healed-of-his-skin-disease",
+  title: "What did Elisha tell Naaman to do to be healed of his skin disease?",
+  curiosityHook: "This moment in 2 Kings asks us to slow down and look again.",
+  scriptureReference: "2 Kings 5:1-14",
+  scriptureText: "Elisha sent a messenger to him, saying, “Go and wash in the Jordan seven times, and your flesh shall come again to you, and you shall be clean.”",
+  translation: "WEB",
+  topic: "people-and-stories",
+  questionType: "look-closer",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What did Elisha tell Naaman to do to be healed of his skin disease?",
+  answerChoices: [
+    { id: "A", text: "Offer a sacrifice on Mount Carmel" },
+    { id: "B", text: "Spend seven days fasting in Samaria" },
+    { id: "C", text: "Wash seven times in the Jordan River" },
+    { id: "D", text: "Carry water from Israel back to Syria" },
+  ],
+  correctAnswer: "C",
+  explanation: "Naaman arrived in Israel with military prestige, a letter from his king, valuable gifts, and a serious skin disease. He expected healing to look as impressive as his rank. He imagined Elisha coming outside, calling on God, and waving a hand over the diseased place.\n\nInstead, Elisha sent a messenger with a plain instruction: wash seven times in the Jordan. Naaman became angry. Syria had rivers he considered better than Israel's muddy water. The command felt too ordinary, and receiving it through a servant may have felt beneath him.\n\nNaaman's own servants helped him see what pride was costing. If the prophet had assigned a great task, they reasoned, Naaman would have done it. Why refuse a simple one? He listened, went down to the Jordan, and dipped seven times. His flesh was restored.\n\nThe water was not a magic treatment, and Naaman did not purchase the miracle with his gifts. The story exposes his need to receive grace on God's terms. A powerful commander had to become teachable enough to listen to servants, obey an unimpressive instruction, and enter a river he disliked.\n\nHumility did not earn his healing. It brought him to the place where he stopped demanding a performance and received a gift. Sometimes the obstacle between us and obedience is not that God's direction is too hard. It is that it seems too small for the story we wanted to tell about ourselves.",
+  bigTruth: "Pride asks for an impressive path. Humility receives the grace God actually gives.",
+  takeTheBite: "Notice one simple, wise action you have resisted because it feels unimpressive. Do it today without waiting for a more dramatic assignment.",
+  prayer: "God, I often want change to happen in a way that protects my pride and makes me look capable. Make me teachable. Help me listen when wisdom comes through an unexpected person and obey when the next step seems ordinary. Free me from trying to purchase, control, or perform for gifts that only grace can provide. Give me the humility to receive Your help on Your terms and the gratitude to name You as the giver. Amen.",
+  deeperReading: {
+    reference: "2 Kings 5:1-19; Luke 4:24-27; James 4:6-10",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "2-kings",
+    chapter: 5,
+    verseStart: 1,
+    verseEnd: 19,
+  },
+  tags: ["2 Kings", "People & Stories"],
+  status: "published",
+};

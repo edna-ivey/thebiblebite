@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatDidJesusSayAWouldBeDiscipleShouldDoBeforeBeginningLikeABuilderPlanningATower: BibleBite = {
+  date: "2026-12-01",
+  slug: "what-did-jesus-say-a-would-be-disciple-should-do-before-beginning-like-a-builder-planning-a-tower",
+  title: "What did Jesus say a would-be disciple should do before beginning, like a builder planning a tower?",
+  curiosityHook: "This moment in Luke asks us to slow down and look again.",
+  scriptureReference: "Luke 14:25-33",
+  scriptureText: "“If anyone comes to me, and doesn’t disregard his own father, mother, wife, children, brothers, and sisters, yes, and his own life also, he can’t be my disciple.",
+  translation: "WEB",
+  topic: "hard-questions",
+  questionType: "hard-question",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What did Jesus say a would-be disciple should do before beginning, like a builder planning a tower?",
+  answerChoices: [
+    { id: "A", text: "Ask the crowd for approval" },
+    { id: "B", text: "Wait until following becomes easy" },
+    { id: "C", text: "Count the cost" },
+    { id: "D", text: "Sell only unnecessary possessions" },
+  ],
+  correctAnswer: "C",
+  explanation: "Large crowds traveled with Jesus when He turned and spoke about the cost of discipleship. He said that anyone who came to Him without \"hating\" father, mother, spouse, children, siblings, and even life itself could not be His disciple. He also spoke of carrying one's cross and renouncing possessions.\n\nElsewhere Jesus commands love, honors marriage, condemns neglect of parents, and calls even enemies to be loved. In this setting, \"hate\" functions as a stark comparison of loyalties. Matthew's parallel says anyone who loves family more than Jesus is not worthy of Him. The point is not emotional hostility or permission to abandon responsibilities. It is that no relationship, possession, or instinct for self-preservation can hold a higher claim than Jesus.\n\nThe tower builder and the king considering war both evaluate what the undertaking requires. Jesus refuses to recruit people through hidden terms. Discipleship is grace, but grace does not make allegiance weightless.\n\nThis teaching can be misused by controlling leaders who demand loyalty to themselves and call it loyalty to Christ. Jesus is not handing human authorities unlimited power. He is naming His own unique claim and asking people to follow with open eyes.\n\nCounting the cost is not talking yourself out of faith. It is refusing to reduce following Jesus to enthusiasm without surrender.",
+  bigTruth: "Jesus invites honest allegiance, not devotion built on hidden terms.",
+  takeTheBite: "Name one loyalty, possession, or fear that most easily outranks obedience to Jesus. Write one boundary or action that puts that loyalty back in its proper place without neglecting a genuine responsibility.",
+  prayer: "Jesus, Your call is generous, but it is not casual. Show me where I want Your comfort without Your authority. Order my loves so that devotion to You makes me more truthful, responsible, and loving, not harsh or neglectful. Protect me from leaders who misuse Your words to demand control. Give me courage to count the cost honestly and grace to follow You with an undivided heart. Amen.",
+  deeperReading: {
+    reference: "Luke 14:25-33; Matthew 10:37-39; Mark 7:9-13",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "luke",
+    chapter: 14,
+    verseStart: 25,
+    verseEnd: 33,
+  },
+  tags: ["Luke", "Hard Questions"],
+  status: "published",
+};

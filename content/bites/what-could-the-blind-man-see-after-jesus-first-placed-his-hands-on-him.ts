@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatCouldTheBlindManSeeAfterJesusFirstPlacedHisHandsOnHim: BibleBite = {
+  date: "2026-11-18",
+  slug: "what-could-the-blind-man-see-after-jesus-first-placed-his-hands-on-him",
+  title: "What could the blind man see after Jesus first placed His hands on him?",
+  curiosityHook: "One detail in Mark changes how the whole scene comes into focus.",
+  scriptureReference: "Mark 8:22-26",
+  scriptureText: "He took hold of the blind man by the hand, and brought him out of the village. When he had spat on his eyes, and laid his hands on him, he asked him if he saw anything.",
+  translation: "WEB",
+  topic: "jesus-and-the-gospel",
+  questionType: "look-closer",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What could the blind man see after Jesus first placed His hands on him?",
+  answerChoices: [
+    { id: "A", text: "Nothing at all had changed" },
+    { id: "B", text: "People who looked like trees walking" },
+    { id: "C", text: "Only the faces of Jesus and the disciples" },
+    { id: "D", text: "The village clearly but not the road" },
+  ],
+  correctAnswer: "B",
+  explanation: "People brought a blind man to Jesus in Bethsaida and begged Him to touch him. Jesus led the man outside the village, put saliva on his eyes, laid hands on him, and asked what he saw.\n\nThe man answered honestly: he could see people, but they looked like trees walking. Jesus laid hands on his eyes again. This time the man looked intently, his sight was restored, and he saw everything clearly.\n\nThis is the only healing in the Gospels described in two distinct stages. The text does not say Jesus lacked power on the first attempt. Mark places the scene beside a larger story about disciples who can see something about Jesus but still do not understand clearly. Immediately afterward, Peter identifies Jesus as the Christ, yet rejects Jesus' teaching about suffering and the cross. His vision is real and incomplete.\n\nThat literary connection is widely recognized, though Mark does not stop to explain the miracle as a formal allegory. At minimum, the scene honors honest partial sight. The man does not pretend the blur is clarity, and Jesus does not abandon him halfway through.\n\nSpiritual understanding can also arrive in stages. We may grasp something true while still carrying distorted expectations. Growth requires the humility to say, \"I see, but not clearly yet,\" and to remain with Jesus for further correction.",
+  bigTruth: "Partial understanding is not failure, but it is not the same as clear sight. Jesus is patient enough to keep working.",
+  takeTheBite: "Name one belief or situation you may be seeing only partly. Replace certainty with a prayer for clearer sight and seek one perspective that could correct your blind spot.",
+  prayer: "Jesus, thank You for not shaming people who see only partly. I often confuse my first understanding with the whole picture. Give me honesty to admit what remains blurry and patience to keep learning. Touch the assumptions that distort how I see You, other people, and myself. Keep me close when correction takes more than one moment. Make me grateful for real progress without settling for a vision that is still unclear. Amen.",
+  deeperReading: {
+    reference: "Mark 8:14-38; Mark 10:46-52; 1 Corinthians 13:9-12",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "mark",
+    chapter: 8,
+    verseStart: 14,
+    verseEnd: 38,
+  },
+  tags: ["Mark", "Jesus & the Gospel"],
+  status: "published",
+};

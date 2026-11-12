@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatDidJesusFinallySayWasGreatAboutTheCanaaniteWomanSResponse: BibleBite = {
+  date: "2026-12-04",
+  slug: "what-did-jesus-finally-say-was-great-about-the-canaanite-woman-s-response",
+  title: "What did Jesus finally say was great about the Canaanite woman's response?",
+  curiosityHook: "The familiar words of Matthew carry more tension than they first appear to.",
+  scriptureReference: "Matthew 15:21-28",
+  scriptureText: "But he answered, “It is not appropriate to take the children’s bread and throw it to the dogs.”",
+  translation: "WEB",
+  topic: "jesus-and-the-gospel",
+  questionType: "look-closer",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What did Jesus finally say was great about the Canaanite woman's response?",
+  answerChoices: [
+    { id: "A", text: "Her knowledge" },
+    { id: "B", text: "Her faith" },
+    { id: "C", text: "Her patience" },
+    { id: "D", text: "Her ancestry" },
+  ],
+  correctAnswer: "B",
+  explanation: "A Canaanite woman begged Jesus to heal her daughter. The disciples wanted her sent away, and Jesus spoke of His mission to Israel. When He said it was not right to take the children's bread and throw it to the dogs, she answered that even the dogs eat crumbs from their masters' table. Jesus praised her great faith, and her daughter was healed. The exchange is uncomfortable, especially because Matthew deliberately identifies her with Israel's historic outsiders. Some readers see Jesus testing or drawing out her faith, but the text does not explicitly state His private intention. What it clearly shows is her persistence, her confidence that His mercy was abundant, and Jesus' public commendation. She did not claim superior status. She trusted that even what seemed like a crumb of His mercy was enough. Her answer did not earn compassion through cleverness; it revealed faith that refused to imagine God's mercy as scarce.",
+  bigTruth: "Faith keeps appealing to Jesus because it trusts that His mercy is not too small for an outsider.",
+  takeTheBite: "Notice one person you have mentally placed outside the circle of attention or welcome. Offer one concrete act that treats that person as worthy of being heard.",
+  prayer: "Jesus, difficult words can expose how quickly I decide who belongs near mercy. Give me the woman's courage to keep bringing real need to You and her confidence in Your abundance. Correct the boundaries I defend more fiercely than compassion. Help me listen to people others would dismiss and trust that Your grace is not diminished when it reaches beyond the circles I expect. Amen.",
+  deeperReading: {
+    reference: "Matthew 15:21-28; Mark 7:24-30; Isaiah 56:3-8",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "matthew",
+    chapter: 15,
+    verseStart: 21,
+    verseEnd: 28,
+  },
+  tags: ["Matthew", "Jesus & the Gospel"],
+  status: "published",
+};

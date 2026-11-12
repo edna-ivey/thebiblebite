@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whichDoesEcclesiastesSayIsBetterWhenADifficultProcessFeelsSlow: BibleBite = {
+  date: "2026-11-06",
+  slug: "which-does-ecclesiastes-say-is-better-when-a-difficult-process-feels-slow",
+  title: "Which does Ecclesiastes say is better when a difficult process feels slow?",
+  curiosityHook: "The familiar words of Ecclesiastes carry more tension than they first appear to.",
+  scriptureReference: "Ecclesiastes 7:8-9",
+  scriptureText: "Better is the end of a thing than its beginning. The patient in spirit is better than the proud in spirit.",
+  translation: "WEB",
+  topic: "wisdom-and-life",
+  questionType: "big-meaning",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "Which does Ecclesiastes say is better when a difficult process feels slow?",
+  answerChoices: [
+    { id: "A", text: "A dramatic beginning rather than a quiet ending" },
+    { id: "B", text: "Patience of spirit rather than pride of spirit" },
+    { id: "C", text: "Anger that forces other people to act quickly" },
+    { id: "D", text: "Avoiding any task whose outcome cannot be controlled" },
+  ],
+  correctAnswer: "B",
+  explanation: "Ecclesiastes says the end of a matter is better than its beginning, and patience of spirit is better than pride of spirit. Then it warns against becoming quickly angry, because anger settles comfortably in the lap of fools.\n\nBeginnings often make us feel capable. Plans are clean, energy is fresh, and results still look simple. The middle of a task reveals delays, limits, other people's needs, and our own lack of control. Pride becomes impatient because it assumes reality should cooperate with our timetable.\n\nPatience is not the same as indifference. It does not mean tolerating abuse, refusing necessary action, or pretending delays never matter. Biblical patience is the strength to remain truthful and faithful without letting frustration choose our character. It allows a process to mature and gives people room to learn. It also helps us distinguish urgent responsibility from wounded ego.\n\nThe Teacher's warning about quick anger is practical. Anger can alert us to something wrong, but when we give it a permanent seat, it begins interpreting every obstacle as an insult. Patience asks a better question: what does faithfulness require while the outcome is still unfinished?\n\nWisdom is often less impressive at the beginning because it is willing to stay for the whole work. A faithful ending is built through many ordinary decisions not to let pride rush the process.",
+  bigTruth: "Patience is not passive. It is the humility to remain faithful while a good work is still unfinished.",
+  takeTheBite: "Choose one delayed situation that has been feeding your irritation. Separate what truly needs action from what merely threatens your preferred timetable, then take the next calm step.",
+  prayer: "God, I like clear beginnings and quick results. When a process becomes slow or complicated, pride and anger rise quickly in me. Give me patience that stays engaged without becoming controlling. Show me what needs action, what needs a boundary, and what simply needs time. Keep frustration from choosing my words. Make me faithful in the long middle so that the work, the people involved, and my own character can reach a wiser end. Amen.",
+  deeperReading: {
+    reference: "Ecclesiastes 7:1-14; Proverbs 14:29; James 1:19-20",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "ecclesiastes",
+    chapter: 7,
+    verseStart: 1,
+    verseEnd: 14,
+  },
+  tags: ["Ecclesiastes", "Wisdom & Life"],
+  status: "published",
+};

@@ -1,0 +1,35 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatDidDavidAskGodToPlaceOverHisMouth: BibleBite = {
+  date: "2026-11-21",
+  slug: "what-did-david-ask-god-to-place-over-his-mouth",
+  title: "What did David ask God to place over his mouth?",
+  curiosityHook: "A small detail in Psalms opens the door to a larger truth.",
+  scriptureReference: "Psalm 141:1-4",
+  scriptureText: "Let my prayer be set before you like incense; the lifting up of my hands like the evening sacrifice.",
+  translation: "WEB",
+  topic: "prayer-and-worship",
+  questionType: "look-closer",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What did David ask God to place over his mouth?",
+  answerChoices: [
+    { id: "A", text: "A guard" },
+    { id: "B", text: "A song of praise" },
+    { id: "C", text: "A sign for his enemies" },
+    { id: "D", text: "A prophet's blessing" },
+  ],
+  correctAnswer: "A",
+  explanation: "Psalm 141 opens urgently: \"Yahweh, I have called on you. Come to me quickly!\" David asks that his prayer rise like incense and his lifted hands like the evening sacrifice.\n\nThen his prayer becomes very practical. He asks God to set a guard over his mouth and watch the door of his lips. He also asks God not to let his heart incline toward evil or join people who practice wrongdoing.\n\nDavid understands that danger is not only outside him. He may be surrounded by traps and wicked actions, but his own mouth and heart also need protection. Prayer is not merely asking God to manage hostile people. It is inviting God to govern our response while pressure is high.\n\nThe image of a guarded door is helpful. A guard does not permanently seal the entrance. The guard pays attention to what should pass through and what should be stopped. Wise speech is not silence in every conflict. It is speech that has been examined before it leaves us.\n\nDavid later welcomes correction from a righteous person, comparing it to oil on his head. A guarded mouth and a correctable heart belong together. If we only ask God to restrain everyone else, prayer can become another form of self-protection. Psalm 141 asks God to protect us from becoming part of the evil we oppose.",
+  bigTruth: "Prayer changes more than the pressure around us. It asks God to guard the person we become within it.",
+  takeTheBite: "Before one difficult conversation or message, pause and pray Psalm 141:3. Remove one sentence written mainly to wound, impress, or win.",
+  prayer: "Lord, come near while my emotions are loud. Set a guard over my mouth and watch the door of my lips. Keep me from using true concerns as permission for cruel words. Protect my heart from joining the very patterns I oppose. Give me courage to speak when love requires it, restraint when anger is driving me, and humility to receive correction. Let my prayer rise to You and my words become worthy of the One I am addressing. Amen.",
+  deeperReading: {
+    reference: "Psalm 141; Proverbs 10:17-21; James 3:1-12",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "psalms",
+    chapter: 141,
+  },
+  tags: ["Psalms", "Prayer & Worship"],
+  status: "published",
+};

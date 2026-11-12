@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const inMarySSongWhomDoesSheSayGodHasFilledWithGoodThings: BibleBite = {
+  date: "2026-12-20",
+  slug: "in-mary-s-song-whom-does-she-say-god-has-filled-with-good-things",
+  title: "In Mary's song, whom does she say God has filled with good things?",
+  curiosityHook: "A close look at Luke reveals a detail that is easy to miss.",
+  scriptureReference: "Luke 1:46-55",
+  scriptureText: "The angel said to her, “Don’t be afraid, Mary, for you have found favor with God.",
+  translation: "WEB",
+  topic: "jesus-and-the-gospel",
+  questionType: "look-closer",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "In Mary's song, whom does she say God has filled with good things?",
+  answerChoices: [
+    { id: "A", text: "The powerful" },
+    { id: "B", text: "The hungry" },
+    { id: "C", text: "The famous" },
+    { id: "D", text: "The self-sufficient" },
+  ],
+  correctAnswer: "B",
+  explanation: "Mary's song praises God for noticing her low estate and doing great things. It quickly expands beyond her own story: God scatters the proud, brings rulers down, lifts the lowly, fills the hungry, and sends the rich away empty. This is not a soft lullaby detached from public life. Mary understands the coming of Jesus as evidence that God's ancient promises are active and that human rankings will not have the final word. The verbs celebrate God's decisive character, even as the full renewal awaited Christ's ministry, cross, resurrection, and return. Mary's humility is not passivity. She magnifies God whose mercy disrupts pride and remembers the vulnerable.",
+  bigTruth: "The coming of Jesus reveals a kingdom that lifts the lowly and unsettles proud security.",
+  takeTheBite: "Share one concrete resource, meal, introduction, or opportunity in a way that increases another person's dignity rather than your visibility.",
+  prayer: "Mighty and merciful God, scatter the pride that makes me feel secure above others. Teach me to rejoice in a kingdom that lifts the lowly and feeds the hungry, even when it challenges my comfort. Remember those our systems overlook, and make my worship visible in generous action. Like Mary, let my whole life magnify You rather than the status I can gather. Amen.",
+  deeperReading: {
+    reference: "Luke 1:46-55; 1 Samuel 2:1-10; Luke 4:16-21",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "luke",
+    chapter: 1,
+    verseStart: 46,
+    verseEnd: 55,
+  },
+  tags: ["Luke", "Jesus & the Gospel"],
+  status: "published",
+};

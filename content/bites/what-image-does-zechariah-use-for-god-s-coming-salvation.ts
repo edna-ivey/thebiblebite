@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatImageDoesZechariahUseForGodSComingSalvation: BibleBite = {
+  date: "2026-12-23",
+  slug: "what-image-does-zechariah-use-for-god-s-coming-salvation",
+  title: "What image does Zechariah use for God's coming salvation?",
+  curiosityHook: "One detail in Luke changes how the whole scene comes into focus.",
+  scriptureReference: "Luke 1:67-79",
+  scriptureText: "The angel answered her, “The Holy Spirit will come on you, and the power of the Most High will overshadow you. Therefore also the holy one who is born from you will be called the Son of God.",
+  translation: "WEB",
+  topic: "prayer-and-worship",
+  questionType: "look-closer",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What image does Zechariah use for God's coming salvation?",
+  answerChoices: [
+    { id: "A", text: "A sunrise visiting from on high" },
+    { id: "B", text: "A river flowing from the temple" },
+    { id: "C", text: "A cedar growing on a mountain" },
+    { id: "D", text: "A trumpet sounding at noon" },
+  ],
+  correctAnswer: "A",
+  explanation: "Filled with the Holy Spirit, Zechariah praised God for visiting and redeeming His people. He connected God's action to covenant promises and described his infant son John as a prophet who would prepare the Lord's way and give knowledge of salvation through forgiveness. Then he pictured God's tender mercy as a sunrise visiting from on high, shining on those sitting in darkness and death's shadow and guiding feet into peace. Zechariah had spent months unable to speak. His restored voice did not center his inconvenience; it named God's mercy and his son's calling. The sunrise image does not deny darkness. It announces that darkness is no longer the only horizon.",
+  bigTruth: "God's tender mercy meets people in darkness and begins guiding them toward peace.",
+  takeTheBite: "Offer one \"sunrise\" action to someone in a dark season: a specific check-in, practical help, or patient presence without forcing cheerfulness.",
+  prayer: "God of tender mercy, visit the places in me that have grown accustomed to darkness. Thank You for forgiveness and for the light of Christ that does not shame people for needing dawn. Guide my feet into peace, and make my presence gentle with those who are waiting. Let my words point beyond myself to Your faithful promises and preparing grace. Amen.",
+  deeperReading: {
+    reference: "Luke 1:67-79; Isaiah 9:2-7; Malachi 4:2",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "luke",
+    chapter: 1,
+    verseStart: 67,
+    verseEnd: 79,
+  },
+  tags: ["Luke", "Prayer & Worship"],
+  status: "published",
+};

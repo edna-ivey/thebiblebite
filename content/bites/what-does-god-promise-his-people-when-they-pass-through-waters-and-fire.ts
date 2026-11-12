@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatDoesGodPromiseHisPeopleWhenTheyPassThroughWatersAndFire: BibleBite = {
+  date: "2026-11-09",
+  slug: "what-does-god-promise-his-people-when-they-pass-through-waters-and-fire",
+  title: "What does God promise His people when they pass through waters and fire?",
+  curiosityHook: "Isaiah places a surprising detail inside a much bigger story.",
+  scriptureReference: "Isaiah 43:1-3",
+  scriptureText: "But now Yahweh who created you, Jacob, and he who formed you, Israel, says: “Don’t be afraid, for I have redeemed you. I have called you by your name. You are mine.",
+  translation: "WEB",
+  topic: "faith-and-god",
+  questionType: "big-meaning",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What does God promise His people when they pass through waters and fire?",
+  answerChoices: [
+    { id: "A", text: "He will be with them" },
+    { id: "B", text: "They will never feel afraid" },
+    { id: "C", text: "Every danger will disappear before they reach it" },
+    { id: "D", text: "Other nations will always understand their faith" },
+  ],
+  correctAnswer: "A",
+  explanation: "Isaiah speaks to God's people with both tenderness and realism. \"Don't be afraid, for I have redeemed you. I have called you by your name. You are mine.\" Then the passage describes waters, rivers, and fire.\n\nThe promise is not that faithful people will avoid every threatening place. It is that God will be with them when they pass through it. The waters will not overwhelm them, and the flame will not consume them. Israel's story gives these images weight. God brought His people through the sea and would bring exiles through another impossible return. The language is poetic and covenantal, not a guarantee that believers will never experience injury, loss, or death.\n\nThat distinction matters. When this passage is treated as a promise of physical invulnerability, suffering people may feel that they failed or that God abandoned them. Isaiah's emphasis rests on belonging and presence. The One who formed and redeemed Israel calls them by name. Danger does not erase that identity.\n\nGod's presence may include rescue from a crisis. It may also include courage, companionship, wisdom, and faithfulness within a crisis whose outcome we cannot choose. The deepest assurance is not that we can predict the path, but that no part of it makes us unknown or ownerless.\n\nThe God who says \"You are mine\" does not watch from a safe distance. He goes with His people through the water.",
+  bigTruth: "God's presence is not proved by an easy road. It is promised in the middle of the road we must actually walk.",
+  takeTheBite: "Replace one vague fear with a specific prayer: \"God, be with me as I face ____.\" Then choose one grounded step that reflects His presence rather than panic.",
+  prayer: "God who calls me by name, I want Your presence to mean that nothing painful will happen. Teach me the stronger promise of knowing I am Yours in whatever I must cross. Be with me in the water that feels too deep and the pressure that feels too hot. Protect me from fear-driven choices. Give me companions, wisdom, courage, and endurance, and keep suffering from rewriting my identity. I belong to You. Amen.",
+  deeperReading: {
+    reference: "Isaiah 43:1-7; Exodus 14:10-31; Romans 8:31-39",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "isaiah",
+    chapter: 43,
+    verseStart: 1,
+    verseEnd: 7,
+  },
+  tags: ["Isaiah", "Faith & God"],
+  status: "published",
+};

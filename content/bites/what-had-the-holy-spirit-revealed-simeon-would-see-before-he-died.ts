@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatHadTheHolySpiritRevealedSimeonWouldSeeBeforeHeDied: BibleBite = {
+  date: "2026-12-27",
+  slug: "what-had-the-holy-spirit-revealed-simeon-would-see-before-he-died",
+  title: "What had the Holy Spirit revealed Simeon would see before he died?",
+  curiosityHook: "A close look at Luke reveals a detail that is easy to miss.",
+  scriptureReference: "Luke 2:25-35",
+  scriptureText: "Behold, there was a man in Jerusalem whose name was Simeon. This man was righteous and devout, looking for the consolation of Israel, and the Holy Spirit was on him.",
+  translation: "WEB",
+  topic: "faith-and-god",
+  questionType: "big-meaning",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What had the Holy Spirit revealed Simeon would see before he died?",
+  answerChoices: [
+    { id: "A", text: "The Lord's Christ" },
+    { id: "B", text: "Jerusalem rebuilt" },
+    { id: "C", text: "Rome defeated" },
+    { id: "D", text: "John preaching" },
+  ],
+  correctAnswer: "A",
+  explanation: "Simeon was righteous, devout, and waiting for Israel's consolation. The Spirit had revealed that he would not die before seeing the Lord's Christ. Led into the temple, he took the infant Jesus in his arms and praised God that his eyes had seen salvation, prepared for all peoples, a light for Gentiles and glory for Israel. Simeon's waiting was active attentiveness, not prediction-making. When the promise arrived, it looked like an infant carried by ordinary parents. He also told Mary that Jesus would expose hearts and that a sword would pierce her own soul. Fulfilled hope did not eliminate future pain. It gave Simeon enough light to bless God while holding promise and cost together.",
+  bigTruth: "Faithful waiting learns to recognize God's promise even when it arrives smaller and more costly than expected.",
+  takeTheBite: "Review one long-held hope. Write what faithfulness looks like today without requiring the final outcome to appear now.",
+  prayer: "Faithful God, waiting can narrow my imagination or make me demand signs on my schedule. Give me Simeon's attentiveness to Your Spirit and humility to recognize promise in an unexpected form. Help me hold joy without denying cost and hope without pretending pain is absent. Let patient obedience shape me while I wait, and teach me to bless You for the light I can already see. Amen.",
+  deeperReading: {
+    reference: "Luke 2:25-35; Isaiah 49:5-6; Romans 8:22-25",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "luke",
+    chapter: 2,
+    verseStart: 25,
+    verseEnd: 35,
+  },
+  tags: ["Luke", "Faith & God"],
+  status: "published",
+};

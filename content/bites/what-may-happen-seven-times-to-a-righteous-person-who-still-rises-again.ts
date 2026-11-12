@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatMayHappenSevenTimesToARighteousPersonWhoStillRisesAgain: BibleBite = {
+  date: "2026-11-14",
+  slug: "what-may-happen-seven-times-to-a-righteous-person-who-still-rises-again",
+  title: "What may happen seven times to a righteous person who still rises again?",
+  curiosityHook: "A small detail in Proverbs opens the door to a larger truth.",
+  scriptureReference: "Proverbs 24:15-18",
+  scriptureText: "for a righteous man falls seven times and rises up again, but the wicked are overthrown by calamity.",
+  translation: "WEB",
+  topic: "wisdom-and-life",
+  questionType: "big-meaning",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What may happen seven times to a righteous person who still rises again?",
+  answerChoices: [
+    { id: "A", text: "They may lose every possession" },
+    { id: "B", text: "They may fall" },
+    { id: "C", text: "They may be misunderstood by a ruler" },
+    { id: "D", text: "They may change their mind about a plan" },
+  ],
+  correctAnswer: "B",
+  explanation: "Proverbs warns a wicked person not to ambush the home of the righteous. Then it explains why: a righteous person may fall seven times and rise again, while the wicked stumble when calamity comes.\n\nThe number seven often communicates fullness or repetition. The proverb does not picture righteousness as a life without failure, loss, or setbacks. The righteous person falls, and more than once. What distinguishes that person is not flawless balance but the grace-enabled pattern of rising.\n\nThis verse is sometimes reduced to motivational language about personal success. Its setting is more serious. Someone is waiting to exploit another person's vulnerability, assuming one fall will finish them. Wisdom says not to build your plans around another person's collapse. God sees, and the story may not be over.\n\nThe next verse warns against rejoicing when an enemy falls. That means the proverb speaks both to the person on the ground and the person watching. If you have fallen, do not confuse a painful moment with your final identity. If someone else has fallen, do not turn their pain into entertainment or advantage.\n\nRising again may involve repentance, receiving help, rebuilding slowly, or continuing faithfully after something you did not cause. Resilience is not denial. It is refusing to let the fall have the last word.",
+  bigTruth: "Righteousness is not proved by never falling. It is revealed in how we rise and how we treat others when they fall.",
+  takeTheBite: "Choose one fallen place that needs a next step rather than more shame. Make the call, confess the mistake, accept the help, or resume the work today.",
+  prayer: "God, when I fall, shame tells me that the moment has defined me forever. Help me rise with honesty, repentance, and courage. When someone else falls, protect me from delight, gossip, and opportunism. Teach me to offer the kind of help I would hope to receive. Thank You that repeated weakness does not exhaust Your mercy. Make perseverance humble and compassion practical in me. Amen.",
+  deeperReading: {
+    reference: "Proverbs 24:15-22; Micah 7:7-9; Galatians 6:1-2",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "proverbs",
+    chapter: 24,
+    verseStart: 15,
+    verseEnd: 22,
+  },
+  tags: ["Proverbs", "Wisdom & Life"],
+  status: "published",
+};

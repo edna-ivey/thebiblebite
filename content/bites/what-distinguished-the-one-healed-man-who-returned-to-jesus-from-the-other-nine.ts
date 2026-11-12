@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatDistinguishedTheOneHealedManWhoReturnedToJesusFromTheOtherNine: BibleBite = {
+  date: "2026-11-26",
+  slug: "what-distinguished-the-one-healed-man-who-returned-to-jesus-from-the-other-nine",
+  title: "What distinguished the one healed man who returned to Jesus from the other nine?",
+  curiosityHook: "Luke answers a question many readers move past too quickly.",
+  scriptureReference: "Luke 17:11-19",
+  scriptureText: "When he saw them, he said to them, “Go and show yourselves to the priests.” As they went, they were cleansed.",
+  translation: "WEB",
+  topic: "jesus-and-the-gospel",
+  questionType: "look-closer",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What distinguished the one healed man who returned to Jesus from the other nine?",
+  answerChoices: [
+    { id: "A", text: "He had been ill the longest" },
+    { id: "B", text: "He was a Samaritan" },
+    { id: "C", text: "He was the only one who visited a priest" },
+    { id: "D", text: "He had asked for healing privately" },
+  ],
+  correctAnswer: "B",
+  explanation: "Ten men with leprosy called to Jesus from a distance, asking for mercy. Jesus told them to show themselves to the priests, and as they went, they were cleansed. Only one came back, praising God loudly and falling at Jesus' feet in thanks. Luke then adds the surprising detail: he was a Samaritan.\n\nSamaritans and Jews carried deep religious and social hostility. Yet the person cast as the outsider became the story's example of recognition and gratitude. All ten received physical cleansing. The returning man noticed not only the gift, but also the One through whom mercy had come.\n\nJesus asked where the other nine were. The question does not erase their healing, nor does it imply that gratitude purchased the Samaritan's cure. It exposes how possible it is to receive something life-changing and hurry back into ordinary life without returning thanks.\n\nJesus then told the man to arise and go, saying his faith had made him well. The wording can carry a fuller sense of saving or wholeness. Luke lets us see more than restored skin: this man returned to Jesus, glorified God, and heard a personal word of faith.\n\nGratitude is not payment. It is recognition. It slows down long enough to trace mercy back to its source.",
+  bigTruth: "Gratitude recognizes the Giver instead of rushing away with the gift.",
+  takeTheBite: "Choose one mercy you have recently treated as ordinary. Name it specifically to God, then thank one person through whom that kindness reached you.",
+  prayer: "Jesus, I receive more mercy than I pause to notice. Forgive me for hurrying onward with gifts I have barely acknowledged. Give me the returning man's attentiveness, humility, and joy. Teach me to praise God openly, to thank people sincerely, and to see grace where familiarity has made me careless. May gratitude draw me nearer to You instead of becoming one more polite habit. Amen.",
+  deeperReading: {
+    reference: "Luke 17:11-19; 2 Kings 5:1-15; Psalm 103:1-5",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "luke",
+    chapter: 17,
+    verseStart: 11,
+    verseEnd: 19,
+  },
+  tags: ["Luke", "Jesus & the Gospel"],
+  status: "published",
+};

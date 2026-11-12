@@ -1,0 +1,35 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatSmallCreatureDoesPsalm84SayFoundAHomeNearGodSAltars: BibleBite = {
+  date: "2026-11-13",
+  slug: "what-small-creature-does-psalm-84-say-found-a-home-near-god-s-altars",
+  title: "What small creature does Psalm 84 say found a home near God's altars?",
+  curiosityHook: "The familiar words of Psalms carry more tension than they first appear to.",
+  scriptureReference: "Psalm 84:1-4",
+  scriptureText: "My soul longs, and even faints for the courts of Yahweh. My heart and my flesh cry out for the living God.",
+  translation: "WEB",
+  topic: "prayer-and-worship",
+  questionType: "look-closer",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What small creature does Psalm 84 say found a home near God's altars?",
+  answerChoices: [
+    { id: "A", text: "A sparrow" },
+    { id: "B", text: "A dove" },
+    { id: "C", text: "A lamb" },
+    { id: "D", text: "A locust" },
+  ],
+  correctAnswer: "A",
+  explanation: "Psalm 84 is a song of longing for God's dwelling place. The writer's whole being cries out for the living God. Then the psalm pauses over a small scene: even the sparrow has found a home, and the swallow a nest near God's altars where she may place her young.\n\nThe poet may be describing birds nesting around the temple complex, or using the image to express how deeply he wants to belong near God's presence. Either way, the tiny birds make the longing personal. They are not powerful, ceremonially important, or impressive. Yet they have a place.\n\nThe altar was associated with sacrifice, and the temple was Israel's appointed center of worship. The psalmist does not treat God's presence as casual. Still, holiness has not made the house hostile to fragile life. The image holds reverence and welcome together.\n\nMany people enter worship wondering whether there is room for them. They may feel restless, unnoticed, or spiritually homeless. Psalm 84 does not promise that every congregation will behave like a safe home. It gives us a vision by which worshiping communities can examine themselves: does nearness to God create space for the small, weary, and vulnerable?\n\nThe sparrow does not need to become an eagle before finding a home. Longing itself can become prayer, and God's presence is not reserved for people who arrive looking strong.",
+  bigTruth: "Nearness to God is not reserved for the impressive. Even fragile lives are invited to find a home in His presence.",
+  takeTheBite: "Look for one person who might feel peripheral in your worshiping community. Offer a simple welcome that creates space without demanding their story.",
+  prayer: "Living God, my soul longs for a place where I do not have to perform strength. Thank You for the sparrow in this psalm and the picture of fragile life welcomed near Your altar. Make Your presence my true home. Shape my church into a community where overlooked people can breathe, belong, and grow without being treated as projects. Give me eyes to notice who is standing at the edge and a gentle way to make room. Amen.",
+  deeperReading: {
+    reference: "Psalm 84; Psalm 27:1-6; Matthew 10:29-31",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "psalms",
+    chapter: 84,
+  },
+  tags: ["Psalms", "Prayer & Worship"],
+  status: "published",
+};

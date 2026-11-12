@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatDidSaulDoWhenHeWasTerrifiedAndReceivedNoAnswerThroughTheMeansHeSought: BibleBite = {
+  date: "2026-11-07",
+  slug: "what-did-saul-do-when-he-was-terrified-and-received-no-answer-through-the-means-he-sought",
+  title: "What did Saul do when he was terrified and received no answer through the means he sought?",
+  curiosityHook: "A small detail in Deuteronomy opens the door to a larger truth.",
+  scriptureReference: "1 Samuel 28:3-20",
+  scriptureText: "then he shall minister in the name of Yahweh his God, as all his brothers the Levites do, who stand there before Yahweh.",
+  translation: "WEB",
+  topic: "hard-questions",
+  questionType: "hard-question",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What did Saul do when he was terrified and received no answer through the means he sought?",
+  answerChoices: [
+    { id: "A", text: "He waited for Samuel's earlier instruction to be fulfilled" },
+    { id: "B", text: "He asked David to return and lead the army" },
+    { id: "C", text: "He disguised himself and consulted a medium" },
+    { id: "D", text: "He confessed publicly and stepped down as king" },
+  ],
+  correctAnswer: "C",
+  explanation: "The Philistine army gathered, and Saul was terrified. Samuel was dead. Saul inquired of the Lord, but received no answer through dreams, Urim, or prophets. He then disguised himself and sought a medium, even though he had previously removed mediums from the land and Israel's law prohibited consulting them.\n\nThe scene is deliberately dark. Saul asks the woman to bring up Samuel, and the narrative reports Samuel speaking a final word of judgment. Readers have long debated how to understand the appearance: whether God uniquely allowed Samuel to appear, whether the medium perceived a spirit, or how the event relates to ordinary claims of necromancy. The text does not give permission to reproduce the practice. It presents Saul's choice as part of his collapse.\n\nThe larger tragedy did not begin when Saul felt afraid. It grew through a long pattern of resisting God's instruction, protecting his image, and seeking guidance without surrender. First Chronicles later summarizes that Saul died for unfaithfulness, including consulting a medium rather than seeking the Lord faithfully.\n\nSilence can tempt us to grab for control through sources God has told us not to trust. Fear does not turn a forbidden path into a faithful one. When guidance feels absent, we still have God's revealed character, prior instruction, wise community, and the call to repent of what we already know is wrong.",
+  bigTruth: "Fear may explain our desperation, but it does not make every source of guidance trustworthy.",
+  takeTheBite: "Identify one place where uncertainty is making you vulnerable to manipulative, superstitious, or secretive guidance. Step back and bring the decision to Scripture and a trustworthy believer who will not exploit your fear.",
+  prayer: "God, uncertainty can make me desperate for an answer I can control. Keep me from reaching for voices, practices, or people that feed fear and promise secret certainty. Give me courage to obey what You have already made clear, patience where You have not answered, and humility to repent when my own choices have clouded the path. Surround me with wise people who point me toward truth rather than using my fear. Amen.",
+  deeperReading: {
+    reference: "Deuteronomy 18:9-14; 1 Samuel 28; 1 Chronicles 10:13-14",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "deuteronomy",
+    chapter: 18,
+    verseStart: 9,
+    verseEnd: 14,
+  },
+  tags: ["Deuteronomy", "Hard Questions"],
+  status: "published",
+};

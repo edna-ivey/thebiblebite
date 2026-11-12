@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whyDoesEcclesiastesEncourageSowingInTheMorningAndContinuingInTheEvening: BibleBite = {
+  date: "2026-11-22",
+  slug: "why-does-ecclesiastes-encourage-sowing-in-the-morning-and-continuing-in-the-evening",
+  title: "Why does Ecclesiastes encourage sowing in the morning and continuing in the evening?",
+  curiosityHook: "A close look at Ecclesiastes reveals a detail that is easy to miss.",
+  scriptureReference: "Ecclesiastes 11:1-6",
+  scriptureText: "In the morning sow your seed, and in the evening don’t withhold your hand; for you don’t know which will prosper, whether this or that, or whether they both will be equally good.",
+  translation: "WEB",
+  topic: "wisdom-and-life",
+  questionType: "big-meaning",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "Why does Ecclesiastes encourage sowing in the morning and continuing in the evening?",
+  answerChoices: [
+    { id: "A", text: "Every well-planned effort is guaranteed to succeed" },
+    { id: "B", text: "We do not know which effort will prosper" },
+    { id: "C", text: "Evening work is always more productive than rest" },
+    { id: "D", text: "Farmers were forbidden to save seed for another year" },
+  ],
+  correctAnswer: "B",
+  explanation: "Ecclesiastes tells readers to send bread upon the waters, share portions with several people, watch the wind without becoming paralyzed by it, and sow both morning and evening. The repeated reason is uncertainty: we do not know what disaster may come, how life forms in the womb, or which work will succeed.\n\nThe Teacher does not solve uncertainty by promising control. He recommends wise, generous action within it. Diversifying portions acknowledges risk. Sowing at more than one time refuses to make the perfect forecast a requirement for beginning.\n\nThe person who watches the wind endlessly will never sow. Paying attention to conditions is wise; demanding total certainty is immobilizing. There will always be another cloud to study and another reason to postpone work, generosity, creativity, or obedience.\n\nThis passage is not a formula for financial returns, and \"cast your bread\" has several possible interpretations connected to trade or generosity. Its central wisdom is clearer than the exact image: because we cannot control outcomes, we should act faithfully, share broadly, and remain diligent.\n\nSome efforts will fail. Ecclesiastes is honest about that. The invitation is to stop treating uncertainty as proof that action is pointless. We do not need to know which seed will grow before placing any seed in the ground.",
+  bigTruth: "Wisdom does not wait for complete certainty. It acts faithfully while leaving the outcome with God.",
+  takeTheBite: "Choose one worthwhile action you have delayed while waiting for ideal conditions. Set a modest limit on risk, then take the first concrete step today.",
+  prayer: "God, I want guarantees before I begin, give, speak, or try. Teach me the difference between wise preparation and fear disguised as caution. Help me act faithfully with the information I have, share what I can, and accept that outcomes remain beyond my control. Keep failure from making me cynical and uncertainty from making me passive. Give me diligence for the work and open hands for the result. Amen.",
+  deeperReading: {
+    reference: "Ecclesiastes 11:1-10; Proverbs 20:4; Galatians 6:7-10",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "ecclesiastes",
+    chapter: 11,
+    verseStart: 1,
+    verseEnd: 10,
+  },
+  tags: ["Ecclesiastes", "Wisdom & Life"],
+  status: "published",
+};

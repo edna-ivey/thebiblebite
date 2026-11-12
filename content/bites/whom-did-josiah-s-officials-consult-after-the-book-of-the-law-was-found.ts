@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whomDidJosiahSOfficialsConsultAfterTheBookOfTheLawWasFound: BibleBite = {
+  date: "2026-11-19",
+  slug: "whom-did-josiah-s-officials-consult-after-the-book-of-the-law-was-found",
+  title: "Whom did Josiah's officials consult after the Book of the Law was found?",
+  curiosityHook: "2 Kings answers a question many readers move past too quickly.",
+  scriptureReference: "2 Kings 22:11-20",
+  scriptureText: "When the king had heard the words of the book of the law, he tore his clothes.",
+  translation: "WEB",
+  topic: "people-and-stories",
+  questionType: "look-closer",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "Whom did Josiah's officials consult after the Book of the Law was found?",
+  answerChoices: [
+    { id: "A", text: "Jeremiah the prophet" },
+    { id: "B", text: "The high priest in Jerusalem" },
+    { id: "C", text: "Huldah the prophetess" },
+    { id: "D", text: "The oldest surviving royal adviser" },
+  ],
+  correctAnswer: "C",
+  explanation: "When King Josiah heard the newly found Book of the Law, he tore his clothes and sent officials to inquire of the Lord. The delegation went to Huldah the prophetess, who lived in Jerusalem.\n\nHuldah delivered a message the king could not control. Judgment would come because Judah had abandoned the Lord and worshiped other gods. Yet because Josiah's heart was tender and he humbled himself when he heard the words, he would be spared from seeing the coming disaster.\n\nThe narrative names other powerful religious and political figures, but the authorized word comes through Huldah. Scripture does not pause to defend why a woman speaks prophetically to the king's representatives. It simply records that they sought her and carried her message back to Josiah.\n\nHuldah's role matters, but her courage matters too. She did not soften the warning to protect royal feelings or exaggerate hope to secure influence. She spoke both judgment and mercy faithfully.\n\nHer story also challenges the habit of noticing biblical women only when their lives fit domestic categories. Huldah was a trusted interpreter of Scripture and prophet of the Lord at a turning point in Judah's history.\n\nGod's truth may come through someone our assumptions trained us to overlook. A tender heart is shown not only by emotional response, but by becoming willing to listen wherever God has genuinely given wisdom and responsibility.",
+  bigTruth: "God is not limited by the voices our habits have taught us to overlook.",
+  takeTheBite: "Think of one wise, faithful person whose insight you may undervalue because they do not match your picture of authority. Ask a sincere question and listen without preparing your response.",
+  prayer: "God, give me a tender heart like the one You recognized in Josiah and faithful courage like the voice You gave Huldah. Free me from assumptions that make me overlook people You have equipped. Teach me to recognize truth without demanding that it arrive through my preferred messenger. When I am trusted to speak, keep me honest about both warning and hope. Let humility shape how I listen and integrity shape how I answer. Amen.",
+  deeperReading: {
+    reference: "2 Kings 22:8-20; 2 Chronicles 34:19-33; Acts 2:14-21",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "2-kings",
+    chapter: 22,
+    verseStart: 8,
+    verseEnd: 20,
+  },
+  tags: ["2 Kings", "People & Stories"],
+  status: "published",
+};

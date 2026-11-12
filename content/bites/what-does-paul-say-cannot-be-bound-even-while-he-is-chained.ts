@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatDoesPaulSayCannotBeBoundEvenWhileHeIsChained: BibleBite = {
+  date: "2026-12-19",
+  slug: "what-does-paul-say-cannot-be-bound-even-while-he-is-chained",
+  title: "What does Paul say cannot be bound even while he is chained?",
+  curiosityHook: "A small detail in 2 Timothy opens the door to a larger truth.",
+  scriptureReference: "2 Timothy 2:8-13",
+  scriptureText: "Remember Jesus Christ, risen from the dead, of the offspring of David, according to my Good News,",
+  translation: "WEB",
+  topic: "faith-and-god",
+  questionType: "big-meaning",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What does Paul say cannot be bound even while he is chained?",
+  answerChoices: [
+    { id: "A", text: "God's word" },
+    { id: "B", text: "His Roman citizenship" },
+    { id: "C", text: "Timothy's authority" },
+    { id: "D", text: "The church building" },
+  ],
+  correctAnswer: "A",
+  explanation: "Paul tells Timothy to remember Jesus Christ, raised from the dead and descended from David. Paul is suffering in chains like a criminal for that gospel, but he declares that God's word is not chained. His circumstances restricted his movement, not God's ability to work. This is not a promise that believers will escape imprisonment or that every ministry plan will succeed. Paul is writing from limitation and expects endurance. The hope rests in the risen Christ and in God's faithfulness, not in Paul's freedom or reputation. The following saying holds perseverance and warning together, ending with the assurance that even when \"we are faithless, He remains faithful,\" because God cannot deny Himself. God's faithfulness is not permission to be careless; it is the stable ground beneath costly endurance.",
+  bigTruth: "Our limitations can restrict our reach without restricting God's faithfulness.",
+  takeTheBite: "Name one limitation you have treated as the end of usefulness. Choose one faithful action still possible within it.",
+  prayer: "Faithful God, I grieve the doors that are closed and the strength I do not have. Keep me from confusing my limitation with Your absence. Fix my attention on the risen Jesus and show me the obedience still available today. Guard me from both despair and presumption. Let Your word move freely through whatever honest service remains in my hands. Amen.",
+  deeperReading: {
+    reference: "2 Timothy 2:8-13; Philippians 1:12-18; Isaiah 55:10-11",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "2-timothy",
+    chapter: 2,
+    verseStart: 8,
+    verseEnd: 13,
+  },
+  tags: ["2 Timothy", "Faith & God"],
+  status: "published",
+};

@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whatObjectsCarriedFromPaulWereAssociatedWithExtraordinaryHealingsInEphesus: BibleBite = {
+  date: "2026-12-18",
+  slug: "what-objects-carried-from-paul-were-associated-with-extraordinary-healings-in-ephesus",
+  title: "What objects carried from Paul were associated with extraordinary healings in Ephesus?",
+  curiosityHook: "The familiar words of Acts carry more tension than they first appear to.",
+  scriptureReference: "Acts 19:11-20",
+  scriptureText: "God worked special miracles by the hands of Paul,",
+  translation: "WEB",
+  topic: "weird-and-wonderful",
+  questionType: "surprising-detail",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "What objects carried from Paul were associated with extraordinary healings in Ephesus?",
+  answerChoices: [
+    { id: "A", text: "Clay jars and lamps" },
+    { id: "B", text: "Scrolls and sandals" },
+    { id: "C", text: "Bread and cups" },
+    { id: "D", text: "Handkerchiefs and aprons" },
+  ],
+  correctAnswer: "D",
+  explanation: "Acts says God worked extraordinary miracles through Paul, even as handkerchiefs or work aprons carried from him were associated with healing and deliverance. The sentence begins with God, not the objects. The story immediately contrasts divine power with the sons of Sceva, who tried to use Jesus' name like a magical formula and were humiliated. Ephesus was a setting where magical practices were taken seriously, and many new believers later burned costly scrolls connected with those practices. Luke's point is not that cloth can be marketed as a spiritual technology. It is that Jesus' authority cannot be possessed, copied, or sold. The unusual miracles served God's mission; attempts to manipulate the name exposed the manipulators.",
+  bigTruth: "The name of Jesus is authority to honor, not a formula to control.",
+  takeTheBite: "Remove one object, ritual, or claim you have treated as a guarantee of God's action. Replace it with a direct, honest prayer that leaves the result with Him.",
+  prayer: "God, keep me from trying to manage Your power through formulas, objects, or borrowed language. Center my faith on Jesus rather than techniques that promise control. Give me discernment about spiritual claims, humility when I pray, and courage to remove practices that compete with trust in You. Let every gift point beyond the instrument to the Giver. Amen.",
+  deeperReading: {
+    reference: "Acts 19:11-20; Acts 8:9-24; Matthew 7:21-23",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "acts",
+    chapter: 19,
+    verseStart: 11,
+    verseEnd: 20,
+  },
+  tags: ["Acts", "Weird & Wonderful"],
+  status: "published",
+};

@@ -1,0 +1,37 @@
+import type { BibleBite } from "@/lib/types";
+
+export const whereWereJesusAndMaryWhenTheMagiEnteredAndSawTheChild: BibleBite = {
+  date: "2026-12-28",
+  slug: "where-were-jesus-and-mary-when-the-magi-entered-and-saw-the-child",
+  title: "Where were Jesus and Mary when the Magi entered and saw the child?",
+  curiosityHook: "Matthew places a surprising detail inside a much bigger story.",
+  scriptureReference: "Matthew 2:1-12",
+  scriptureText: "They came into the house and saw the young child with Mary, his mother, and they fell down and worshiped him. Opening their treasures, they offered to him gifts: gold, frankincense, and myrrh.",
+  translation: "WEB",
+  topic: "jesus-and-the-gospel",
+  questionType: "look-closer",
+  answerBasis: "explicit-text",
+  answerSatisfaction: "clear",
+  question: "Where were Jesus and Mary when the Magi entered and saw the child?",
+  answerChoices: [
+    { id: "A", text: "In a stable" },
+    { id: "B", text: "In a house" },
+    { id: "C", text: "In the temple court" },
+    { id: "D", text: "Beside the road to Egypt" },
+  ],
+  correctAnswer: "B",
+  explanation: "Matthew says the Magi entered a house and saw the child with Mary. Familiar nativity scenes often place them beside the shepherds at the manger, but Matthew describes a later visit in different terms. The visitors came from the east after observing a star and seeking the king of the Jews. Scripture does not call them kings or state there were three; the traditional number comes from the three kinds of gifts. Their arrival troubled Herod and Jerusalem, while these foreign seekers rejoiced, bowed, and offered costly gifts. The contrast is sharp: people with scriptural access could name Bethlehem, but outsiders traveled to worship. Information about the Messiah and worship of the Messiah are not the same response.",
+  bigTruth: "Knowing where to find Jesus is not the same as going to worship Him.",
+  takeTheBite: "Turn one familiar fact about Jesus into action today through worship, generosity, reconciliation, or obedience.",
+  prayer: "Jesus, familiarity can leave me informed but unmoved. Give me the Magi's willingness to seek, rejoice, bow, and offer what costs something. Keep me from confusing correct answers with surrendered worship. Lead me away from paths that serve fear and power, and make what I know about You visible in the direction of my life. Amen.",
+  deeperReading: {
+    reference: "Matthew 2:1-12; Isaiah 60:1-6; Psalm 72:8-11",
+    prompt: "Read the passages in context and notice how the details support today's Bite.",
+    book: "matthew",
+    chapter: 2,
+    verseStart: 1,
+    verseEnd: 12,
+  },
+  tags: ["Matthew", "Jesus & the Gospel"],
+  status: "published",
+};
